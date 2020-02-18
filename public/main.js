@@ -163,50 +163,29 @@ function generateHTML(data, index) {
 //     gallery.innerHTML = html;
 //   });
 
-fetch('http://localhost:8887/track',
-{
-  headers : {
-    'Content-Type': 'application/json',
-    'Accept': 'application/json'
-   }
+// fetch('http://localhost:8887/track',
+// {
+//   headers : {
+//     'Content-Type': 'application/json',
+//     'Accept': 'application/json'
+//    }
 
-}
+// }
 
-)
+// )
+// .then(r => r.json())
+// .then(json => {
+//   tempArray.push(json.bill)
+//    console.log("(LG.JS",json.bill);
+//   var html = tempArray.map((currElement, index) => {
 
-.then(r => r.json())
-.then(json => {
-  tempArray.push(json.bill)
-   console.log("(LG.JS",json.bill);
+//   return html = generateHTML(currElement, index);
 
- 
+// }).join(' ')
 
+// console.log("OUTSIDE", html)
+//   gallery.innerHTML = html;
 
-
-  var html = tempArray.map((currElement, index) => {
-
-  return html = generateHTML(currElement, index);
-
-}).join(' ')
-
-console.log("OUTSIDE", html)
-  gallery.innerHTML = html;
-
-});
+// });
 
 
-
-// fetch("http://localhost:3000/track")
-//     .then(res => res.json())
-//     .then(data => {
-//     //   setWeatherData
-//     // console.log("(LG.JS",data);
-//     // console.log("(LG.Bill",data.bill);
-
-//       var html = data.bill.map((currElement, index) => {
-
-//          return html = generateHTML(currElement, index);
-      
-//       })//.join(' ')
-
-//     });

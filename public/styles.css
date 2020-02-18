@@ -1,3 +1,5 @@
+html, body, .grid-container { height: 100%; margin: 0; font-family: Arial, Helvetica, sans-serif; }
+
 .ba {
     border-style: solid;
     border-width: 1px;
@@ -301,7 +303,7 @@
 
 
 
-html, body, .grid-container { height: 100%; margin: 0; }
+
 
 .grid-container * { 
  /* border: 1px solid red;  */
