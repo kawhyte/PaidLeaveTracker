@@ -34,14 +34,21 @@ let tempArray = [];
 
 function generateHTML(data, index) {
   // tracked_header.innerHTML = `Currently tracking ${index} twitter accounts`
-  console.log("DATA from generateHTML ",data.history.length)
-  console.log("DATA from generateHTML ",data.history[(data.history.length)-1])
+//   console.log("DATA ",data.bill)
+//   console.log("HISTORY ",data.bill.history)
+//   console.log("History bill # ",data.bill.history[(data.bill.history.length)-1])
   // console.log("InDEX ",index)
   //let counter = counter+1
+  const arrayLength = data.bill.history.length
+  let billHistory = "";
 
-  const billHistory =  data.history[(data.history.length)-1]
+if (arrayLength > 0 ) {
+    billHistory =  data.bill.history[(arrayLength)-1]
+} 
+  
 
-  // console.log(counter)
+  console.log("Bill History length ",data.bill.history.length)
+  console.log("Bill History ",data.bill.status_date)
   //console.log("inside generate " + data.ratings[0].count);
   // const name  = data.name;
   // let rating = (data.rating)*2;
@@ -53,7 +60,7 @@ function generateHTML(data, index) {
             <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
                 <div class ="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url(triangles.png) no-repeat center;">
 
-                    <h1 class="f3 fw2 white mv0 pv4 ph3">${data.state} - <span>${data.bill_number}</span></h1>
+                    <h1 class="f3 fw2 white mv0 pv4 ph3">${data.bill.state} - <span>${data.bill.bill_number}</span></h1>
                 </div>
 
                 <div>
@@ -63,7 +70,7 @@ function generateHTML(data, index) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="ttu f6 fw2 gray">Bill<span> Introduced - ${data.status_date} </span></div>
+                                    <div class="ttu f6 fw2 gray">Bill<span> Introduced - ${data.bill.status_date = (data.bill.status_date !== null) ? data.bill.status_date: "N/A"} </span></div>
                                     <div>
                                         <div class="pt3 f2 f2-m fw5">1 of 3</div>
                                         <div class="pt2 w-100 dt dt--fixed">
@@ -76,7 +83,7 @@ function generateHTML(data, index) {
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                        <div class="pt2 o-80 truncate"><small>${billHistory.action} - ${billHistory.date}</small></div>
+                                        <div class="pt2 o-80 truncate"><small> Last Action: ${billHistory.action = (arrayLength> 0) ? billHistory.action: "N/A"} - ${billHistory.date = (arrayLength> 0) ? billHistory.date: "N/A"}</small></div>
                                        
                                     </div>
 
@@ -88,7 +95,9 @@ function generateHTML(data, index) {
                     </article>
 
                     <div class=" bb b--light-gray bg-white gray w-100 ph3 pv0">
-                        <div class="w-100 pb0  flex items-center justify-between">${data.description}
+                        <div class="w-100 pb0 flex items-center justify-between">
+                        
+                        <p class= "f6 lh-copy measure-narrow tl"> ${data.bill.description}</p>
                          
                         </div>
 
@@ -97,7 +106,7 @@ function generateHTML(data, index) {
                     <div class="flex items-center lh-copy pa3 s ph0-l bb b--black-10">
 
                         <div>
-                            <a href="${data.state_link}" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
+                            <a href="${data.bill.state_link}" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
                         </div>
 
                     </div>
@@ -152,9 +161,9 @@ fetch('http://localhost:8887/track',
 )
 .then(r => r.json())
 .then(json => {
-  tempArray.push(json.bill)
-//    console.log("(LG.JS",json.bill);
-  var html = tempArray.map((currElement, index) => {
+//   tempArray.push(json.bill)
+   console.log("(LG.JS",json);
+  var html = json.map((currElement, index) => {
 
   return html = generateHTML(currElement, index);
 
