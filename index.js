@@ -29,7 +29,7 @@ if (process.env.NODE_ENV !== "production") {
 
   app.get("/track", async (req, res, next) => {
     console.log("FROM /Tracked ",req.body);
-    const url = `https://api.legiscan.com/?key=0b930fa026d22ed0d16ae690f3fa338f&op=getBill&id=1340027`;
+    const url = `https://api.legiscan.com/?key=${process.env.LEGISCAN}&op=getBill&id=1137133`;
   
     axios({
       url: url,
