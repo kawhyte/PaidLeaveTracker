@@ -332,10 +332,12 @@ html, body, .grid-container { height: 100%; margin: 0; font-family: Arial, Helve
 
 
     
- .emoticon-size img{
-   
-    max-width:10%;
-    max-height:30%;
+ #logo{
+   min-width: 4%;
+   min-height: 20%;
+
+    max-width:4%;
+    max-height:20%;
 
  }  
  .emoticon-size{

@@ -21,46 +21,71 @@ let tempArray = [];
 //     // Do something for an error here
 //   });
 
-
-
-
-
-
-
-
-
-
-
-
 function generateHTML(data, index) {
-  // tracked_header.innerHTML = `Currently tracking ${index} twitter accounts`
-//   console.log("DATA ",data.bill)
-//   console.log("HISTORY ",data.bill.history)
-//   console.log("History bill # ",data.bill.history[(data.bill.history.length)-1])
-  // console.log("InDEX ",index)
-  //let counter = counter+1
-  const arrayLength = data.bill.history.length
+  const arrayLength = data.bill.history.length;
   let billHistory = "";
+  let val = " "; // "url('./img/triangles.png') no-repeat center";
 
-if (arrayLength > 0 ) {
-    billHistory =  data.bill.history[(arrayLength)-1]
-} 
-  
+  if (arrayLength > 0) {
+    billHistory = data.bill.history[arrayLength - 1];
+  }
 
-  console.log("Bill History length ",data.bill.history.length)
-  console.log("Bill History ",data.bill.status_date)
-  //console.log("inside generate " + data.ratings[0].count);
-  // const name  = data.name;
-  // let rating = (data.rating)*2;
+  //   console.log("Bill History length ",data.bill.history.length)
+  //   console.log("Bill History ",data.bill.status_date)
 
-  // const background_image = data.background_image;
-  // const released  = data.twitter[2].message;
+  let skyGradient = {
+    1: "url('./img/pencils.jpg') no-repeat center",
+    2: "url('./img/triangles.png') no-repeat center",
+    3: "url('./img/trianglify1.png') no-repeat center",
+    4: "url('./img/triangles.png') no-repeat center",
+    5: "url('./img/triangles.png') no-repeat center",
+    6: "url('./img/triangles.png') no-repeat center",
+    7: "url('./img/triangles.png') no-repeat center",
+    8: "url('./img/triangles.png') no-repeat center",
+    9: "url('./img/triangles.png') no-repeat center",
+    10: "url('./img/triangles.png') no-repeat center"
+  };
+
+  let billStatus = {
+    0: "I dont know what happened",
+    1: "Introduced",
+    2: "Engrossed",
+    3: "Enrolled",
+    4: "Passed",
+    5: "Vetoed",
+    6: "Failed",
+    7: "Override",
+    8: "Chaptered",
+    9: "Refer",
+    10: "Report Pass",
+    10: "Report DNP",
+    10: "Draft"
+  };
+
+  console.log("SKY ", skyGradient[index]);
+
+  if (
+    typeof skyGradient[index] === "undefined" ||
+    skyGradient[index] === null
+  ) {
+    val = "url('./img/blur.jpg') no-repeat center";
+    //document.getElementById("bg").style.background =
+    console.log("VAL inside ", val);
+    //return;
+    //br
+  } else {
+    val = skyGradient[index];
+  }
+  console.log("VAL ", val);
+
   return `
   <div class="div1 container ">
             <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
-                <div class ="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url(triangles.png) no-repeat center;">
+                <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;">
 
-                    <h1 class="f3 fw2 white mv0 pv4 ph3">${data.bill.state} - <span>${data.bill.bill_number}</span></h1>
+                    <h1 class="f3 fw2 white mv0 pv4 ph3">${
+                      data.bill.state
+                    } - <span>${data.bill.bill_number}</span></h1>
                 </div>
 
                 <div>
@@ -70,7 +95,10 @@ if (arrayLength > 0 ) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="ttu f6 fw2 gray">Bill<span> Introduced - ${data.bill.status_date = (data.bill.status_date !== null) ? data.bill.status_date: "N/A"} </span></div>
+                                    <div class="ttu f6 fw2 gray">Bill<span> Introduced - ${(data.bill.status_date =
+                                      data.bill.status_date !== null
+                                        ? data.bill.status_date
+                                        : "No date available")} </span></div>
                                     <div>
                                         <div class="pt3 f2 f2-m fw5">1 of 3</div>
                                         <div class="pt2 w-100 dt dt--fixed">
@@ -83,7 +111,11 @@ if (arrayLength > 0 ) {
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                        <div class="pt2 o-80 truncate"><small> Last Action: ${billHistory.action = (arrayLength> 0) ? billHistory.action: "N/A"} - ${billHistory.date = (arrayLength> 0) ? billHistory.date: "N/A"}</small></div>
+                                        <div class="pt2 o-80 measure-narrow  truncate"><small> Last Action: ${(billHistory.action =
+                                          arrayLength > 0
+                                            ? billHistory.action
+                                            : "No history available")}  ${(billHistory.date =
+    arrayLength > 0 ? billHistory.date : " ")}</small></div>
                                        
                                     </div>
 
@@ -97,7 +129,9 @@ if (arrayLength > 0 ) {
                     <div class=" bb b--light-gray bg-white gray w-100 ph3 pv0">
                         <div class="w-100 pb0 flex items-center justify-between">
                         
-                        <p class= "f6 lh-copy measure-narrow tl"> ${data.bill.description}</p>
+                        <p class= " mw4 f6 lh-copy measure-narrow  truncate tl"> ${
+                          data.bill.title
+                        }</p>
                          
                         </div>
 
@@ -105,9 +139,21 @@ if (arrayLength > 0 ) {
 
                     <div class="flex items-center lh-copy pa3 s ph0-l bb b--black-10">
 
-                        <div>
-                            <a href="${data.bill.state_link}" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
-                        </div>
+                   
+                    <img class="w2 h2 w3-ns h3-ns br-100" src="http://tachyons.io/img/avatar-mrmrs.jpg" />
+                    <div class="pl3 flex-auto">
+                      <span class="f6 db black-70">Mrmrs</span>
+                      <span class="f6 db black-70">Medium Hexagon, LLC</span>
+                    </div>
+                    <div>
+                    <a href="${
+                        data.bill.state_link
+                      }" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
+                    </div>
+                    
+                    
+                    
+                   
 
                     </div>
                 </div>
@@ -149,29 +195,77 @@ if (arrayLength > 0 ) {
 //     gallery.innerHTML = html;
 //   });
 
-fetch('http://localhost:8887/track',
-{
-  headers : {
-    'Content-Type': 'application/json',
-    'Accept': 'application/json'
-   }
+fetch("http://localhost:8887/track", {
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json"
+  }
+})
+  .then(r => r.json())
+  .then(json => {
+    //   tempArray.push(json.bill)
+    console.log("(LG.JS", json);
+    var html = json
+      .map((currElement, index) => {
+        return (html = generateHTML(currElement, index));
+      })
+      .join(" ");
 
-}
-
-)
-.then(r => r.json())
-.then(json => {
-//   tempArray.push(json.bill)
-   console.log("(LG.JS",json);
-  var html = json.map((currElement, index) => {
-
-  return html = generateHTML(currElement, index);
-
-}).join(' ')
-
-// console.log("OUTSIDE", html)
-  gallery.innerHTML = html;
-
-});
+    // console.log("OUTSIDE", html)
+    gallery.innerHTML = html;
+  });
 
 
+// let state = {
+
+// Alabama - AL
+// Alaska - AK
+// Arizona - AZ
+// Arkansas - AR
+// California - CA
+// Colorado - CO
+// Connecticut - CT
+// Delaware - DE
+// Florida - FL
+// Georgia - GA
+// Hawaii - HI
+// Idaho - ID
+// Illinois - IL
+// Indiana - IN
+// Iowa - IA
+// Kansas - KS
+// Kentucky - KY
+// Louisiana - LA
+// Maine - ME
+// Maryland - MD
+// Massachusetts - MA
+// Michigan - MI
+// Minnesota - MN
+// Mississippi - MS
+// Missouri - MO
+// Montana - MT
+// Nebraska - NE
+// Nevada - NV
+// New Hampshire - NH
+// New Jersey - NJ
+// New Mexico - NM
+// New York - NY
+// North Carolina - NC
+// North Dakota - ND
+// Ohio - OH
+// Oklahoma - OK
+// Oregon - OR
+// Pennsylvania - PA
+// Rhode Island - RI
+// South Carolina - SC
+// South Dakota - SD
+// Tennessee - TN
+// Texas - TX
+// Utah - UT
+// Vermont - VT
+// Virginia - VA
+// Washington - WA
+// West Virginia - WV
+// Wisconsin - WI
+// Wyoming - WY
+// }
