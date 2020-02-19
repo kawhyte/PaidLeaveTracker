@@ -34,9 +34,12 @@ let tempArray = [];
 
 function generateHTML(data, index) {
   // tracked_header.innerHTML = `Currently tracking ${index} twitter accounts`
-  console.log("DATA from generateHTML ",data.state)
+  console.log("DATA from generateHTML ",data.history.length)
+  console.log("DATA from generateHTML ",data.history[(data.history.length)-1])
   // console.log("InDEX ",index)
   //let counter = counter+1
+
+  const billHistory =  data.history[(data.history.length)-1]
 
   // console.log(counter)
   //console.log("inside generate " + data.ratings[0].count);
@@ -60,7 +63,7 @@ function generateHTML(data, index) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="ttu f6 fw2 gray">Bill<span> Introduced - 12/20/2020 </span></div>
+                                    <div class="ttu f6 fw2 gray">Bill<span> Introduced - ${data.status_date} </span></div>
                                     <div>
                                         <div class="pt3 f2 f2-m fw5">1 of 3</div>
                                         <div class="pt2 w-100 dt dt--fixed">
@@ -73,7 +76,8 @@ function generateHTML(data, index) {
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                        <div class="pt2 o-80 truncate"><small>last action 13hr ago</small></div>
+                                        <div class="pt2 o-80 truncate"><small>${billHistory.action} - ${billHistory.date}</small></div>
+                                       
                                     </div>
 
                                 </div>
@@ -149,14 +153,14 @@ fetch('http://localhost:8887/track',
 .then(r => r.json())
 .then(json => {
   tempArray.push(json.bill)
-   console.log("(LG.JS",json.bill);
+//    console.log("(LG.JS",json.bill);
   var html = tempArray.map((currElement, index) => {
 
   return html = generateHTML(currElement, index);
 
 }).join(' ')
 
-console.log("OUTSIDE", html)
+// console.log("OUTSIDE", html)
   gallery.innerHTML = html;
 
 });
