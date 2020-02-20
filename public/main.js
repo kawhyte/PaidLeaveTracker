@@ -4,34 +4,24 @@ const tracked_header = document.getElementById("tracked_head");
 const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let tempArray = [];
-// Replace ./data.json with your JSON feed
-// fetch('/db.json').then(response => {
-//     return response.json();
-//   }).then(data => {
-//     // Work with JSON data here
-//     console.log(data);
 
-//     tweet.innerHTML =  data.twitter[2].message;
-//     twitter_handle.innerHTML = data.twitter[2].name;
-
-//     const html = data.map(generateHTML).join("");
-//     console.log(html);
-//     gallery.innerHTML = html;
-//   }).catch(err => {
-//     // Do something for an error here
-//   });
 
 function generateHTML(data, index) {
   const arrayLength = data.bill.history.length;
   let billHistory = "";
-  let val = " "; // "url('./img/triangles.png') no-repeat center";
+  let val = " "; 
+
+
+
+
 
   if (arrayLength > 0) {
     billHistory = data.bill.history[arrayLength - 1];
   }
-
-  //   console.log("Bill History length ",data.bill.history.length)
-  //   console.log("Bill History ",data.bill.status_date)
+ //   console.log("Bill History ",data.bill.status_date)
+  console.log("Bill History date ", billHistory.date)
+  console.log("Bill History action ", billHistory.action)
+ 
 
   let skyGradient = {
     1: "url('./img/pencils.jpg') no-repeat center",
@@ -62,7 +52,61 @@ function generateHTML(data, index) {
     10: "Draft"
   };
 
-  console.log("SKY ", skyGradient[index]);
+  let state = {
+
+    "AL": "Alabama", 
+    "AK": "Alaska",
+    "AZ": "Arizona", 
+    "AR": "Arkansas",
+    "CA": "California", 
+    "CO": "Colorado",
+    "CT": "Connecticut",
+    "DE": "Delaware", 
+    "FL": "Florida", 
+    "GA": "Georgia", 
+    "HI": "Hawaii",
+    "ID": "Idaho",  
+    "IL": "Illinois",
+    "IN": "Indiana",
+    "IA": "Iowa",
+    "KS": "Kansas",
+    "KY": "Kentucky", 
+    "LA": "Louisiana", 
+    "ME": "Maine", 
+    "MD": "Maryland", 
+    "MA": "Massachusetts", 
+    "MI": "Michigan", 
+    "MN": "Minnesota", 
+    "MS": "Mississippi", 
+    "MO": "Missouri", 
+    "MT": "Montana", 
+    "NE": "Nebraska", 
+    "NV": "Nevada", 
+    "NH": "New Hampshire", 
+    "NJ": "New Jersey", 
+    "NM": "New Mexico", 
+    "NY": "New York", 
+    "NC": "North Carolina", 
+    "ND": "North Dakota", 
+    "OH": "Ohio", 
+    "OK": "Oklahoma", 
+    "OR": "Oregon", 
+    "PA": "Pennsylvania", 
+    "RI": "Rhode Island", 
+    "SC": "South Carolina",
+    "SD": "South Dakota", 
+    "TN": "Tennessee", 
+    "TX": "Texas", 
+    "UT": "Utah", 
+    "VT": "Vermont", 
+    "VA": "Virginia", 
+    "WA": "Washington", 
+    "WV": "West Virginia", 
+    "WI": "Wisconsin", 
+    "WY": "Wyoming", 
+    }
+
+   console.log("STATE ", state[data.bill.state]);
 
   if (
     typeof skyGradient[index] === "undefined" ||
@@ -70,13 +114,13 @@ function generateHTML(data, index) {
   ) {
     val = "url('./img/blur.jpg') no-repeat center";
     //document.getElementById("bg").style.background =
-    console.log("VAL inside ", val);
+    // console.log("VAL inside ", val);
     //return;
     //br
   } else {
     val = skyGradient[index];
   }
-  console.log("VAL ", val);
+//   console.log("VAL ", val);
 
   return `
   <div class="div1 container ">
@@ -84,7 +128,7 @@ function generateHTML(data, index) {
                 <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;">
 
                     <h1 class="f3 fw2 white mv0 pv4 ph3">${
-                      data.bill.state
+                      state[data.bill.state]
                     } - <span>${data.bill.bill_number}</span></h1>
                 </div>
 
@@ -95,15 +139,15 @@ function generateHTML(data, index) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="ttu f6 fw2 gray">Bill<span> Introduced - ${(data.bill.status_date =
+                                    <div class="ttu f6 fw2 gray"><span> ${(data.bill.status_date =
                                       data.bill.status_date !== null
                                         ? data.bill.status_date
-                                        : "No date available")} </span></div>
+                                        : "No data available")} ${billHistory.action =  billHistory.action !== null || billHistory.action.length >0  ? "- Bill " + billHistory.action : "null"}</span></div>
                                     <div>
                                         <div class="pt3 f2 f2-m fw5">1 of 3</div>
                                         <div class="pt2 w-100 dt dt--fixed">
                                    
-                                            <div class="dtc h1 white bg-blue br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
                                             <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
@@ -111,11 +155,11 @@ function generateHTML(data, index) {
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                        <div class="pt2 o-80 measure-narrow  truncate"><small> Last Action: ${(billHistory.action =
+                                        <div class="pt2 o-80 measure-narrow  truncate"><small> Last Action: ${(billHistory.date =
+                                            arrayLength > 0 ? billHistory.date : " ")}  ${(billHistory.action =
                                           arrayLength > 0
                                             ? billHistory.action
-                                            : "No history available")}  ${(billHistory.date =
-    arrayLength > 0 ? billHistory.date : " ")}</small></div>
+                                            : "No history available")}  </small></div>
                                        
                                     </div>
 
@@ -203,9 +247,45 @@ fetch("http://localhost:8887/track", {
 })
   .then(r => r.json())
   .then(json => {
+// console.log("LG.JS", json);
+
+ arraySize = json[0].bill.history[0];
+// console.log("arraySize", arraySize);
+ 
+    let sortedBydate = json.sort((a, b) => {
+        
+        // let test = b.bill.history.sort((c,d) =>{
+        //     // console.log("c", c.date);
+        //     return new Date(c.date) - new Date(d.date);
+
+        // });
+        // if (
+        //     b.bill.history > 0 ||typeof b.bill.history.pop().date !== "undefined" ||
+        //     b.bill.history.pop().date !== null
+        //   ) {
+
+        //    console.log("popped", b.bill.history.pop().date); 
+        //   }
+        // console.log("b", b.bill.history);
+        // console.log("b.date", b.date);
+        
+        //  console.log("a.status_date", a.status_date);
+
+        // let popped =  b.bill.history.pop()
+
+     
+        // console.log("b.popped ", b.popped)
+
+       
+        return new Date(b.status_date) - new Date(a.status_date);
+      });
+
+      console.log("SORTED ", sortedBydate);
+
+
     //   tempArray.push(json.bill)
-    console.log("(LG.JS", json);
-    var html = json
+    
+    var html = sortedBydate
       .map((currElement, index) => {
         return (html = generateHTML(currElement, index));
       })
@@ -216,56 +296,3 @@ fetch("http://localhost:8887/track", {
   });
 
 
-// let state = {
-
-// Alabama - AL
-// Alaska - AK
-// Arizona - AZ
-// Arkansas - AR
-// California - CA
-// Colorado - CO
-// Connecticut - CT
-// Delaware - DE
-// Florida - FL
-// Georgia - GA
-// Hawaii - HI
-// Idaho - ID
-// Illinois - IL
-// Indiana - IN
-// Iowa - IA
-// Kansas - KS
-// Kentucky - KY
-// Louisiana - LA
-// Maine - ME
-// Maryland - MD
-// Massachusetts - MA
-// Michigan - MI
-// Minnesota - MN
-// Mississippi - MS
-// Missouri - MO
-// Montana - MT
-// Nebraska - NE
-// Nevada - NV
-// New Hampshire - NH
-// New Jersey - NJ
-// New Mexico - NM
-// New York - NY
-// North Carolina - NC
-// North Dakota - ND
-// Ohio - OH
-// Oklahoma - OK
-// Oregon - OR
-// Pennsylvania - PA
-// Rhode Island - RI
-// South Carolina - SC
-// South Dakota - SD
-// Tennessee - TN
-// Texas - TX
-// Utah - UT
-// Vermont - VT
-// Virginia - VA
-// Washington - WA
-// West Virginia - WV
-// Wisconsin - WI
-// Wyoming - WY
-// }

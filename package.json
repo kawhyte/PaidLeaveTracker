@@ -4,7 +4,7 @@
   "description": "A legilator tracker",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js --ignore db.json",
+    "dev": "node index.js --ignore db.json",
     "start": "node index.js"
   },
   "author": "Kenny Whyte",

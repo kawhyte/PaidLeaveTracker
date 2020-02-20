@@ -98,9 +98,6 @@ app.get("/track", async (req, res, next) => {
     });
 });
 
-// const server = app.listen(3000, function(){
-//   console.log('server is running at %s .', server.address().port);
-// });
 
 app.listen(8887, () => console.log("Scraping app listening on port 8887!"));
 
