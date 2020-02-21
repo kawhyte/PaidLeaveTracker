@@ -15,7 +15,7 @@ function generateHTML(data, index) {
   let firstBillAction = data.actions.shift();
  
 
-  console.log("firstBillAction", data.action_dates.first.length)
+  // console.log("firstBillAction", data.action_dates.first.length)
   // console.log("popped", popped)
  
   // if (arrayLength > 0) {
@@ -58,7 +58,7 @@ function generateHTML(data, index) {
     "amendment:amended": {name:"An offered amendment has been amended", color: "bg-pink"},
     "amendment:withdrawn": {name:"An offered amendment has been withdrawn", color: "bg-pink"},
     "amendment:tabled": {name:"An amendment has been ‘laid on the table’", color: "bg-yellow"},
-    "committee:referred": {name:"Bill has been referred to a committee", color: "bg-yellow"},
+    "committee:referred": {name:"Bill referred to a committee", color: "bg-yellow"},
     "committee:passed": {name:"Bill has been passed out of a committee", color: "bg-yellow"},
     "committee:passed:favorable": {name:"Bill has been passed out of a committee with a favorable report", color: "bg-yellow"},
     "committee:passed:unfavorable": {name:"Bill has been passed out of a committee with an unfavorable report", color: "bg-yellow"},
@@ -77,6 +77,7 @@ function generateHTML(data, index) {
     CO: { name: "Colorado", flag: "Flag_of_Colorado.svg" },
     CT: { name: "Connecticut", flag: "Flag_of_Connecticut.svg" },
     DE: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
+    DC: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
     FL: { name: "Florida", flag: "Flag_of_Florida.svg" },
     GA: { name: "Georgia", flag: "Flag_of_Georgia.svg" },
     HI: { name: "Hawaii", flag: "Flag_of_Hawaii.svg" },
@@ -128,13 +129,13 @@ function generateHTML(data, index) {
     status[lastBillAction.type] === null
   ) {
 
-    console.log("status[popped.type] is undefined!!!");
+    // console.log("status[popped.type] is undefined!!!");
     billStatus = status["null"]
   } else {
 
     billStatus = status[lastBillAction.type]
   }
-  
+   console.log("(data.state) = ", (data.state))
   stateData = state[(data.state).toUpperCase()];
 
 
@@ -159,7 +160,7 @@ function generateHTML(data, index) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action: <span class= "lh-copy gray o-80 pa1 tracked-tight">${lastBillAction.action} <span  class="light-blue"> ${formatDate(lastBillAction.date)} </span>  </span></div>
+                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action:<span class= "lh-copy gray o-80 pa1 tracked-tight">${lastBillAction.action} <span  class="light-purple"> ${formatDate(lastBillAction.date)} </span>  </span></div>
                                     <div>
                                     <div class="pt3  f3-m fw5 white">
                                             
@@ -181,7 +182,7 @@ function generateHTML(data, index) {
                                                 <small>Governor</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                        <div class="pt2 o-80 measure-narrow  truncate"><small> Updated on ${(data.updated_at =
+                                        <div class="pt2 o-80 measure-narrow  truncate"><small>Updated on ${(data.updated_at =
                                           data.updated_at !== null
                                             ? formatDate(data.updated_at)
                                             : "No data available")} </small></div>
@@ -234,7 +235,9 @@ function generateHTML(data, index) {
 
 
 
-fetch("http://localhost:8887/track", {
+// fetch("http://localhost:8887/track", {
+// fetch("http://localhost:9000/index", {
+fetch("./netlify/functions/index", {
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json"
@@ -242,14 +245,14 @@ fetch("http://localhost:8887/track", {
 })
   .then(r => r.json())
   .then(json => {
-
+console.log("JSON ",json)
     var html = json
       .map((currElement, index) => {
         return (html = generateHTML(currElement, index));
       })
       .join(" ");
 
-    // console.log("OUTSIDE", html)
+    console.log("OUTSIDE", html)
     gallery.innerHTML = html;
   });
 
