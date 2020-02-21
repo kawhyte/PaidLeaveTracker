@@ -1,0 +1,3537 @@
+
+[
+    {
+        "title": "Concerning paid family and medical leave.",
+        "summary": "",
+        "created_at": "2020-01-17 13:07:08",
+        "updated_at": "2020-02-20 10:59:00",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "wa",
+        "session": "2019-2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 2614",
+        "actions": [
+            {
+                "date": "2020-01-16 00:00:00",
+                "action": "First reading, referred to Labor & Workplace Standards.",
+                "type": [
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "LAWS - Majority; 1st substitute bill be substituted, do pass.",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "Minority; do not pass.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-27 00:00:00",
+                "action": "Referred to Appropriations.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-08 00:00:00",
+                "action": "APP - Majority; do pass 1st substitute bill proposed by Labor & Workplace Standards.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-11 00:00:00",
+                "action": "Referred to Rules 2 Review.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-12 00:00:00",
+                "action": "Rules Committee relieved of further consideration.  Placed on second reading.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-13 00:00:00",
+                "action": "1st substitute bill substituted.",
+                "type": [
+                    "bill:substituted"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "LAWS - Majority; 1st substitute bill be substituted, do pass.",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "Minority; do not pass.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-27 00:00:00",
+                "action": "Referred to Appropriations.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-08 00:00:00",
+                "action": "APP - Majority; do pass 1st substitute bill proposed by Labor & Workplace Standards.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-11 00:00:00",
+                "action": "Referred to Rules 2 Review.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-12 00:00:00",
+                "action": "Rules Committee relieved of further consideration.  Placed on second reading.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-13 00:00:00",
+                "action": "1st substitute bill substituted.",
+                "type": [
+                    "bill:substituted"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-13 00:00:00",
+                "action": "Rules suspended.  Placed on Third Reading.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-13 00:00:00",
+                "action": "Third reading, passed; yeas, 60; nays, 37; absent, 0; excused, 1.",
+                "type": [
+                    "bill:reading:3"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-17 00:00:00",
+                "action": "First reading, referred to Labor & Commerce.",
+                "type": [
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-20T18:30:00+00:00",
+                "action": "Scheduled for public hearing in the House Committee on Labor & Workplace Standards at 01:30 PM",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-23T13:00:00+00:00",
+                "action": "Scheduled for public hearing in the House Committee on Labor & Workplace Standards at 08:00 AM",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-03T20:30:00+00:00",
+                "action": "Scheduled for public hearing in the House Committee on Appropriations at 03:30 PM",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-08T14:00:00+00:00",
+                "action": "Scheduled for public hearing in the House Committee on Appropriations at 09:00 AM",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-25T17:00:00+00:00",
+                "action": "Scheduled for public hearing in the Senate Committee on Labor & Commerce at 12:00 PM",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-20T13:30:00+00:00",
+                "action": "Scheduled for public hearing in the Senate Committee on Labor & Commerce at 08:30 AM",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://apps.leg.wa.gov/billinfo/summary.aspx?bill=2614&year=2019"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Robinson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Doglio"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Sells"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Lekanoff"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Tharinger"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Ormsby"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bills/House%20Bills/2614-S.htm",
+                "doc_id": "~not available~",
+                "name": "Substitute Bill"
+            },
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bills/House%20Bills/2614.htm",
+                "doc_id": "~not available~",
+                "name": "Bill"
+            }
+        ],
+        "documents": [
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bill%20Reports/House/2614%20HBR%20LAWS%2020.htm",
+                "doc_id": "~not available~",
+                "name": "Report"
+            },
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bill%20Reports/House/2614%20HBR%20APP%2020.htm",
+                "doc_id": "~not available~",
+                "name": "Report"
+            },
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bill%20Reports/House/2614%20HBA%20LAWS%2020.htm",
+                "doc_id": "~not available~",
+                "name": "Report"
+            },
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bill%20Reports/House/2614-S%20HBR%20APH%2020.htm",
+                "doc_id": "~not available~",
+                "name": "Report for Substitute"
+            }
+        ],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-01-16 00:00:00",
+            "last": "2020-02-25T17:00:00+00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "EMPLOYMENT SECURITY DEPARTMENT",
+            "EMPLOYMENT AND EMPLOYEES",
+            "LABOR",
+            "DOMESTIC RELATIONS"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Recognizing 2019 Oregon Women of Achievement.",
+        "summary": "Recognizes 2019 Oregon Women of Achievement for outstanding leadership and service to people of Oregon.",
+        "created_at": "2020-02-04 08:02:01",
+        "updated_at": "2020-02-20 05:02:46",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "upper",
+        "state": "or",
+        "session": "2020 Regular Session",
+        "type": [
+            "concurrent resolution"
+        ],
+        "bill_id": "SCR 203",
+        "actions": [
+            {
+                "date": "2020-01-27T17:16:24+00:00",
+                "action": "Presession Released to the Public.",
+                "type": [
+                    "bill:filed"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-03T15:09:43+00:00",
+                "action": "Introduction and first reading. Referred to President's desk.",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1",
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-03T15:39:28+00:00",
+                "action": "Referred to Rules.",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-10T23:02:00+00:00",
+                "action": "Public Hearing and Work Session held.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-11T18:47:16+00:00",
+                "action": "Recommendation: Do adopt.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-11T19:41:37+00:00",
+                "action": "Second reading.",
+                "type": [
+                    "bill:reading:2"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-12T19:19:39+00:00",
+                "action": "Final reading.  Carried by Monnes Anderson.  Adopted.",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-13T18:08:27+00:00",
+                "action": "First reading. Referred to Speaker's desk.",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1",
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-17T16:23:04+00:00",
+                "action": "Referred to Business and Labor.",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-19T16:32:00+00:00",
+                "action": "Public Hearing and Work Session held.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "https://olis.leg.state.or.us/liz/2020R1/Measures/Overview/SCR203"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Peter Courtney"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Laurie Monnes Anderson"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Sheri Schouten"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Lee Beyer"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Ginny Burdick"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Michael Dembrow"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Lew Frederick"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Sara  Gelser"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Jeff Golden"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Betsy Johnson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "James Manning Jr."
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Floyd Prozanski"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Arnie Roblan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Elizabeth Steiner Hayward"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Kathleen Taylor"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Rob Wagner"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Teresa Alonso Leon"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Pam Marsh"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "application/pdf",
+                "url": "https://olis.leg.state.or.us/liz/2020R1/Downloads/MeasureDocument/SCR203/Introduced",
+                "doc_id": "~not available~",
+                "name": "Introduced"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-01-27T17:16:24+00:00",
+            "last": "2020-02-19T16:32:00+00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Paid family leave: qualifying exigency.",
+        "summary": "Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States. Existing law defines terms for paid family leave purposes, including defining the terms \"care recipient,\" \"care provider,\" and \"family care leave.\" \n\nThis bill would revise those definitions for the purpose of the qualifying exigency provisions. The bill would define \"military member\" for the purpose of that term's use in those revised definitions. \n\nExisting law requires certain documentation of a qualifying exigency, including a copy of new active duty orders or other documentation issued by the military as required by the department if the need for leave because of a qualifying exigency arises out of a different covered active duty or call to covered active duty or notification of an impending call or order to covered active duty of the same or a different family member.\n\nThis bill would provide that the new documentation requirement would apply to a need for leave because of a qualifying exigency arising out of those described circumstances with respect to the same or a different eligible family member. ",
+        "created_at": "2020-02-19 07:18:35",
+        "updated_at": "2020-02-20 07:19:17",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "ca",
+        "session": "20192020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "AB 2399",
+        "actions": [
+            {
+                "date": "2020-02-18 00:00:00",
+                "action": "Read first time. To print.",
+                "type": [
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-19 00:00:00",
+                "action": "From printer. May be heard in committee March 20.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB2399"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "author",
+                "name": "Committee on Insurance"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB2399",
+                "doc_id": "~not available~",
+                "name": "AB2399"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=201920200AB2399&version=20190AB239999INT",
+                "doc_id": "~not available~",
+                "name": "02/18/20 - Introduced"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-18 00:00:00",
+            "last": "2020-02-19 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Paid family leave: qualifying exigency."
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "revise certain leave policies for state employees.",
+        "summary": "",
+        "created_at": "2020-02-08 07:16:44",
+        "updated_at": "2020-02-13 04:19:42",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "upper",
+        "state": "sd",
+        "session": "2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "SB 186",
+        "actions": [
+            {
+                "date": "2020-02-07 00:00:00",
+                "action": "First read in Senate and referred to Senate State Affairs S.J. 168",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1",
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-19 00:00:00",
+                "action": "Scheduled for hearing",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            }
+        ],
+        "sources": [
+            {
+                "url": "https://sdlegislature.gov/Legislative_Session/Bills/Bill.aspx?Bill=186&Session=2020"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "State Affairs"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "https://sdlegislature.gov/Legislative_Session/Bills/Bill.aspx?File=SB186P.html&Session=2020&Version=Introduced&Bill=186",
+                "doc_id": "~not available~",
+                "name": "Introduced*"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-07 00:00:00",
+            "last": "2020-02-19 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Executive/Judiciary Request",
+            "Promulgation of Rules",
+            "Public Officers and Employees",
+            "State Employees"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "PAID FAMILY LEAVE ACT",
+        "summary": "Creates the Paid Family Leave Act. Requires a private employer to provide 4 weeks of paid leave to an employee who takes leave: (1) because of the birth of a child of the employee and to care for the child or (2) to care for a newly adopted child under 18 years of age, a newly placed foster child under 18 years of age or a newly adopted or newly placed foster child older than 18 years of age if the child is incapable of self-care because of a mental or physical disability. Provides that paid family leave shall be provided irrespective of the employer's leave policies and shall be provided to an employee who has been employed by the employer for at least one year. Permits employees to voluntarily waive paid family leave. Provides that the Department of Labor may adopt any rules necessary to implement the Act.",
+        "created_at": "2020-02-15 16:34:20",
+        "updated_at": "2020-02-19 15:32:55",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "il",
+        "session": "101st",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 5168",
+        "actions": [
+            {
+                "date": "2020-02-14 00:00:00",
+                "action": "Filed with the Clerk by Rep. Jonathan \"Yoni\" Pizer",
+                "type": [
+                    "bill:filed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-18 00:00:00",
+                "action": "First Reading",
+                "type": [
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-18 00:00:00",
+                "action": "Referred to Rules Committee",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://ilga.gov/legislation/BillStatus.asp?DocNum=5168&GAID=15&DocTypeID=HB&LegId=125568&SessionID=108&GA=101"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Jonathan \"Yoni\" Pizer"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://ilga.gov/legislation/fulltext.asp?DocName=10100HB5168&GA=101&SessionId=108&DocTypeId=HB&LegID=125568&DocNum=5168&GAID=15&Session=&print=true",
+                "doc_id": "~not available~",
+                "name": "Introduced"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-14 00:00:00",
+            "last": "2020-02-18 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "PAID FAMILY LEAVE ACT",
+        "summary": "Creates the Paid Family Leave Act. Requires private employers with 50 or more employees to provide 6 weeks of paid leave for an employee who takes leave: (1) because of the birth of a child of the employee and in order to care for the child; (2) to care for a newly adopted child under 18 years of age or a newly placed foster child under 18 years of age or a newly adopted or newly placed foster child older than 18 years of age if the child is incapable of self-care because of a mental or physical disability; or (3) to care for a family member with a serious health condition. Provides that paid family leave shall be provided irrespective of the employer's leave policies; and shall be provided to an employee who has been employed by the employer for at least one year. Permits employees to voluntarily waive paid family leave. Provides that the Department of Labor may adopt any rules necessary to implement the Act.",
+        "created_at": "2019-01-10 12:17:28",
+        "updated_at": "2020-02-19 15:28:21",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "il",
+        "session": "101st",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 9",
+        "actions": [
+            {
+                "date": "2018-11-30 00:00:00",
+                "action": "Prefiled with Clerk by Rep. Mary E. Flowers",
+                "type": [
+                    "bill:filed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-01-09 00:00:00",
+                "action": "First Reading",
+                "type": [
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-01-09 00:00:00",
+                "action": "Referred to Rules Committee",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-01-29 00:00:00",
+                "action": "Assigned to Labor & Commerce Committee",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-02-07 00:00:00",
+                "action": "Added Chief Co-Sponsor Rep. LaToya Greenwood",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-02-13 00:00:00",
+                "action": "To Workforce Development Subcommittee",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-02-14 00:00:00",
+                "action": "Added Chief Co-Sponsor Rep. Rita Mayfield",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-02-14 00:00:00",
+                "action": "Added Chief Co-Sponsor Rep. Anne Stava-Murray",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-02-19 00:00:00",
+                "action": "Added Co-Sponsor Rep. Michael Halpin",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-03-29 00:00:00",
+                "action": "Rule 19(a) / Re-referred to Rules Committee",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-18 00:00:00",
+                "action": "Assigned to Labor & Commerce Committee",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://ilga.gov/legislation/BillStatus.asp?DocNum=9&GAID=15&DocTypeID=HB&LegId=113812&SessionID=108&GA=101"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Mary E. Flowers"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://ilga.gov/legislation/fulltext.asp?DocName=10100HB0009&GA=101&SessionId=108&DocTypeId=HB&LegID=113812&DocNum=9&GAID=15&Session=&print=true",
+                "doc_id": "~not available~",
+                "name": "Introduced"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2018-11-30 00:00:00",
+            "last": "2020-02-18 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "2020 Women's Economic Security Act; create.",
+        "summary": "",
+        "created_at": "2020-02-20 06:43:20",
+        "updated_at": "2020-02-20 06:43:20",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "ms",
+        "session": "2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 1197",
+        "actions": [
+            {
+                "date": "2020-02-17T06:00:00+00:00",
+                "action": "Referred To Workforce Development;Public Health and Human Services",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/pdf/HB/1100-1199/HB1197IN.pdf"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/House_authors/Williams-Barnes.xml"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/history/HB/HB1197.xml"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Williams-Barnes"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/html/HB/1100-1199/HB1197IN.htm",
+                "doc_id": "~not available~",
+                "name": "Current version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-17T06:00:00+00:00",
+            "last": "2020-02-17T06:00:00+00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Workforce Development",
+            "Public Health and Human Services"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Women's Economic Security Act of 2020; create.",
+        "summary": "",
+        "created_at": "2020-02-19 06:40:19",
+        "updated_at": "2020-02-19 06:40:19",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "ms",
+        "session": "2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 1160",
+        "actions": [
+            {
+                "date": "2020-02-17T06:00:00+00:00",
+                "action": "Referred To Workforce Development;Public Health and Human Services",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/pdf/HB/1100-1199/HB1160IN.pdf"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/House_authors/Williams-Barnes.xml"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/history/HB/HB1160.xml"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Williams-Barnes"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/html/HB/1100-1199/HB1160IN.htm",
+                "doc_id": "~not available~",
+                "name": "Current version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-17T06:00:00+00:00",
+            "last": "2020-02-17T06:00:00+00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Workforce Development",
+            "Public Health and Human Services"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Mississippi Paid Family Leave Act; establish.",
+        "summary": "",
+        "created_at": "2020-02-19 06:39:43",
+        "updated_at": "2020-02-19 06:39:43",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "upper",
+        "state": "ms",
+        "session": "2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "SB 2581",
+        "actions": [
+            {
+                "date": "2020-02-17T06:00:00+00:00",
+                "action": "Referred To Judiciary, Division A;Labor",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/pdf/SB/2500-2599/SB2581IN.pdf"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/Senate_authors/Witherspoon.xml"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/history/SB/SB2581.xml"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Witherspoon"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/html/SB/2500-2599/SB2581IN.htm",
+                "doc_id": "~not available~",
+                "name": "Current version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-17T06:00:00+00:00",
+            "last": "2020-02-17T06:00:00+00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Judiciary, Division A",
+            "Labor"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Women's Economic Security Act of 2020; enact.",
+        "summary": "",
+        "created_at": "2020-02-19 06:40:12",
+        "updated_at": "2020-02-19 06:40:12",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "upper",
+        "state": "ms",
+        "session": "2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "SB 2592",
+        "actions": [
+            {
+                "date": "2020-02-17T06:00:00+00:00",
+                "action": "Referred To Labor;Accountability, Efficiency, Transparency",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/pdf/SB/2500-2599/SB2592IN.pdf"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/Senate_authors/Witherspoon.xml"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/House_authors/Blackmon.xml"
+            },
+            {
+                "url": "http://billstatus.ls.state.ms.us/2020/pdf/history/SB/SB2592.xml"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Witherspoon"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Blackmon"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://billstatus.ls.state.ms.us/documents/2020/html/SB/2500-2599/SB2592IN.htm",
+                "doc_id": "~not available~",
+                "name": "Current version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-17T06:00:00+00:00",
+            "last": "2020-02-17T06:00:00+00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Labor",
+            "Accountability, Efficiency, Transparency"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Enacting the Kansas Paid Family Leave Act, establishing the Family and Medical Leave Insurance Fund. ",
+        "summary": "",
+        "created_at": "2020-02-13 07:47:32",
+        "updated_at": "2020-02-14 08:48:35",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "ks",
+        "session": "2019-2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 2644",
+        "actions": [
+            {
+                "date": "2020-02-12 00:00:00",
+                "action": "Introduced",
+                "type": [
+                    "bill:introduced"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-13 00:00:00",
+                "action": "Referred to Committee on Commerce, Labor and Economic Development",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://www.kslegislature.org/li/api/v11/rev-1/bill_status/hb2644"
+            },
+            {
+                "url": "http://www.kslegislature.org/li/b2019_20/measures/hb2644/"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "original sponsor",
+                "name": "Representative Horn"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "application/pdf",
+                "url": "http://www.kslegislature.org/li/b2019_20/measures/documents/hb2644_00_0000.pdf",
+                "doc_id": "~not available~",
+                "name": "As introduced"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [
+            "AN ACT enacting the Kansas paid family leave act; concerning paid family leave for covered individuals; notice required by employers; establishing the family and medical leave insurance fund."
+        ],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-12 00:00:00",
+            "last": "2020-02-13 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
+        "summary": "",
+        "created_at": "2020-02-15 09:20:52",
+        "updated_at": "2020-02-20 10:21:13",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "sc",
+        "session": "2019-2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "H 5137",
+        "actions": [
+            {
+                "date": "2020-02-12 00:00:00",
+                "action": "Introduced and read first time",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-12 00:00:00",
+                "action": "Referred to Committee on Ways and Means",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5137&session=123&summary=B"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Bernstein"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Finlay"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Garvin"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Rose"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Ballentine"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "https://www.scstatehouse.gov/sess123_2019-2020/prever/5137_20200212.htm",
+                "doc_id": "~not available~",
+                "name": "2/12/2020"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-12 00:00:00",
+            "last": "2020-02-12 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "AGENCIES, STATE",
+            "PUBLIC OFFICERS AND EMPLOYEES"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "paid family leave",
+        "summary": "",
+        "created_at": "2020-02-11 07:58:58",
+        "updated_at": "2020-02-13 07:00:05",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "az",
+        "session": "54th-2nd-regular",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 2857",
+        "actions": [
+            {
+                "date": "2020-02-12 00:00:00",
+                "action": "house first reading.",
+                "type": [
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            }
+        ],
+        "sources": [
+            {
+                "url": "https://apps.azleg.gov/BillStatus/BillOverview/74151?SessionId=122"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Raquel Terán"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Richard C. Andrade"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Isela Blanc"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Reginald Bolding, Jr."
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Andres Cano"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "César Chávez"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Domingo DeGrazia"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Kirsten Engel"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Randall Friese"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Rosanna Gabaldón"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Alma Hernandez"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Daniel Hernandez, Jr."
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Jennifer Jermaine"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Robert Meza"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Jennifer Pawlik"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Geraldine Peten"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Pamela Powers Hannley"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Diego Rodriguez"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Athena Salman"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Amish Shah"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Arlando Teller"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Myron Tsosie"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Tony Navarrete"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "https://www.azleg.gov/legtext/54leg/2R/bills/HB2857P.htm",
+                "doc_id": "~not available~",
+                "name": "Introduced Version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-02-12 00:00:00",
+            "last": "2020-02-12 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
+        "summary": "",
+        "created_at": "2020-01-23 06:35:19",
+        "updated_at": "2020-02-20 10:31:00",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "upper",
+        "state": "tn",
+        "session": "111",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "SB 1786",
+        "actions": [
+            {
+                "date": "2020-01-22 00:00:00",
+                "action": "Filed for introduction",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "Introduced, Passed on First Consideration",
+                "type": [
+                    "bill:introduced"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-27 00:00:00",
+                "action": "Passed on Second Consideration, refer to Senate State and Local Government Committee",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-29 00:00:00",
+                "action": "Filed for introduction",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-30 00:00:00",
+                "action": "Intro., P1C.",
+                "type": [
+                    "bill:introduced"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-03 00:00:00",
+                "action": "P2C, ref. to State Committee-- Government Operations for Review",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-11 00:00:00",
+                "action": "Assigned to s/c Public Service & Employees Subcommittee",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://wapp.capitol.tn.gov/apps/BillInfo/default.aspx?BillNumber=SB1786&GA=111"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Kyle"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Johnson G"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "application/pdf",
+                "url": "http://www.capitol.tn.gov/Bills/111/Bill/SB1786.pdf",
+                "doc_id": "~not available~",
+                "name": "Current Version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-01-22 00:00:00",
+            "last": "2020-02-11 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Public Employees"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
+        "summary": "",
+        "created_at": "2020-02-03 05:52:43",
+        "updated_at": "2020-02-20 10:27:52",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "tn",
+        "session": "111",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 2024",
+        "actions": [
+            {
+                "date": "2020-01-22 00:00:00",
+                "action": "Filed for introduction",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "Introduced, Passed on First Consideration",
+                "type": [
+                    "bill:introduced"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-27 00:00:00",
+                "action": "Passed on Second Consideration, refer to Senate State and Local Government Committee",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-29 00:00:00",
+                "action": "Filed for introduction",
+                "type": [
+                    "bill:introduced",
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-30 00:00:00",
+                "action": "Intro., P1C.",
+                "type": [
+                    "bill:introduced"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-03 00:00:00",
+                "action": "P2C, ref. to State Committee-- Government Operations for Review",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-11 00:00:00",
+                "action": "Assigned to s/c Public Service & Employees Subcommittee",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://wapp.capitol.tn.gov/apps/BillInfo/default.aspx?BillNumber=HB2024&GA=111"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Johnson G"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Kyle"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "application/pdf",
+                "url": "http://www.capitol.tn.gov/Bills/111/Bill/HB2024.pdf",
+                "doc_id": "~not available~",
+                "name": "Current Version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-01-22 00:00:00",
+            "last": "2020-02-11 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Public Employees"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Relates to authorizing paid family leave for bereavement",
+        "summary": "Authorizes paid family leave for bereavement beginning in 2021.",
+        "created_at": "2019-03-26 12:08:50",
+        "updated_at": "2020-02-12 13:04:57",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "ny",
+        "session": "2019-2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "A 6891",
+        "actions": [
+            {
+                "date": "2019-03-25 00:00:00",
+                "action": "REFERRED TO LABOR",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-08 00:00:00",
+                "action": "REFERRED TO LABOR",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-11 00:00:00",
+                "action": "ENACTING CLAUSE STRICKEN",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A6891?summary=&detail="
+            },
+            {
+                "url": "http://www.nysenate.gov/legislation/bills/2019/A6891"
+            },
+            {
+                "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06891&term=2019"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "ROMEO"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6891&term=2019&Text=Y",
+                "doc_id": "~not available~",
+                "name": "A6891 HTML"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "http://legislation.nysenate.gov/pdf/bills/2019/A6891",
+                "doc_id": "~not available~",
+                "name": "A6891 PDF"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2019-03-25 00:00:00",
+            "last": "2020-02-11 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Relating generally to the payment of salary or wages under the Parental Leave Act",
+        "summary": "",
+        "created_at": "2020-01-15 05:25:31",
+        "updated_at": "2020-02-11 05:46:20",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "wv",
+        "session": "2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 4189",
+        "actions": [
+            {
+                "date": "2020-01-14 00:00:00",
+                "action": "Filed for introduction",
+                "type": [
+                    "bill:filed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-14 00:00:00",
+                "action": "To Judiciary then Finance",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-14 00:00:00",
+                "action": "Introduced in House",
+                "type": [
+                    "bill:introduced"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-14 00:00:00",
+                "action": "To House Judiciary",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-10 00:00:00",
+                "action": "With amendment, do pass, but first to Finance",
+                "type": [
+                    "committee:passed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-10 00:00:00",
+                "action": "To House Finance",
+                "type": [
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://www.legis.state.wv.us/Bill_Status/Bills_history.cfm?input=4189&year=2020&sessiontype=RS&btype=bill"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Capito"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Nelson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Estep-Burton"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Brown, S."
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=HB4189%20INTR.htm&yr=2020&sesstype=RS&i=4189",
+                "doc_id": "~not available~",
+                "name": "Introduced Version"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-01-14 00:00:00",
+            "last": "2020-02-10 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "Labor"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "Expanding accessible, affordable child care and early childhood development programs.",
+        "summary": "",
+        "created_at": "2020-01-17 13:08:38",
+        "updated_at": "2020-02-20 10:59:44",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "wa",
+        "session": "2019-2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HB 2661",
+        "actions": [
+            {
+                "date": "2020-01-16 00:00:00",
+                "action": "First reading, referred to Human Services & Early Learning.",
+                "type": [
+                    "bill:reading:1"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-28 00:00:00",
+                "action": "HSEL - Majority; 1st substitute bill be substituted, do pass.",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-28 00:00:00",
+                "action": "Minority; do not pass.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-04 00:00:00",
+                "action": "Referred to Appropriations.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-28 00:00:00",
+                "action": "HSEL - Majority; 1st substitute bill be substituted, do pass.",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-28 00:00:00",
+                "action": "Minority; do not pass.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-04 00:00:00",
+                "action": "Referred to Appropriations.",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-21T18:30:00+00:00",
+                "action": "Scheduled for public hearing in the House Committee on Human Services & Early Learning at 01:30 PM",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-28T18:30:00+00:00",
+                "action": "Scheduled for public hearing in the House Committee on Human Services & Early Learning at 01:30 PM",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-06T20:30:00+00:00",
+                "action": "Scheduled for public hearing in the House Committee on Appropriations at 03:30 PM",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://apps.leg.wa.gov/billinfo/summary.aspx?bill=2661&year=2019"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Senn"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Chopp"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Sullivan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Callan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Pettigrew"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Mead"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Davis"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Appleton"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Thai"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Shewmake"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Bergquist"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Valdez"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Walen"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Goodman"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Macri"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Riccelli"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Hudgins"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Leavitt"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Lekanoff"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Pollet"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Slatter"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Kilduff"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Dolan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Tarleton"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Chapman"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Stonier"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Lovick"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Robinson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Orwall"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Gregerson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Ortiz-Self"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Entenman"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Fitzgibbon"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Morgan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "J. Johnson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Pellicciotti"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Wylie"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Peterson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Kirby"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Duerr"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "DeBolt"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Sells"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Fey"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Ryu"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Doglio"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Ramel"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Ramos"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Tharinger"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Frame"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bills/House%20Bills/2661-S.htm",
+                "doc_id": "~not available~",
+                "name": "Substitute Bill"
+            },
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bills/House%20Bills/2661.htm",
+                "doc_id": "~not available~",
+                "name": "Bill"
+            }
+        ],
+        "documents": [
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bill%20Reports/House/2661%20HBR%20HSEL%2020.htm",
+                "doc_id": "~not available~",
+                "name": "Report"
+            },
+            {
+                "mimetype": "text/html",
+                "url": "http://lawfilesext.leg.wa.gov/Biennium/2019-20/Htm/Bill%20Reports/House/2661%20HBA%20HSEL%2020.htm",
+                "doc_id": "~not available~",
+                "name": "Report"
+            }
+        ],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-01-16 00:00:00",
+            "last": "2020-02-06T20:30:00+00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
+            "MINORITIES",
+            "MENTAL HEALTH",
+            "PUBLIC FUNDS AND ACCOUNTS",
+            "NAMED ACTS",
+            "CHILD CARE",
+            "DOMESTIC RELATIONS"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "A bill for an act providing for paid sick leave and scheduling procedures for employees, establishing a family leave and medical leave insurance program, providing penalties and remedies, and including applicability provisions.",
+        "summary": "",
+        "created_at": "2020-02-01 05:51:48",
+        "updated_at": "2020-02-07 06:56:31",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "ia",
+        "session": "2019-2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "HF 2223",
+        "actions": [
+            {
+                "date": "2020-01-31 00:00:00",
+                "action": "Introduced, referred to Labor.",
+                "type": [
+                    "bill:introduced",
+                    "committee:referred"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-06 00:00:00",
+                "action": "Sponsor added, Gaskill.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            }
+        ],
+        "sources": [
+            {
+                "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF 2223&ga=88"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Wessel-Kroeschell"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Isenhart"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Staed"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Meyer"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "B"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Kurth"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "application/pdf",
+                "url": "https://www.legis.iowa.gov/docs/publications/LGI/88/HF2223.pdf",
+                "doc_id": "~not available~",
+                "name": "Introduced"
+            },
+            {
+                "mimetype": "text/html",
+                "url": "https://www.legis.iowa.gov/docs/publications/LGI/88/attachments/HF2223.html",
+                "doc_id": "~not available~",
+                "name": "Introduced"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2020-01-31 00:00:00",
+            "last": "2020-02-06 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [
+            "employee benefits",
+            "families",
+            "health insurance",
+            "insurance",
+            "labor and employment",
+            "leaves of absence",
+            "sick leave"
+        ],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    },
+    {
+        "title": "An act relating to paid family and medical leave",
+        "summary": "",
+        "created_at": "2019-01-29 11:32:10",
+        "updated_at": "2020-02-07 09:09:30",
+        "id": "",
+        "all_ids": [
+            ""
+        ],
+        "chamber": "lower",
+        "state": "vt",
+        "session": "2019-2020",
+        "type": [
+            "bill"
+        ],
+        "bill_id": "H 107",
+        "actions": [
+            {
+                "date": "2019-01-29 00:00:00",
+                "action": "Read First Time and Referred to the Committee on General, Housing, and Military Affairs",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-02-14 00:00:00",
+                "action": "Referred to Committee on Ways and Means per Rule 35(a)",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-03-26 00:00:00",
+                "action": "Referred to Committee on Appropriations per Rule 35(a)",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Read Second Time",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Rep. Stevens of Waterbury reported for the committee on General, Housing, and Military Affairs",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Rep. Scheu of Middlebury recommended for the committee on Ways and Means",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Rep. Hooper of Montpelier recommended for the committee on Appropriations",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Report of Committee on General, Housing, and Military Affairs substituted by Report of Committee on Ways and Means",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Report of Committee on Ways and Means amended as offered by Committee on Appropriations",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Rep. Browning of Arlington and Sullivan of Dorset moved to substitute an amendment",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Roll Call Results Failed -- Needed 72 of 142 to Pass -- Yeas = 55, Nays = 87",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Which was disagreed to",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Report of Committee on Ways and Means as amended agreed to",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Roll Call Results Passed -- Needed 73 of 144 to Pass -- Yeas = 92, Nays = 52",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-04 00:00:00",
+                "action": "Third Reading Ordered",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-05 00:00:00",
+                "action": "Rep. Murphy of Fairfax moved to amend the bill",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-05 00:00:00",
+                "action": "Which was disagreed to",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-05 00:00:00",
+                "action": "Rep. Ralph of Hartland moved to amend the bill",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-05 00:00:00",
+                "action": "Rep. Ralph of Hartland asked and was granted leave to withdraw amendment",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-05 00:00:00",
+                "action": "Read Third time",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-05 00:00:00",
+                "action": "Roll Call Results Passed -- Needed 73 of 144 to Pass -- Yeas = 92, Nays = 52",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-05 00:00:00",
+                "action": "Passed",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2019-04-10 00:00:00",
+                "action": "Read 1st time & referred to Committee on Rules",
+                "type": [
+                    "bill:introduced"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-04-12 00:00:00",
+                "action": "Referred to Committee on Economic Development, Housing and General Affairs per Temporary Senate Rule 44A",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-07 00:00:00",
+                "action": "Entered on Notice Calendar",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-07 00:00:00",
+                "action": "Favorable report with recommendation of amendment by Committee on Economic Development, Housing and General Affairs",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-07 00:00:00",
+                "action": "Referred to Committee on Finance per Senate Rule 31",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-10 00:00:00",
+                "action": "Rules suspended & taken up for immediate consideration, on motion of Senator Cummings",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-10 00:00:00",
+                "action": "Rules suspended & bill committed to Committee on Appropriations with the report of Committee on Economic Development, Housing and General Affairs & Finance intact, on motion of Senator Cummings",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-14 00:00:00",
+                "action": "Entered on Notice Calendar",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-14 00:00:00",
+                "action": "Favorable report with proposal of amendment by Committee on Economic Development, Housing and General Affairs",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-14 00:00:00",
+                "action": "Favorable report with proposal of amendment by Committee on Finance",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-14 00:00:00",
+                "action": "Reported without recommendation by Committee on Appropriations",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "New Business/Second Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Favorable report with proposal of amendment by Committee on Economic Development, Housing and General Affairs",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Favorable report with proposal of amendment by Committee on Finance",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Reported without recommendation by Committee on Appropriations",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Read 2nd time, reported favorably with proposal of amendment by Senator Sirotkin for Committee on Economic Development, Housing and General Affairs",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Reported favorably by Senator Sirotkin for Committee on Finance with proposal of amendment",
+                "type": [
+                    "committee:passed:favorable"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Reported without recommendation by Senator Kitchel for Committee on Appropriations",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Proposal of amendment by Committee on Economic Development, Housing and General Affairs amended as recommended by Committee on Finance",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "Proposal of amendment  by Committee on Economic Development, Housing and General Affairs, as amended, agreed to",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-15 00:00:00",
+                "action": "3rd reading ordered on roll call, requested by Senator Benning, Passed -- Needed 15 of 29 to Pass -- Yeas = 19, Nays = 10",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-16 00:00:00",
+                "action": "New Business/Third Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-17 00:00:00",
+                "action": "Unfinished Business/Third Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-20 00:00:00",
+                "action": "Unfinished Business/Third Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-21 00:00:00",
+                "action": "Unfinished Business/Third Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-22 00:00:00",
+                "action": "Unfinished Business/Third Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-23 00:00:00",
+                "action": "Unfinished Business/Third Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-24 00:00:00",
+                "action": "Unfinished Business/Third Reading",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-24 00:00:00",
+                "action": "Pending third reading, Senator(s) Sirotkin, Balint, and Clarkson motion to amend proposal of amendment; text",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-24 00:00:00",
+                "action": "Proposal of amendment agreed to",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-24 00:00:00",
+                "action": "Read 3rd time & passed in concurrence with proposal of amendment",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-24 00:00:00",
+                "action": "Rules suspended & messaged to House forthwith, on motion of Senator Mazza",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2019-05-24 00:00:00",
+                "action": "Senate Message, adopted in concurrence with proposal of amendment",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-07 00:00:00",
+                "action": "Action Postponed to next legislative day as moved by Rep. Stevens of Waterbury",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-08 00:00:00",
+                "action": "Senate Proposal of Amendment not concurred in and Committee of Conference requested upon motion of Rep. Stevens of Waterbury",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-08 00:00:00",
+                "action": "Speaker appointed Stevens of Waterbury, Scheu of Middlebury and Gonzalez of Winooski as members of the Committee of Conference on the part of the House",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-09 00:00:00",
+                "action": "House message House refused to concur in Senate proposal of amendment & requested Conference Committee; House Conference Committee members appointed",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-10 00:00:00",
+                "action": "Committee of Conference appointed: Senators Sirotkin, Clarkson, and Balint",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-16 00:00:00",
+                "action": "Entered on Notice Calendar",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-16 00:00:00",
+                "action": "Committee of Conference Report",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-17 00:00:00",
+                "action": "Committee of Conference Report",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-17 00:00:00",
+                "action": "Committee of Conference report; text",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-17 00:00:00",
+                "action": "Committee of Conference report adopted on roll call, requested by Senator Sirotkin, Passed -- Needed 15 of 29 to Pass -- Yeas = 20, Nays = 9",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-01-21 00:00:00",
+                "action": "Senate message, report of committee of conference adopted",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "Roll Call Results Passed -- Needed 74 of 147 to Pass -- Yeas = 89, Nays = 58",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-23 00:00:00",
+                "action": "Committee of Conference report adopted (House bill)",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-24 00:00:00",
+                "action": "House message House adopted Conference Committee report",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2018-01-27 00:00:00",
+                "action": "Delivered to the Governor on January 27,2018",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-31 00:00:00",
+                "action": "Vetoed by the Governor on January 31,2020",
+                "type": [
+                    "governor:vetoed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-05 00:00:00",
+                "action": "Veto of the Governor sustained, by a vote of Yeas = 99, Nays = 51",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-05 00:00:00",
+                "action": "Roll Call Results Failed -- Needed 101 of 150 to Pass -- Yeas = 99, Nays = 51",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-01-31 00:00:00",
+                "action": "House message: Governor vetoed bill on January 31, 2020",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            },
+            {
+                "date": "2020-02-06 00:00:00",
+                "action": "Governor vetoed bill; text of veto message",
+                "type": [],
+                "related_entities": [],
+                "actor": "upper"
+            }
+        ],
+        "sources": [
+            {
+                "url": "http://legislature.vermont.gov/bill/loadBillsIntroduced/2020/"
+            },
+            {
+                "url": "http://legislature.vermont.gov/bill/status/2020/H.107"
+            },
+            {
+                "url": "http://legislature.vermont.gov/bill/loadBillDetailedStatus/2020/226"
+            },
+            {
+                "url": "http://legislature.vermont.gov/bill/loadBillRollCalls/2020/226"
+            }
+        ],
+        "sponsors": [
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Robin Scheu"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Sarah Copeland Hanzas"
+            },
+            {
+                "leg_id": null,
+                "type": "primary",
+                "name": "Samuel Young"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Janet Ancel"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Peter Anthony"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Sarah \"Sarita\" Austin"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "John Bartholomew"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Matthew Birong"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Thomas Bock"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Timothy Briglin"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Jessica Brumsted"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Mollie Burke"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "R. Scott Campbell"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "James Carroll"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Robin Chesnut-Tangerman"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Annmarie Christensen"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Kevin Christie"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Brian Cina"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Sara Coffey"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Selene Colburn"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Harold \"Hal\" Colston"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Peter Conlon"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Mari Cordes"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Carl Demrow"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Katherine \"Kari\" Dolan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Johannah Donovan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "David Durfee"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Caleb Elder"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Alice Emmons"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Marcia Gardner"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Dylan Giambatista"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Diana Gonzalez"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Maxine Grad"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Sandy Haas"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Nader Hashim"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Matthew Hill"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Mary Hooper"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Philip \"Jay\" Hooper"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Robert Hooper"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Lori Houghton"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Mary Howard"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Kathleen James"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Kimberly Jessup"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "John Killacky"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Warren Kitzmiller"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Emilie Kornheiser"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Jill Krowinski"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Martin LaLonde"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Diane Lanpher"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "William Lippert"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Emily Long"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Terence Macaig"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "James Masland"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Michael McCarthy"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Curtis McCormack"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "James McCullough"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Michael Mrowicki"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "William Notte"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Daniel Noyes"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Jean O'Sullivan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Carol Ode"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Carolyn Partridge"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Avram Patt"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Ann Pugh"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Barbara Rachelson"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Zachariah Ralph"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Marybeth Redmond"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Amy Sheldon"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Trevor Squirrell"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Thomas Stevens"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Mary Sullivan"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Randall Szott"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Tristan Toleno"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Maida Townsend"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Joseph \"Chip\" Troiano"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Tommy Walz"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Rebecca White"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Theresa Wood"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "David Yacovone"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Michael Yantachka"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Less…"
+            }
+        ],
+        "versions": [
+            {
+                "mimetype": "application/pdf",
+                "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Introduced.pdf",
+                "doc_id": "~not available~",
+                "name": "As Introduced"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Official.pdf",
+                "doc_id": "~not available~",
+                "name": "Official"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20proposal%20of%20amendment%20Official.pdf",
+                "doc_id": "~not available~",
+                "name": "Official"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20passed%20by%20the%20House%20Official.pdf",
+                "doc_id": "~not available~",
+                "name": "Official"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf",
+                "doc_id": "~not available~",
+                "name": "Unofficial"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20Proposal%20of%20Amendment%20Unofficial.pdf",
+                "doc_id": "~not available~",
+                "name": "Unofficial"
+            },
+            {
+                "mimetype": "application/pdf",
+                "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
+                "doc_id": "~not available~",
+                "name": "Unofficial"
+            }
+        ],
+        "documents": [],
+        "alternate_titles": [],
+        "votes": null,
+        "action_dates": {
+            "first": "2018-01-27 00:00:00",
+            "last": "2020-02-06 00:00:00",
+            "passed_upper": null,
+            "passed_lower": null,
+            "signed": null
+        },
+        "scraped_subjects": [],
+        "alternate_bill_ids": [],
+        "subjects": [],
+        "companions": []
+    }
+]
