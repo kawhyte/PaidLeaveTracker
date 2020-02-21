@@ -91,7 +91,7 @@ app.get("/track", async (req, res, next) => {
 
     axios.get(URL, { headers: {'X-API-KEY': process.env.OPENSTATES } }).then(response => {
       // If request is good...
-      console.log("AXIOS ",response.data);
+      // console.log("AXIOS ",response.data);
       res.json(response.data);
     })
     .catch((error) => {

@@ -5,18 +5,22 @@ const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let tempArray = [];
 
+
 function generateHTML(data, index) {
-  const arrayLength = data.bill.history.length;
+  // const arrayLength = data.bill.history.length;
   let billHistory = "";
   let billStaus = 0;
+  // console.log("popped", data)
+  let lastBillAction = data.actions.pop();
+  let firstBillAction = data.actions.shift();
  
 
-  if (arrayLength > 0) {
-    billHistory = data.bill.history[arrayLength - 1];
-  }
-//  console.log("Bill Status ",data.bill.status)
-  // console.log("Bill History date ", billHistory.date)
-  // console.log("Bill History action ", billHistory.action)
+  console.log("firstBillAction", data.action_dates.first.length)
+  // console.log("popped", popped)
+ 
+  // if (arrayLength > 0) {
+  //   billHistory = data.bill.history[arrayLength - 1];
+  
 
   let skyGradient = {
     1: "url('./img/pencils.jpg') no-repeat center",
@@ -31,20 +35,36 @@ function generateHTML(data, index) {
     10: "url('./img/triangles.png') no-repeat center"
   };
 
+ 
   let status = {
-    0: {name:"I dont know what happened", color: "bg-blue"},
-    1: {name:"Introduced", color: "bg-yellow"},
-    2: {name:"Engrossed", color: "bg-yellow"},
-    3: {name:"Enrolled", color: "bg-yellow"},
-    4: {name:"Passed", color: "bg-green"},
-    5: {name:"Vetoed", color: "bg-red"},
-    6: {name:"Failed" , color: "bg-red"},
-    7: "Override",
-    8: "Chaptered",
-    9: "Refer",
-    10: "Report Pass",
-    10: "Report DNP",
-    10: "Draft"
+    "bill:introduced" : {name:"Introduced or prefiled", color: "bg-blue"},
+    "bill:passed": {name:"Bill has passed a chamber", color: "bg-yellow"},
+    "bill:failed": {name:"Failed to pass a chamber", color: "bg-red"},
+    "bill:withdrawn": {name:"Withdrawn from consideration", color: "bg-red"},
+    "bill:veto_override:passed": {name:"Chamber attempted a veto override and succeeded", color: "bg-green"},
+    "bill:veto_override:failed": {name:"Chamber attempted a veto override and failed", color: "bg-red"},
+    "bill:reading:1": {name:"Bill has undergone its first reading" , color: "bg-yellow"},
+    "bill:reading:2": {name:"Bill has undergone its second reading", color: "bg-yellow"},
+    "bill:reading:3": {name:"Bill has undergone its third (or final) reading", color: "bg-yellow"},
+    "bill:filed": {name:"Bill has been filed", color: "bg-yellow"},
+    "bill:substituted": {name:"Bill has been replaced with a substituted wholesale", color: "bg-yellow"},
+    "governor:received": {name:"Bill has been transmitted to the governor for consideration", color: "bg-yellow"},
+    "governor:signed": {name:"Bill has signed into law by the governor", color: "bg-green"},
+    "governor:vetoed": {name:"Bill has been vetoed by the governor", color: "bg-red"},
+    "governor:vetoed:line-item":{name: "Governor has issued a  partial veto", color: "bg-pink"},
+    "amendment:introduced": {name:"An amendment has been offered on the bill", color: "bg-yellow"},
+    "amendment:passed": {name:"The bill has been amended", color: "bg-pink"},
+    "amendment:failed": {name:"An offered amendment has failed", color: "bg-pink"},
+    "amendment:amended": {name:"An offered amendment has been amended", color: "bg-pink"},
+    "amendment:withdrawn": {name:"An offered amendment has been withdrawn", color: "bg-pink"},
+    "amendment:tabled": {name:"An amendment has been ‘laid on the table’", color: "bg-yellow"},
+    "committee:referred": {name:"Bill has been referred to a committee", color: "bg-yellow"},
+    "committee:passed": {name:"Bill has been passed out of a committee", color: "bg-yellow"},
+    "committee:passed:favorable": {name:"Bill has been passed out of a committee with a favorable report", color: "bg-yellow"},
+    "committee:passed:unfavorable": {name:"Bill has been passed out of a committee with an unfavorable report", color: "bg-yellow"},
+    "committee:failed": {name:"Bill has failed to make it out of committee", color: "bg-red"},
+    "other": {name:"Other - view state website", color: "bg-pink"},
+    "null": {name:"Pending",  color: "bg-pink"},
   };
 
 
@@ -101,23 +121,22 @@ function generateHTML(data, index) {
     WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" }
   };
 
-  // console.log("STATE ", state[data.bill.state][0]);
+ 
 
-  // if (
-  //   typeof skyGradient[index] === "undefined" ||
-  //   skyGradient[index] === null
-  // ) {
-  //   val = "url('./img/blur.jpg') no-repeat center";
-  //   //document.getElementById("bg").style.background =
-  //   // console.log("VAL inside ", val);
-  //   //return;
-  //   //br
-  // } else {
+  if (
+    typeof status[lastBillAction.type] === "undefined" ||
+    status[lastBillAction.type] === null
+  ) {
 
-  // }
-billStatus = status[data.bill.status]
-  stateData = state[data.bill.state];
-  // console.log("VAL amm ", stateData.name);
+    console.log("status[popped.type] is undefined!!!");
+    billStatus = status["null"]
+  } else {
+
+    billStatus = status[lastBillAction.type]
+  }
+  
+  stateData = state[(data.state).toUpperCase()];
+
 
   return `
   <div class="div1 container ">
@@ -127,7 +146,7 @@ billStatus = status[data.bill.status]
                     <div class="pt3 f3-m fw5 white">                       
                     <h3 class="f3 f3-m measure-narrow lh-title mv0">
                         <span class=" lh-copy white pa1 tracked-tight">
-                        ${stateData.name} - ${data.bill.bill_number}</span>
+                        ${stateData.name} - ${data.bill_id}</span>
                     </h3>
                     </div>
 
@@ -140,13 +159,7 @@ billStatus = status[data.bill.status]
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="f5 fw2 gray measure-narrow truncate o-80">Last Action: <span> ${(data.bill.status_date =
-                                      data.bill.status_date !== null
-                                        ? data.bill.status_date
-                                        : "No data available")} ${(billHistory.action =
-    billHistory.action !== null || billHistory.action.length > 0
-      ? " | " + billHistory.action
-      : "null")}</span></div>
+                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action: <span class= "lh-copy gray o-80 pa1 tracked-tight">${lastBillAction.action} <span  class="light-blue"> ${formatDate(lastBillAction.date)} </span>  </span></div>
                                     <div>
                                     <div class="pt3  f3-m fw5 white">
                                             
@@ -158,21 +171,20 @@ billStatus = status[data.bill.status]
                                 </div>
                                         <div class="pt2 w-100 dt dt--fixed">
                                    
+                                            <div class="dtc h1 white ${data.action_dates.first.length > 0 ? "bg-blue" : "bg-light-gray"} br1 br--left tc" style="width: 50%">
+                                                <small>Introduction</small></div>
                                             <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
                                             <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
                                             <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
-                                                <small>Gov</small></div>
+                                                <small>Governor</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                        <div class="pt2 o-80 measure-narrow  truncate"><small> Last Action: ${(billHistory.date =
-                                          arrayLength > 0
-                                            ? billHistory.date
-                                            : " ")}  ${(billHistory.action =
-    arrayLength > 0
-      ? billHistory.action
-      : "No history available")}  </small></div>
+                                        <div class="pt2 o-80 measure-narrow  truncate"><small> Updated on ${(data.updated_at =
+                                          data.updated_at !== null
+                                            ? formatDate(data.updated_at)
+                                            : "No data available")} </small></div>
                                        
                                     </div>
 
@@ -187,7 +199,7 @@ billStatus = status[data.bill.status]
                         <div class="w-100 pb0 flex items-center justify-between">
                         
                         <p class= " mw4 f6 lh-copy measure-narrow  truncate tl"> ${
-                          data.bill.title
+                          data.title
                         }</p>
                          
                         </div>
@@ -201,14 +213,17 @@ billStatus = status[data.bill.status]
                       stateData.flag
                     }" />
                     <div class="pl3 flex-auto">
-                      <span class="f6 db black-70">${data.bill.state}</span>
+                      <span class="f6 db black-70">Bill created on ${(data.created_at =
+                        data.created_at !== null
+                          ? formatDate(data.created_at)
+                          : "No data available")}</span>
                       <span class="f6 db black-70">${
-                        data.bill.sponsors.length
+                        data.sponsors.length
                       } bill sponsors</span>
                     </div>
                     <div>
                     <a href="${
-                      data.bill.state_link
+                      data.sources[0].url 
                     }" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
                     </div>
                     </div>
@@ -217,39 +232,7 @@ billStatus = status[data.bill.status]
   `;
 }
 
-//  fetch('/db.json', options)
-// .then(resp => { return resp.json()})
-// .then(data => {
-//   //console.log(data);
 
-//   const html = data.map(generateHTML).join("");
-//   console.log(html);
-//   gallery.innerHTML = html;
-// }
-// );
-// let sorted = fetch("./db.json", {
-//   headers: {
-//     "Content-Type": "application/json",
-//     Accept: "application/json"
-//   }
-// })
-//   .then(r => r.json())
-//   .then(json => {
-//     let sortedBydate = json.twitter.sort((a, b) => {
-//       return new Date(b.dateTweeted) - new Date(a.dateTweeted);
-//     });
-
-//     console.log("SORTED ", sortedBydate);
-
-//     var html = sortedBydate
-//       .map((currElement, index) => {
-//         return (html = generateHTML(currElement, index));
-//       })
-//       .join(" ");
-
-//     console.log("OUTSIDE", html);
-//     gallery.innerHTML = html;
-//   });
 
 fetch("http://localhost:8887/track", {
   headers: {
@@ -259,44 +242,8 @@ fetch("http://localhost:8887/track", {
 })
   .then(r => r.json())
   .then(json => {
-    // console.log("LG.JS", json);
 
-    arraySize = json[0].bill.history[0];
-    console.log("arraySize", json);
-
-    let sortedBydate = json.sort((a, b) => {
-
-      console.log("a.status_date ",a.bill.status_date )
-      console.log("b.status_date ",b.bill.status_date )
-      // let test = b.bill.history.sort((c,d) =>{
-      //     // console.log("c", c.date);
-      //     return new Date(c.date) - new Date(d.date);
-
-      // });
-      // if (
-      //     b.bill.history > 0 ||typeof b.bill.history.pop().date !== "undefined" ||
-      //     b.bill.history.pop().date !== null
-      //   ) {
-
-      //    console.log("popped", b.bill.history.pop().date);
-      //   }
-      // console.log("b", b.bill.history);
-      // console.log("b.date", b.date);
-
-      //  console.log("a.status_date", a.status_date);
-
-      // let popped =  b.bill.history.pop()
-
-      // console.log("b.popped ", b.popped)
-
-      return new Date(b.bill.status_date) - new Date(a.bill.status_date);
-    });
-
-    console.log("SORTED ", sortedBydate);
-
-    //   tempArray.push(json.bill)
-
-    var html = sortedBydate
+    var html = json
       .map((currElement, index) => {
         return (html = generateHTML(currElement, index));
       })
@@ -305,3 +252,12 @@ fetch("http://localhost:8887/track", {
     // console.log("OUTSIDE", html)
     gallery.innerHTML = html;
   });
+
+  function formatDate(input) {
+    var date = new Date(input);
+    return [
+       ("0" + date.getDate()).slice(-2),
+       ("0" + (date.getMonth()+1)).slice(-2),
+       date.getFullYear()
+    ].join('/');
+}
