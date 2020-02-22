@@ -237,7 +237,7 @@ function generateHTML(data, index) {
 
 // fetch("http://localhost:8887/track", {
 // fetch("http://localhost:9000/index", {
-fetch("./netlify/functions/index", {
+fetch('/.netlify/functions/index', {
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json"
