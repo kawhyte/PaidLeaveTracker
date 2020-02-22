@@ -6,10 +6,8 @@
   "scripts": {
     "dev": "node index.js --ignore db.json",
     "start": "node index.js",
-    "lambda-serve":"netlify-lambda serve functions",
-    "lambda-build":"netlify-lambda build functions"
-
-    
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
   },
   "author": "Kenny Whyte",
   "license": "ISC",
@@ -19,7 +17,9 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
+    "lowdb": "^1.0.0",
     "netlify-lambda": "^1.6.3",
+    "node-cron": "^2.0.3",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2",
     "serverless-http": "^2.3.1"

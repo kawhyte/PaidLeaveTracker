@@ -7,11 +7,16 @@ const OPENSTATES_API_KEY = process.env.OPENSTATES;
 const axios = require("axios");
 const fetch = require("node-fetch");
 
+let cron = require('node-cron');
+// const runCron = require('./getAndSaveJson')
+
+
 const express = require("express");
 const serverless = require('serverless-http')
 const favicon = require("express-favicon");
 var cors = require("cors");
 const app = express();
+
 
 
 app.use(cors());
@@ -40,12 +45,24 @@ app.get("/track", async (req, res, next) => {
       console.log('error:' + error);
     });
 
+
 });
 
-// app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
-const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-const server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+
+// cron.schedule('* * * * *', () => {
+//   console.log('running a cron every minute');
+
+//   runCron();
+
+// });
+
+
+
+app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
+
+// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+// const server_host = process.env.YOUR_HOST || '0.0.0.0';
+// app.listen(server_port, server_host, function() {
+//     console.log('Listening on port %d', server_port);
+// });
