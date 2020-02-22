@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index.js --ignore db.json",
-    "start": "node index.js",
+    "pstart": "node index.js",
     "lambda-serve":"netlify-lambda serve functions",
-    "lambda-build":"netlify-lambda build functions"
+    "lambda-build":"netlify-lambda build functions",
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build"
     
   },
   "author": "Kenny Whyte",
