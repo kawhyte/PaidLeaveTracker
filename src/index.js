@@ -20,7 +20,7 @@ const app = express();
 
 app.use(cors());
 
-app.use(favicon(__dirname + "/public/favicon.ico"));
+app.use(favicon(__dirname + "../public/favicon.ico"));
 
 app.use(express.json());
 
@@ -128,7 +128,7 @@ app.get("/track", async (req, res, next) => {
 
 // module.exports.handler =  serverless(app);
 
-app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
+// app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
 // const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
 // const server_host = process.env.YOUR_HOST || '0.0.0.0';
