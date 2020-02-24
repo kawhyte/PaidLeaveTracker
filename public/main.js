@@ -10,10 +10,28 @@ function generateHTML(data, index) {
   // const arrayLength = data.bill.history.length;
   let billHistory = "";
   let billStaus = 0;
-  // console.log("popped", data)
+  // console.log("bill_id ", data.bill_id)
+//  console.log("data.actions!!!!", data.actions.filter(d => d.type.every(x => x.type === 'bill:passed')))
   let lastBillAction = data.actions.pop();
   let firstBillAction = data.actions.shift();
+  //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
  
+  // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
+  // let billPassedHouse =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed' )) && x.actor==='lower')
+
+  let billPassedHouse =  data.actions.filter(x =>  Object.values(x.type).includes("bill:passed"))
+  let billPassedSenate =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed'))  && x.actor==='upper')
+ 
+// let r = data.filter(d => d.courses.every(c => courses.includes(c.id)));
+// let test = data.actions.filter(d => d.type.every(c => type.includes('bill:passed')));
+   
+  //  console.log("billPassed.actor", data.actions.type[0] )
+   console.log("bill_id ", data.bill_id)
+   console.log("TESTING", billPassedHouse)
+  //  console.log("billPassed Senate ", billPassedSenate)
+  //  console.log("billPassed House ", Object.entries(billPassedHouse).length === 0)
+   
+
 
   // console.log("firstBillAction", data.action_dates.first.length)
   // console.log("popped", popped)
@@ -135,7 +153,7 @@ function generateHTML(data, index) {
 
     billStatus = status[lastBillAction.type]
   }
-   console.log("(data.state) = ", (data.state))
+  //  console.log("(data.state) = ", (data.state))
   stateData = state[(data.state).toUpperCase()];
 
 
@@ -173,13 +191,13 @@ function generateHTML(data, index) {
                                         <div class="pt2 w-100 dt dt--fixed">
                                    
                                             <div class="dtc h1 white ${data.action_dates.first.length > 0 ? "bg-blue" : "bg-light-gray"} br1 br--left tc" style="width: 50%">
-                                                <small>Introduction</small></div>
-                                            <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
+                                                <small>Introduced</small></div>
+                                            <div class="dtc h1 white ${billPassedHouse = Object.entries(billPassedHouse).length === 0 ? "bg-light-gray" : "bg-blue"} br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
-                                            <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white ${billPassedSenate = Object.entries(billPassedSenate).length === 0 ? "bg-light-gray" : "bg-blue"} br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
                                             <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
-                                                <small>Governor</small></div>
+                                                <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
                                         <div class="pt2 o-80 measure-narrow  truncate"><small>Updated on ${(data.updated_at =
@@ -246,14 +264,14 @@ function generateHTML(data, index) {
 })
   .then(r => r.json())
   .then(json => {
-console.log("JSON ",json)
+// console.log("JSON ",json)
     var html = json
       .map((currElement, index) => {
         return (html = generateHTML(currElement, index));
       })
       .join(" ");
 
-    console.log("OUTSIDE", html)
+    // console.log("OUTSIDE", html)
     gallery.innerHTML = html;
   });
 
