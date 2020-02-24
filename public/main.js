@@ -1,49 +1,71 @@
 // DOM elements
 const tweet = document.getElementById("tweet");
+const searchBar = document.getElementById("searchBar");
 const tracked_header = document.getElementById("tracked_head");
 const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let tempArray = [];
+let fetchedBills = [];
+let html = ''
 
+searchBar.addEventListener("keyup", e => {
+  const searchString = e.target.value.toLowerCase();
+  console.log(searchString)
+  const filteredBills = fetchedBills.filter((bill) => {
+    return (
+      bill.title.toLowerCase().includes(searchString) || bill.bill_id.toLowerCase().includes(searchString)
+    );
+  });
+  console.log("✊Filtered ", filteredBills);
+  displayBills(filteredBills);
+});
 
-function generateHTML(data, index) {
+function generateHTML(data) {
+
+  // console.log("👯‍♂️Data ", data)
   // const arrayLength = data.bill.history.length;
   let billHistory = "";
   let billStaus = 0;
-  console.log("bill_id ", data.bill_id)
-//  console.log("data.actions!!!!", data.actions.filter(d => d.type.every(x => x.type === 'bill:passed')))
-  let lastBillAction = data.actions.pop();
-  let firstBillAction = data.actions.shift();
+
+  // let lastBillAction = data.actions.pop();
+  // let firstBillAction = data.actions.shift();
+
+
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
- 
+
   // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
-  // let billPassedHouse =  data.actions.every(x => Object.entries(x.type).forEach(([key, val]) => val.find(c => type.includes('bill:passed')))) 
+  // let billPassedHouse =  data.actions.every(x => Object.entries(x.type).forEach(([key, val]) => val.find(c => type.includes('bill:passed'))))
   // let billPassedHouse =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed' )) && x.actor==='lower')
 
   // let billPassedHouse =  data.actions.filter(x =>  Object.values(x.type).every(c=> c=== "bill:passed"))
   // let billPassedHouse =  data.actions.filter(x =>  Object.entries(x.type).forEach(([key, val]) =>  val === "test"))
-  let billPassedHouse =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed'))  && x.actor==='lower')
-  let billPassedSenate =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed'))  && x.actor==='upper')
- 
+  
+  
+  // let billPassedHouse = data.actions.filter(
+  //   x => x.type.every(y => y.includes("bill:passed")) && x.actor === "lower"
+  // );
+  // let billPassedSenate = data.actions.filter(
+  //   x => x.type.every(y => y.includes("bill:passed")) && x.actor === "upper"
+  // );
+
   // Object.entries(myObj).forEach(([key, val]) => console.log(key, val));
-// let r = data.filter(d => d.courses.every(c => courses.includes(c.id)));
-// let test = data.actions.filter(d => d.type.every(c => type.includes('bill:passed')));
-   
+  // let r = data.filter(d => d.courses.every(c => courses.includes(c.id)));
+  // let test = data.actions.filter(d => d.type.every(c => type.includes('bill:passed')));
+
   //  console.log("billPassed.actor", data.actions.type[0] )
-   console.log("bill_id ", data.bill_id)
-   console.log("TESTING", billPassedSenate )
-   console.log("HAS Value", Object.values(billPassedSenate).includes("bill:passed") )
+  //  console.log("bill_id 🧢", data.bill_id)
+  //  console.log("TESTING 🧪", billPassedSenate )
+  //  console.log("HAS Value 🙈", Object.values(billPassedSenate).includes("bill:passed") )
+
+  //debugger;
   //  console.log("billPassed Senate ", billPassedSenate)
   //  console.log("billPassed House ", Object.entries(billPassedHouse).length === 0)
-   
-
 
   // console.log("firstBillAction", data.action_dates.first.length)
   // console.log("popped", popped)
- 
+
   // if (arrayLength > 0) {
   //   billHistory = data.bill.history[arrayLength - 1];
-  
 
   let skyGradient = {
     1: "url('./img/pencils.jpg') no-repeat center",
@@ -58,38 +80,97 @@ function generateHTML(data, index) {
     10: "url('./img/triangles.png') no-repeat center"
   };
 
- 
   let status = {
-    "bill:introduced" : {name:"Introduced or prefiled", color: "bg-blue"},
-    "bill:passed": {name:"Bill has passed a chamber", color: "bg-yellow"},
-    "bill:failed": {name:"Failed to pass a chamber", color: "bg-red"},
-    "bill:withdrawn": {name:"Withdrawn from consideration", color: "bg-red"},
-    "bill:veto_override:passed": {name:"Chamber attempted a veto override and succeeded", color: "bg-green"},
-    "bill:veto_override:failed": {name:"Chamber attempted a veto override and failed", color: "bg-red"},
-    "bill:reading:1": {name:"Bill has undergone its first reading" , color: "bg-yellow"},
-    "bill:reading:2": {name:"Bill has undergone its second reading", color: "bg-yellow"},
-    "bill:reading:3": {name:"Bill has undergone its third (or final) reading", color: "bg-yellow"},
-    "bill:filed": {name:"Bill has been filed", color: "bg-yellow"},
-    "bill:substituted": {name:"Bill has been replaced with a substituted wholesale", color: "bg-yellow"},
-    "governor:received": {name:"Bill has been transmitted to the governor for consideration", color: "bg-yellow"},
-    "governor:signed": {name:"Bill has signed into law by the governor", color: "bg-green"},
-    "governor:vetoed": {name:"Bill has been vetoed by the governor", color: "bg-red"},
-    "governor:vetoed:line-item":{name: "Governor has issued a  partial veto", color: "bg-pink"},
-    "amendment:introduced": {name:"An amendment has been offered on the bill", color: "bg-yellow"},
-    "amendment:passed": {name:"The bill has been amended", color: "bg-pink"},
-    "amendment:failed": {name:"An offered amendment has failed", color: "bg-pink"},
-    "amendment:amended": {name:"An offered amendment has been amended", color: "bg-pink"},
-    "amendment:withdrawn": {name:"An offered amendment has been withdrawn", color: "bg-pink"},
-    "amendment:tabled": {name:"An amendment has been ‘laid on the table’", color: "bg-yellow"},
-    "committee:referred": {name:"Bill referred to a committee", color: "bg-yellow"},
-    "committee:passed": {name:"Bill has been passed out of a committee", color: "bg-yellow"},
-    "committee:passed:favorable": {name:"Bill has been passed out of a committee with a favorable report", color: "bg-yellow"},
-    "committee:passed:unfavorable": {name:"Bill has been passed out of a committee with an unfavorable report", color: "bg-yellow"},
-    "committee:failed": {name:"Bill has failed to make it out of committee", color: "bg-red"},
-    "other": {name:"Other - view state website", color: "bg-pink"},
-    "null": {name:"Pending",  color: "bg-pink"},
+    "bill:introduced": { name: "Introduced or prefiled", color: "bg-blue" },
+    "bill:passed": { name: "Bill has passed a chamber", color: "bg-yellow" },
+    "bill:failed": { name: "Failed to pass a chamber", color: "bg-red" },
+    "bill:withdrawn": { name: "Withdrawn from consideration", color: "bg-red" },
+    "bill:veto_override:passed": {
+      name: "Chamber attempted a veto override and succeeded",
+      color: "bg-green"
+    },
+    "bill:veto_override:failed": {
+      name: "Chamber attempted a veto override and failed",
+      color: "bg-red"
+    },
+    "bill:reading:1": {
+      name: "Bill has undergone its first reading",
+      color: "bg-yellow"
+    },
+    "bill:reading:2": {
+      name: "Bill has undergone its second reading",
+      color: "bg-yellow"
+    },
+    "bill:reading:3": {
+      name: "Bill has undergone its third (or final) reading",
+      color: "bg-yellow"
+    },
+    "bill:filed": { name: "Bill has been filed", color: "bg-yellow" },
+    "bill:substituted": {
+      name: "Bill has been replaced with a substituted wholesale",
+      color: "bg-yellow"
+    },
+    "governor:received": {
+      name: "Bill has been transmitted to the governor for consideration",
+      color: "bg-yellow"
+    },
+    "governor:signed": {
+      name: "Bill has signed into law by the governor",
+      color: "bg-green"
+    },
+    "governor:vetoed": {
+      name: "Bill has been vetoed by the governor",
+      color: "bg-red"
+    },
+    "governor:vetoed:line-item": {
+      name: "Governor has issued a  partial veto",
+      color: "bg-pink"
+    },
+    "amendment:introduced": {
+      name: "An amendment has been offered on the bill",
+      color: "bg-yellow"
+    },
+    "amendment:passed": { name: "The bill has been amended", color: "bg-pink" },
+    "amendment:failed": {
+      name: "An offered amendment has failed",
+      color: "bg-pink"
+    },
+    "amendment:amended": {
+      name: "An offered amendment has been amended",
+      color: "bg-pink"
+    },
+    "amendment:withdrawn": {
+      name: "An offered amendment has been withdrawn",
+      color: "bg-pink"
+    },
+    "amendment:tabled": {
+      name: "An amendment has been ‘laid on the table’",
+      color: "bg-yellow"
+    },
+    "committee:referred": {
+      name: "Bill referred to a committee",
+      color: "bg-yellow"
+    },
+    "committee:passed": {
+      name: "Bill has been passed out of a committee",
+      color: "bg-yellow"
+    },
+    "committee:passed:favorable": {
+      name: "Bill has been passed out of a committee with a favorable report",
+      color: "bg-yellow"
+    },
+    "committee:passed:unfavorable": {
+      name:
+        "Bill has been passed out of a committee with an unfavorable report",
+      color: "bg-yellow"
+    },
+    "committee:failed": {
+      name: "Bill has failed to make it out of committee",
+      color: "bg-red"
+    },
+    other: { name: "Other - view state website", color: "bg-pink" },
+    null: { name: "Pending", color: "bg-pink" }
   };
-
 
   let state = {
     AL: { name: "Alabama", flag: "Flag_of_Alabama.svg" },
@@ -145,22 +226,18 @@ function generateHTML(data, index) {
     WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" }
   };
 
- 
-
-  if (
-    typeof status[lastBillAction.type] === "undefined" ||
-    status[lastBillAction.type] === null
-  ) {
-
-    // console.log("status[popped.type] is undefined!!!");
-    billStatus = status["null"]
-  } else {
-
-    billStatus = status[lastBillAction.type]
-  }
+  // if (
+  //   typeof status[lastBillAction.type] === "undefined" ||
+  //   status[lastBillAction.type] === null
+  // ) {
+  //   // console.log("status[popped.type] is undefined!!!");
+  //   billStatus = status["null"];
+  // } else {
+  //   billStatus = status[lastBillAction.type];
+  // }
   //  console.log("(data.state) = ", (data.state))
-  stateData = state[(data.state).toUpperCase()];
 
+  // stateData = state[data.state.toUpperCase()];
 
   return `
   <div class="div1 container ">
@@ -170,7 +247,7 @@ function generateHTML(data, index) {
                     <div class="pt3 f3-m fw5 white">                       
                     <h3 class="f3 f3-m measure-narrow lh-title mv0">
                         <span class=" lh-copy white pa1 tracked-tight">
-                        ${stateData.name} - ${data.bill_id}</span>
+                        {stateData.name} - ${data.bill_id}</span>
                     </h3>
                     </div>
 
@@ -183,23 +260,41 @@ function generateHTML(data, index) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action:<span class= "lh-copy gray o-80 pa1 tracked-tight">${lastBillAction.action} <span  class="light-purple"> ${formatDate(lastBillAction.date)} </span>  </span></div>
+                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action:<span class= "lh-copy gray o-80 pa1 tracked-tight">{
+                                      lastBillAction.action
+                                    } <span  class="light-purple"> {formatDate(
+    lastBillAction.date
+  )} </span>  </span></div>
                                     <div>
                                     <div class="pt3  f3-m fw5 white">
                                             
                                     <h3 class="f3 f3-m measure-narrow lh-title mv0">
-                                        <span class="${billStatus.color} lh-copy black pa1 tracked-tight">
-                                         ${billStatus.name} 
+                                        <span class="{
+                                          billStatus.color
+                                        } lh-copy black pa1 tracked-tight">
+                                         {billStatus.name} 
                                         </span>
                                       </h3>
                                 </div>
                                         <div class="pt2 w-100 dt dt--fixed">
                                    
-                                            <div class="dtc h1 white ${data.action_dates.first.length > 0 ? "bg-blue" : "bg-light-gray"} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white {
+                                              data.action_dates.first.length > 0
+                                                ? "bg-blue"
+                                                : "bg-light-gray"
+                                            } br1 br--left tc" style="width: 50%">
                                                 <small>Introduced</small></div>
-                                            <div class="dtc h1 white ${billPassedHouse = Object.entries(billPassedHouse).length === 0 ? "bg-light-gray" : "bg-blue"} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white {(billPassedHouse =
+                                              Object.entries(billPassedHouse)
+                                                .length === 0
+                                                ? "bg-light-gray"
+                                                : "bg-blue")} br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
-                                            <div class="dtc h1 white ${billPassedSenate = Object.entries(billPassedSenate).length === 0 ? "bg-light-gray" : "bg-blue"} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white {(billPassedSenate =
+                                              Object.entries(billPassedSenate)
+                                                .length === 0
+                                                ? "bg-light-gray"
+                                                : "bg-blue")} br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
                                             <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
                                                 <small>Gov</small></div>
@@ -233,21 +328,19 @@ function generateHTML(data, index) {
                     <div class="flex items-center lh-copy pa3 s ph0-l bb b--black-10">
 
                    
-                    <img class="pl3 w2 h2 w3-ns h3-ns br-100" src="./img/state_flags/${
-                      stateData.flag
-                    }" />
+                    <img class="pl3 w2 h2 w3-ns h3-ns br-100" src="./img/state_flags/Flag_of_Iowa.svg" />
                     <div class="pl3 flex-auto">
                       <span class="f6 db black-70">Bill created on ${(data.created_at =
                         data.created_at !== null
                           ? formatDate(data.created_at)
                           : "No data available")}</span>
-                      <span class="f6 db black-70">${
+                      <span class="f6 db black-70">{
                         data.sponsors.length
                       } bill sponsors</span>
                     </div>
                     <div>
-                    <a href="${
-                      data.sources[0].url 
+                    <a href="{
+                      data.sources[0].url
                     }" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
                     </div>
                     </div>
@@ -258,33 +351,62 @@ function generateHTML(data, index) {
 
 
 
- fetch("https://paidleavetracker.herokuapp.com/track", {
-//  fetch("http://localhost:8887/track", {
-// fetch("http://localhost:9000/index", {
-//fetch('/.netlify/functions/index', {
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "application/json"
+
+const loadBills = async () => {
+  try {
+      const res = await fetch('http://localhost:8887/track');
+      fetchedBills = await res.json();
+      displayBills(fetchedBills);
+  } catch (err) {
+      console.error(err);
   }
-})
-  .then(r => r.json())
-  .then(json => {
-// console.log("JSON ",json)
-    var html = json
-      .map((currElement, index) => {
-        return (html = generateHTML(currElement, index));
+};
+
+
+const displayBills = (bills) => {
+   html = bills
+      .map((bills) => {
+          return html = generateHTML(bills);;
       })
-      .join(" ");
+      .join('');
+  gallery.innerHTML = html;
+};
 
-    // console.log("OUTSIDE", html)
-    gallery.innerHTML = html;
-  });
 
-  function formatDate(input) {
-    var date = new Date(input);
-    return [
-       ("0" + date.getDate()).slice(-2),
-       ("0" + (date.getMonth()+1)).slice(-2),
-       date.getFullYear()
-    ].join('/');
+// //  fetch("https://paidleavetracker.herokuapp.com/track", {
+// fetch("http://localhost:8887/track", {
+//   // fetch("http://localhost:9000/index", {
+//   //fetch('/.netlify/functions/index', {
+//   headers: {
+//     "Content-Type": "application/json",
+//     Accept: "application/json"
+//   }
+// })
+//   .then(r => r.json())
+//   .then(json => {
+//     fetchedBills = json;
+
+//     var html = fetchedBills
+//       .map((currElement, index) => {
+//         return (html = generateHTML(currElement, index));
+//       })
+//       .join(" ");
+
+
+//     gallery.innerHTML = html;
+//   });
+
+
+
+loadBills();
+
+function formatDate(input) {
+  var date = new Date(input);
+  return [
+    ("0" + date.getDate()).slice(-2),
+    ("0" + (date.getMonth() + 1)).slice(-2),
+    date.getFullYear()
+  ].join("/");
 }
+
+
