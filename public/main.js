@@ -258,8 +258,8 @@ function generateHTML(data, index) {
 
 
 
-//  fetch("https://paidleavetracker.herokuapp.com/track", {
- fetch("http://localhost:8887/track", {
+ fetch("https://paidleavetracker.herokuapp.com/track", {
+//  fetch("http://localhost:8887/track", {
 // fetch("http://localhost:9000/index", {
 //fetch('/.netlify/functions/index', {
   headers: {
