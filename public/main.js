@@ -10,24 +10,29 @@ function generateHTML(data, index) {
   // const arrayLength = data.bill.history.length;
   let billHistory = "";
   let billStaus = 0;
-  // console.log("bill_id ", data.bill_id)
+  console.log("bill_id ", data.bill_id)
 //  console.log("data.actions!!!!", data.actions.filter(d => d.type.every(x => x.type === 'bill:passed')))
   let lastBillAction = data.actions.pop();
   let firstBillAction = data.actions.shift();
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
  
   // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
+  // let billPassedHouse =  data.actions.every(x => Object.entries(x.type).forEach(([key, val]) => val.find(c => type.includes('bill:passed')))) 
   // let billPassedHouse =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed' )) && x.actor==='lower')
 
-  let billPassedHouse =  data.actions.filter(x =>  Object.values(x.type).includes("bill:passed"))
+  // let billPassedHouse =  data.actions.filter(x =>  Object.values(x.type).every(c=> c=== "bill:passed"))
+  // let billPassedHouse =  data.actions.filter(x =>  Object.entries(x.type).forEach(([key, val]) =>  val === "test"))
+  let billPassedHouse =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed'))  && x.actor==='lower')
   let billPassedSenate =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed'))  && x.actor==='upper')
  
+  // Object.entries(myObj).forEach(([key, val]) => console.log(key, val));
 // let r = data.filter(d => d.courses.every(c => courses.includes(c.id)));
 // let test = data.actions.filter(d => d.type.every(c => type.includes('bill:passed')));
    
   //  console.log("billPassed.actor", data.actions.type[0] )
    console.log("bill_id ", data.bill_id)
-   console.log("TESTING", billPassedHouse)
+   console.log("TESTING", billPassedSenate )
+   console.log("HAS Value", Object.values(billPassedSenate).includes("bill:passed") )
   //  console.log("billPassed Senate ", billPassedSenate)
   //  console.log("billPassed House ", Object.entries(billPassedHouse).length === 0)
    
