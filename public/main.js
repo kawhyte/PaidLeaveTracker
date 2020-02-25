@@ -28,7 +28,7 @@ function generateHTML(data) {
   let billHistory = "";
   let billStaus = 0;
 
-  // let lastBillAction = data.actions.pop();
+   let lastBillAction = data.actions.pop();
   // let firstBillAction = data.actions.shift();
 
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
@@ -225,15 +225,15 @@ function generateHTML(data) {
     WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" }
   };
 
-  // if (
-  //   typeof status[lastBillAction.type] === "undefined" ||
-  //   status[lastBillAction.type] === null
-  // ) {
-  //   // console.log("status[popped.type] is undefined!!!");
-  //   billStatus = status["null"];
-  // } else {
-  //   billStatus = status[lastBillAction.type];
-  // }
+  if (
+    typeof status[lastBillAction.type] === "undefined" ||
+    status[lastBillAction.type] === null
+  ) {
+    // console.log("status[popped.type] is undefined!!!");
+    billStatus = status["null"];
+  } else {
+    billStatus = status[lastBillAction.type];
+  }
   //  console.log("(data.state) = ", (data.state))
 
   stateData = state[data.state.toUpperCase()];
@@ -259,25 +259,25 @@ function generateHTML(data) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action:<span class= "lh-copy gray o-80 pa1 tracked-tight">{
+                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action:<span class= "lh-copy gray o-80 pa1 tracked-tight">${
                                       lastBillAction.action
-                                    } <span  class="light-purple"> {formatDate(
+                                    } <span  class="light-purple"> ${formatDate(
     lastBillAction.date
   )} </span>  </span></div>
                                     <div>
                                     <div class="pt3  f3-m fw5 white">
                                             
                                     <h3 class="f3 f3-m measure-narrow lh-title mv0">
-                                        <span class="{
+                                        <span class="${
                                           billStatus.color
                                         } lh-copy black pa1 tracked-tight">
-                                         {billStatus.name} 
+                                         ${billStatus.name} 
                                         </span>
                                       </h3>
                                 </div>
                                         <div class="pt2 w-100 dt dt--fixed">
                                    
-                                            <div class="dtc h1 white {
+                                            <div class="dtc h1 white ${
                                               data.action_dates.first.length > 0
                                                 ? "bg-blue"
                                                 : "bg-light-gray"
@@ -335,9 +335,9 @@ function generateHTML(data) {
                         data.created_at !== null
                           ? formatDate(data.created_at)
                           : "No data available")}</span>
-                      <span class="f6 db black-70">{
+                      <span class="f6 db black-70">${
                         data.sponsors.length
-                      } bill sponsors</span>
+                      } ${data.sponsors.length > 1 ?  "bill sponsors" : "bill sponsor" }</span>
                     </div>
                     <div>
                     <a href="{
