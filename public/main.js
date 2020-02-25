@@ -7,65 +7,37 @@ const gallery = document.querySelector(".lg-gallery");
 let tempArray = [];
 let fetchedBills = [];
 let html = "";
+let passedSenate= false
+let passedHouse= false
 
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
   // console.log(searchString);
- 
+
   const filteredBills = fetchedBills.filter(bill => {
     return (
       bill.state.toLowerCase().includes(searchString) ||
       bill.bill_id.toLowerCase().includes(searchString)
     );
   });
-  console.log("✊Filtered ", filteredBills);
+  // console.log("✊Filtered ", filteredBills);
   displayBills(filteredBills);
 });
 
 function generateHTML(data) {
-  // console.log("👯‍♂️Data ", data);
-  // const arrayLength = data.bill.history.length;
   let billHistory = "";
   let billStaus = 0;
 
-   let lastBillAction = data.actions.pop();
-  // let firstBillAction = data.actions.shift();
 
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
 
-  // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
-  // let billPassedHouse =  data.actions.every(x => Object.entries(x.type).forEach(([key, val]) => val.find(c => type.includes('bill:passed'))))
-  // let billPassedHouse =  data.actions.filter(x => x.type.every(y => y.includes( 'bill:passed' )) && x.actor==='lower')
+  let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
+  let billPassedSenate =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='upper')
+  
+  console.log("🧪 billPassedHouse",data.bill_id, billPassedHouse);
+  console.log("👨‍🎤 billPassedSenate",data.bill_id, billPassedSenate);
 
-  // let billPassedHouse =  data.actions.filter(x =>  Object.values(x.type).every(c=> c=== "bill:passed"))
-  // let billPassedHouse =  data.actions.filter(x =>  Object.entries(x.type).forEach(([key, val]) =>  val === "test"))
-
-  // let billPassedHouse = data.actions.filter(
-  //   x => x.type.every(y => y.includes("bill:passed")) && x.actor === "lower"
-  // );
-  // let billPassedSenate = data.actions.filter(
-  //   x => x.type.every(y => y.includes("bill:passed")) && x.actor === "upper"
-  // );
-
-  // Object.entries(myObj).forEach(([key, val]) => console.log(key, val));
-  // let r = data.filter(d => d.courses.every(c => courses.includes(c.id)));
-  // let test = data.actions.filter(d => d.type.every(c => type.includes('bill:passed')));
-
-  //  console.log("billPassed.actor", data.actions.type[0] )
-  //  console.log("bill_id 🧢", data.bill_id)
-  //  console.log("TESTING 🧪", billPassedSenate )
-  //  console.log("HAS Value 🙈", Object.values(billPassedSenate).includes("bill:passed") )
-
-  //debugger;
-  //  console.log("billPassed Senate ", billPassedSenate)
-  //  console.log("billPassed House ", Object.entries(billPassedHouse).length === 0)
-
-  // console.log("firstBillAction", data.action_dates.first.length)
-  // console.log("popped", popped)
-
-  // if (arrayLength > 0) {
-  //   billHistory = data.bill.history[arrayLength - 1];
-
+  
   let skyGradient = {
     1: "url('./img/pencils.jpg') no-repeat center",
     2: "url('./img/triangles.png') no-repeat center",
@@ -225,6 +197,10 @@ function generateHTML(data) {
     WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" }
   };
 
+  // let lastBillAction = data.actions.pop();
+  let lastBillAction = data.actions[data.actions.length - 1];
+  // console.log(lastBillAction)
+
   if (
     typeof status[lastBillAction.type] === "undefined" ||
     status[lastBillAction.type] === null
@@ -237,6 +213,7 @@ function generateHTML(data) {
   //  console.log("(data.state) = ", (data.state))
 
   stateData = state[data.state.toUpperCase()];
+   console.log( "DATE ",formatDate(data.created_at))
 
   return `
   <div class="div1 container ">
@@ -259,7 +236,7 @@ function generateHTML(data) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Latest Action:<span class= "lh-copy gray o-80 pa1 tracked-tight">${
+                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Updated on :<span class= "lh-copy gray o-80 pa1 tracked-tight">${
                                       lastBillAction.action
                                     } <span  class="light-purple"> ${formatDate(
     lastBillAction.date
@@ -283,26 +260,18 @@ function generateHTML(data) {
                                                 : "bg-light-gray"
                                             } br1 br--left tc" style="width: 50%">
                                                 <small>Introduced</small></div>
-                                            <div class="dtc h1 white {(billPassedHouse =
-                                              Object.entries(billPassedHouse)
-                                                .length === 0
-                                                ? "bg-light-gray"
-                                                : "bg-blue")} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white ${(billPassedHouse.length >  0 ?
+                                                 "bg-blue"
+                                                : "bg-light-gray")} br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
-                                            <div class="dtc h1 white {(billPassedSenate =
-                                              Object.entries(billPassedSenate)
-                                                .length === 0
-                                                ? "bg-light-gray"
-                                                : "bg-blue")} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white ${(billPassedSenate > 0 ? "bg-blue"
+                                                : "bg-light-gray")} br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
                                             <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                        <div class="pt2 o-80 measure-narrow  truncate"><small>Updated on ${(data.updated_at =
-                                          data.updated_at !== null
-                                            ? formatDate(data.updated_at)
-                                            : "No data available")} </small></div>
+                                 
                                        
                                     </div>
 
@@ -335,9 +304,9 @@ function generateHTML(data) {
                         data.created_at !== null
                           ? formatDate(data.created_at)
                           : "No data available")}</span>
-                      <span class="f6 db black-70">${
-                        data.sponsors.length
-                      } ${data.sponsors.length > 1 ?  "bill sponsors" : "bill sponsor" }</span>
+                      <span class="f6 db black-70">${data.sponsors.length} ${
+    data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"
+  }</span>
                     </div>
                     <div>
                     <a href="{
@@ -352,17 +321,19 @@ function generateHTML(data) {
 
 const loadBills = () => {
   try {
-    const res = fetch("./test.json", {
+    // const res = fetch("./test.json", {
+    const res = fetch("http://localhost:8887/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
       }
-    }).then(r => r.json())
-    .then(json => { console.log(json)
-    fetchedBills = json;
-    displayBills(fetchedBills);
-  })
-    
+    })
+      .then(r => r.json())
+      .then(json => {
+        // console.log(json)
+        fetchedBills = json;
+        displayBills(fetchedBills);
+      });
   } catch (err) {
     console.error(err);
   }
