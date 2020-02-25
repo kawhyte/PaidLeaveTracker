@@ -6,14 +6,16 @@ const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let tempArray = [];
 let fetchedBills = [];
-let html = ''
+let html = "";
 
 searchBar.addEventListener("keyup", e => {
-  const searchString = e.target.value.toLowerCase();
-  console.log(searchString)
-  const filteredBills = fetchedBills.filter((bill) => {
+  const searchString = e.target.value.toLowerCase().trim();
+  // console.log(searchString);
+ 
+  const filteredBills = fetchedBills.filter(bill => {
     return (
-      bill.title.toLowerCase().includes(searchString) || bill.bill_id.toLowerCase().includes(searchString)
+      bill.state.toLowerCase().includes(searchString) ||
+      bill.bill_id.toLowerCase().includes(searchString)
     );
   });
   console.log("✊Filtered ", filteredBills);
@@ -21,15 +23,13 @@ searchBar.addEventListener("keyup", e => {
 });
 
 function generateHTML(data) {
-
-  // console.log("👯‍♂️Data ", data)
+  // console.log("👯‍♂️Data ", data);
   // const arrayLength = data.bill.history.length;
   let billHistory = "";
   let billStaus = 0;
 
   // let lastBillAction = data.actions.pop();
   // let firstBillAction = data.actions.shift();
-
 
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
 
@@ -39,8 +39,7 @@ function generateHTML(data) {
 
   // let billPassedHouse =  data.actions.filter(x =>  Object.values(x.type).every(c=> c=== "bill:passed"))
   // let billPassedHouse =  data.actions.filter(x =>  Object.entries(x.type).forEach(([key, val]) =>  val === "test"))
-  
-  
+
   // let billPassedHouse = data.actions.filter(
   //   x => x.type.every(y => y.includes("bill:passed")) && x.actor === "lower"
   // );
@@ -237,7 +236,7 @@ function generateHTML(data) {
   // }
   //  console.log("(data.state) = ", (data.state))
 
-  // stateData = state[data.state.toUpperCase()];
+  stateData = state[data.state.toUpperCase()];
 
   return `
   <div class="div1 container ">
@@ -247,7 +246,7 @@ function generateHTML(data) {
                     <div class="pt3 f3-m fw5 white">                       
                     <h3 class="f3 f3-m measure-narrow lh-title mv0">
                         <span class=" lh-copy white pa1 tracked-tight">
-                        {stateData.name} - ${data.bill_id}</span>
+                        ${stateData.name} - ${data.bill_id}</span>
                     </h3>
                     </div>
 
@@ -328,7 +327,9 @@ function generateHTML(data) {
                     <div class="flex items-center lh-copy pa3 s ph0-l bb b--black-10">
 
                    
-                    <img class="pl3 w2 h2 w3-ns h3-ns br-100" src="./img/state_flags/Flag_of_Iowa.svg" />
+                    <img class="pl3 w2 h2 w3-ns h3-ns br-100" src="./img/state_flags/${
+                      stateData.flag
+                    }" />
                     <div class="pl3 flex-auto">
                       <span class="f6 db black-70">Bill created on ${(data.created_at =
                         data.created_at !== null
@@ -349,29 +350,32 @@ function generateHTML(data) {
   `;
 }
 
-
-
-
-const loadBills = async () => {
+const loadBills = () => {
   try {
-      const res = await fetch('http://localhost:8887/track');
-      fetchedBills = await res.json();
-      displayBills(fetchedBills);
+    const res = fetch("./test.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      }
+    }).then(r => r.json())
+    .then(json => { console.log(json)
+    fetchedBills = json;
+    displayBills(fetchedBills);
+  })
+    
   } catch (err) {
-      console.error(err);
+    console.error(err);
   }
 };
 
-
-const displayBills = (bills) => {
-   html = bills
-      .map((bills) => {
-          return html = generateHTML(bills);;
-      })
-      .join('');
+const displayBills = bills => {
+  html = bills
+    .map(bills => {
+      return (html = generateHTML(bills));
+    })
+    .join("");
   gallery.innerHTML = html;
 };
-
 
 // //  fetch("https://paidleavetracker.herokuapp.com/track", {
 // fetch("http://localhost:8887/track", {
@@ -392,11 +396,8 @@ const displayBills = (bills) => {
 //       })
 //       .join(" ");
 
-
 //     gallery.innerHTML = html;
 //   });
-
-
 
 loadBills();
 
@@ -408,5 +409,3 @@ function formatDate(input) {
     date.getFullYear()
   ].join("/");
 }
-
-

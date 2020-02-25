@@ -1,10 +1,9 @@
-
 [
     {
         "title": "Concerning paid family and medical leave.",
         "summary": "",
         "created_at": "2020-01-17 13:07:08",
-        "updated_at": "2020-02-20 10:59:00",
+        "updated_at": "2020-02-24 10:59:53",
         "id": "",
         "all_ids": [
             ""
@@ -186,15 +185,15 @@
                 "actor": "lower"
             },
             {
-                "date": "2020-02-25T17:00:00+00:00",
-                "action": "Scheduled for public hearing in the Senate Committee on Labor & Commerce at 12:00 PM",
+                "date": "2020-02-20T13:30:00+00:00",
+                "action": "Scheduled for public hearing in the Senate Committee on Labor & Commerce at 08:30 AM",
                 "type": [],
                 "related_entities": [],
                 "actor": "upper"
             },
             {
-                "date": "2020-02-20T13:30:00+00:00",
-                "action": "Scheduled for public hearing in the Senate Committee on Labor & Commerce at 08:30 AM",
+                "date": "2020-02-25T17:00:00+00:00",
+                "action": "Scheduled for public hearing in the Senate Committee on Labor & Commerce at 12:00 PM",
                 "type": [],
                 "related_entities": [],
                 "actor": "upper"
@@ -287,10 +286,10 @@
             "signed": null
         },
         "scraped_subjects": [
-            "EMPLOYMENT SECURITY DEPARTMENT",
             "EMPLOYMENT AND EMPLOYEES",
+            "DOMESTIC RELATIONS",
             "LABOR",
-            "DOMESTIC RELATIONS"
+            "EMPLOYMENT SECURITY DEPARTMENT"
         ],
         "alternate_bill_ids": [],
         "subjects": [],
@@ -300,7 +299,7 @@
         "title": "Recognizing 2019 Oregon Women of Achievement.",
         "summary": "Recognizes 2019 Oregon Women of Achievement for outstanding leadership and service to people of Oregon.",
         "created_at": "2020-02-04 08:02:01",
-        "updated_at": "2020-02-20 05:02:46",
+        "updated_at": "2020-02-22 05:02:52",
         "id": "",
         "all_ids": [
             ""
@@ -400,6 +399,22 @@
                 "type": [],
                 "related_entities": [],
                 "actor": "lower"
+            },
+            {
+                "date": "2020-02-20T23:43:34+00:00",
+                "action": "Recommendation: Be adopted.",
+                "type": [],
+                "related_entities": [],
+                "actor": "lower"
+            },
+            {
+                "date": "2020-02-21T21:41:21+00:00",
+                "action": "Read. Carried by Schouten. Adopted.",
+                "type": [
+                    "bill:passed"
+                ],
+                "related_entities": [],
+                "actor": "lower"
             }
         ],
         "sources": [
@@ -497,6 +512,31 @@
                 "leg_id": null,
                 "type": "cosponsor",
                 "name": "Pam Marsh"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Janeen Sollman"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Anna Williams"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Courtney Neron"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Alissa Keny-Guyer"
+            },
+            {
+                "leg_id": null,
+                "type": "cosponsor",
+                "name": "Jeff Reardon"
             }
         ],
         "versions": [
@@ -512,7 +552,7 @@
         "votes": null,
         "action_dates": {
             "first": "2020-01-27T17:16:24+00:00",
-            "last": "2020-02-19T16:32:00+00:00",
+            "last": "2020-02-21T21:41:21+00:00",
             "passed_upper": null,
             "passed_lower": null,
             "signed": null
@@ -1269,7 +1309,7 @@
         "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
         "summary": "",
         "created_at": "2020-02-15 09:20:52",
-        "updated_at": "2020-02-20 10:21:13",
+        "updated_at": "2020-02-24 09:57:26",
         "id": "",
         "all_ids": [
             ""
@@ -1353,8 +1393,8 @@
             "signed": null
         },
         "scraped_subjects": [
-            "AGENCIES, STATE",
-            "PUBLIC OFFICERS AND EMPLOYEES"
+            "PUBLIC OFFICERS AND EMPLOYEES",
+            "AGENCIES, STATE"
         ],
         "alternate_bill_ids": [],
         "subjects": [],
@@ -1536,7 +1576,7 @@
         "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
         "summary": "",
         "created_at": "2020-01-23 06:35:19",
-        "updated_at": "2020-02-20 10:31:00",
+        "updated_at": "2020-02-24 06:31:55",
         "id": "",
         "all_ids": [
             ""
@@ -1553,8 +1593,8 @@
                 "date": "2020-01-22 00:00:00",
                 "action": "Filed for introduction",
                 "type": [
-                    "bill:introduced",
-                    "bill:reading:1"
+                    "bill:reading:1",
+                    "bill:introduced"
                 ],
                 "related_entities": [],
                 "actor": "upper"
@@ -1579,8 +1619,8 @@
                 "date": "2020-01-29 00:00:00",
                 "action": "Filed for introduction",
                 "type": [
-                    "bill:introduced",
-                    "bill:reading:1"
+                    "bill:reading:1",
+                    "bill:introduced"
                 ],
                 "related_entities": [],
                 "actor": "lower"
@@ -1659,7 +1699,7 @@
         "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
         "summary": "",
         "created_at": "2020-02-03 05:52:43",
-        "updated_at": "2020-02-20 10:27:52",
+        "updated_at": "2020-02-24 06:32:01",
         "id": "",
         "all_ids": [
             ""
@@ -1676,8 +1716,8 @@
                 "date": "2020-01-22 00:00:00",
                 "action": "Filed for introduction",
                 "type": [
-                    "bill:introduced",
-                    "bill:reading:1"
+                    "bill:reading:1",
+                    "bill:introduced"
                 ],
                 "related_entities": [],
                 "actor": "upper"
@@ -1702,8 +1742,8 @@
                 "date": "2020-01-29 00:00:00",
                 "action": "Filed for introduction",
                 "type": [
-                    "bill:introduced",
-                    "bill:reading:1"
+                    "bill:reading:1",
+                    "bill:introduced"
                 ],
                 "related_entities": [],
                 "actor": "lower"
@@ -1996,7 +2036,7 @@
         "title": "Expanding accessible, affordable child care and early childhood development programs.",
         "summary": "",
         "created_at": "2020-01-17 13:08:38",
-        "updated_at": "2020-02-20 10:59:44",
+        "updated_at": "2020-02-24 11:02:24",
         "id": "",
         "all_ids": [
             ""
@@ -2376,13 +2416,13 @@
             "signed": null
         },
         "scraped_subjects": [
-            "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
-            "MINORITIES",
             "MENTAL HEALTH",
+            "CHILD CARE",
+            "DOMESTIC RELATIONS",
             "PUBLIC FUNDS AND ACCOUNTS",
             "NAMED ACTS",
-            "CHILD CARE",
-            "DOMESTIC RELATIONS"
+            "MINORITIES",
+            "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT"
         ],
         "alternate_bill_ids": [],
         "subjects": [],

@@ -31,15 +31,17 @@ app.use(express.static("public"));
 console.log("Loaded page");
 
 app.get("/track", async (req, res, next) => {
-  // console.log("FROM /Tracked ",req.body);
+   console.log("FROM /Tracked ",req.body);
   // const url = `https://api.legiscan.com/?key=${process.env.LEGISCAN}&op=getBill&id=1327109`;
-  // const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=1&per_page=20`
-  const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&search_window=session:2019`
- //const URL =`https://openstates.org/api/v1/bills/?state=dc&q=taxi`
+  const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=1&per_page=20`
+  // const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&search_window=session:2019`
+//  const URL =`https://openstates.org/api/v1/bills/?state=dc&q=taxi`
 
     axios.get(URL, { headers: {'X-API-KEY': process.env.OPENSTATES } }).then(response => {
       // If request is good...
+      console.log("💁‍♂️")
       res.json(response.data);
+
     })
     .catch((error) => {
       console.log('error:' + error);
