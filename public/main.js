@@ -10,6 +10,8 @@ let html = "";
 let passedSenate= false
 let passedHouse= false
 
+
+
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
   // console.log(searchString);
@@ -319,6 +321,9 @@ function generateHTML(data) {
   `;
 }
 
+
+
+
 const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
@@ -332,6 +337,7 @@ const loadBills = () => {
       .then(json => {
         // console.log(json)
         fetchedBills = json;
+        
         displayBills(fetchedBills);
       });
   } catch (err) {
