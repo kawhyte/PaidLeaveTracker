@@ -64,8 +64,8 @@ app.get("/track", async (req, res, next) => {
     //   console.log('error:' + error);
     // });
 
-    let citiesRef = db.collection('bills');
-    let allCities = citiesRef.get()
+    let billsRef = db.collection('bills')//.orderBy('updated_at','desc');
+    let allCities = billsRef.get()
       .then(snapshot => {
         var list = [];
         snapshot.forEach(doc => {
@@ -87,10 +87,10 @@ app.get("/track", async (req, res, next) => {
 });
 
 
-app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
+// app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
-// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-// const server_host = process.env.YOUR_HOST || '0.0.0.0';
-// app.listen(server_port, server_host, function() {
-//     console.log('Listening on port %d', server_port);
-// });
+const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+const server_host = process.env.YOUR_HOST || '0.0.0.0';
+app.listen(server_port, server_host, function() {
+    console.log('Listening on port %d', server_port);
+});
