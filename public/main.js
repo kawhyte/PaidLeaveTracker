@@ -7,10 +7,8 @@ const gallery = document.querySelector(".lg-gallery");
 let tempArray = [];
 let fetchedBills = [];
 let html = "";
-let passedSenate= false
-let passedHouse= false
-
-
+let passedSenate = false;
+let passedHouse = false;
 
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
@@ -30,29 +28,23 @@ function generateHTML(data) {
   let billHistory = "";
   let billStaus = 0;
 
-//  console.log("🧪 Bill ID: ",data.bill_id);
+  //  console.log("🧪 Bill ID: ",data.bill_id);
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
 
   // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
-  let billPassed=  data.actions.filter(house => {
-    
+  let billPassed = data.actions.filter(house => {
     let found = false;
-    house.type.forEach((element) => {
-    console.log(element)
-    if (element === 'bill:passed' || element === "governor:signed") {
-      found = true;
-    }
+    house.type.forEach(element => {
+      console.log(element);
+      if (element === "bill:passed" || element === "governor:signed") {
+        found = true;
+      }
+    });
+    return found;
   });
-  return found;
-    }
-    
-  )
-  let billPassedSenate =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='upper')
-  
-  console.log("🧪 billPassedHouse",data.bill_id, billPassed);
 
+ 
 
-  
   let skyGradient = {
     1: "url('./img/pencils.jpg') no-repeat center",
     2: "url('./img/triangles.png') no-repeat center",
@@ -101,7 +93,7 @@ function generateHTML(data) {
       color: "bg-yellow"
     },
     "governor:signed": {
-      name: "Bill has signed into law by the governor",
+      name: "Bill was signed into law by the governor",
       color: "bg-green"
     },
     "governor:vetoed": {
@@ -154,8 +146,8 @@ function generateHTML(data) {
       name: "Bill has failed to make it out of committee",
       color: "bg-red"
     },
-    other: { name: "Other - view state website", color: "bg-pink" },
-    null: { name: "Pending", color: "bg-pink" }
+
+    null: { name: "Other - view state website", color: "bg-pink" }
   };
 
   let state = {
@@ -225,7 +217,7 @@ function generateHTML(data) {
   } else {
     billStatus = status[lastBillAction.type];
   }
-  //  console.log("(data.state) = ", (data.state))
+  console.log("🧢 status", data.bill_id, lastBillAction.type);
 
   stateData = state[data.state.toUpperCase()];
   //  console.log( "DATE ",formatDate(data.created_at))
@@ -275,15 +267,38 @@ function generateHTML(data) {
                                                 : "bg-light-gray"
                                             } br1 br--left tc" style="width: 50%">
                                                 <small>Introduced</small></div>
-                                            <div class="dtc h1 white ${(billPassed.some(item => item.actor ==="lower") ?
-                                                 "bg-blue"
-                                                : "bg-light-gray")} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white ${
+                                              billPassed.some(
+                                                item => item.actor === "lower"
+                                              )
+                                                ? "bg-blue"
+                                                : "bg-light-gray"
+                                            } br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
-                                            <div class="dtc h1 white ${(billPassed.some(item => item.actor === "upper") ? "bg-blue"
-                                                : "bg-light-gray")} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white ${
+                                              billPassed.some(
+                                                item => item.actor === "upper"
+                                              )
+                                                ? "bg-blue"
+                                                : "bg-light-gray"
+                                            } br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
-                                            <div class="dtc h1 white ${(billPassed.some(item => item.actor === "executive" ) ? "bg-blue"
-                                            : "bg-light-gray")} br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white ${
+                                              billPassed.some(
+                                                item =>
+                                                  item.actor === "executive" ||
+                                                  lastBillAction.type ===
+                                                    "governor:received" ||
+                                                  lastBillAction.type ===
+                                                    "governor:signed" ||
+                                                  lastBillAction.type ===
+                                                    "governor:vetoed" ||
+                                                  lastBillAction.type ===
+                                                    "governor:vetoed:line-item"
+                                              )
+                                                ? "bg-blue"
+                                                : "bg-light-gray"
+                                            } br1 br--left tc" style="width: 50%">
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
@@ -335,15 +350,12 @@ function generateHTML(data) {
   `;
 }
 
-
-
-
 const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
-    // const res = fetch("http://localhost:8887/track", {
-    // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+    const res = fetch("http://localhost:8887/track", {
+      // const res = fetch("http://localhost:5001/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -353,7 +365,7 @@ const loadBills = () => {
       .then(json => {
         // console.log(json)
         fetchedBills = json;
-        
+
         displayBills(fetchedBills);
       });
   } catch (err) {

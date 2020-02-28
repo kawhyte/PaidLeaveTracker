@@ -6,53 +6,60 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" type="image/ico" href="/public/favicon.ico"/>
-    <title></title>
+    <title>Legislation Tracker</title>
     <meta name="description" content="">
     <meta http-equiv="Content-Security-Policy"
         content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<!-- <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script> -->
-<!-- <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script> -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
 
 </head>
 
 <body>
-    <header class="bg-white black-80 tc pv4 avenir">
-        <!-- <a href="/" class="dib pa3 w2 h2 br-100">  -->
+ 
 
-        <img id="logo" class="svg-size" src="./img/law.svg" alt="law logo">
 
-        <!-- </a>  -->
-        <h1 class="mt2 mb0 Roboto i fw1 f1"> Paid Leave Legislation Tracker </h1>
-        <a class="mt2 mb0 f6 fw4 ttu tracked link mb2 dib black" href="https://www.kennywhyte.com/">Created with ❤ by
-            Kenny</a>
-        <nav class="bt bb tc mw7 center mt4">
-            <!-- <a class="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" href="/">Home</a> -->
-            <a class="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
-                href="/lg_tracker">Legislation
-                Tracker</a>
-            <a class="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l" href="https://legislation-tweets.herokuapp.com/">Twitter
-                Mentions</a>
-            <!-- <a class="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l" href="/about">About</a> -->
-            <a class="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
-                href="https://www.kennywhyte.com/">About</a>
-        </nav>
-        <form class="pa4 black-80 ">
+    <header class="sans-serif">
+        
+        <div id="bg-hero" class="contain bg-center" style="background-image: url(./img/fam-2.svg)">
+          <div class="bg-black-0 pb5 pb6-m pb7-l">
+            <nav class="dt w-100 mw8 center"> 
+              <div class="dtc w2 v-mid pa3">
+                <a href="/" class="dib w2 h2 pa1   grow-large border-box">
+                    <!-- <img id="log" class="svg-size" src="./img/law.svg" alt="law logo"> -->
+                  <!-- <svg class="link white-90 hover-white" data-icon="skull" viewBox="0 0 32 32" style="fill:currentcolor"><title>skull icon</title><path d="M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12"></path></svg> -->
+                </a>
+              </div>
+              <div class="dtc v-mid tr pa3">
+                <a class="f6 fw4 hover-white no-underline black-70 dn dib-ns pv2 ph3" href="/" >Legislation Tracker</a> 
+                <a class="f6 fw4 hover-white no-underline black-70 dn dib-ns pv2 ph3" href="https://legislation-tweets.herokuapp.com/" >Paid Leave Twitter Mentions</a> 
+                <a class="f6 fw4 hover-white no-underline black-70 dn dib-l pv2 ph3" href="https://www.kennywhyte.com/" >About</a> 
+              </div>
+            </nav> 
+            <div class="tc-l mt4 mt5-m mt6-l ph3">
+              <h1 class="f2 f1-l fw2 black-80 mb0 lh-title">Paid Leave Legislation Tracker</h1>
+              <h2 class="fw1 f3 black-50 mt3 mb4">Track and review upcoming Family Paid Leave legislations</h2>
+             
+              <a class="f6 no-underline grow dib v-mid black-50 ba b--black-30 ph3 pv2 mb3" href="https://www.kennywhyte.com/" >Created with 🍕 by Kenny</a>
+            </div>
+          </div>
+        </div> 
+      </header>
+
+
+
+
+    <!-- <h2 id="tracked_head" class="tracked ttu f4 fw1 black-70 head-label center">Tracked #PaidLeave Le
+        accounts
+    </h2> -->
+   <form class="pa4 black-80 ">
             <div class="measure center">
-              <label for="name" class="f6 b db mb2">Search/Filter <span class="normal black-60"></span></label>
+              <label for="name" class="f6 b db mb2">Search/Filter </label>
               <input id="searchBar" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc" placeholder="Ex. HB 2644 or CA" >
               <small id="name-desc" class="f6 black-60 db mb2">by State Postal abbreviation or Bill ID</small>
             </div>
           </form>
-          
-    </header>
-    <!-- <h2 id="tracked_head" class="tracked ttu f4 fw1 black-70 head-label center">Tracked #PaidLeave Le
-        accounts
-    </h2> -->
-
 
     <div class="grid-container lg-gallery ">
 
@@ -62,33 +69,8 @@
     </div>
 
     </div>
-
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<!-- <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script> -->
-
-<!-- <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-    apiKey: "AIzaSyAiLvR8we2yOM7OdQETtgEww5erUwVGYNM",
-    authDomain: "newproject-c02d7.firebaseapp.com",
-    databaseURL: "https://newproject-c02d7.firebaseio.com",
-    projectId: "newproject-c02d7",
-    storageBucket: "newproject-c02d7.appspot.com",
-    messagingSenderId: "23215791370",
-    appId: "1:23215791370:web:f741b2f41efc5b6bb02ef3",
-    measurementId: "G-6LYG2C3T0F"
-  };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-    const db =  firebase.firestore()
-  </script> -->
  
     <script src="./main.js" ></script>
-
-
 </body>
 
 </html>
