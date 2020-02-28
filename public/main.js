@@ -147,7 +147,7 @@ function generateHTML(data) {
       color: "bg-red"
     },
 
-    null: { name: "Other - view state website", color: "bg-pink" }
+    null: { name: "Pending - View state's website", color: "bg-pink" }
   };
 
   let state = {

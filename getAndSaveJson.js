@@ -24,7 +24,7 @@ app.use(express.static("public"));
 
 
 const options = {
-  headers: {'X-API-KEY': '444b09c5-41e0-4735-bc16-38437c1e479a'}
+  headers: {'X-API-KEY': process.env.OPENSTATES}
 };
 
 console.log("Loaded cron");
