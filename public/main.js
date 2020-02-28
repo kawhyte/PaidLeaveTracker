@@ -30,14 +30,27 @@ function generateHTML(data) {
   let billHistory = "";
   let billStaus = 0;
 
-
+//  console.log("🧪 Bill ID: ",data.bill_id);
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
 
-  let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
+  // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
+  let billPassed=  data.actions.filter(house => {
+    
+    let found = false;
+    house.type.forEach((element) => {
+    console.log(element)
+    if (element === 'bill:passed' || element === "governor:signed") {
+      found = true;
+    }
+  });
+  return found;
+    }
+    
+  )
   let billPassedSenate =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='upper')
   
-  console.log("🧪 billPassedHouse",data.bill_id, billPassedHouse);
-  console.log("👨‍🎤 billPassedSenate",data.bill_id, billPassedSenate);
+  console.log("🧪 billPassedHouse",data.bill_id, billPassed);
+
 
   
   let skyGradient = {
@@ -215,7 +228,7 @@ function generateHTML(data) {
   //  console.log("(data.state) = ", (data.state))
 
   stateData = state[data.state.toUpperCase()];
-   console.log( "DATE ",formatDate(data.created_at))
+  //  console.log( "DATE ",formatDate(data.created_at))
 
   return `
   <div class="div1 container ">
@@ -262,14 +275,15 @@ function generateHTML(data) {
                                                 : "bg-light-gray"
                                             } br1 br--left tc" style="width: 50%">
                                                 <small>Introduced</small></div>
-                                            <div class="dtc h1 white ${(billPassedHouse.length >  0 ?
+                                            <div class="dtc h1 white ${(billPassed.some(item => item.actor ==="lower") ?
                                                  "bg-blue"
                                                 : "bg-light-gray")} br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
-                                            <div class="dtc h1 white ${(billPassedSenate > 0 ? "bg-blue"
+                                            <div class="dtc h1 white ${(billPassed.some(item => item.actor === "upper") ? "bg-blue"
                                                 : "bg-light-gray")} br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
-                                            <div class="dtc h1 white bg-light-gray br1 br--left tc" style="width: 50%">
+                                            <div class="dtc h1 white ${(billPassed.some(item => item.actor === "executive" ) ? "bg-blue"
+                                            : "bg-light-gray")} br1 br--left tc" style="width: 50%">
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
@@ -311,7 +325,7 @@ function generateHTML(data) {
   }</span>
                     </div>
                     <div>
-                    <a href="{
+                    <a href="${
                       data.sources[0].url
                     }" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
                     </div>
@@ -327,9 +341,9 @@ function generateHTML(data) {
 const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
-    // const res = fetch("http://localhost:8887/track", {
+    const res = fetch("http://localhost:8887/track", {
     // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
