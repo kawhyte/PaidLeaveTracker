@@ -101,21 +101,21 @@ function generateHTML(data) {
       color: "bg-red"
     },
     "governor:vetoed:line-item": {
-      name: "Governor has issued a  partial veto",
-      color: "bg-pink"
+      name: "Governor has issued a partial veto",
+      color: "bg-light-yellow"
     },
     "amendment:introduced": {
       name: "An amendment has been offered on the bill",
       color: "bg-yellow"
     },
-    "amendment:passed": { name: "The bill has been amended", color: "bg-pink" },
+    "amendment:passed": { name: "The bill has been amended", color: "bg-light-yellow" },
     "amendment:failed": {
       name: "An offered amendment has failed",
-      color: "bg-pink"
+      color: "bg-yellow"
     },
     "amendment:amended": {
       name: "An offered amendment has been amended",
-      color: "bg-pink"
+      color: "bg-yellow"
     },
     "amendment:withdrawn": {
       name: "An offered amendment has been withdrawn",
@@ -147,7 +147,7 @@ function generateHTML(data) {
       color: "bg-red"
     },
 
-    null: { name: "Pending - View state's website", color: "bg-pink" }
+    null: { name: "(Pending) View state website", color: "bg-light-yellow" }
   };
 
   let state = {
@@ -243,9 +243,9 @@ function generateHTML(data) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Updated on :<span class= "lh-copy gray o-80 pa1 tracked-tight">${
+                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Last update:<span class= "lh-copy gray o-80 pa1 tracked-tight">${
                                       lastBillAction.action
-                                    } <span  class="light-purple"> ${formatDate(
+                                    } <span  class="gray o-80"> - ${formatDate(
     lastBillAction.date
   )} </span>  </span></div>
                                     <div>
@@ -342,7 +342,7 @@ function generateHTML(data) {
                     <div>
                     <a href="${
                       data.sources[0].url
-                    }" target="_blank" class="pa3 f6 link blue hover-dark-gray">More info</a>
+                    }" target="_blank" class="pa3 f6 link blue hover-dark-gray">State website</a>
                     </div>
                     </div>
                 </div>
