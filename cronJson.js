@@ -4,6 +4,7 @@ if (process.env.NODE_ENV !== "production") {
 
 const LEGISCAN_API_KEY = process.env.LEGISCAN;
 const OPENSTATES_API_KEY = process.env.OPENSTATES;
+let cron = require('node-cron');
 const axios = require("axios");
 const fetch = require("node-fetch");
 let db = require('./db');
@@ -31,7 +32,7 @@ console.log("Loaded cron");
 
 async function runCron() {
 //app.get("/track", async (req, res, next) => {
-  // console.log("FROM /Tracked ",req.body);
+ console.log("Started Cron 🙈 ");
   // const url = `https://api.legiscan.com/?key=${process.env.LEGISCAN}&op=getBill&id=1327109`;
   // const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=1&per_page=20`
   const URL = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&search_window=session:2019`;
@@ -69,6 +70,21 @@ async function runCron() {
   console.log("cron job done");
 //});
 }
+
+getData() 
+
+function getData() {
+cron.schedule('* * * * *', () => {
+  console.log('running a cron every minute');
+
+  runCron();
+
+});
+
+}
+
+
+
 // app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
 // const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
@@ -77,4 +93,4 @@ async function runCron() {
 //     console.log('Listening on port %d', server_port);
 // });
 
-module.exports = runCron; 
+// module.exports = runCron; 
