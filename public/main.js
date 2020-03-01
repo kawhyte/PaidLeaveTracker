@@ -245,9 +245,9 @@ function generateHTML(data) {
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
                                 <div class="">
-                                    <div class="f5 fw2 gray measure-narrow o-80 mv0">Last update:<span class= "lh-copy gray o-80 pa1 tracked-tight">${
+                                    <div class="f5 fw2 black-90 measure-narrow  mv0">Last update:<span class= "lh-copy black-70  pa1 tracked-tight">${
                                       lastBillAction.action
-                                    } <span  class="gray o-80"> - ${formatDate(
+                                    } <span  class="black-70"> - ${formatDate(
     lastBillAction.date
   )} </span>  </span></div>
                                     <div>

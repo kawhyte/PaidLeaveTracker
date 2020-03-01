@@ -18,4 +18,17 @@ const jsonToFirestore = async () => {
   }
 };
 
-jsonToFirestore();
+
+
+getData() 
+
+
+function getData() {
+  cron.schedule('* * * * *', () => {
+    console.log('running Update Database cron every minute');
+  jsonToFirestore();
+   
+  
+  });
+  
+  }
