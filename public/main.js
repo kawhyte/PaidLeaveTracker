@@ -32,10 +32,13 @@ function generateHTML(data) {
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
 
   // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
+  
+  
+  
   let billPassed = data.actions.filter(house => {
     let found = false;
     house.type.forEach(element => {
-      console.log(element);
+      // console.log(element);
       if (element === "bill:passed" || element === "governor:signed") {
         found = true;
       }
@@ -43,7 +46,6 @@ function generateHTML(data) {
     return found;
   });
 
- 
 
   let skyGradient = {
     1: "url('./img/pencils.jpg') no-repeat center",
@@ -217,7 +219,7 @@ function generateHTML(data) {
   } else {
     billStatus = status[lastBillAction.type];
   }
-  console.log("🧢 status", data.bill_id, lastBillAction.type);
+  // console.log("🧢 status", data.bill_id, lastBillAction.type);
 
   stateData = state[data.state.toUpperCase()];
   //  console.log( "DATE ",formatDate(data.created_at))
@@ -353,9 +355,9 @@ function generateHTML(data) {
 const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
-    // const res = fetch("http://localhost:8887/track", {
+    const res = fetch("http://localhost:8887/track", {
       // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
