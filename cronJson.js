@@ -71,7 +71,7 @@ async function runCron() {
 //});
 }
 
-getData() 
+//getData() 
 
 function getData() {
 cron.schedule('* * * * *', () => {
@@ -82,6 +82,66 @@ cron.schedule('* * * * *', () => {
 });
 
 }
+
+
+
+const limitPerPage=50;
+let pageNo = 1
+const apiUrl=`https://openstates.org/api/v1/bills/?state=dc&q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}
+`;
+
+const getUsers = async function(pageNo = 1) {
+//  let actualUrl =  `https://openstates.org/api/v1/bills/?state=dc&q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}
+//   `;
+ let actualUrl =  `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=session:2019`;
+  //const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&search_window=session:2019`
+
+// let actualUrl=apiUrl + `?page=${pageNo}&limit=${limitPerPage}`;
+var apiResults = await fetch(actualUrl, { headers: { "X-API-KEY": process.env.OPENSTATES } })
+.then(resp=>{
+return resp.json();
+});
+
+return apiResults;
+
+}
+
+const getEntireUserList = async function(pageNo = 1) {
+
+  //setTimeout(async function() {
+    const results = await getUsers(pageNo);
+    console.log("Retreiving data from API for page : " + pageNo);
+    //your code to be executed after 1 second
+ 
+  if (results.length>0) {
+    // console.log("Result from  loop", results)
+    return results.concat(await getEntireUserList(pageNo+1));
+  } else {
+    return results;
+  }
+//}, 10000);
+
+
+};
+
+
+(async ()=>{
+
+    const entireList=await getEntireUserList();
+    console.log("Here!! ");
+    console.log("entireList ", entireList);
+
+    db.get("bills")
+    .push({
+      siteLastUpdated: Date.now(),
+      bills:entireList
+
+    })
+    .write();
+
+    console.log("SAVE cron job ");
+
+})();
 
 
 
