@@ -41,6 +41,9 @@ app.use(express.static("public"));
 
 
 let arrObj = [];
+
+const limitPerPage=50;
+let pageNo = 1
 console.log("Loaded page");
 
 
@@ -64,33 +67,64 @@ app.get("/track", async (req, res, next) => {
     //   console.log('error:' + error);
     // });
 
-    let billsRef = db.collection('bills')//.orderBy('updated_at','desc');
-    let allCities = billsRef.get()
-      .then(snapshot => {
-        var list = [];
-        snapshot.forEach(doc => {
-       // console.log("I love 🍕", doc.data())
-       list.push(doc.data());
-          // console.log(doc.id, '=>', doc.data());
-        });
+
+
+    const entireList=await getEntireUserList();
+    console.log("Here!! ");
+    res.json(entireList);
+
+
+    // let billsRef = db.collection('bills')//.orderBy('updated_at','desc');
+    // let allCities = billsRef.get()
+    //   .then(snapshot => {
+    //     var list = [];
+    //     snapshot.forEach(doc => {
+    //    // console.log("I love 🍕", doc.data())
+    //    list.push(doc.data());
+    //       // console.log(doc.id, '=>', doc.data());
+    //     });
         
-        res.json(list);
-      })
-      .catch(err => {
-        console.log('Error getting documents', err);
-      });
+    //     res.json(list);
+    //   })
+    //   .catch(err => {
+    //     console.log('Error getting documents', err);
+    //   });
+
+
+});
 
 
 
+const getUsers = async function(pageNo = 1) {
+
+   let actualUrl =  `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=session:2019&updated_since=2019-01-01`;
+
+  var apiResults = await fetch(actualUrl, { headers: { "X-API-KEY": process.env.OPENSTATES } })
+  .then(resp=>{
+  return resp.json();
+  });
   
+  return apiResults;
+  
+  }
 
-});
 
+  const getEntireUserList = async function(pageNo = 1) {
+      const results = await getUsers(pageNo);
+      console.log("Retreiving data from API for page : " + pageNo);
+   
+    if (results.length > 0) {
+      // console.log("Result from  loop", results)
+      return results.concat(await getEntireUserList(pageNo+1));
+    } else {
+      return results;
+    }
+  };
 
-// app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
+app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
-const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-const server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+// const server_host = process.env.YOUR_HOST || '0.0.0.0';
+// app.listen(server_port, server_host, function() {
+//     console.log('Listening on port %d', server_port);
+// });

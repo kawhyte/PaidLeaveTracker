@@ -30,7 +30,7 @@ const options = {
 
 console.log("Loaded cron");
 
-async function runCron() {
+async function runCron2() {
 //app.get("/track", async (req, res, next) => {
  console.log("Started Cron 🙈 ");
   // const url = `https://api.legiscan.com/?key=${process.env.LEGISCAN}&op=getBill&id=1327109`;
@@ -71,7 +71,7 @@ async function runCron() {
 //});
 }
 
-//getData() 
+getData() 
 
 function getData() {
 cron.schedule('* * * * *', () => {
@@ -113,7 +113,7 @@ const getEntireUserList = async function(pageNo = 1) {
     console.log("Retreiving data from API for page : " + pageNo);
     //your code to be executed after 1 second
  
-  if (results.length>0) {
+  if (results.length > 0) {
     // console.log("Result from  loop", results)
     return results.concat(await getEntireUserList(pageNo+1));
   } else {
@@ -124,6 +124,8 @@ const getEntireUserList = async function(pageNo = 1) {
 
 };
 
+
+async function runCron() {
 
 (async ()=>{
 
@@ -143,7 +145,7 @@ const getEntireUserList = async function(pageNo = 1) {
 
 })();
 
-
+}
 
 // app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 

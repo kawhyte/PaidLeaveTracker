@@ -32,8 +32,7 @@ function generateHTML(data) {
   //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
 
   // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
-  
-  
+
   
   let billPassed = data.actions.filter(house => {
     let found = false;
@@ -161,7 +160,7 @@ function generateHTML(data) {
     CO: { name: "Colorado", flag: "Flag_of_Colorado.svg" },
     CT: { name: "Connecticut", flag: "Flag_of_Connecticut.svg" },
     DE: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
-    DC: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
+    DC: { name: "Washington, D.C.", flag: "Flag_of_the_District_of_Columbia.svg" },
     FL: { name: "Florida", flag: "Flag_of_Florida.svg" },
     GA: { name: "Georgia", flag: "Flag_of_Georgia.svg" },
     HI: { name: "Hawaii", flag: "Flag_of_Hawaii.svg" },
@@ -355,9 +354,9 @@ function generateHTML(data) {
 const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
-    // const res = fetch("http://localhost:8887/track", {
+    const res = fetch("http://localhost:8887/track", {
       // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
