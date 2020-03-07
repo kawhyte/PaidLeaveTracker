@@ -83,7 +83,9 @@ searchBar.addEventListener("keyup", e => {
   const filteredBills = fetchedBills.filter(bill => {
     return (
       bill.state.toLowerCase().includes(searchString) ||
-      bill.bill_id.toLowerCase().includes(searchString)
+      bill.bill_id.toLowerCase().includes(searchString) ||
+      bill.bill_id.replace(/\s+/g, '').toLowerCase().includes(searchString)
+
     );
   });
   // console.log("✊Filtered ", filteredBills);
@@ -117,10 +119,6 @@ function generateHTML(data, index) {
 
   count.innerHTML =`${index+1} bills found` 
 
- 
-
-
-  
   let billPassed = data.actions.filter(house => {
     let found = false;
     house.type.forEach(element => {
@@ -252,7 +250,8 @@ function generateHTML(data, index) {
   } else {
     billStatus = status[lastBillAction.type];
   }
-  // console.log("🧢 status", data.bill_id, lastBillAction.type);
+   console.log("🧢 status", data.bill_id);
+
 
   stateData = state[data.state.toUpperCase()];
   //  console.log( "DATE ",formatDate(data.created_at))  
