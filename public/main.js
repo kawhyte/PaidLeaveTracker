@@ -1,14 +1,80 @@
 // DOM elements
 const tweet = document.getElementById("tweet");
+const count = document.getElementById("count");
+const filter_list = document.getElementById("filter-list");
+// var state_lists = document.querySelectorAll("li");
 const searchBar = document.getElementById("searchBar");
 const tracked_header = document.getElementById("tracked_head");
 const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
-let tempArray = [];
+let listArray = [];
 let fetchedBills = [];
+let fetchedStates = []
 let html = "";
+let list = "";
 let passedSenate = false;
 let passedHouse = false;
+
+
+
+const state = {
+  AL: { name: "Alabama", flag: "Flag_of_Alabama.svg" },
+  AK: { name: "Alaska", flag: "Flag_of_Alaska.svg" },
+  AZ: { name: "Arizona", flag: "Flag_of_Arizona.svg" },
+  AR: { name: "Arkansas", flag: "Flag_of_Arkansas.svg" },
+  CA: { name: "California", flag: "Flag_of_California.svg" },
+  CO: { name: "Colorado", flag: "Flag_of_Colorado.svg" },
+  CT: { name: "Connecticut", flag: "Flag_of_Connecticut.svg" },
+  DE: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
+  DC: { name: "Washington, D.C.", flag: "Flag_of_the_District_of_Columbia.svg" },
+  FL: { name: "Florida", flag: "Flag_of_Florida.svg" },
+  GA: { name: "Georgia", flag: "Flag_of_Georgia.svg" },
+  HI: { name: "Hawaii", flag: "Flag_of_Hawaii.svg" },
+  ID: { name: "Idaho", flag: "Flag_of_Idaho.svg" },
+  IL: { name: "Illinois", flag: "Flag_of_Illinois.svg" },
+  IN: { name: "Indiana", flag: "Flag_of_Illinois.svg" },
+  IA: { name: "Iowa", flag: "Flag_of_Iowa.svg" },
+  KS: { name: "Kansas", flag: "Flag_of_Kansas.svg" },
+  KY: { name: "Kentucky", flag: "Flag_of_Kentucky.svg" },
+  LA: { name: "Louisiana", flag: "Flag_of_Louisiana.svg" },
+  ME: { name: "Maine", flag: "Flag_of_Maine.svg" },
+  MD: { name: "Maryland", flag: "Flag_of_Maryland.svg" },
+  MA: { name: "Massachusetts", flag: "Flag_of_Massachusetts.svg" },
+  MI: { name: "Michigan", flag: "Flag_of_Michigan.svg" },
+  MN: { name: "Minnesota", flag: "Flag_of_Minnesota.svg" },
+  MS: { name: "Mississippi", flag: "Flag_of_Mississippi.svg" },
+  MO: { name: "Missouri", flag: "Flag_of_Missouri.svg" },
+  MT: { name: "Montana", flag: "Flag_of_Montana.svg" },
+  NE: { name: "Nebraska", flag: "Flag_of_Nebraska.svg" },
+  NV: { name: "Nevada", flag: "Flag_of_Nevada.svg" },
+  NH: { name: "New Hampshire", flag: "Flag_of_New_Hampshire.svg" },
+  NJ: { name: "New Jersey", flag: "Flag_of_New_Jersey.svg" },
+  NM: { name: "New Mexico", flag: "Flag_of_New_Mexico.svg" },
+  NY: { name: "New York", flag: "Flag_of_New_York.svg" },
+  NC: { name: "North Carolina", flag: "Flag_of_North_Carolina.svg" },
+  ND: { name: "North Dakota", flag: "Flag_of_North_Dakota.svg" },
+  OH: { name: "Ohio", flag: "Flag_of_Ohio.svg" },
+  OK: { name: "Oklahoma", flag: "Flag_of_Oklahoma.svg" },
+  OR: { name: "Oregon", flag: "Flag_of_Oregon.svg" },
+  PA: { name: "Pennsylvania", flag: "Flag_of_Pennsylvania.svg" },
+  RI: { name: "Rhode Island", flag: "Rhode_Island.svg" },
+  SC: { name: "South Carolina", flag: "Flag_of_South_Carolina.svg" },
+  SD: { name: "South Dakota", flag: "Flag_of_South_Dakota.svg" },
+  TN: { name: "Tennessee", flag: "Flag_of_Tennessee.svg" },
+  TX: { name: "Texas", flag: "Flag_of_Texas.svg" },
+  UT: { name: "Utah", flag: "Flag_of_Utah.svg" },
+  VT: { name: "Vermont", flag: "Flag_of_Vermont.svg" },
+  VA: { name: "Virginia", flag: "Flag_of_Virginia.svg" },
+  WA: { name: "Washington", flag: "Flag_of_Washington.svg" },
+  WV: { name: "West Virginia", flag: "Flag_of_West_Virginia.svg" },
+  WI: { name: "Wisconsin", flag: "Flag_of_Wisconsin.svg" },
+  WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" }
+};
+
+
+
+
+
 
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
@@ -24,14 +90,35 @@ searchBar.addEventListener("keyup", e => {
   displayBills(filteredBills);
 });
 
-function generateHTML(data) {
-  let billHistory = "";
-  let billStaus = 0;
 
-  //  console.log("🧪 Bill ID: ",data.bill_id);
-  //let billPassedSenate =  data.actions.filter(x => x.type.find(y => y === 'bill:passed')  && x.actor==='upper')
+document.getElementById("filter-list").addEventListener("click",function(e) {
 
-  // let billPassedHouse =  data.actions.filter(x => x.type[0] === 'bill:passed' && x.actor==='lower')
+  if (e.target && e.target.matches("a.item")) {
+     console.log("EE ", e)// new class name here
+     console.log("EE ", e.target.dataset.parent)// new class name here
+
+     const searchItem = e.target.dataset.parent.toLowerCase().trim();
+
+     const filteredItems = fetchedBills.filter(bill => {
+      return (
+        bill.state.toLowerCase().includes(searchItem) 
+        
+      );
+    });
+
+    console.log("📽️ Filtered ", filteredItems)
+    displayBills(filteredItems);
+    }
+});
+
+
+function generateHTML(data, index) {
+
+
+  count.innerHTML =`${index+1} bills found` 
+
+ 
+
 
   
   let billPassed = data.actions.filter(house => {
@@ -151,60 +238,7 @@ function generateHTML(data) {
     null: { name: "(Pending) View state website", color: "bg-light-yellow" }
   };
 
-  let state = {
-    AL: { name: "Alabama", flag: "Flag_of_Alabama.svg" },
-    AK: { name: "Alaska", flag: "Flag_of_Alaska.svg" },
-    AZ: { name: "Arizona", flag: "Flag_of_Arizona.svg" },
-    AR: { name: "Arkansas", flag: "Flag_of_Arkansas.svg" },
-    CA: { name: "California", flag: "Flag_of_California.svg" },
-    CO: { name: "Colorado", flag: "Flag_of_Colorado.svg" },
-    CT: { name: "Connecticut", flag: "Flag_of_Connecticut.svg" },
-    DE: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
-    DC: { name: "Washington, D.C.", flag: "Flag_of_the_District_of_Columbia.svg" },
-    FL: { name: "Florida", flag: "Flag_of_Florida.svg" },
-    GA: { name: "Georgia", flag: "Flag_of_Georgia.svg" },
-    HI: { name: "Hawaii", flag: "Flag_of_Hawaii.svg" },
-    ID: { name: "Idaho", flag: "Flag_of_Idaho.svg" },
-    IL: { name: "Illinois", flag: "Flag_of_Illinois.svg" },
-    IN: { name: "Indiana", flag: "Flag_of_Illinois.svg" },
-    IA: { name: "Iowa", flag: "Flag_of_Iowa.svg" },
-    KS: { name: "Kansas", flag: "Flag_of_Kansas.svg" },
-    KY: { name: "Kentucky", flag: "Flag_of_Kentucky.svg" },
-    LA: { name: "Louisiana", flag: "Flag_of_Louisiana.svg" },
-    ME: { name: "Maine", flag: "Flag_of_Maine.svg" },
-    MD: { name: "Maryland", flag: "Flag_of_Maryland.svg" },
-    MA: { name: "Massachusetts", flag: "Flag_of_Massachusetts.svg" },
-    MI: { name: "Michigan", flag: "Flag_of_Michigan.svg" },
-    MN: { name: "Minnesota", flag: "Flag_of_Minnesota.svg" },
-    MS: { name: "Mississippi", flag: "Flag_of_Mississippi.svg" },
-    MO: { name: "Missouri", flag: "Flag_of_Missouri.svg" },
-    MT: { name: "Montana", flag: "Flag_of_Montana.svg" },
-    NE: { name: "Nebraska", flag: "Flag_of_Nebraska.svg" },
-    NV: { name: "Nevada", flag: "Flag_of_Nevada.svg" },
-    NH: { name: "New Hampshire", flag: "Flag_of_New_Hampshire.svg" },
-    NJ: { name: "New Jersey", flag: "Flag_of_New_Jersey.svg" },
-    NM: { name: "New Mexico", flag: "Flag_of_New_Mexico.svg" },
-    NY: { name: "New York", flag: "Flag_of_New_York.svg" },
-    NC: { name: "North Carolina", flag: "Flag_of_North_Carolina.svg" },
-    ND: { name: "North Dakota", flag: "Flag_of_North_Dakota.svg" },
-    OH: { name: "Ohio", flag: "Flag_of_Ohio.svg" },
-    OK: { name: "Oklahoma", flag: "Flag_of_Oklahoma.svg" },
-    OR: { name: "Oregon", flag: "Flag_of_Oregon.svg" },
-    PA: { name: "Pennsylvania", flag: "Flag_of_Pennsylvania.svg" },
-    RI: { name: "Rhode Island", flag: "Rhode_Island.svg" },
-    SC: { name: "South Carolina", flag: "Flag_of_South_Carolina.svg" },
-    SD: { name: "South Dakota", flag: "Flag_of_South_Dakota.svg" },
-    TN: { name: "Tennessee", flag: "Flag_of_Tennessee.svg" },
-    TX: { name: "Texas", flag: "Flag_of_Texas.svg" },
-    UT: { name: "Utah", flag: "Flag_of_Utah.svg" },
-    VT: { name: "Vermont", flag: "Flag_of_Vermont.svg" },
-    VA: { name: "Virginia", flag: "Flag_of_Virginia.svg" },
-    WA: { name: "Washington", flag: "Flag_of_Washington.svg" },
-    WV: { name: "West Virginia", flag: "Flag_of_West_Virginia.svg" },
-    WI: { name: "Wisconsin", flag: "Flag_of_Wisconsin.svg" },
-    WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" }
-  };
-
+  
   // let lastBillAction = data.actions.pop();
   let lastBillAction = data.actions[data.actions.length - 1];
   // console.log(lastBillAction)
@@ -221,7 +255,11 @@ function generateHTML(data) {
   // console.log("🧢 status", data.bill_id, lastBillAction.type);
 
   stateData = state[data.state.toUpperCase()];
-  //  console.log( "DATE ",formatDate(data.created_at))
+  //  console.log( "DATE ",formatDate(data.created_at))  
+  
+  listArray.push(data.state.toUpperCase())
+
+
 
   return `
   <div class="div1 container ">
@@ -354,9 +392,9 @@ function generateHTML(data) {
 const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
-    // const res = fetch("http://localhost:8887/track", {
+    const res = fetch("http://localhost:8887/track", {
       // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -376,10 +414,22 @@ const loadBills = () => {
 
 const displayBills = bills => {
   html = bills
-    .map(bills => {
-      return (html = generateHTML(bills));
+    .map((bills, index) => {
+      return (html = generateHTML(bills, index));
     })
     .join("");
+
+
+
+  list = Array.from(new Set(listArray)).map(item =>{
+    return (list = createList(item)
+    )
+  }).join("");
+ 
+ 
+    filter_list.innerHTML = list;
+ 
+  
   gallery.innerHTML = html;
 };
 
@@ -406,6 +456,7 @@ const displayBills = bills => {
 //   });
 
 loadBills();
+createList();
 
 function formatDate(input) {
   var date = new Date(input);
@@ -415,3 +466,18 @@ function formatDate(input) {
     date.getFullYear()
   ].join("/");
 }
+
+
+function createList(list){
+ console.log("List ",list, state[list])
+ 
+// ul = document.createElement('ul');
+
+// document.getElementById('filter-list').appendChild(ul);
+
+// items.forEach(function (item) {
+// let li = document.createElement('li');
+// ul.appendChild(li);
+
+return(`<li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${state[list].name}</a></li>`)
+};

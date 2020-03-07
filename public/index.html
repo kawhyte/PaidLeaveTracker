@@ -49,14 +49,19 @@
     </h2> -->
    <form class="pa4 black-80 ">
             <div class="measure center">
-              <label for="name" class="f6 b db mb2">Search/Filter </label>
-              <input id="searchBar" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc" placeholder="Ex. HB 2644 or CA" >
-              <small id="name-desc" class="f6 black-60 db mb2">by State Postal abbreviation or Bill ID</small>
+              <label for="name" class="f6 b db mb2">Search by Bill ID </label>
+              <input id="searchBar" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc" placeholder="Ex. HB 2644" >
+              <small id="name-desc" class="f6 black-60 db mb2"></small>
+              <small id="count" class="f6 black-60 db mb2"></small>
             </div>
    </form>
 
+   <div>  
+   <ul id ="filter-list" class="list ph3 ph5-ns pv1">
+    <li class="dib mr1 mb2"><a href="#" class=" item f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${list}</a></li>
+  </ul>
+</div>
     <div class="grid-container lg-gallery ">
-
 
       <div class="ph-item">
         <div class="ph-col-12">
