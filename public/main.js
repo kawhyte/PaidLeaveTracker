@@ -7,7 +7,7 @@ const searchBar = document.getElementById("searchBar");
 const tracked_header = document.getElementById("tracked_head");
 const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
-let listArray = [];
+let listArray = ["ALL"];
 let fetchedBills = [];
 let fetchedStates = []
 let html = "";
@@ -68,7 +68,8 @@ const state = {
   WA: { name: "Washington", flag: "Flag_of_Washington.svg" },
   WV: { name: "West Virginia", flag: "Flag_of_West_Virginia.svg" },
   WI: { name: "Wisconsin", flag: "Flag_of_Wisconsin.svg" },
-  WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" }
+  WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" },
+  ALL: { name: "View All States", flag: "Flag_of_Wyoming.svg" }
 };
 
 
@@ -96,10 +97,16 @@ searchBar.addEventListener("keyup", e => {
 document.getElementById("filter-list").addEventListener("click",function(e) {
 
   if (e.target && e.target.matches("a.item")) {
-     console.log("EE ", e)// new class name here
-     console.log("EE ", e.target.dataset.parent)// new class name here
+    
+     console.log("searchItem ", e.target.dataset.parent)// new class name here
 
      const searchItem = e.target.dataset.parent.toLowerCase().trim();
+
+     if (searchItem === "all") { 
+       console.log("EE ")// new class name here
+       displayBills(fetchedBills);
+        return 
+     }
 
      const filteredItems = fetchedBills.filter(bill => {
       return (
@@ -250,7 +257,7 @@ function generateHTML(data, index) {
   } else {
     billStatus = status[lastBillAction.type];
   }
-   console.log("🧢 status", data.bill_id);
+  //  console.log("🧢 status", data.bill_id);
 
 
   stateData = state[data.state.toUpperCase()];
@@ -468,15 +475,16 @@ function formatDate(input) {
 
 
 function createList(list){
- console.log("List ",list, state[list])
  
-// ul = document.createElement('ul');
 
-// document.getElementById('filter-list').appendChild(ul);
+ if (state[list] !== undefined){
+  console.log(" Inside List ",list, state[list])
+   
+ 
+ //console.log("List ",list, state[list])
 
-// items.forEach(function (item) {
-// let li = document.createElement('li');
-// ul.appendChild(li);
 
 return(`<li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${state[list].name}</a></li>`)
+}
+
 };

@@ -1,7 +1,4 @@
 {
-    "bills": [
-      {
-        "siteLastUpdated": 1583434376330,
         "bills": [
           {
             "title": "Relating to state financial administration; declaring an emergency.",
@@ -31210,7 +31207,4 @@
             "companions": []
           }
         ]
-      }
-    ],
-    "count": 0
   }
