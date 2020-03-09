@@ -69,9 +69,11 @@ app.get("/track", async (req, res, next) => {
 
 
 
-    // const entireList=await getEntireUserList();
-    // console.log("Here!! ");
-    // res.json(entireList);
+    const entireList=await getEntireUserList();
+    console.log("Here!! entireList ", entireList[0]);
+
+
+    res.json(entireList);
 
 
     let billsRef = db.collection('bills')//.orderBy('updated_at','desc');
