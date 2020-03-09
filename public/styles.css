@@ -349,7 +349,8 @@ html, body, .grid-container { height: 100%; margin: 0; font-family: Arial, Helve
  }  
 
  #bg-hero{
-height: 450px;
+height: 400px;
+ margin: 20px 0px 0px 0px; 
 
  }
 

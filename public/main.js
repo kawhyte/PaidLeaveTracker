@@ -124,7 +124,7 @@ document.getElementById("filter-list").addEventListener("click",function(e) {
 function generateHTML(data, index) {
 
 
-  count.innerHTML =`${index+1} bills found` 
+  count.innerHTML =`${index+1} Paid Leave bills found` 
 
   let billPassed = data.actions.filter(house => {
     let found = false;
@@ -398,9 +398,9 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
-    // const res = fetch("http://localhost:8887/track", {
+    const res = fetch("http://localhost:8887/track", {
       // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"

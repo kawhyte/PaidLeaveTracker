@@ -1,7 +1,7 @@
 {
   "bills": [
     {
-      "date": 1583716923829,
+      "date": 1583776202805,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:08",
@@ -379,14 +379,15 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923831,
+      "date": 1583776202806,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-02-03 05:52:43",
-      "updated_at": "2020-03-08 07:22:28",
+      "updated_at": "2020-03-09 07:35:51",
       "id": "",
       "all_ids": [
         ""
@@ -403,8 +404,8 @@
           "date": "2020-01-22 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -429,8 +430,8 @@
           "date": "2020-01-29 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -519,10 +520,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923836,
+      "date": 1583776202807,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-03-06 10:39:25",
@@ -588,10 +590,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923837,
+      "date": 1583776202807,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-03-06 10:39:00",
@@ -657,14 +660,15 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923847,
+      "date": 1583776202808,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-01-23 06:35:19",
-      "updated_at": "2020-03-08 07:21:59",
+      "updated_at": "2020-03-09 07:32:07",
       "id": "",
       "all_ids": [
         ""
@@ -681,8 +685,8 @@
           "date": "2020-01-22 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -707,8 +711,8 @@
           "date": "2020-01-29 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -797,10 +801,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923847,
+      "date": 1583776202810,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:48:37",
@@ -925,10 +930,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923848,
+      "date": 1583776202814,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:45:16",
@@ -1028,10 +1034,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923848,
+      "date": 1583776202815,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:44:38",
@@ -1131,10 +1138,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923849,
+      "date": 1583776202815,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:43:45",
@@ -1259,10 +1267,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923852,
+      "date": 1583776202816,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-02-15 09:20:52",
@@ -1524,10 +1533,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923854,
+      "date": 1583776202817,
       "title": "revise certain leave policies for state employees.",
       "summary": "",
       "created_at": "2020-02-08 07:16:44",
@@ -1714,10 +1724,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923855,
+      "date": 1583776202818,
       "title": "Relating to state financial administration; declaring an emergency.",
       "summary": "<b>Appropriates moneys from General Fund to Emergency Board for allocations during biennium. \n\t<b>Appropriates moneys from General Fund to specified state agencies for biennial expenses.</b> \n\tModifies certain biennial appropriations made from General Fund to specified state agencies and Emergency Board. \n\tEstablishes and modifies limitations on expenditures for certain biennial expenses for specified state agencies. \n\tDeclares emergency, effective on passage.",
       "created_at": "2020-02-11 06:02:42",
@@ -1839,14 +1850,15 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923856,
+      "date": 1583776202818,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-25 06:39:30",
-      "updated_at": "2020-03-08 07:28:55",
+      "updated_at": "2020-03-09 07:28:02",
       "id": "",
       "all_ids": [
         ""
@@ -1863,8 +1875,8 @@
           "date": "2020-01-23 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1873,8 +1885,8 @@
           "date": "2020-01-24 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1971,10 +1983,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923856,
+      "date": 1583776202819,
       "title": "establishing the granite state paid family leave plan.",
       "summary": "",
       "created_at": "2020-01-17 05:02:19",
@@ -2069,14 +2082,15 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923857,
+      "date": 1583776202819,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-24 06:40:26",
-      "updated_at": "2020-03-08 07:23:11",
+      "updated_at": "2020-03-09 07:33:56",
       "id": "",
       "all_ids": [
         ""
@@ -2093,8 +2107,8 @@
           "date": "2020-01-23 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -2103,8 +2117,8 @@
           "date": "2020-01-24 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -2201,10 +2215,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923858,
+      "date": 1583776202819,
       "title": "Recognizing 2019 Oregon Women of Achievement.",
       "summary": "Recognizes 2019 Oregon Women of Achievement for outstanding leadership and service to people of Oregon.",
       "created_at": "2020-02-04 08:02:01",
@@ -2500,10 +2515,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923859,
+      "date": 1583776202820,
       "title": "Interest Arbitration Award and Collective Bargaining Agreement between the District of Columbia Public Schools and the Office of the State Superintendent of Education and the American Federation of State, County and Municipal Employees, District Council 20, Local 2921, AFL-CIO Emergency Approval of 2020",
       "summary": "",
       "created_at": "2020-02-04 05:15:18",
@@ -2588,10 +2604,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923860,
+      "date": 1583776202821,
       "title": "2020 Women's Economic Security Act; create.",
       "summary": "",
       "created_at": "2020-02-20 06:43:20",
@@ -2667,10 +2684,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923860,
+      "date": 1583776202821,
       "title": "Women's Economic Security Act of 2020; enact.",
       "summary": "",
       "created_at": "2020-02-19 06:40:12",
@@ -2754,10 +2772,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923861,
+      "date": 1583776202822,
       "title": "Women's Economic Security Act of 2020; create.",
       "summary": "",
       "created_at": "2020-02-19 06:40:19",
@@ -2833,10 +2852,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923861,
+      "date": 1583776202823,
       "title": "Mississippi Paid Family Leave Act; establish.",
       "summary": "",
       "created_at": "2020-02-19 06:39:43",
@@ -2912,10 +2932,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923862,
+      "date": 1583776202823,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-02-28 10:38:11",
@@ -2984,10 +3005,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923863,
+      "date": 1583776202825,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-02-28 10:33:14",
@@ -3056,10 +3078,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923863,
+      "date": 1583776202826,
       "title": "Relates to paid family leave and siblings",
       "summary": "Adds siblings to the definition of family member for the purposes of paid family leave.",
       "created_at": "2020-02-28 11:09:48",
@@ -3131,10 +3154,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923864,
+      "date": 1583776202826,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:58",
@@ -3316,10 +3340,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923865,
+      "date": 1583776202827,
       "title": "Paid family leave: qualifying exigency.",
       "summary": "Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States. Existing law defines terms for paid family leave purposes, including defining the terms \"care recipient,\" \"care provider,\" and \"family care leave.\" \n\nThis bill would revise those definitions for the purpose of the qualifying exigency provisions. The bill would define \"military member\" for the purpose of that term's use in those revised definitions. \n\nExisting law requires certain documentation of a qualifying exigency, including a copy of new active duty orders or other documentation issued by the military as required by the department if the need for leave because of a qualifying exigency arises out of a different covered active duty or call to covered active duty or notification of an impending call or order to covered active duty of the same or a different family member.\n\nThis bill would provide that the new documentation requirement would apply to a need for leave because of a qualifying exigency arising out of those described circumstances with respect to the same or a different eligible family member. ",
       "created_at": "2020-02-19 07:18:35",
@@ -3394,10 +3419,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923866,
+      "date": 1583776202828,
       "title": "PAID FAMILY LEAVE ACT",
       "summary": "Creates the Paid Family Leave Act. Requires a private employer to provide 4 weeks of paid leave to an employee who takes leave: (1) because of the birth of a child of the employee and to care for the child or (2) to care for a newly adopted child under 18 years of age, a newly placed foster child under 18 years of age or a newly adopted or newly placed foster child older than 18 years of age if the child is incapable of self-care because of a mental or physical disability. Provides that paid family leave shall be provided irrespective of the employer's leave policies and shall be provided to an employee who has been employed by the employer for at least one year. Permits employees to voluntarily waive paid family leave. Provides that the Department of Labor may adopt any rules necessary to implement the Act.",
       "created_at": "2020-02-15 16:34:20",
@@ -3475,10 +3501,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923869,
+      "date": 1583776202828,
       "title": "PAID FAMILY LEAVE ACT",
       "summary": "Creates the Paid Family Leave Act. Requires private employers with 50 or more employees to provide 6 weeks of paid leave for an employee who takes leave: (1) because of the birth of a child of the employee and in order to care for the child; (2) to care for a newly adopted child under 18 years of age or a newly placed foster child under 18 years of age or a newly adopted or newly placed foster child older than 18 years of age if the child is incapable of self-care because of a mental or physical disability; or (3) to care for a family member with a serious health condition. Provides that paid family leave shall be provided irrespective of the employer's leave policies; and shall be provided to an employee who has been employed by the employer for at least one year. Permits employees to voluntarily waive paid family leave. Provides that the Department of Labor may adopt any rules necessary to implement the Act.",
       "created_at": "2019-01-10 12:17:28",
@@ -3638,10 +3665,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923871,
+      "date": 1583776202829,
       "title": "paid family leave",
       "summary": "",
       "created_at": "2020-02-11 07:58:58",
@@ -3820,10 +3848,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923872,
+      "date": 1583776202830,
       "title": "Enacting the Kansas Paid Family Leave Act, establishing the Family and Medical Leave Insurance Fund. ",
       "summary": "",
       "created_at": "2020-02-13 07:47:32",
@@ -3897,10 +3926,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923873,
+      "date": 1583776202831,
       "title": "Relates to authorizing paid family leave for bereavement",
       "summary": "Authorizes paid family leave for bereavement beginning in 2021.",
       "created_at": "2019-03-26 12:08:50",
@@ -3988,10 +4018,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923874,
+      "date": 1583776202832,
       "title": "Relating generally to the payment of salary or wages under the Parental Leave Act",
       "summary": "",
       "created_at": "2020-01-15 05:25:31",
@@ -4113,10 +4144,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923875,
+      "date": 1583776202833,
       "title": "Expanding accessible, affordable child care and early childhood development programs.",
       "summary": "",
       "created_at": "2020-01-17 13:08:38",
@@ -4510,10 +4542,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923876,
+      "date": 1583776202834,
       "title": "A bill for an act providing for paid sick leave and scheduling procedures for employees, establishing a family leave and medical leave insurance program, providing penalties and remedies, and including applicability provisions.",
       "summary": "",
       "created_at": "2020-02-01 05:51:48",
@@ -4620,10 +4653,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923877,
+      "date": 1583776202835,
       "title": "employers; paid family leave",
       "summary": "",
       "created_at": "2020-02-04 08:47:09",
@@ -4752,10 +4786,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923879,
+      "date": 1583776202836,
       "title": "An act relating to paid family and medical leave",
       "summary": "",
       "created_at": "2019-01-29 11:32:10",
@@ -5790,10 +5825,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923892,
+      "date": 1583776202838,
       "title": "Paid family leave.",
       "summary": "(1) Existing law prohibits an employer with 50 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee worked 1,250 hours in the prior 12 months. Existing law includes within \"family care and medical leave\" the birth, adoption, or foster care placement of a child and the serious health condition of the employee's child, parent, or spouse.\n\nThis bill would expand the scope of those provisions to instead prohibit an employer with 5 or more employees to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee had 180 days of service with the employer. The bill would expand the definition of \"family care and medical leave\" to include leave for reason of the birth or placement of a child if the employee has identified the child as their designated person, as defined, leave to care for a grandparent, grandchild, sibling, domestic partner, or designated person who has a serious health condition, and leave because of a qualifying exigency related to the covered active duty or call to covered active duty of an employee's spouse, domestic partner, child, or parent in the Armed Forces of the United States. The bill would delete a provision specifying that, if both parents are employed by the employer and are entitled to leave, the employer is not required to grant leave in connection with the birth, adoption, or foster care of a child that is greater than 12 weeks.\n\n(2) Existing law, the New Parent Leave Act, prohibits an employer with 20 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave to bond with a new child within one year of the birth, adoption, or foster care placement of the child if the employee worked 1,250 hours in the prior 12 months.\n\nThis bill would repeal those provisions.\n\n(3) Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States.\n\nThis bill would expand the scope of those provisions to include time off to care for a seriously ill designated person or child-in-law, as those terms are defined, or to bond with a designated person or child-in-law within one year of the birth or placement of the designated person or child-in-law.\n\n(4) Existing law makes an individual ineligible for family temporary disability insurance benefits on any day that another family member is ready, willing, able, and available to provide the required care or participate in the qualified exigency, as specified. Existing law authorizes an employer to require an employee to take up to 2 weeks of vacation leave before the employee receives the benefits.\n\nThis bill would delete those provisions.\n\n(5) Under existing law, workers are required to pay contributions to the Unemployment Compensation Disability Fund, a special fund in the State Treasury, and those funds are continuously appropriated for the purpose of providing disability benefits and making payment of administrative expenses.\n\nBy authorizing the expenditure of these funds for a new purpose, the bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:38",
@@ -6004,10 +6040,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923896,
+      "date": 1583776202841,
       "title": "Disability insurance: paid family leave program.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions. \n\nExisting law establishes, within the state disability insurance program, the family temporary disability insurance program, also known as the paid family leave program, for the provision of up to 6 weeks of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of the birth or placement of the child in connection with foster care or adoption. Existing law limits the temporary disability benefits paid under these provisions to not more than 6 weeks within any 12-month period. \n\nThis bill would authorize up to 12 weeks of temporary disability benefits in a 12-month period, but would limit each disability benefit period to 6 weeks of temporary disability benefits.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-22 18:07:50",
@@ -6198,14 +6235,15 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923902,
+      "date": 1583776202843,
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
       "summary": "",
       "created_at": "2020-01-09 05:10:41",
-      "updated_at": "2020-03-08 07:11:20",
+      "updated_at": "2020-03-09 05:10:48",
       "id": "",
       "all_ids": [
         ""
@@ -6226,20 +6264,6 @@
           "actor": "legislature"
         },
         {
-          "date": "2020-01-17T19:59:26+00:00",
-          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-17T19:59:26+00:00",
-          "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
           "date": "2020-01-21T19:59:26+00:00",
           "action": "Referred to Committee on Labor and Workforce Development",
           "type": [
@@ -6254,6 +6278,20 @@
           "type": [
             "bill:introduced"
           ],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T19:59:26+00:00",
+          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T19:59:26+00:00",
+          "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
+          "type": [],
           "related_entities": [],
           "actor": "legislature"
         }
@@ -6298,10 +6336,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923905,
+      "date": 1583776202846,
       "title": "Proposed contract with Geographic Solutions, Inc. ",
       "summary": "",
       "created_at": "2020-02-03 05:14:15",
@@ -6374,10 +6413,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923907,
+      "date": 1583776202851,
       "title": "A bill for an act providing for paid family leave for state employees.",
       "summary": "",
       "created_at": "2020-01-23 06:49:01",
@@ -6457,10 +6497,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923909,
+      "date": 1583776202856,
       "title": "Correspondence from the Mayor - DC Paid Family Leave Quarter 1 Fiscal Year 2020 Report",
       "summary": "",
       "created_at": "2020-01-22 05:13:09",
@@ -6527,10 +6568,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923911,
+      "date": 1583776202858,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
       "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
       "created_at": "2019-02-16 12:48:43",
@@ -6697,10 +6739,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923913,
+      "date": 1583776202860,
       "title": "A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.",
       "summary": "",
       "created_at": "2019-02-22 12:26:14",
@@ -6850,10 +6893,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923915,
+      "date": 1583776202861,
       "title": "Provides for school and medical family leave.",
       "summary": "",
       "created_at": "2020-01-15 04:02:37",
@@ -6917,10 +6961,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923918,
+      "date": 1583776202863,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-01-16 07:46:18",
@@ -7009,10 +7054,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923920,
+      "date": 1583776202865,
       "title": "Employment Practices",
       "summary": "Employment Practices; Creates \"Florida Family Leave Act\"; requires employer to allow certain employees to take paid family leave to bond with minor child upon child's birth, adoption, or foster care placement; provides requirements, limitations, & duties; provides for civil action & penalties & criminal penalty; prohibits specified employment practices on basis of pregnancy, childbirth, or medical condition related to pregnancy or childbirth; provides for leave, maintenance of health coverage, reasonable accommodation & transfer, & return rights for employee who is disabled from pregnancy, childbirth, or medical condition related to pregnancy or childbirth.",
       "created_at": "2019-12-11 07:28:37",
@@ -7098,10 +7144,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923923,
+      "date": 1583776202868,
       "title": "Employment Practices",
       "summary": "Employment Practices; Creating the \"Florida Family Leave Act\"; requiring an employer to allow certain employees to take paid family leave to bond with a new child upon the child’s birth, adoption, or foster care placement; requiring that family leave be taken concurrently with any leave taken pursuant to federal family and medical leave provisions; requiring the Department of Economic Opportunity to create a poster and a model notice that specify family leave rights, etc.",
       "created_at": "2019-12-11 07:29:11",
@@ -7182,10 +7229,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923926,
+      "date": 1583776202870,
       "title": "state employees; paid family leave",
       "summary": "",
       "created_at": "2020-01-14 00:28:56",
@@ -7319,10 +7367,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923930,
+      "date": 1583776202871,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:03:50",
@@ -7542,10 +7591,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923932,
+      "date": 1583776202873,
       "title": "Relates to family medical leave and military families",
       "summary": "Provides that every public employer shall provide paid family leave benefits to the spouse, domestic partner, child, or parent of the employee who is on active duty (or has been notified of an impending call or order to active duty) in the armed forces of the United States.",
       "created_at": "2020-01-11 07:49:54",
@@ -7617,10 +7667,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923934,
+      "date": 1583776202875,
       "title": "Relates to dependent workers",
       "summary": "Relates to dependent workers; defines the term \"dependent worker\"; requires the commissioner of labor to hold public meetings to examine state laws relating to dependent workers.",
       "created_at": "2019-06-15 12:46:17",
@@ -7730,10 +7781,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923949,
+      "date": 1583776202877,
       "title": "Relates to providing four weeks of leave for victims of abuse",
       "summary": "Provides that an eligible employee may take two weeks of paid leave through the paid family leave program and an additional two weeks of unpaid leave during any 52 week calendar period as a result of being a victim of domestic or sexual abuse.",
       "created_at": "2019-07-09 12:43:42",
@@ -7819,10 +7871,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923952,
+      "date": 1583776202880,
       "title": "Relates to dependent workers",
       "summary": "Relates to dependent workers; defines the term \"dependent worker\"; requires the commissioner of labor to hold public meetings to examine state laws relating to dependent workers.",
       "created_at": "2019-06-16 12:42:13",
@@ -7903,10 +7956,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923955,
+      "date": 1583776202882,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2019-01-23 11:45:21",
@@ -8002,10 +8056,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923956,
+      "date": 1583776202885,
       "title": "Relating generally to paid family and medical leave",
       "summary": "",
       "created_at": "2020-01-10 05:17:24",
@@ -8114,10 +8169,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923959,
+      "date": 1583776202887,
       "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
       "summary": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers.",
       "created_at": "2019-01-04 11:04:30",
@@ -8198,10 +8254,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923960,
+      "date": 1583776202889,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
       "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
       "created_at": "2019-02-21 12:48:34",
@@ -8287,10 +8344,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923963,
+      "date": 1583776202891,
       "title": "Relates to paid family leave and siblings",
       "summary": "Adds siblings to the definition of family member for the purposes of paid family leave.",
       "created_at": "2019-01-31 12:05:00",
@@ -8486,10 +8544,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923969,
+      "date": 1583776202893,
       "title": "Relates to providing four weeks of leave for victims of abuse",
       "summary": "Provides that an eligible employee may take two weeks of paid leave through the paid family leave program and an additional two weeks of unpaid leave during any 52 week calendar period as a result of being a victim of domestic or sexual abuse.",
       "created_at": "2019-04-10 12:12:14",
@@ -8650,10 +8709,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923971,
+      "date": 1583776202895,
       "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
       "summary": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers.",
       "created_at": "2019-02-01 12:13:25",
@@ -8759,10 +8819,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923973,
+      "date": 1583776202898,
       "title": "Relates to authorizing paid family leave for bereavement",
       "summary": "Authorizes paid family leave for bereavement beginning in 2021.",
       "created_at": "2019-03-22 12:01:03",
@@ -8843,10 +8904,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923976,
+      "date": 1583776202900,
       "title": "Request to reprogram $3,520,600.49 of Special Revenue funds within the Department of Employment Services (DOES), the Labor Standards Bureau to the Office of Paid Family Leave Program (OPFL)",
       "summary": "",
       "created_at": "2019-12-07 05:09:56",
@@ -8919,10 +8981,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923978,
+      "date": 1583776202903,
       "title": "Supports 32BJ Service Employees International Union members seeking new contract.",
       "summary": "",
       "created_at": "2020-01-15 19:29:30",
@@ -8985,10 +9048,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923981,
+      "date": 1583776202907,
       "title": "Request to reprogram $1,565,000 of Local Funds Budget Authority within the Department of Employment Services ",
       "summary": "",
       "created_at": "2019-10-25 10:10:11",
@@ -9061,10 +9125,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923984,
+      "date": 1583776202909,
       "title": "A Resolution designating the week of October 21 through 27, 2019, as \"Business Women's Week\" in Pennsylvania.",
       "summary": "",
       "created_at": "2019-10-24 19:51:55",
@@ -9223,10 +9288,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923987,
+      "date": 1583776202911,
       "title": "Correspondence from the Mayor - Q4 Fiscal Year 2019 Report DC Paid Family Leave",
       "summary": "",
       "created_at": "2019-10-23 10:11:21",
@@ -9293,10 +9359,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923990,
+      "date": 1583776202914,
       "title": "Disability compensation: paid family leave: application in non-English languages.",
       "summary": "The Dymally-Alatorre Bilingual Services Act requires a state agency that finds specific factors to exist to distribute certain written materials in the appropriate non-English language through its statewide and local offices or facilities to non-English-speaking persons, or, as an alternative, to furnish translation aids, translation guides, or provide assistance, through use of a qualified bilingual person, at its statewide and local offices or facilities in completing English forms or questionnaires and in understanding English forms, letters, or notices.\n\nExisting law establishes, within the state disability insurance program administered by the Employment Development Department, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified.\n\nThis bill, beginning January 1, 2025, would require the department to distribute the application for family temporary disability insurance benefits, in addition to the application in English, in all non-English languages spoken by a substantial number of non-English-speaking applicants, as defined.",
       "created_at": "2019-02-16 06:06:42",
@@ -9640,10 +9707,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923993,
+      "date": 1583776202917,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
       "summary": "",
       "created_at": "2019-10-24 19:49:25",
@@ -9741,10 +9809,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923996,
+      "date": 1583776202920,
       "title": "Fiscal Year 2020 Audit and Inspection Plan",
       "summary": "",
       "created_at": "2019-10-23 10:10:29",
@@ -9811,10 +9880,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716923998,
+      "date": 1583776202922,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
       "summary": "",
       "created_at": "2019-07-24 18:18:14",
@@ -10107,10 +10177,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924005,
+      "date": 1583776202925,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 11/13/2019.  (HB32 CD1)",
       "created_at": "2019-01-17 15:03:48",
@@ -10563,10 +10634,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924008,
+      "date": 1583776202928,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
       "summary": "",
       "created_at": "2019-07-09 18:17:04",
@@ -10739,10 +10811,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924011,
+      "date": 1583776202930,
       "title": "Correspondence from the Mayor - DOES Q3 Fiscal Year 2019 Report: DC Paid Family Leave ",
       "summary": "",
       "created_at": "2019-07-04 10:11:09",
@@ -10809,10 +10882,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924013,
+      "date": 1583776202934,
       "title": "Relating to the long term care wage board; prescribing an effective date.",
       "summary": "Directs Commissioner of Bureau of Labor and Industries to appoint long term care wage board to examine factors that may present challenges to recruiting and retaining long term care employees. \n\tProhibits employers from retaliating against long term care employees who participate in board activities. Permits commissioner to assess civil penalty against employers that retaliate against employees. Requires moneys collected as penalties to be used to reimburse board in carrying out board's duties. \n\tRequires board to adopt recommended compensation schedule for long term care employees. Requires board to submit annual report to Bureau of Labor and Industries. Allows Commissioner of Bureau of Labor and Industries to consider recommended schedule in establishing compensation rates for long term care employees. \n\tTakes effect on 91st day following adjournment sine die.",
       "created_at": "2019-01-15 14:03:00",
@@ -10922,10 +10996,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924019,
+      "date": 1583776202938,
       "title": "Paid family leave.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions.\n\nExisting law establishes, within the state disability insurance program, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits for up to 6 weeks to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified. Existing law defines \"weekly benefit amount\" for purposes of both employee contributions and benefits under this program to mean the amount of weekly benefits available to qualifying disabled individuals pursuant to unemployment compensation disability law, calculated pursuant to specified formulas partly based on the applicable percentage of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, but not to exceed the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nThis bill would revise the formula for determining benefits available pursuant to the family temporary disability insurance program, for periods of disability commencing after January 1, 2020, by redefining the weekly benefit amount to be equal to 100% of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, divided by 13, but not exceeding the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:44",
@@ -11103,10 +11178,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924023,
+      "date": 1583776202941,
       "title": "FAMLI Family Medical Leave Insurance Program",
       "summary": "Paid family and medical leave - study - task force created - appropriation.  The act creates a study of the implementation of a paid family and medical leave program in the state by:\n\nRequiring the department of labor and employment to contract with experts in the field of paid family and medical leave to report on the establishment of a paid family and medical leave program for employees in the state;\nRequiring the department to request information from third parties that may be willing to administer all or part of a paid family and medical leave program;\nCreating the family and medical leave implementation task force, which is responsible for recommending a plan to implement a paid family and medical leave program for the state; and\nRequiring an actuarial study of the final plan recommended by the task force.\nTo implement the act, $165,487 is appropriated to the department of labor and employment and $17,004 is appropriated to the department of public health and environment. Both appropriations are from the general fund.\n(Note: This summary applies to this bill as enacted.)\n\n\n      \n   Read More",
       "created_at": "2019-03-08 13:24:15",
@@ -11480,10 +11556,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924025,
+      "date": 1583776202944,
       "title": "Correspondence from the Mayor - FPC Food System Assessment: The District's efforts to support a more equitable, healthy, and sustainable food system",
       "summary": "",
       "created_at": "2019-05-24 10:07:20",
@@ -11550,10 +11627,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924028,
+      "date": 1583776202947,
       "title": "Commending Mario Cilento upon the occasion of being selected as an honoree for this year's Italian American Day on June 3, 2019",
       "summary": "",
       "created_at": "2019-05-23 12:29:47",
@@ -11625,10 +11703,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924032,
+      "date": 1583776202950,
       "title": "Omnibus jobs and economic development, energy and climate, and telecommunications policy and finance bill.",
       "summary": "",
       "created_at": "2019-03-08 15:43:51",
@@ -12038,10 +12117,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924035,
+      "date": 1583776202954,
       "title": "Small employer paid family leave insurance program created, tax credit established, and money appropriated.",
       "summary": "",
       "created_at": "2019-05-11 15:28:07",
@@ -12129,10 +12209,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924039,
+      "date": 1583776202957,
       "title": "Correspondence from the Mayor - DOES Q2 Fiscal Year 2019 Report DC Paid Family Leave",
       "summary": "",
       "created_at": "2019-04-27 10:05:52",
@@ -12199,10 +12280,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924043,
+      "date": 1583776202960,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Provides grandparents with 1 week of family leave to care for a grandchild with a serious health condition.  Effective 7/1/2050.  (SD2)",
       "created_at": "2019-01-25 15:56:38",
@@ -12616,10 +12698,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924046,
+      "date": 1583776202963,
       "title": "PAID FAMILY AND MEDICAL LEAVE ACT",
       "summary": "",
       "created_at": "2019-01-17 13:02:05",
@@ -12714,10 +12797,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924054,
+      "date": 1583776202967,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:04:05",
@@ -13220,14 +13304,15 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924057,
+      "date": 1583776202971,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-06 11:37:12",
-      "updated_at": "2020-03-08 07:27:24",
+      "updated_at": "2020-03-09 07:33:12",
       "id": "",
       "all_ids": [
         ""
@@ -13244,8 +13329,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -13254,8 +13339,8 @@
           "date": "2019-02-05 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -13368,14 +13453,15 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924061,
+      "date": 1583776202975,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-05 11:27:48",
-      "updated_at": "2020-03-08 07:26:38",
+      "updated_at": "2020-03-09 07:29:02",
       "id": "",
       "all_ids": [
         ""
@@ -13392,8 +13478,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -13402,8 +13488,8 @@
           "date": "2019-02-05 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -13516,10 +13602,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924066,
+      "date": 1583776202979,
       "title": "Calling for the ratification of the Equal Rights Amendment",
       "summary": "",
       "created_at": "2019-02-05 12:25:00",
@@ -13607,14 +13694,15 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924070,
+      "date": 1583776202982,
       "title": "Rulemaking for Paid Family Leave Collections Approval Resolution of 2019",
       "summary": "",
       "created_at": "2019-03-06 11:04:15",
-      "updated_at": "2020-03-08 07:11:46",
+      "updated_at": "2020-03-09 05:07:44",
       "id": "",
       "all_ids": [
         ""
@@ -13635,19 +13723,19 @@
           "actor": "legislature"
         },
         {
-          "date": "2019-02-28T08:23:46+00:00",
-          "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
+          "date": "2019-03-05T08:23:46+00:00",
+          "action": "Referred to Committee on Labor and Workforce Development",
           "type": [
-            "bill:introduced"
+            "committee:referred"
           ],
           "related_entities": [],
           "actor": "legislature"
         },
         {
-          "date": "2019-03-05T08:23:46+00:00",
-          "action": "Referred to Committee on Labor and Workforce Development",
+          "date": "2019-02-28T08:23:46+00:00",
+          "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
           "type": [
-            "committee:referred"
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "legislature"
@@ -13699,10 +13787,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924074,
+      "date": 1583776202986,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 12/2/2019.  (SD2)",
       "created_at": "2019-01-19 15:40:27",
@@ -13900,10 +13989,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924078,
+      "date": 1583776202991,
       "title": "A concurrent resolution requesting the Legislative Management to consider studying the feasibility and desirability of implementing a paid family leave program structured to be beneficial to both families and businesses, including an analysis of how to make the program financially sound while being affordable for families and businesses; and a review of the data on usage rates from other states that have programs, which state agency would be best suited to administer the program, and policies required to ensure program success.",
       "summary": "",
       "created_at": "2019-02-20 13:50:22",
@@ -14018,10 +14108,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924081,
+      "date": 1583776202994,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
       "summary": "",
       "created_at": "2019-02-27 12:50:01",
@@ -14309,10 +14400,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924087,
+      "date": 1583776202998,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave. ",
       "summary": "",
       "created_at": "2018-05-18 04:06:18",
@@ -14632,91 +14724,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924091,
-      "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
-      "summary": "",
-      "created_at": "2019-11-22 07:24:46",
-      "updated_at": "2020-03-08 08:24:44",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "lower",
-      "state": "ok",
-      "session": "2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "HB 2464",
-      "actions": [
-        {
-          "date": "2019-02-04 00:00:00",
-          "action": "First Reading",
-          "type": [
-            "bill:reading:1",
-            "bill:introduced"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-02-04 00:00:00",
-          "action": "Authored by Representative Dunnington",
-          "type": [],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-02-06 00:00:00",
-          "action": "Second Reading referred to Rules",
-          "type": [
-            "bill:reading:2",
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        }
-      ],
-      "sources": [
-        {
-          "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HB2464&session=2000"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "Dunnington"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "application/pdf",
-          "url": "http://webserver1.lsb.state.ok.us/cf_pdf/2019-20 INT/hB/HB2464 INT.PDF",
-          "doc_id": "~not available~",
-          "name": "Introduced"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-02-04 00:00:00",
-        "last": "2019-02-06 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": []
-    },
-    {
-      "date": 1583716924095,
+      "date": 1583776323445,
       "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
       "summary": "",
       "created_at": "2019-01-18 12:52:54",
@@ -14794,91 +14806,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924099,
-      "title": "Labor; creating the Paid Family Leave Act; providing for family temporary disability insurance program. Effective date.",
-      "summary": "",
-      "created_at": "2019-01-17 12:28:58",
-      "updated_at": "2019-11-17 07:26:53",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "upper",
-      "state": "ok",
-      "session": "2019-2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "SB 478",
-      "actions": [
-        {
-          "date": "2019-02-04 00:00:00",
-          "action": "First Reading",
-          "type": [
-            "bill:introduced",
-            "bill:reading:1"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-02-04 00:00:00",
-          "action": "Authored by Senator Dossett",
-          "type": [],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-02-05 00:00:00",
-          "action": "Second Reading referred to Business, Commerce and Tourism Committee then to Appropriations Committee",
-          "type": [
-            "committee:referred",
-            "bill:reading:2"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        }
-      ],
-      "sources": [
-        {
-          "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB478&session=1900"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "Dossett"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "application/pdf",
-          "url": "http://webserver1.lsb.state.ok.us/cf_pdf/2019-20 INT/SB/SB478 INT.PDF",
-          "doc_id": "~not available~",
-          "name": "Introduced"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-02-04 00:00:00",
-        "last": "2019-02-05 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": []
-    },
-    {
-      "date": 1583716924106,
+      "date": 1583776323455,
       "title": "Labor; creating the Paid Family Leave Act; providing for family temporary disability insurance program. Effective date.",
       "summary": "",
       "created_at": "2019-11-22 07:25:33",
@@ -14956,10 +14888,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924111,
+      "date": 1583776203021,
       "title": "state employees; paid family leave",
       "summary": "",
       "created_at": "2019-01-18 13:45:50",
@@ -15178,10 +15111,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924115,
+      "date": 1583776203025,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 12/13/2019.",
       "created_at": "2019-01-19 15:39:40",
@@ -15270,10 +15204,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924119,
+      "date": 1583776203029,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 11/13/2019.",
       "created_at": "2019-01-19 15:39:49",
@@ -15363,10 +15298,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924125,
+      "date": 1583776203033,
       "title": "FAMILY LEAVE INSURANCE ACT",
       "summary": "Creates the Family Leave Insurance Act. Provides that an employee may take up to 12 weeks of family leave within any 24-month period for the purpose of providing care for the birth of a child, adoption of a child or placement of a foster child, or serious health condition of a family member. Establishes terms and conditions for taking leave. Authorizes compensation for the family leave to be paid from the State Benefits Fund, a special fund created in the State treasury. Prohibits simultaneous receipt of benefits under the Family Leave Insurance Act, the Unemployment Insurance Act, and the Workers' Compensation Act. Imposes a charge upon certain wages for the payment of benefits. Provides for administration by the Department of Employment Security. Amends the State Finance Act to add the State Benefits Fund to the list of special funds in the State treasury. Creates civil penalties for certain violations. Provides that a violation with intent to defraud the Department is a Class C misdemeanor. Effective immediately.",
       "created_at": "2018-06-19 20:08:39",
@@ -15527,10 +15463,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924131,
+      "date": 1583776203037,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
       "summary": "Creates the Family Leave Insurance Program Act. Requires the Department of Labor to establish and administer a Family Leave Insurance Program that provides family leave insurance benefits to eligible employees who take unpaid family leave to care for a newborn child, a newly adopted or newly placed foster child, or a family member with a serious health condition. Sets forth eligibility requirements for benefits under the Act including that the employee must (i) establish that he or she has been employed for at least 680 hours in employment during the employee's qualifying year and (ii) document that he or she has provided the employer with written notice of the employee's intention to take family leave. Defines \"employer\" to mean (a) any person, partnership, corporation, association, or other business entity that employs 50 or more employees for each working day during each of 20 or more calendar workweeks in the year in which the leave is to be taken or in the year immediately preceding the year in which the leave is to be taken; and (b) the State of Illinois and any other unit of local government. Contains provisions concerning disqualification from benefits; premium payments; the amount and duration of benefits; the recovery of erroneous payments; hearings; defaulted premium payments; elective coverage; employment protection; coordination of family leave; defined terms; and other matters. Amends the State Finance Act. Creates the Family Leave Insurance Account Fund.",
       "created_at": "2018-06-19 20:05:32",
@@ -16087,10 +16024,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924135,
+      "date": 1583776203041,
       "title": "Correspondence from the Mayor - DOES DC Paid Leave Family Leave Q1 Fiscal Year 2019 Report",
       "summary": "",
       "created_at": "2019-01-05 11:01:59",
@@ -16157,10 +16095,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924140,
+      "date": 1583776203045,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2018-05-08 05:20:29",
@@ -16246,10 +16185,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924144,
+      "date": 1583776203052,
       "title": "Memorializing Governor Andrew M. Cuomo to proclaim May 30, 2018, as Mother's Equal Pay Day in the State of New York",
       "summary": "",
       "created_at": "2018-05-25 05:28:24",
@@ -16330,10 +16270,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924147,
+      "date": 1583776203056,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2018-05-21 05:26:49",
@@ -16405,10 +16346,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924152,
+      "date": 1583776203060,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
       "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
       "created_at": "2018-05-11 05:25:57",
@@ -16485,10 +16427,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924157,
+      "date": 1583776203064,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2017-07-15 05:08:48",
@@ -16642,10 +16585,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924161,
+      "date": 1583776203069,
       "title": "Calling for the ratification of the Equal Rights Amendment",
       "summary": "",
       "created_at": "2018-03-17 05:17:10",
@@ -16717,10 +16661,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924165,
+      "date": 1583776203073,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
       "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
       "created_at": "2018-02-28 05:24:56",
@@ -16792,10 +16737,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924170,
+      "date": 1583776203077,
       "title": "Provides family leave insurance for certain first responders.",
       "summary": "",
       "created_at": "2018-01-12 04:02:11",
@@ -16875,10 +16821,11 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924174,
+      "date": 1583776203082,
       "title": "Memorializing Governor Andrew M. Cuomo to proclaim June 6, 2017, as Mother's Equal Pay Day in the State of New York",
       "summary": "",
       "created_at": "2017-07-15 05:11:40",
@@ -16959,10 +16906,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924178,
+      "date": 1583776203087,
       "title": "Calling for ratification of the Equal Rights Amendment",
       "summary": "",
       "created_at": "2017-07-15 05:09:24",
@@ -17050,10 +16998,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924182,
+      "date": 1583776203091,
       "title": "Senate budget resolution in response to the 2017-2018 Executive Budget submission",
       "summary": "",
       "created_at": "2017-07-15 05:08:54",
@@ -17134,10 +17083,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924187,
+      "date": 1583776203095,
       "title": "Senate budget resolution in response to the 2017-2018 Executive Budget submission",
       "summary": "",
       "created_at": "2017-07-15 05:11:38",
@@ -17216,10 +17166,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924251,
+      "date": 1583776203099,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
       "summary": "Creates the Family Leave Insurance Program Act. Requires the Department of Labor to establish and administer a Family Leave Insurance Program that provides family leave insurance benefits to eligible employees who take unpaid family leave to care for a newborn child, a newly adopted or newly placed foster child, or a family member with a serious health condition. Sets forth eligibility requirements for benefits under the Act including that the employee must (i) establish that he or she has been employed for at least 680 hours in employment during the employee's qualifying year and (ii) document that he or she has provided the employer with written notice of the employee's intention to take family leave. Defines \"employer\" to mean (a) any person, partnership, corporation, association, or other business entity that employs 50 or more employees for each working day during each of 20 or more calendar workweeks in the year in which the leave is to be taken or in the year immediately preceding the year in which the leave is to be taken; and (b) the State of Illinois and any other unit of local government. Contains provisions concerning disqualification from benefits; premium payments; the amount and duration of benefits; the recovery of erroneous payments; hearings; defaulted premium payments; elective coverage; employment protection; coordination of family leave; defined terms; and other matters. Amends the State Finance Act. Creates the Family Leave Insurance Account Fund.",
       "created_at": "2020-01-24 15:02:15",
@@ -17815,10 +17766,11 @@
       "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     },
     {
-      "date": 1583716924256,
+      "date": 1583776203104,
       "title": "Family and Medical Leave Act.",
       "summary": "",
       "created_at": "2020-01-23 17:26:13",
@@ -17908,7 +17860,8 @@
       ],
       "alternate_bill_ids": [],
       "subjects": [],
-      "companions": []
+      "companions": [],
+      "notificationSent": false
     }
   ],
   "count": 0
