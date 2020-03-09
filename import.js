@@ -9,12 +9,8 @@ console.log('jsonToFirestore()');
 // JSON To Firestore
 const jsonToFirestore = async () => {
   try {
-    console.log("firestoreService.admin.app.length",firestoreService.admin.apps.length  )
-    //  console.log("firestoreService.initializeApp(serviceAccount, firebaseConfig.databaseURL)",firestoreService.initializeApp(serviceAccount, firebaseConfig.databaseURL)  )
-
-
-console.log('Initialzing Firebase');
 if (firestoreService.admin.apps.length  === 0 ) {
+  console.log('Initialzing Firebase');
   await firestoreService.initializeApp(serviceAccount, firebaseConfig.databaseURL);
   console.log('Firebase Initialized');
 }
@@ -26,19 +22,5 @@ if (firestoreService.admin.apps.length  === 0 ) {
   }
 };
 
-
- 
-//sendDataToFirestore() 
-
-
-// function sendDataToFirestore() {
-//  //cron.schedule('* * * * *', () => {
-
-//    jsonToFirestore();
-   
-  
-//   //});
-  
-//   }
 
  module.exports = jsonToFirestore;
