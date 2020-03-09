@@ -15,7 +15,8 @@ console.log("Loaded cronJson");
 
 function getData() {
   console.log("Waiting on Cron...");
-  cron.schedule("* * * * *", () => {
+  // cron.schedule("* * * * *", () => {
+  cron.schedule("*/30 * * * *", () => {
     console.log("running a cron every XX minute");
 
     runCron();
