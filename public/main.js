@@ -9,13 +9,11 @@ const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let listArray = ["ALL"];
 let fetchedBills = [];
-let fetchedStates = []
+let fetchedStates = [];
 let html = "";
 let list = "";
 let passedSenate = false;
 let passedHouse = false;
-
-
 
 const state = {
   AL: { name: "Alabama", flag: "Flag_of_Alabama.svg" },
@@ -26,7 +24,10 @@ const state = {
   CO: { name: "Colorado", flag: "Flag_of_Colorado.svg" },
   CT: { name: "Connecticut", flag: "Flag_of_Connecticut.svg" },
   DE: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
-  DC: { name: "Washington, D.C.", flag: "Flag_of_the_District_of_Columbia.svg" },
+  DC: {
+    name: "Washington, D.C.",
+    flag: "Flag_of_the_District_of_Columbia.svg"
+  },
   FL: { name: "Florida", flag: "Flag_of_Florida.svg" },
   GA: { name: "Georgia", flag: "Flag_of_Georgia.svg" },
   HI: { name: "Hawaii", flag: "Flag_of_Hawaii.svg" },
@@ -72,11 +73,6 @@ const state = {
   ALL: { name: "View All States", flag: "Flag_of_Wyoming.svg" }
 };
 
-
-
-
-
-
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
   // console.log(searchString);
@@ -85,46 +81,39 @@ searchBar.addEventListener("keyup", e => {
     return (
       bill.state.toLowerCase().includes(searchString) ||
       bill.bill_id.toLowerCase().includes(searchString) ||
-      bill.bill_id.replace(/\s+/g, '').toLowerCase().includes(searchString)
-
+      bill.bill_id
+        .replace(/\s+/g, "")
+        .toLowerCase()
+        .includes(searchString)
     );
   });
   // console.log("✊Filtered ", filteredBills);
   displayBills(filteredBills);
 });
 
-
-document.getElementById("filter-list").addEventListener("click",function(e) {
-
+document.getElementById("filter-list").addEventListener("click", function(e) {
   if (e.target && e.target.matches("a.item")) {
-    
-     console.log("searchItem ", e.target.dataset.parent)// new class name here
+    console.log("searchItem ", e.target.dataset.parent); // new class name here
 
-     const searchItem = e.target.dataset.parent.toLowerCase().trim();
+    const searchItem = e.target.dataset.parent.toLowerCase().trim();
 
-     if (searchItem === "all") { 
-       console.log("EE ")// new class name here
-       displayBills(fetchedBills);
-        return 
-     }
+    if (searchItem === "all") {
+      console.log("EE "); // new class name here
+      displayBills(fetchedBills);
+      return;
+    }
 
-     const filteredItems = fetchedBills.filter(bill => {
-      return (
-        bill.state.toLowerCase().includes(searchItem) 
-        
-      );
+    const filteredItems = fetchedBills.filter(bill => {
+      return bill.state.toLowerCase().includes(searchItem);
     });
 
-    console.log("📽️ Filtered ", filteredItems)
+    console.log("📽️ Filtered ", filteredItems);
     displayBills(filteredItems);
-    }
+  }
 });
 
-
 function generateHTML(data, index) {
-
-
-  count.innerHTML =`${index+1}` 
+  count.innerHTML = `${index + 1}`;
 
   let billPassed = data.actions.filter(house => {
     let found = false;
@@ -136,7 +125,6 @@ function generateHTML(data, index) {
     });
     return found;
   });
-
 
   let skyGradient = {
     1: "url('./img/pencils.jpg') no-repeat center",
@@ -152,101 +140,147 @@ function generateHTML(data, index) {
   };
 
   let status = {
-    "bill:introduced": { name: "Introduced or prefiled", color: "bg-blue" },
-    "bill:passed": { name: "Bill has passed a chamber", color: "bg-yellow" },
-    "bill:failed": { name: "Failed to pass a chamber", color: "bg-red" },
-    "bill:withdrawn": { name: "Withdrawn from consideration", color: "bg-red" },
+    "bill:introduced": {
+      name: "Introduced or prefiled",
+      color: "bg-blue",
+      importance: 0
+    },
+    "bill:passed": {
+      name: "Bill has passed a chamber",
+      color: "bg-yellow",
+      importance: 1
+    },
+    "bill:failed": {
+      name: "Failed to pass a chamber",
+      color: "bg-red",
+      importance: 1
+    },
+    "bill:withdrawn": {
+      name: "Withdrawn from consideration",
+      color: "bg-red",
+      importance: 0
+    },
     "bill:veto_override:passed": {
       name: "Chamber attempted a veto override and succeeded",
-      color: "bg-green"
+      color: "bg-green",
+      importance: 1
     },
     "bill:veto_override:failed": {
       name: "Chamber attempted a veto override and failed",
-      color: "bg-red"
+      color: "bg-red",
+      importance: 1
     },
     "bill:reading:1": {
       name: "Bill has undergone its first reading",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "bill:reading:2": {
       name: "Bill has undergone its second reading",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "bill:reading:3": {
       name: "Bill has undergone its third (or final) reading",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
-    "bill:filed": { name: "Bill has been filed", color: "bg-yellow" },
+    "bill:filed": {
+      name: "Bill has been filed",
+      color: "bg-yellow",
+      importance: 1
+    },
     "bill:substituted": {
       name: "Bill has been replaced with a substituted wholesale",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "governor:received": {
       name: "Bill has been transmitted to the governor for consideration",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 1
     },
     "governor:signed": {
       name: "Bill was signed into law by the governor",
-      color: "bg-green"
+      color: "bg-green",
+      importance: 1
     },
     "governor:vetoed": {
       name: "Bill has been vetoed by the governor",
-      color: "bg-red"
+      color: "bg-red",
+      importance: 1
     },
     "governor:vetoed:line-item": {
       name: "Governor has issued a partial veto",
-      color: "bg-light-yellow"
+      color: "bg-light-yellow",
+      importance: 1
     },
     "amendment:introduced": {
       name: "An amendment has been offered on the bill",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
-    "amendment:passed": { name: "The bill has been amended", color: "bg-light-yellow" },
+    "amendment:passed": {
+      name: "The bill has been amended",
+      color: "bg-light-yellow",
+      importance: 0
+    },
     "amendment:failed": {
       name: "An offered amendment has failed",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "amendment:amended": {
       name: "An offered amendment has been amended",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "amendment:withdrawn": {
       name: "An offered amendment has been withdrawn",
-      color: "bg-pink"
+      color: "bg-pink",
+      importance: 0
     },
     "amendment:tabled": {
       name: "An amendment has been ‘laid on the table’",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "committee:referred": {
       name: "Bill referred to a committee",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "committee:passed": {
       name: "Bill has been passed out of a committee",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "committee:passed:favorable": {
       name: "Bill has been passed out of a committee with a favorable report",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "committee:passed:unfavorable": {
       name:
         "Bill has been passed out of a committee with an unfavorable report",
-      color: "bg-yellow"
+      color: "bg-yellow",
+      importance: 0
     },
     "committee:failed": {
       name: "Bill has failed to make it out of committee",
-      color: "bg-red"
+      color: "bg-red",
+      importance: 0
     },
 
-    null: { name: "(Pending) View state website", color: "bg-light-yellow" }
+    null: {
+      name: "(Pending) View state website",
+      color: "bg-light-yellow",
+      importance: 0
+    }
   };
 
-  
-  // let lastBillAction = data.actions.pop();
+
   let lastBillAction = data.actions[data.actions.length - 1];
-  // console.log(lastBillAction)
 
   if (
     typeof status[lastBillAction.type] === "undefined" ||
@@ -259,13 +293,14 @@ function generateHTML(data, index) {
   }
   //  console.log("🧢 status", data.bill_id);
 
-
   stateData = state[data.state.toUpperCase()];
-  //  console.log( "DATE ",formatDate(data.created_at))  
-  
-  listArray.push(data.state.toUpperCase())
+  //  console.log( "DATE ",formatDate(data.created_at))
 
-{/* <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;"> */}
+  listArray.push(data.state.toUpperCase());
+
+  {
+    /* <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;"> */
+  }
 
   return `
   <div class="div1 container ">
@@ -276,7 +311,11 @@ function generateHTML(data, index) {
                     <h3 class="f3 f3-m measure-narrow lh-title mv0">
                         <span class=" lh-copy bg-near-black white pa1 tracked-tight">
                         ${stateData.name} - ${data.bill_id}</span>
-                      ${ data.isBillNew ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">New</a>': "" } 
+                      ${
+                        data.isBillNew
+                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">New</a>'
+                          : ""
+                      } 
                       <a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue" style="background:url('./img/triangles.png') no-repeat center;">Major Update</a>
                     </h3>
                     </div>
@@ -401,8 +440,8 @@ const loadBills = () => {
   try {
     // const res = fetch("./test.json", {
     // const res = fetch("http://localhost:8887/track", {
-      // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+    // const res = fetch("http://localhost:5001/track", {
+    const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -427,17 +466,14 @@ const displayBills = bills => {
     })
     .join("");
 
+  list = Array.from(new Set(listArray))
+    .map(item => {
+      return (list = createList(item));
+    })
+    .join("");
 
+  filter_list.innerHTML = list;
 
-  list = Array.from(new Set(listArray)).map(item =>{
-    return (list = createList(item)
-    )
-  }).join("");
- 
- 
-    filter_list.innerHTML = list;
- 
-  
   gallery.innerHTML = html;
 };
 
@@ -475,18 +511,12 @@ function formatDate(input) {
   ].join("/");
 }
 
+function createList(list) {
+  if (state[list] !== undefined) {
+    console.log(" Inside List ", list, state[list]);
 
-function createList(list){
- 
+    //console.log("List ",list, state[list])
 
- if (state[list] !== undefined){
-  console.log(" Inside List ",list, state[list])
-   
- 
- //console.log("List ",list, state[list])
-
-
-return(`<li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${state[list].name}</a></li>`)
+    return `<li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${state[list].name}</a></li>`;
+  }
 }
-
-};
