@@ -1,5 +1,5 @@
 let cron = require("node-cron");
-
+var format = require('date-fns/format')
 // Imports
 const firestoreService = require('firestore-export-import');
 const firebaseConfig = require('./config.js');
@@ -15,7 +15,12 @@ if (firestoreService.admin.apps.length  === 0 ) {
   console.log('Firebase Initialized');
 }
     await firestoreService.restore('./data-clean/firebase/test.json');
-    console.log('Upload Success');
+
+    var time = format(
+      new Date(Date.now()),
+      'MM/dd/yyyy:HH:mm:ss'
+    )
+    console.log('Upload Success at: ', time );
   }
   catch (error) {
     console.log(error);

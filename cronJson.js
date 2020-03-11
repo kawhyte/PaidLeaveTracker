@@ -11,11 +11,11 @@ var _ = require("lodash");
 // const { DateTime } = require("luxon");
 // import { formatDistance, subDays } from 'date-fns'
 let differenceInCalendarDays = require('date-fns/differenceInCalendarDays')
-
+var format = require('date-fns/format')
 function getData() {
   console.log("Waiting on Cron...");
-  // cron.schedule("* * * * *", () => {
-  cron.schedule("*/30 * * * *", () => {
+  cron.schedule("*/2 * * * *", () => {
+  // cron.schedule("*/30 * * * *", () => {
     console.log("running a cron every XX minute");
 
     runCron();
@@ -29,6 +29,11 @@ var result = differenceInCalendarDays(
   new Date(1583776202805)
 )
 
+var result2 = format(
+  new Date(Date.now()),
+  'MM/dd/yyyy:HH:mm:ss'
+)
+console.log(result2)
 console.log("⏲️ Date Diff", result );
 
 const getUsers = async function(pageNo = 1) {
@@ -87,6 +92,7 @@ function addToJsonFile(entireList) {
       db.get("bills")
         .push({
           dateAddedToTracker: Date.now(),
+          isBillNew:true,
           title: entireList[index].title,
           summary: entireList[index].summary,
           created_at: entireList[index].created_at,
@@ -111,6 +117,7 @@ function addToJsonFile(entireList) {
           subjects: entireList[index].subjects,
           companions: entireList[index].companions,
           notificationSent: false
+     
         })
         .write();
       console.log("🌈 Undefined - new record added");
@@ -123,7 +130,7 @@ function addToJsonFile(entireList) {
         db.get("bills")
           .find({ bill_id: entireList[index].bill_id })
           .assign({
-           
+            isBillNew:true,
             title: entireList[index].title,
             summary: entireList[index].summary,
             created_at: entireList[index].created_at,
@@ -147,7 +154,8 @@ function addToJsonFile(entireList) {
             alternate_bill_ids: entireList[index].alternate_bill_ids,
             subjects: entireList[index].subjects,
             companions: entireList[index].companions,
-            notificationSent: false
+            notificationSent: false,
+            
           })
           .write();
         console.log("Updated ");

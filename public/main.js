@@ -124,7 +124,7 @@ document.getElementById("filter-list").addEventListener("click",function(e) {
 function generateHTML(data, index) {
 
 
-  count.innerHTML =`${index+1} Paid Leave bills found` 
+  count.innerHTML =`${index+1}` 
 
   let billPassed = data.actions.filter(house => {
     let found = false;
@@ -265,17 +265,19 @@ function generateHTML(data, index) {
   
   listArray.push(data.state.toUpperCase())
 
-
+{/* <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;"> */}
 
   return `
   <div class="div1 container ">
             <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
-                <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;">
+                <div id ="bg" class="vh-10 dt w-100 tc bg-black white">
 
-                    <div class="pt3 f3-m fw5 white">                       
+                    <div class="pt3 f3-m fw5 black">                       
                     <h3 class="f3 f3-m measure-narrow lh-title mv0">
-                        <span class=" lh-copy white pa1 tracked-tight">
+                        <span class=" lh-copy bg-near-black white pa1 tracked-tight">
                         ${stateData.name} - ${data.bill_id}</span>
+                      ${ data.isBillNew ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">New</a>': "" } 
+                      <a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue" style="background:url('./img/triangles.png') no-repeat center;">Major Update</a>
                     </h3>
                     </div>
 

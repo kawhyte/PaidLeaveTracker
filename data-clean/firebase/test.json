@@ -1,7 +1,8 @@
 {
   "bills": [
     {
-      "date": 1583776202805,
+      "dateAddedToTracker": 1583899682183,
+      "isBillNew": true,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:08",
@@ -383,7 +384,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202806,
+      "dateAddedToTracker": 1583899682183,
+      "isBillNew": true,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-02-03 05:52:43",
@@ -524,7 +526,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202807,
+      "dateAddedToTracker": 1583899682184,
+      "isBillNew": true,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-03-06 10:39:25",
@@ -594,7 +597,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202807,
+      "dateAddedToTracker": 1583899682184,
+      "isBillNew": true,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-03-06 10:39:00",
@@ -664,7 +668,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202808,
+      "dateAddedToTracker": 1583899682184,
+      "isBillNew": true,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-01-23 06:35:19",
@@ -805,7 +810,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202810,
+      "dateAddedToTracker": 1583899682184,
+      "isBillNew": true,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:48:37",
@@ -934,7 +940,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202814,
+      "dateAddedToTracker": 1583899682185,
+      "isBillNew": true,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:45:16",
@@ -1038,7 +1045,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202815,
+      "dateAddedToTracker": 1583899682185,
+      "isBillNew": true,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:44:38",
@@ -1142,7 +1150,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202815,
+      "dateAddedToTracker": 1583899682185,
+      "isBillNew": true,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
       "summary": "",
       "created_at": "2020-03-07 09:43:45",
@@ -1271,7 +1280,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202816,
+      "dateAddedToTracker": 1583899682186,
+      "isBillNew": true,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-02-15 09:20:52",
@@ -1537,7 +1547,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202817,
+      "dateAddedToTracker": 1583899682186,
+      "isBillNew": true,
       "title": "revise certain leave policies for state employees.",
       "summary": "",
       "created_at": "2020-02-08 07:16:44",
@@ -1728,7 +1739,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202818,
+      "dateAddedToTracker": 1583899682187,
+      "isBillNew": true,
       "title": "Relating to state financial administration; declaring an emergency.",
       "summary": "<b>Appropriates moneys from General Fund to Emergency Board for allocations during biennium. \n\t<b>Appropriates moneys from General Fund to specified state agencies for biennial expenses.</b> \n\tModifies certain biennial appropriations made from General Fund to specified state agencies and Emergency Board. \n\tEstablishes and modifies limitations on expenditures for certain biennial expenses for specified state agencies. \n\tDeclares emergency, effective on passage.",
       "created_at": "2020-02-11 06:02:42",
@@ -1854,7 +1866,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202818,
+      "dateAddedToTracker": 1583899682187,
+      "isBillNew": true,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-25 06:39:30",
@@ -1987,7 +2000,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202819,
+      "dateAddedToTracker": 1583899682187,
+      "isBillNew": true,
       "title": "establishing the granite state paid family leave plan.",
       "summary": "",
       "created_at": "2020-01-17 05:02:19",
@@ -2086,7 +2100,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202819,
+      "dateAddedToTracker": 1583899682188,
+      "isBillNew": true,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-24 06:40:26",
@@ -2219,7 +2234,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202819,
+      "dateAddedToTracker": 1583899682188,
+      "isBillNew": true,
       "title": "Recognizing 2019 Oregon Women of Achievement.",
       "summary": "Recognizes 2019 Oregon Women of Achievement for outstanding leadership and service to people of Oregon.",
       "created_at": "2020-02-04 08:02:01",
@@ -2519,7 +2535,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202820,
+      "dateAddedToTracker": 1583899682189,
+      "isBillNew": true,
       "title": "Interest Arbitration Award and Collective Bargaining Agreement between the District of Columbia Public Schools and the Office of the State Superintendent of Education and the American Federation of State, County and Municipal Employees, District Council 20, Local 2921, AFL-CIO Emergency Approval of 2020",
       "summary": "",
       "created_at": "2020-02-04 05:15:18",
@@ -2608,7 +2625,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202821,
+      "dateAddedToTracker": 1583899682190,
+      "isBillNew": true,
       "title": "2020 Women's Economic Security Act; create.",
       "summary": "",
       "created_at": "2020-02-20 06:43:20",
@@ -2688,7 +2706,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202821,
+      "dateAddedToTracker": 1583899682190,
+      "isBillNew": true,
       "title": "Women's Economic Security Act of 2020; enact.",
       "summary": "",
       "created_at": "2020-02-19 06:40:12",
@@ -2776,7 +2795,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202822,
+      "dateAddedToTracker": 1583899682193,
+      "isBillNew": true,
       "title": "Women's Economic Security Act of 2020; create.",
       "summary": "",
       "created_at": "2020-02-19 06:40:19",
@@ -2856,7 +2876,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202823,
+      "dateAddedToTracker": 1583899682193,
+      "isBillNew": true,
       "title": "Mississippi Paid Family Leave Act; establish.",
       "summary": "",
       "created_at": "2020-02-19 06:39:43",
@@ -2936,7 +2957,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202823,
+      "dateAddedToTracker": 1583899682194,
+      "isBillNew": true,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-02-28 10:38:11",
@@ -3009,7 +3031,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202825,
+      "dateAddedToTracker": 1583899682195,
+      "isBillNew": true,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
       "summary": "",
       "created_at": "2020-02-28 10:33:14",
@@ -3082,7 +3105,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202826,
+      "dateAddedToTracker": 1583899682196,
+      "isBillNew": true,
       "title": "Relates to paid family leave and siblings",
       "summary": "Adds siblings to the definition of family member for the purposes of paid family leave.",
       "created_at": "2020-02-28 11:09:48",
@@ -3158,7 +3182,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202826,
+      "dateAddedToTracker": 1583899682197,
+      "isBillNew": true,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:58",
@@ -3344,7 +3369,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202827,
+      "dateAddedToTracker": 1583899682198,
+      "isBillNew": true,
       "title": "Paid family leave: qualifying exigency.",
       "summary": "Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States. Existing law defines terms for paid family leave purposes, including defining the terms \"care recipient,\" \"care provider,\" and \"family care leave.\" \n\nThis bill would revise those definitions for the purpose of the qualifying exigency provisions. The bill would define \"military member\" for the purpose of that term's use in those revised definitions. \n\nExisting law requires certain documentation of a qualifying exigency, including a copy of new active duty orders or other documentation issued by the military as required by the department if the need for leave because of a qualifying exigency arises out of a different covered active duty or call to covered active duty or notification of an impending call or order to covered active duty of the same or a different family member.\n\nThis bill would provide that the new documentation requirement would apply to a need for leave because of a qualifying exigency arising out of those described circumstances with respect to the same or a different eligible family member. ",
       "created_at": "2020-02-19 07:18:35",
@@ -3423,7 +3449,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202828,
+      "dateAddedToTracker": 1583899682199,
+      "isBillNew": true,
       "title": "PAID FAMILY LEAVE ACT",
       "summary": "Creates the Paid Family Leave Act. Requires a private employer to provide 4 weeks of paid leave to an employee who takes leave: (1) because of the birth of a child of the employee and to care for the child or (2) to care for a newly adopted child under 18 years of age, a newly placed foster child under 18 years of age or a newly adopted or newly placed foster child older than 18 years of age if the child is incapable of self-care because of a mental or physical disability. Provides that paid family leave shall be provided irrespective of the employer's leave policies and shall be provided to an employee who has been employed by the employer for at least one year. Permits employees to voluntarily waive paid family leave. Provides that the Department of Labor may adopt any rules necessary to implement the Act.",
       "created_at": "2020-02-15 16:34:20",
@@ -3505,7 +3532,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202828,
+      "dateAddedToTracker": 1583899682200,
+      "isBillNew": true,
       "title": "PAID FAMILY LEAVE ACT",
       "summary": "Creates the Paid Family Leave Act. Requires private employers with 50 or more employees to provide 6 weeks of paid leave for an employee who takes leave: (1) because of the birth of a child of the employee and in order to care for the child; (2) to care for a newly adopted child under 18 years of age or a newly placed foster child under 18 years of age or a newly adopted or newly placed foster child older than 18 years of age if the child is incapable of self-care because of a mental or physical disability; or (3) to care for a family member with a serious health condition. Provides that paid family leave shall be provided irrespective of the employer's leave policies; and shall be provided to an employee who has been employed by the employer for at least one year. Permits employees to voluntarily waive paid family leave. Provides that the Department of Labor may adopt any rules necessary to implement the Act.",
       "created_at": "2019-01-10 12:17:28",
@@ -3669,7 +3697,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202829,
+      "dateAddedToTracker": 1583899682201,
+      "isBillNew": true,
       "title": "paid family leave",
       "summary": "",
       "created_at": "2020-02-11 07:58:58",
@@ -3852,7 +3881,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202830,
+      "dateAddedToTracker": 1583899682201,
+      "isBillNew": true,
       "title": "Enacting the Kansas Paid Family Leave Act, establishing the Family and Medical Leave Insurance Fund. ",
       "summary": "",
       "created_at": "2020-02-13 07:47:32",
@@ -3930,7 +3960,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202831,
+      "dateAddedToTracker": 1583899682203,
+      "isBillNew": true,
       "title": "Relates to authorizing paid family leave for bereavement",
       "summary": "Authorizes paid family leave for bereavement beginning in 2021.",
       "created_at": "2019-03-26 12:08:50",
@@ -4022,7 +4053,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202832,
+      "dateAddedToTracker": 1583899682205,
+      "isBillNew": true,
       "title": "Relating generally to the payment of salary or wages under the Parental Leave Act",
       "summary": "",
       "created_at": "2020-01-15 05:25:31",
@@ -4148,7 +4180,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202833,
+      "dateAddedToTracker": 1583899682206,
+      "isBillNew": true,
       "title": "Expanding accessible, affordable child care and early childhood development programs.",
       "summary": "",
       "created_at": "2020-01-17 13:08:38",
@@ -4546,7 +4579,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202834,
+      "dateAddedToTracker": 1583899682209,
+      "isBillNew": true,
       "title": "A bill for an act providing for paid sick leave and scheduling procedures for employees, establishing a family leave and medical leave insurance program, providing penalties and remedies, and including applicability provisions.",
       "summary": "",
       "created_at": "2020-02-01 05:51:48",
@@ -4657,7 +4691,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202835,
+      "dateAddedToTracker": 1583899682210,
+      "isBillNew": true,
       "title": "employers; paid family leave",
       "summary": "",
       "created_at": "2020-02-04 08:47:09",
@@ -4790,7 +4825,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202836,
+      "dateAddedToTracker": 1583899682211,
+      "isBillNew": true,
       "title": "An act relating to paid family and medical leave",
       "summary": "",
       "created_at": "2019-01-29 11:32:10",
@@ -5829,11 +5865,12 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202838,
+      "dateAddedToTracker": 1583899682213,
+      "isBillNew": true,
       "title": "Paid family leave.",
       "summary": "(1) Existing law prohibits an employer with 50 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee worked 1,250 hours in the prior 12 months. Existing law includes within \"family care and medical leave\" the birth, adoption, or foster care placement of a child and the serious health condition of the employee's child, parent, or spouse.\n\nThis bill would expand the scope of those provisions to instead prohibit an employer with 5 or more employees to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee had 180 days of service with the employer. The bill would expand the definition of \"family care and medical leave\" to include leave for reason of the birth or placement of a child if the employee has identified the child as their designated person, as defined, leave to care for a grandparent, grandchild, sibling, domestic partner, or designated person who has a serious health condition, and leave because of a qualifying exigency related to the covered active duty or call to covered active duty of an employee's spouse, domestic partner, child, or parent in the Armed Forces of the United States. The bill would delete a provision specifying that, if both parents are employed by the employer and are entitled to leave, the employer is not required to grant leave in connection with the birth, adoption, or foster care of a child that is greater than 12 weeks.\n\n(2) Existing law, the New Parent Leave Act, prohibits an employer with 20 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave to bond with a new child within one year of the birth, adoption, or foster care placement of the child if the employee worked 1,250 hours in the prior 12 months.\n\nThis bill would repeal those provisions.\n\n(3) Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States.\n\nThis bill would expand the scope of those provisions to include time off to care for a seriously ill designated person or child-in-law, as those terms are defined, or to bond with a designated person or child-in-law within one year of the birth or placement of the designated person or child-in-law.\n\n(4) Existing law makes an individual ineligible for family temporary disability insurance benefits on any day that another family member is ready, willing, able, and available to provide the required care or participate in the qualified exigency, as specified. Existing law authorizes an employer to require an employee to take up to 2 weeks of vacation leave before the employee receives the benefits.\n\nThis bill would delete those provisions.\n\n(5) Under existing law, workers are required to pay contributions to the Unemployment Compensation Disability Fund, a special fund in the State Treasury, and those funds are continuously appropriated for the purpose of providing disability benefits and making payment of administrative expenses.\n\nBy authorizing the expenditure of these funds for a new purpose, the bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:38",
-      "updated_at": "2020-03-08 07:20:18",
+      "updated_at": "2020-03-11 00:17:20",
       "id": "",
       "all_ids": [
         ""
@@ -5851,8 +5888,8 @@
           "date": "2019-01-15 00:00:00",
           "action": "Introduced. Read first time. To Com. on RLS. for assignment. To print.",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -5878,8 +5915,9 @@
           "action": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on RLS.",
           "type": [
             "bill:reading:2",
-            "committee:referred",
             "bill:reading:1",
+            "committee:referred",
+            "amendment:passed",
             "committee:passed"
           ],
           "related_entities": [],
@@ -5961,7 +5999,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6044,11 +6083,12 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202841,
+      "dateAddedToTracker": 1583899682215,
+      "isBillNew": true,
       "title": "Disability insurance: paid family leave program.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions. \n\nExisting law establishes, within the state disability insurance program, the family temporary disability insurance program, also known as the paid family leave program, for the provision of up to 6 weeks of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of the birth or placement of the child in connection with foster care or adoption. Existing law limits the temporary disability benefits paid under these provisions to not more than 6 weeks within any 12-month period. \n\nThis bill would authorize up to 12 weeks of temporary disability benefits in a 12-month period, but would limit each disability benefit period to 6 weeks of temporary disability benefits.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-22 18:07:50",
-      "updated_at": "2020-03-08 07:19:27",
+      "updated_at": "2020-03-11 00:19:22",
       "id": "",
       "all_ids": [
         ""
@@ -6092,7 +6132,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on L. & E. Read second time and amended.",
           "type": [
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced",
+            "bill:reading:1",
+            "amendment:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6122,7 +6164,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced",
+            "bill:reading:1",
+            "amendment:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6166,7 +6210,9 @@
         {
           "date": "2020-01-31 00:00:00",
           "action": "Died pursuant to Art. IV, Sec. 10(c) of the Constitution.",
-          "type": [],
+          "type": [
+            "bill:failed"
+          ],
           "related_entities": [],
           "actor": "lower"
         },
@@ -6174,6 +6220,7 @@
           "date": "2020-02-03 00:00:00",
           "action": "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56.",
           "type": [
+            "bill:failed",
             "committee:passed"
           ],
           "related_entities": [],
@@ -6239,7 +6286,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202843,
+      "dateAddedToTracker": 1583899682217,
+      "isBillNew": true,
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
       "summary": "",
       "created_at": "2020-01-09 05:10:41",
@@ -6340,7 +6388,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202846,
+      "dateAddedToTracker": 1583899682219,
+      "isBillNew": true,
       "title": "Proposed contract with Geographic Solutions, Inc. ",
       "summary": "",
       "created_at": "2020-02-03 05:14:15",
@@ -6417,7 +6466,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202851,
+      "dateAddedToTracker": 1583899682221,
+      "isBillNew": true,
       "title": "A bill for an act providing for paid family leave for state employees.",
       "summary": "",
       "created_at": "2020-01-23 06:49:01",
@@ -6501,7 +6551,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202856,
+      "dateAddedToTracker": 1583899682222,
+      "isBillNew": true,
       "title": "Correspondence from the Mayor - DC Paid Family Leave Quarter 1 Fiscal Year 2020 Report",
       "summary": "",
       "created_at": "2020-01-22 05:13:09",
@@ -6572,7 +6623,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202858,
+      "dateAddedToTracker": 1583899682224,
+      "isBillNew": true,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
       "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
       "created_at": "2019-02-16 12:48:43",
@@ -6743,7 +6795,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202860,
+      "dateAddedToTracker": 1583899682226,
+      "isBillNew": true,
       "title": "A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.",
       "summary": "",
       "created_at": "2019-02-22 12:26:14",
@@ -6897,7 +6950,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202861,
+      "dateAddedToTracker": 1583899682228,
+      "isBillNew": true,
       "title": "Provides for school and medical family leave.",
       "summary": "",
       "created_at": "2020-01-15 04:02:37",
@@ -6965,7 +7019,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202863,
+      "dateAddedToTracker": 1583899682230,
+      "isBillNew": true,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-01-16 07:46:18",
@@ -7058,7 +7113,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202865,
+      "dateAddedToTracker": 1583899682232,
+      "isBillNew": true,
       "title": "Employment Practices",
       "summary": "Employment Practices; Creates \"Florida Family Leave Act\"; requires employer to allow certain employees to take paid family leave to bond with minor child upon child's birth, adoption, or foster care placement; provides requirements, limitations, & duties; provides for civil action & penalties & criminal penalty; prohibits specified employment practices on basis of pregnancy, childbirth, or medical condition related to pregnancy or childbirth; provides for leave, maintenance of health coverage, reasonable accommodation & transfer, & return rights for employee who is disabled from pregnancy, childbirth, or medical condition related to pregnancy or childbirth.",
       "created_at": "2019-12-11 07:28:37",
@@ -7148,7 +7204,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202868,
+      "dateAddedToTracker": 1583899682234,
+      "isBillNew": true,
       "title": "Employment Practices",
       "summary": "Employment Practices; Creating the \"Florida Family Leave Act\"; requiring an employer to allow certain employees to take paid family leave to bond with a new child upon the child’s birth, adoption, or foster care placement; requiring that family leave be taken concurrently with any leave taken pursuant to federal family and medical leave provisions; requiring the Department of Economic Opportunity to create a poster and a model notice that specify family leave rights, etc.",
       "created_at": "2019-12-11 07:29:11",
@@ -7233,7 +7290,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202870,
+      "dateAddedToTracker": 1583899682236,
+      "isBillNew": true,
       "title": "state employees; paid family leave",
       "summary": "",
       "created_at": "2020-01-14 00:28:56",
@@ -7371,7 +7429,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202871,
+      "dateAddedToTracker": 1583899682238,
+      "isBillNew": true,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:03:50",
@@ -7595,7 +7654,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202873,
+      "dateAddedToTracker": 1583899682240,
+      "isBillNew": true,
       "title": "Relates to family medical leave and military families",
       "summary": "Provides that every public employer shall provide paid family leave benefits to the spouse, domestic partner, child, or parent of the employee who is on active duty (or has been notified of an impending call or order to active duty) in the armed forces of the United States.",
       "created_at": "2020-01-11 07:49:54",
@@ -7671,296 +7731,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202875,
-      "title": "Relates to dependent workers",
-      "summary": "Relates to dependent workers; defines the term \"dependent worker\"; requires the commissioner of labor to hold public meetings to examine state laws relating to dependent workers.",
-      "created_at": "2019-06-15 12:46:17",
-      "updated_at": "2020-02-28 11:14:32",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "lower",
-      "state": "ny",
-      "session": "2019-2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "A 8343",
-      "actions": [
-        {
-          "date": "2019-06-14 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-06-17 00:00:00",
-          "action": "REPORTED REFERRED TO CODES",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "REFERRED TO CODES",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A8343?summary=&detail="
-        },
-        {
-          "url": "http://www.nysenate.gov/legislation/bills/2019/A8343"
-        },
-        {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A08343&term=2019"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "CRESPO"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "PERRY"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "REYES"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "ORTIZ"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "LENTOL"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8343&term=2019&Text=Y",
-          "doc_id": "~not available~",
-          "name": "A8343"
-        },
-        {
-          "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A8343",
-          "doc_id": "~not available~",
-          "name": "A8343"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-06-14 00:00:00",
-        "last": "2020-01-08 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776202877,
-      "title": "Relates to providing four weeks of leave for victims of abuse",
-      "summary": "Provides that an eligible employee may take two weeks of paid leave through the paid family leave program and an additional two weeks of unpaid leave during any 52 week calendar period as a result of being a victim of domestic or sexual abuse.",
-      "created_at": "2019-07-09 12:43:42",
-      "updated_at": "2020-02-28 11:08:18",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "lower",
-      "state": "ny",
-      "session": "2019-2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "A 8472",
-      "actions": [
-        {
-          "date": "2019-07-08 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A8472?summary=&detail="
-        },
-        {
-          "url": "http://www.nysenate.gov/legislation/bills/2019/A8472"
-        },
-        {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A08472&term=2019"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "DE LA ROSA"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "REYES"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8472&term=2019&Text=Y",
-          "doc_id": "~not available~",
-          "name": "A8472"
-        },
-        {
-          "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A8472",
-          "doc_id": "~not available~",
-          "name": "A8472"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-07-08 00:00:00",
-        "last": "2020-01-08 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776202880,
-      "title": "Relates to dependent workers",
-      "summary": "Relates to dependent workers; defines the term \"dependent worker\"; requires the commissioner of labor to hold public meetings to examine state laws relating to dependent workers.",
-      "created_at": "2019-06-16 12:42:13",
-      "updated_at": "2020-02-28 10:58:21",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "upper",
-      "state": "ny",
-      "session": "2019-2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "S 6538",
-      "actions": [
-        {
-          "date": "2019-06-15 00:00:00",
-          "action": "REFERRED TO RULES",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/S6538?summary=&detail="
-        },
-        {
-          "url": "http://www.nysenate.gov/legislation/bills/2019/S6538"
-        },
-        {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06538&term=2019"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "SAVINO"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6538&term=2019&Text=Y",
-          "doc_id": "~not available~",
-          "name": "S6538"
-        },
-        {
-          "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S6538",
-          "doc_id": "~not available~",
-          "name": "S6538"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-06-15 00:00:00",
-        "last": "2020-01-08 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776202882,
+      "dateAddedToTracker": 1583899682242,
+      "isBillNew": true,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2019-01-23 11:45:21",
@@ -8060,35 +7832,27 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202885,
-      "title": "Relating generally to paid family and medical leave",
-      "summary": "",
-      "created_at": "2020-01-10 05:17:24",
-      "updated_at": "2020-01-10 05:17:24",
+      "dateAddedToTracker": 1583899682244,
+      "isBillNew": true,
+      "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
+      "summary": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers.",
+      "created_at": "2019-02-01 12:13:25",
+      "updated_at": "2020-02-28 11:04:18",
       "id": "",
       "all_ids": [
         ""
       ],
       "chamber": "lower",
-      "state": "wv",
-      "session": "2020",
+      "state": "ny",
+      "session": "2019-2020",
       "type": [
         "bill"
       ],
-      "bill_id": "HB 3078",
+      "bill_id": "A 3821",
       "actions": [
         {
-          "date": "2020-01-08 00:00:00",
-          "action": "Filed for introduction",
-          "type": [
-            "bill:filed"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "To Banking and Insurance then Finance",
+          "date": "2019-01-31 00:00:00",
+          "action": "REFERRED TO LABOR",
           "type": [
             "committee:referred"
           ],
@@ -8097,16 +7861,7 @@
         },
         {
           "date": "2020-01-08 00:00:00",
-          "action": "Introduced in House",
-          "type": [
-            "bill:introduced"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "To House Banking and Insurance",
+          "action": "REFERRED TO LABOR",
           "type": [
             "committee:referred"
           ],
@@ -8116,68 +7871,84 @@
       ],
       "sources": [
         {
-          "url": "http://www.legis.state.wv.us/Bill_Status/Bills_history.cfm?input=3078&year=2020&sessiontype=RS&btype=bill"
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A3821?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2019/A3821"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03821&term=2019"
         }
       ],
       "sponsors": [
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Estep-Burton"
+          "name": "MCDONALD"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Thompson, C."
+          "name": "BYRNE"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Lavender-Bowe"
+          "name": "RAIA"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Doyle"
+          "name": "SAYEGH"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Pyles"
+          "name": "ASHBY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ARROYO"
         }
       ],
       "versions": [
         {
           "mimetype": "text/html",
-          "url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=hb3078%20intr.htm&yr=2020&sesstype=RS&i=3078",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3821&term=2019&Text=Y",
           "doc_id": "~not available~",
-          "name": "Introduced Version"
+          "name": "A3821"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A3821",
+          "doc_id": "~not available~",
+          "name": "A3821"
         }
       ],
       "documents": [],
       "alternate_titles": [],
       "votes": null,
       "action_dates": {
-        "first": "2020-01-08 00:00:00",
+        "first": "2019-01-31 00:00:00",
         "last": "2020-01-08 00:00:00",
         "passed_upper": null,
         "passed_lower": null,
         "signed": null
       },
-      "scraped_subjects": [
-        "Insurance"
-      ],
+      "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false
     },
     {
-      "date": 1583776202887,
-      "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
-      "summary": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers.",
-      "created_at": "2019-01-04 11:04:30",
-      "updated_at": "2020-02-28 10:59:29",
+      "dateAddedToTracker": 1583899682246,
+      "isBillNew": true,
+      "title": "Relates to providing four weeks of leave for victims of abuse",
+      "summary": "Provides that an eligible employee may take two weeks of paid leave through the paid family leave program and an additional two weeks of unpaid leave during any 52 week calendar period as a result of being a victim of domestic or sexual abuse.",
+      "created_at": "2019-04-10 12:12:14",
+      "updated_at": "2020-02-28 10:55:59",
       "id": "",
       "all_ids": [
         ""
@@ -8188,16 +7959,85 @@
       "type": [
         "bill"
       ],
-      "bill_id": "S 323",
+      "bill_id": "S 5090",
       "actions": [
         {
-          "date": "2019-01-09 00:00:00",
+          "date": "2019-04-09 00:00:00",
           "action": "REFERRED TO LABOR",
           "type": [
             "committee:referred"
           ],
           "related_entities": [],
           "actor": "upper"
+        },
+        {
+          "date": "2019-05-07 00:00:00",
+          "action": "1ST REPORT CAL.640",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-05-08 00:00:00",
+          "action": "2ND REPORT CAL.",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-05-13 00:00:00",
+          "action": "ADVANCED TO THIRD READING",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-06-05 00:00:00",
+          "action": "AMENDED ON THIRD READING 5090A",
+          "type": [
+            "amendment:passed"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-06-18 00:00:00",
+          "action": "PASSED SENATE",
+          "type": [
+            "bill:passed"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-06-18 00:00:00",
+          "action": "DELIVERED TO ASSEMBLY",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-06-18 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "DIED IN ASSEMBLY",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "RETURNED TO SENATE",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
         },
         {
           "date": "2020-01-08 00:00:00",
@@ -8211,131 +8051,52 @@
       ],
       "sources": [
         {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/S323?summary=&detail="
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/S5090?summary=&detail="
         },
         {
-          "url": "http://www.nysenate.gov/legislation/bills/2019/S323"
+          "url": "http://www.nysenate.gov/legislation/bills/2019/S5090"
         },
         {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S00323&term=2019"
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S05090&term=2019"
         }
       ],
       "sponsors": [
         {
           "leg_id": null,
           "type": "primary",
-          "name": "AKSHAR"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S323&term=2019&Text=Y",
-          "doc_id": "~not available~",
-          "name": "S323"
-        },
-        {
-          "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S323",
-          "doc_id": "~not available~",
-          "name": "S323"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-01-09 00:00:00",
-        "last": "2020-01-08 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776202889,
-      "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
-      "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
-      "created_at": "2019-02-21 12:48:34",
-      "updated_at": "2020-02-28 11:00:21",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "lower",
-      "state": "ny",
-      "session": "2019-2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "A 5875",
-      "actions": [
-        {
-          "date": "2019-02-20 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A5875?summary=&detail="
-        },
-        {
-          "url": "http://www.nysenate.gov/legislation/bills/2019/A5875"
-        },
-        {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A05875&term=2019"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "CUSICK"
+          "name": "PARKER"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "REYES"
+          "name": "CARLUCCI"
         }
       ],
       "versions": [
         {
           "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5875&term=2019&Text=Y",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5090&term=2019&Text=Y",
           "doc_id": "~not available~",
-          "name": "A5875"
+          "name": "S5090"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A5875",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S5090",
           "doc_id": "~not available~",
-          "name": "A5875"
+          "name": "S5090"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S5090A",
+          "doc_id": "~not available~",
+          "name": "S5090A"
         }
       ],
       "documents": [],
       "alternate_titles": [],
       "votes": null,
       "action_dates": {
-        "first": "2019-02-20 00:00:00",
+        "first": "2019-04-09 00:00:00",
         "last": "2020-01-08 00:00:00",
         "passed_upper": null,
         "passed_lower": null,
@@ -8348,7 +8109,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202891,
+      "dateAddedToTracker": 1583899682248,
+      "isBillNew": true,
       "title": "Relates to paid family leave and siblings",
       "summary": "Adds siblings to the definition of family member for the purposes of paid family leave.",
       "created_at": "2019-01-31 12:05:00",
@@ -8548,176 +8310,12 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202893,
-      "title": "Relates to providing four weeks of leave for victims of abuse",
-      "summary": "Provides that an eligible employee may take two weeks of paid leave through the paid family leave program and an additional two weeks of unpaid leave during any 52 week calendar period as a result of being a victim of domestic or sexual abuse.",
-      "created_at": "2019-04-10 12:12:14",
-      "updated_at": "2020-02-28 10:55:59",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "upper",
-      "state": "ny",
-      "session": "2019-2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "S 5090",
-      "actions": [
-        {
-          "date": "2019-04-09 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-05-07 00:00:00",
-          "action": "1ST REPORT CAL.640",
-          "type": [],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-05-08 00:00:00",
-          "action": "2ND REPORT CAL.",
-          "type": [],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-05-13 00:00:00",
-          "action": "ADVANCED TO THIRD READING",
-          "type": [],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-06-05 00:00:00",
-          "action": "AMENDED ON THIRD READING 5090A",
-          "type": [
-            "amendment:passed"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-06-18 00:00:00",
-          "action": "PASSED SENATE",
-          "type": [
-            "bill:passed"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-06-18 00:00:00",
-          "action": "DELIVERED TO ASSEMBLY",
-          "type": [],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-06-18 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "DIED IN ASSEMBLY",
-          "type": [],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "RETURNED TO SENATE",
-          "type": [],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2020-01-08 00:00:00",
-          "action": "REFERRED TO LABOR",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/S5090?summary=&detail="
-        },
-        {
-          "url": "http://www.nysenate.gov/legislation/bills/2019/S5090"
-        },
-        {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S05090&term=2019"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "PARKER"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "CARLUCCI"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S5090&term=2019&Text=Y",
-          "doc_id": "~not available~",
-          "name": "S5090"
-        },
-        {
-          "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S5090",
-          "doc_id": "~not available~",
-          "name": "S5090"
-        },
-        {
-          "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S5090A",
-          "doc_id": "~not available~",
-          "name": "S5090A"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-04-09 00:00:00",
-        "last": "2020-01-08 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776202895,
-      "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
-      "summary": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers.",
-      "created_at": "2019-02-01 12:13:25",
-      "updated_at": "2020-02-28 11:04:18",
+      "dateAddedToTracker": 1583899682250,
+      "isBillNew": true,
+      "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
+      "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
+      "created_at": "2019-02-21 12:48:34",
+      "updated_at": "2020-02-28 11:00:21",
       "id": "",
       "all_ids": [
         ""
@@ -8728,10 +8326,10 @@
       "type": [
         "bill"
       ],
-      "bill_id": "A 3821",
+      "bill_id": "A 5875",
       "actions": [
         {
-          "date": "2019-01-31 00:00:00",
+          "date": "2019-02-20 00:00:00",
           "action": "REFERRED TO LABOR",
           "type": [
             "committee:referred"
@@ -8751,66 +8349,46 @@
       ],
       "sources": [
         {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A3821?summary=&detail="
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A5875?summary=&detail="
         },
         {
-          "url": "http://www.nysenate.gov/legislation/bills/2019/A3821"
+          "url": "http://www.nysenate.gov/legislation/bills/2019/A5875"
         },
         {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03821&term=2019"
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A05875&term=2019"
         }
       ],
       "sponsors": [
         {
           "leg_id": null,
           "type": "primary",
-          "name": "MCDONALD"
+          "name": "CUSICK"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "BYRNE"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "RAIA"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "SAYEGH"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "ASHBY"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "ARROYO"
+          "name": "REYES"
         }
       ],
       "versions": [
         {
           "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A3821&term=2019&Text=Y",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A5875&term=2019&Text=Y",
           "doc_id": "~not available~",
-          "name": "A3821"
+          "name": "A5875"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A3821",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A5875",
           "doc_id": "~not available~",
-          "name": "A3821"
+          "name": "A5875"
         }
       ],
       "documents": [],
       "alternate_titles": [],
       "votes": null,
       "action_dates": {
-        "first": "2019-01-31 00:00:00",
+        "first": "2019-02-20 00:00:00",
         "last": "2020-01-08 00:00:00",
         "passed_upper": null,
         "passed_lower": null,
@@ -8823,7 +8401,500 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202898,
+      "dateAddedToTracker": 1583899682252,
+      "isBillNew": true,
+      "title": "Relates to dependent workers",
+      "summary": "Relates to dependent workers; defines the term \"dependent worker\"; requires the commissioner of labor to hold public meetings to examine state laws relating to dependent workers.",
+      "created_at": "2019-06-15 12:46:17",
+      "updated_at": "2020-02-28 11:14:32",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "lower",
+      "state": "ny",
+      "session": "2019-2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "A 8343",
+      "actions": [
+        {
+          "date": "2019-06-14 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2019-06-17 00:00:00",
+          "action": "REPORTED REFERRED TO CODES",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "REFERRED TO CODES",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A8343?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2019/A8343"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A08343&term=2019"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "CRESPO"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "PERRY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "REYES"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ORTIZ"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "LENTOL"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8343&term=2019&Text=Y",
+          "doc_id": "~not available~",
+          "name": "A8343"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A8343",
+          "doc_id": "~not available~",
+          "name": "A8343"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2019-06-14 00:00:00",
+        "last": "2020-01-08 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682254,
+      "isBillNew": true,
+      "title": "Relates to providing four weeks of leave for victims of abuse",
+      "summary": "Provides that an eligible employee may take two weeks of paid leave through the paid family leave program and an additional two weeks of unpaid leave during any 52 week calendar period as a result of being a victim of domestic or sexual abuse.",
+      "created_at": "2019-07-09 12:43:42",
+      "updated_at": "2020-02-28 11:08:18",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "lower",
+      "state": "ny",
+      "session": "2019-2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "A 8472",
+      "actions": [
+        {
+          "date": "2019-07-08 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A8472?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2019/A8472"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A08472&term=2019"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "DE LA ROSA"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "REYES"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A8472&term=2019&Text=Y",
+          "doc_id": "~not available~",
+          "name": "A8472"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A8472",
+          "doc_id": "~not available~",
+          "name": "A8472"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2019-07-08 00:00:00",
+        "last": "2020-01-08 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682256,
+      "isBillNew": true,
+      "title": "Relates to dependent workers",
+      "summary": "Relates to dependent workers; defines the term \"dependent worker\"; requires the commissioner of labor to hold public meetings to examine state laws relating to dependent workers.",
+      "created_at": "2019-06-16 12:42:13",
+      "updated_at": "2020-02-28 10:58:21",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "upper",
+      "state": "ny",
+      "session": "2019-2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "S 6538",
+      "actions": [
+        {
+          "date": "2019-06-15 00:00:00",
+          "action": "REFERRED TO RULES",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/S6538?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2019/S6538"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06538&term=2019"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "SAVINO"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6538&term=2019&Text=Y",
+          "doc_id": "~not available~",
+          "name": "S6538"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S6538",
+          "doc_id": "~not available~",
+          "name": "S6538"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2019-06-15 00:00:00",
+        "last": "2020-01-08 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682259,
+      "isBillNew": true,
+      "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
+      "summary": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers.",
+      "created_at": "2019-01-04 11:04:30",
+      "updated_at": "2020-02-28 10:59:29",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "upper",
+      "state": "ny",
+      "session": "2019-2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "S 323",
+      "actions": [
+        {
+          "date": "2019-01-09 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/S323?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2019/S323"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S00323&term=2019"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "AKSHAR"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S323&term=2019&Text=Y",
+          "doc_id": "~not available~",
+          "name": "S323"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S323",
+          "doc_id": "~not available~",
+          "name": "S323"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2019-01-09 00:00:00",
+        "last": "2020-01-08 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682261,
+      "isBillNew": true,
+      "title": "Relating generally to paid family and medical leave",
+      "summary": "",
+      "created_at": "2020-01-10 05:17:24",
+      "updated_at": "2020-01-10 05:17:24",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "lower",
+      "state": "wv",
+      "session": "2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "HB 3078",
+      "actions": [
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "Filed for introduction",
+          "type": [
+            "bill:filed"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "To Banking and Insurance then Finance",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "Introduced in House",
+          "type": [
+            "bill:introduced"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-01-08 00:00:00",
+          "action": "To House Banking and Insurance",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        }
+      ],
+      "sources": [
+        {
+          "url": "http://www.legis.state.wv.us/Bill_Status/Bills_history.cfm?input=3078&year=2020&sessiontype=RS&btype=bill"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Estep-Burton"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Thompson, C."
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Lavender-Bowe"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Doyle"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Pyles"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=hb3078%20intr.htm&yr=2020&sesstype=RS&i=3078",
+          "doc_id": "~not available~",
+          "name": "Introduced Version"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2020-01-08 00:00:00",
+        "last": "2020-01-08 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [
+        "Insurance"
+      ],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682263,
+      "isBillNew": true,
       "title": "Relates to authorizing paid family leave for bereavement",
       "summary": "Authorizes paid family leave for bereavement beginning in 2021.",
       "created_at": "2019-03-22 12:01:03",
@@ -8908,7 +8979,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202900,
+      "dateAddedToTracker": 1583899682266,
+      "isBillNew": true,
       "title": "Request to reprogram $3,520,600.49 of Special Revenue funds within the Department of Employment Services (DOES), the Labor Standards Bureau to the Office of Paid Family Leave Program (OPFL)",
       "summary": "",
       "created_at": "2019-12-07 05:09:56",
@@ -8985,7 +9057,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202903,
+      "dateAddedToTracker": 1583899682270,
+      "isBillNew": true,
       "title": "Supports 32BJ Service Employees International Union members seeking new contract.",
       "summary": "",
       "created_at": "2020-01-15 19:29:30",
@@ -9052,7 +9125,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202907,
+      "dateAddedToTracker": 1583899682272,
+      "isBillNew": true,
       "title": "Request to reprogram $1,565,000 of Local Funds Budget Authority within the Department of Employment Services ",
       "summary": "",
       "created_at": "2019-10-25 10:10:11",
@@ -9129,7 +9203,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202909,
+      "dateAddedToTracker": 1583899682274,
+      "isBillNew": true,
       "title": "A Resolution designating the week of October 21 through 27, 2019, as \"Business Women's Week\" in Pennsylvania.",
       "summary": "",
       "created_at": "2019-10-24 19:51:55",
@@ -9292,7 +9367,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202911,
+      "dateAddedToTracker": 1583899682277,
+      "isBillNew": true,
       "title": "Correspondence from the Mayor - Q4 Fiscal Year 2019 Report DC Paid Family Leave",
       "summary": "",
       "created_at": "2019-10-23 10:11:21",
@@ -9363,11 +9439,12 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202914,
+      "dateAddedToTracker": 1583899682280,
+      "isBillNew": true,
       "title": "Disability compensation: paid family leave: application in non-English languages.",
       "summary": "The Dymally-Alatorre Bilingual Services Act requires a state agency that finds specific factors to exist to distribute certain written materials in the appropriate non-English language through its statewide and local offices or facilities to non-English-speaking persons, or, as an alternative, to furnish translation aids, translation guides, or provide assistance, through use of a qualified bilingual person, at its statewide and local offices or facilities in completing English forms or questionnaires and in understanding English forms, letters, or notices.\n\nExisting law establishes, within the state disability insurance program administered by the Employment Development Department, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified.\n\nThis bill, beginning January 1, 2025, would require the department to distribute the application for family temporary disability insurance benefits, in addition to the application in English, in all non-English languages spoken by a substantial number of non-English-speaking applicants, as defined.",
       "created_at": "2019-02-16 06:06:42",
-      "updated_at": "2020-03-08 07:19:36",
+      "updated_at": "2020-03-11 00:20:42",
       "id": "",
       "all_ids": [
         ""
@@ -9410,7 +9487,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced",
+            "bill:reading:1",
+            "amendment:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9429,7 +9508,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced",
+            "bill:reading:1",
+            "amendment:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9477,7 +9558,8 @@
           "date": "2019-05-20 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9515,6 +9597,8 @@
           "date": "2019-06-19 00:00:00",
           "action": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 5. Noes 0.) (June 19).",
           "type": [
+            "amendment:passed",
+            "amendment:introduced",
             "committee:passed"
           ],
           "related_entities": [],
@@ -9525,8 +9609,9 @@
           "action": "Read second time and amended. Re-referred to Com. on APPR.",
           "type": [
             "bill:reading:2",
+            "bill:reading:1",
             "committee:referred",
-            "bill:reading:1"
+            "amendment:passed"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -9554,7 +9639,8 @@
           "date": "2019-08-30 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -9595,7 +9681,8 @@
           "date": "2019-09-10 00:00:00",
           "action": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 79. Noes 0. Page 3295.).",
           "type": [
-            "amendment:passed"
+            "amendment:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9711,7 +9798,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202917,
+      "dateAddedToTracker": 1583899682282,
+      "isBillNew": true,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
       "summary": "",
       "created_at": "2019-10-24 19:49:25",
@@ -9813,7 +9901,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202920,
+      "dateAddedToTracker": 1583899682285,
+      "isBillNew": true,
       "title": "Fiscal Year 2020 Audit and Inspection Plan",
       "summary": "",
       "created_at": "2019-10-23 10:10:29",
@@ -9884,7 +9973,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202922,
+      "dateAddedToTracker": 1583899682287,
+      "isBillNew": true,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
       "summary": "",
       "created_at": "2019-07-24 18:18:14",
@@ -10181,7 +10271,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202925,
+      "dateAddedToTracker": 1583899682290,
+      "isBillNew": true,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 11/13/2019.  (HB32 CD1)",
       "created_at": "2019-01-17 15:03:48",
@@ -10638,7 +10729,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202928,
+      "dateAddedToTracker": 1583899682293,
+      "isBillNew": true,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
       "summary": "",
       "created_at": "2019-07-09 18:17:04",
@@ -10815,7 +10907,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202930,
+      "dateAddedToTracker": 1583899682296,
+      "isBillNew": true,
       "title": "Correspondence from the Mayor - DOES Q3 Fiscal Year 2019 Report: DC Paid Family Leave ",
       "summary": "",
       "created_at": "2019-07-04 10:11:09",
@@ -10886,7 +10979,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202934,
+      "dateAddedToTracker": 1583899682298,
+      "isBillNew": true,
       "title": "Relating to the long term care wage board; prescribing an effective date.",
       "summary": "Directs Commissioner of Bureau of Labor and Industries to appoint long term care wage board to examine factors that may present challenges to recruiting and retaining long term care employees. \n\tProhibits employers from retaliating against long term care employees who participate in board activities. Permits commissioner to assess civil penalty against employers that retaliate against employees. Requires moneys collected as penalties to be used to reimburse board in carrying out board's duties. \n\tRequires board to adopt recommended compensation schedule for long term care employees. Requires board to submit annual report to Bureau of Labor and Industries. Allows Commissioner of Bureau of Labor and Industries to consider recommended schedule in establishing compensation rates for long term care employees. \n\tTakes effect on 91st day following adjournment sine die.",
       "created_at": "2019-01-15 14:03:00",
@@ -11000,11 +11094,12 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202938,
+      "dateAddedToTracker": 1583899682301,
+      "isBillNew": true,
       "title": "Paid family leave.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions.\n\nExisting law establishes, within the state disability insurance program, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits for up to 6 weeks to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified. Existing law defines \"weekly benefit amount\" for purposes of both employee contributions and benefits under this program to mean the amount of weekly benefits available to qualifying disabled individuals pursuant to unemployment compensation disability law, calculated pursuant to specified formulas partly based on the applicable percentage of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, but not to exceed the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nThis bill would revise the formula for determining benefits available pursuant to the family temporary disability insurance program, for periods of disability commencing after January 1, 2020, by redefining the weekly benefit amount to be equal to 100% of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, divided by 13, but not exceeding the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:44",
-      "updated_at": "2020-03-08 07:17:58",
+      "updated_at": "2020-03-11 00:17:39",
       "id": "",
       "all_ids": [
         ""
@@ -11048,7 +11143,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced",
+            "bill:reading:1",
+            "amendment:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11096,7 +11193,8 @@
           "date": "2019-05-20 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11182,7 +11280,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202941,
+      "dateAddedToTracker": 1583899682305,
+      "isBillNew": true,
       "title": "FAMLI Family Medical Leave Insurance Program",
       "summary": "Paid family and medical leave - study - task force created - appropriation.  The act creates a study of the implementation of a paid family and medical leave program in the state by:\n\nRequiring the department of labor and employment to contract with experts in the field of paid family and medical leave to report on the establishment of a paid family and medical leave program for employees in the state;\nRequiring the department to request information from third parties that may be willing to administer all or part of a paid family and medical leave program;\nCreating the family and medical leave implementation task force, which is responsible for recommending a plan to implement a paid family and medical leave program for the state; and\nRequiring an actuarial study of the final plan recommended by the task force.\nTo implement the act, $165,487 is appropriated to the department of labor and employment and $17,004 is appropriated to the department of public health and environment. Both appropriations are from the general fund.\n(Note: This summary applies to this bill as enacted.)\n\n\n      \n   Read More",
       "created_at": "2019-03-08 13:24:15",
@@ -11560,7 +11659,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202944,
+      "dateAddedToTracker": 1583899682308,
+      "isBillNew": true,
       "title": "Correspondence from the Mayor - FPC Food System Assessment: The District's efforts to support a more equitable, healthy, and sustainable food system",
       "summary": "",
       "created_at": "2019-05-24 10:07:20",
@@ -11631,7 +11731,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202947,
+      "dateAddedToTracker": 1583899682312,
+      "isBillNew": true,
       "title": "Commending Mario Cilento upon the occasion of being selected as an honoree for this year's Italian American Day on June 3, 2019",
       "summary": "",
       "created_at": "2019-05-23 12:29:47",
@@ -11707,7 +11808,101 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202950,
+      "dateAddedToTracker": 1583899682315,
+      "isBillNew": true,
+      "title": "Small employer paid family leave insurance program created, tax credit established, and money appropriated.",
+      "summary": "",
+      "created_at": "2019-05-11 15:28:07",
+      "updated_at": "2020-03-07 12:02:26",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "lower",
+      "state": "mn",
+      "session": "2019-2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "HF 2877",
+      "actions": [
+        {
+          "date": "2019-05-10 00:00:00",
+          "action": "Introduction and first reading, referred to Labor",
+          "type": [
+            "bill:introduced",
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF2877&ssn=0&y=2019"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "O'Driscoll"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Kresha"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Haley"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Neu"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Theis"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Daudt"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "https://www.revisor.mn.gov/bills/text.php?number=HF2877&version=0&session=ls91&session_year=2019&session_number=0",
+          "doc_id": "~not available~",
+          "name": "Introduction"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2019-05-10 00:00:00",
+        "last": "2019-05-10 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [
+        "Employment and Economic Development Department"
+      ],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682318,
+      "isBillNew": true,
       "title": "Omnibus jobs and economic development, energy and climate, and telecommunications policy and finance bill.",
       "summary": "",
       "created_at": "2019-03-08 15:43:51",
@@ -12121,99 +12316,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202954,
-      "title": "Small employer paid family leave insurance program created, tax credit established, and money appropriated.",
-      "summary": "",
-      "created_at": "2019-05-11 15:28:07",
-      "updated_at": "2020-03-07 12:02:26",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "lower",
-      "state": "mn",
-      "session": "2019-2020",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "HF 2877",
-      "actions": [
-        {
-          "date": "2019-05-10 00:00:00",
-          "action": "Introduction and first reading, referred to Labor",
-          "type": [
-            "bill:introduced",
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF2877&ssn=0&y=2019"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "O'Driscoll"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Kresha"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Haley"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Neu"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Theis"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Daudt"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "https://www.revisor.mn.gov/bills/text.php?number=HF2877&version=0&session=ls91&session_year=2019&session_number=0",
-          "doc_id": "~not available~",
-          "name": "Introduction"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-05-10 00:00:00",
-        "last": "2019-05-10 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [
-        "Employment and Economic Development Department"
-      ],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776202957,
+      "dateAddedToTracker": 1583899682321,
+      "isBillNew": true,
       "title": "Correspondence from the Mayor - DOES Q2 Fiscal Year 2019 Report DC Paid Family Leave",
       "summary": "",
       "created_at": "2019-04-27 10:05:52",
@@ -12284,7 +12388,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202960,
+      "dateAddedToTracker": 1583899682324,
+      "isBillNew": true,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Provides grandparents with 1 week of family leave to care for a grandchild with a serious health condition.  Effective 7/1/2050.  (SD2)",
       "created_at": "2019-01-25 15:56:38",
@@ -12702,7 +12807,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202963,
+      "dateAddedToTracker": 1583899682327,
+      "isBillNew": true,
       "title": "PAID FAMILY AND MEDICAL LEAVE ACT",
       "summary": "",
       "created_at": "2019-01-17 13:02:05",
@@ -12801,7 +12907,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202967,
+      "dateAddedToTracker": 1583899682331,
+      "isBillNew": true,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:04:05",
@@ -13308,156 +13415,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202971,
-      "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
-      "summary": "",
-      "created_at": "2019-02-06 11:37:12",
-      "updated_at": "2020-03-09 07:33:12",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "upper",
-      "state": "tn",
-      "session": "111",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "SB 647",
-      "actions": [
-        {
-          "date": "2019-02-04 00:00:00",
-          "action": "Filed for introduction",
-          "type": [
-            "bill:introduced",
-            "bill:reading:1"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-02-05 00:00:00",
-          "action": "Filed for introduction",
-          "type": [
-            "bill:introduced",
-            "bill:reading:1"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-02-06 00:00:00",
-          "action": "Introduced, Passed on First Consideration",
-          "type": [
-            "bill:introduced"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-02-06 00:00:00",
-          "action": "Intro., P1C.",
-          "type": [
-            "bill:introduced"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-02-07 00:00:00",
-          "action": "Passed on Second Consideration, refer to Senate Commerce and Labor Committee",
-          "type": [],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-02-07 00:00:00",
-          "action": "P2C, ref. to Consumer and Human Resources Committee-- Government Operations for Review",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-02-11 00:00:00",
-          "action": "Assigned to s/c Employee Affairs Subcommittee",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-03-13 00:00:00",
-          "action": "Placed on s/c cal Employee Affairs Subcommittee for 3/19/2019",
-          "type": [],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-03-19 00:00:00",
-          "action": "Failed in s/c Employee Affairs Subcommittee of Consumer and Human Resources Committee",
-          "type": [],
-          "related_entities": [],
-          "actor": "lower"
-        },
-        {
-          "date": "2019-03-29 00:00:00",
-          "action": "Assigned to General Subcommittee of Senate Commerce & Labor Committee",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        }
-      ],
-      "sources": [
-        {
-          "url": "http://wapp.capitol.tn.gov/apps/BillInfo/default.aspx?BillNumber=SB0647&GA=111"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "Kyle"
-        },
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "Johnson G"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "application/pdf",
-          "url": "http://www.capitol.tn.gov/Bills/111/Bill/SB0647.pdf",
-          "doc_id": "~not available~",
-          "name": "Current Version"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-02-04 00:00:00",
-        "last": "2019-03-29 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [
-        "Employees",
-        "Employers"
-      ],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776202975,
+      "dateAddedToTracker": 1583899682335,
+      "isBillNew": true,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-05 11:27:48",
@@ -13606,7 +13565,158 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202979,
+      "dateAddedToTracker": 1583899682338,
+      "isBillNew": true,
+      "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
+      "summary": "",
+      "created_at": "2019-02-06 11:37:12",
+      "updated_at": "2020-03-09 07:33:12",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "upper",
+      "state": "tn",
+      "session": "111",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "SB 647",
+      "actions": [
+        {
+          "date": "2019-02-04 00:00:00",
+          "action": "Filed for introduction",
+          "type": [
+            "bill:introduced",
+            "bill:reading:1"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2019-02-05 00:00:00",
+          "action": "Filed for introduction",
+          "type": [
+            "bill:introduced",
+            "bill:reading:1"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-02-06 00:00:00",
+          "action": "Introduced, Passed on First Consideration",
+          "type": [
+            "bill:introduced"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-02-06 00:00:00",
+          "action": "Intro., P1C.",
+          "type": [
+            "bill:introduced"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2019-02-07 00:00:00",
+          "action": "Passed on Second Consideration, refer to Senate Commerce and Labor Committee",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2019-02-07 00:00:00",
+          "action": "P2C, ref. to Consumer and Human Resources Committee-- Government Operations for Review",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2019-02-11 00:00:00",
+          "action": "Assigned to s/c Employee Affairs Subcommittee",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2019-03-13 00:00:00",
+          "action": "Placed on s/c cal Employee Affairs Subcommittee for 3/19/2019",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2019-03-19 00:00:00",
+          "action": "Failed in s/c Employee Affairs Subcommittee of Consumer and Human Resources Committee",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2019-03-29 00:00:00",
+          "action": "Assigned to General Subcommittee of Senate Commerce & Labor Committee",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        }
+      ],
+      "sources": [
+        {
+          "url": "http://wapp.capitol.tn.gov/apps/BillInfo/default.aspx?BillNumber=SB0647&GA=111"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Kyle"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Johnson G"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "application/pdf",
+          "url": "http://www.capitol.tn.gov/Bills/111/Bill/SB0647.pdf",
+          "doc_id": "~not available~",
+          "name": "Current Version"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2019-02-04 00:00:00",
+        "last": "2019-03-29 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [
+        "Employees",
+        "Employers"
+      ],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682342,
+      "isBillNew": true,
       "title": "Calling for the ratification of the Equal Rights Amendment",
       "summary": "",
       "created_at": "2019-02-05 12:25:00",
@@ -13698,7 +13808,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202982,
+      "dateAddedToTracker": 1583899682346,
+      "isBillNew": true,
       "title": "Rulemaking for Paid Family Leave Collections Approval Resolution of 2019",
       "summary": "",
       "created_at": "2019-03-06 11:04:15",
@@ -13791,7 +13902,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202986,
+      "dateAddedToTracker": 1583899682349,
+      "isBillNew": true,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 12/2/2019.  (SD2)",
       "created_at": "2019-01-19 15:40:27",
@@ -13993,7 +14105,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202991,
+      "dateAddedToTracker": 1583899682353,
+      "isBillNew": true,
       "title": "A concurrent resolution requesting the Legislative Management to consider studying the feasibility and desirability of implementing a paid family leave program structured to be beneficial to both families and businesses, including an analysis of how to make the program financially sound while being affordable for families and businesses; and a review of the data on usage rates from other states that have programs, which state agency would be best suited to administer the program, and policies required to ensure program success.",
       "summary": "",
       "created_at": "2019-02-20 13:50:22",
@@ -14112,7 +14225,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202994,
+      "dateAddedToTracker": 1583899682357,
+      "isBillNew": true,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
       "summary": "",
       "created_at": "2019-02-27 12:50:01",
@@ -14404,7 +14518,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776202998,
+      "dateAddedToTracker": 1583899682361,
+      "isBillNew": true,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave. ",
       "summary": "",
       "created_at": "2018-05-18 04:06:18",
@@ -14728,7 +14843,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776323445,
+      "dateAddedToTracker": 1583899682365,
+      "isBillNew": true,
       "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
       "summary": "",
       "created_at": "2019-01-18 12:52:54",
@@ -14810,7 +14926,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776323455,
+      "dateAddedToTracker": 1583899682375,
+      "isBillNew": true,
       "title": "Labor; creating the Paid Family Leave Act; providing for family temporary disability insurance program. Effective date.",
       "summary": "",
       "created_at": "2019-11-22 07:25:33",
@@ -14892,230 +15009,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203021,
-      "title": "state employees; paid family leave",
-      "summary": "",
-      "created_at": "2019-01-18 13:45:50",
-      "updated_at": "2019-07-11 14:10:47",
-      "id": "",
-      "all_ids": [
-        ""
-      ],
-      "chamber": "lower",
-      "state": "az",
-      "session": "54th-1st-regular",
-      "type": [
-        "bill"
-      ],
-      "bill_id": "HB 2426",
-      "actions": [
-        {
-          "date": "2019-02-04 00:00:00",
-          "action": "house first reading.",
-          "type": [
-            "bill:reading:1"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2019-02-05 00:00:00",
-          "action": "house second reading",
-          "type": [
-            "bill:reading:2"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://apps.azleg.gov/BillStatus/BillOverview/71557?SessionId=121"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "Jennifer Jermaine"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Richard C. Andrade"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Isela Blanc"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Kelli Butler"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Andres Cano"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "César Chávez"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Domingo DeGrazia"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Kirsten Engel"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Mitzi Epstein"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Diego Espinoza"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Randall Friese"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Rosanna Gabaldón"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Alma Hernandez"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Jennifer Longdon"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Robert Meza"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Jennifer Pawlik"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Geraldine Peten"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Pamela Powers Hannley"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Diego Rodriguez"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Athena Salman"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Lorenzo Sierra"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Arlando Teller"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Raquel Terán"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Myron Tsosie"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Lela Alston"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Juan Mendez"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Jamescita Peshlakai"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Victoria Steele"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Reginald Bolding, Jr."
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Daniel Hernandez, Jr."
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "https://www.azleg.gov/legtext/54leg/1R/bills/HB2426P.htm",
-          "doc_id": "~not available~",
-          "name": "Introduced Version"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2019-02-04 00:00:00",
-        "last": "2019-02-05 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [
-        "FAMILY LEAVE",
-        "PAID FAMILY LEAVE",
-        "PUBLIC OFFICERS AND EMPLOYEES - TITLE 38",
-        "STATE EMPLOYEES"
-      ],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776203025,
+      "dateAddedToTracker": 1583899682384,
+      "isBillNew": true,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 12/13/2019.",
       "created_at": "2019-01-19 15:39:40",
@@ -15208,7 +15103,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203029,
+      "dateAddedToTracker": 1583899682388,
+      "isBillNew": true,
       "title": "RELATING TO FAMILY LEAVE.",
       "summary": "Extends the deadline for the Legislative Reference Bureau to submit the sunrise analysis required by Act 109, Session Laws of Hawaii 2018, from 9/1/2019, to 11/13/2019.",
       "created_at": "2019-01-19 15:39:49",
@@ -15302,7 +15198,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203033,
+      "dateAddedToTracker": 1583899682391,
+      "isBillNew": true,
       "title": "FAMILY LEAVE INSURANCE ACT",
       "summary": "Creates the Family Leave Insurance Act. Provides that an employee may take up to 12 weeks of family leave within any 24-month period for the purpose of providing care for the birth of a child, adoption of a child or placement of a foster child, or serious health condition of a family member. Establishes terms and conditions for taking leave. Authorizes compensation for the family leave to be paid from the State Benefits Fund, a special fund created in the State treasury. Prohibits simultaneous receipt of benefits under the Family Leave Insurance Act, the Unemployment Insurance Act, and the Workers' Compensation Act. Imposes a charge upon certain wages for the payment of benefits. Provides for administration by the Department of Employment Security. Amends the State Finance Act to add the State Benefits Fund to the list of special funds in the State treasury. Creates civil penalties for certain violations. Provides that a violation with intent to defraud the Department is a Class C misdemeanor. Effective immediately.",
       "created_at": "2018-06-19 20:08:39",
@@ -15467,7 +15364,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203037,
+      "dateAddedToTracker": 1583899682395,
+      "isBillNew": true,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
       "summary": "Creates the Family Leave Insurance Program Act. Requires the Department of Labor to establish and administer a Family Leave Insurance Program that provides family leave insurance benefits to eligible employees who take unpaid family leave to care for a newborn child, a newly adopted or newly placed foster child, or a family member with a serious health condition. Sets forth eligibility requirements for benefits under the Act including that the employee must (i) establish that he or she has been employed for at least 680 hours in employment during the employee's qualifying year and (ii) document that he or she has provided the employer with written notice of the employee's intention to take family leave. Defines \"employer\" to mean (a) any person, partnership, corporation, association, or other business entity that employs 50 or more employees for each working day during each of 20 or more calendar workweeks in the year in which the leave is to be taken or in the year immediately preceding the year in which the leave is to be taken; and (b) the State of Illinois and any other unit of local government. Contains provisions concerning disqualification from benefits; premium payments; the amount and duration of benefits; the recovery of erroneous payments; hearings; defaulted premium payments; elective coverage; employment protection; coordination of family leave; defined terms; and other matters. Amends the State Finance Act. Creates the Family Leave Insurance Account Fund.",
       "created_at": "2018-06-19 20:05:32",
@@ -16028,7 +15926,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203041,
+      "dateAddedToTracker": 1583899682400,
+      "isBillNew": true,
       "title": "Correspondence from the Mayor - DOES DC Paid Leave Family Leave Q1 Fiscal Year 2019 Report",
       "summary": "",
       "created_at": "2019-01-05 11:01:59",
@@ -16099,7 +15998,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203045,
+      "dateAddedToTracker": 1583899682406,
+      "isBillNew": true,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2018-05-08 05:20:29",
@@ -16189,7 +16089,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203052,
+      "dateAddedToTracker": 1583899682409,
+      "isBillNew": true,
       "title": "Memorializing Governor Andrew M. Cuomo to proclaim May 30, 2018, as Mother's Equal Pay Day in the State of New York",
       "summary": "",
       "created_at": "2018-05-25 05:28:24",
@@ -16274,7 +16175,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203056,
+      "dateAddedToTracker": 1583899682414,
+      "isBillNew": true,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2018-05-21 05:26:49",
@@ -16350,7 +16252,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203060,
+      "dateAddedToTracker": 1583899682418,
+      "isBillNew": true,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
       "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
       "created_at": "2018-05-11 05:25:57",
@@ -16431,7 +16334,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203064,
+      "dateAddedToTracker": 1583899682422,
+      "isBillNew": true,
       "title": "Relates to paid family leave benefits",
       "summary": "Extends paid family leave benefits to employees who perform construction, demolition, reconstruction, excavation, rehabilitation, repairs, renovations, alterations, or improvements for multiple employers pursuant to a collective bargaining agreement who shall be eligible for family leave benefits if they were employed for at least twenty-six of the last thirty-nine weeks by any covered employer which is signatory to a collective bargaining agreement.",
       "created_at": "2017-07-15 05:08:48",
@@ -16589,7 +16493,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203069,
+      "dateAddedToTracker": 1583899682426,
+      "isBillNew": true,
       "title": "Calling for the ratification of the Equal Rights Amendment",
       "summary": "",
       "created_at": "2018-03-17 05:17:10",
@@ -16665,7 +16570,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203073,
+      "dateAddedToTracker": 1583899682430,
+      "isBillNew": true,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
       "summary": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution.",
       "created_at": "2018-02-28 05:24:56",
@@ -16741,7 +16647,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203077,
+      "dateAddedToTracker": 1583899682434,
+      "isBillNew": true,
       "title": "Provides family leave insurance for certain first responders.",
       "summary": "",
       "created_at": "2018-01-12 04:02:11",
@@ -16825,7 +16732,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203082,
+      "dateAddedToTracker": 1583899682439,
+      "isBillNew": true,
       "title": "Memorializing Governor Andrew M. Cuomo to proclaim June 6, 2017, as Mother's Equal Pay Day in the State of New York",
       "summary": "",
       "created_at": "2017-07-15 05:11:40",
@@ -16910,7 +16818,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203087,
+      "dateAddedToTracker": 1583899682443,
+      "isBillNew": true,
       "title": "Calling for ratification of the Equal Rights Amendment",
       "summary": "",
       "created_at": "2017-07-15 05:09:24",
@@ -17002,7 +16911,92 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203091,
+      "dateAddedToTracker": 1583899682448,
+      "isBillNew": true,
+      "title": "Senate budget resolution in response to the 2017-2018 Executive Budget submission",
+      "summary": "",
+      "created_at": "2017-07-15 05:11:38",
+      "updated_at": "2020-02-10 23:54:29",
+      "id": "NYB00105338",
+      "all_ids": [
+        "NYB00105338"
+      ],
+      "chamber": "upper",
+      "state": "ny",
+      "session": "2017-2018",
+      "type": [
+        "resolution"
+      ],
+      "bill_id": "R 1051",
+      "actions": [
+        {
+          "date": "2017-03-15 00:00:00",
+          "action": "REFERRED TO FINANCE",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2017-03-15 00:00:00",
+          "action": "LOST",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2017-2018/R1051?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2017/R1051"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=R01051&term=2017"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "KLEIN"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=R1051&term=2017&Text=Y",
+          "doc_id": "~not available~",
+          "name": "R1051 HTML"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2017/R1051",
+          "doc_id": "~not available~",
+          "name": "R1051 PDF"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2017-03-15 00:00:00",
+        "last": "2017-03-15 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1583899682452,
+      "isBillNew": true,
       "title": "Senate budget resolution in response to the 2017-2018 Executive Budget submission",
       "summary": "",
       "created_at": "2017-07-15 05:08:54",
@@ -17087,90 +17081,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203095,
-      "title": "Senate budget resolution in response to the 2017-2018 Executive Budget submission",
-      "summary": "",
-      "created_at": "2017-07-15 05:11:38",
-      "updated_at": "2020-02-10 23:54:29",
-      "id": "NYB00105338",
-      "all_ids": [
-        "NYB00105338"
-      ],
-      "chamber": "upper",
-      "state": "ny",
-      "session": "2017-2018",
-      "type": [
-        "resolution"
-      ],
-      "bill_id": "R 1051",
-      "actions": [
-        {
-          "date": "2017-03-15 00:00:00",
-          "action": "REFERRED TO FINANCE",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "upper"
-        },
-        {
-          "date": "2017-03-15 00:00:00",
-          "action": "LOST",
-          "type": [],
-          "related_entities": [],
-          "actor": "upper"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://legislation.nysenate.gov/api/3/bills/2017-2018/R1051?summary=&detail="
-        },
-        {
-          "url": "http://www.nysenate.gov/legislation/bills/2017/R1051"
-        },
-        {
-          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=R01051&term=2017"
-        }
-      ],
-      "sponsors": [
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "KLEIN"
-        }
-      ],
-      "versions": [
-        {
-          "mimetype": "text/html",
-          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=R1051&term=2017&Text=Y",
-          "doc_id": "~not available~",
-          "name": "R1051 HTML"
-        },
-        {
-          "mimetype": "application/pdf",
-          "url": "http://legislation.nysenate.gov/pdf/bills/2017/R1051",
-          "doc_id": "~not available~",
-          "name": "R1051 PDF"
-        }
-      ],
-      "documents": [],
-      "alternate_titles": [],
-      "votes": null,
-      "action_dates": {
-        "first": "2017-03-15 00:00:00",
-        "last": "2017-03-15 00:00:00",
-        "passed_upper": null,
-        "passed_lower": null,
-        "signed": null
-      },
-      "scraped_subjects": [],
-      "alternate_bill_ids": [],
-      "subjects": [],
-      "companions": [],
-      "notificationSent": false
-    },
-    {
-      "date": 1583776203099,
+      "dateAddedToTracker": 1583899682456,
+      "isBillNew": true,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
       "summary": "Creates the Family Leave Insurance Program Act. Requires the Department of Labor to establish and administer a Family Leave Insurance Program that provides family leave insurance benefits to eligible employees who take unpaid family leave to care for a newborn child, a newly adopted or newly placed foster child, or a family member with a serious health condition. Sets forth eligibility requirements for benefits under the Act including that the employee must (i) establish that he or she has been employed for at least 680 hours in employment during the employee's qualifying year and (ii) document that he or she has provided the employer with written notice of the employee's intention to take family leave. Defines \"employer\" to mean (a) any person, partnership, corporation, association, or other business entity that employs 50 or more employees for each working day during each of 20 or more calendar workweeks in the year in which the leave is to be taken or in the year immediately preceding the year in which the leave is to be taken; and (b) the State of Illinois and any other unit of local government. Contains provisions concerning disqualification from benefits; premium payments; the amount and duration of benefits; the recovery of erroneous payments; hearings; defaulted premium payments; elective coverage; employment protection; coordination of family leave; defined terms; and other matters. Amends the State Finance Act. Creates the Family Leave Insurance Account Fund.",
       "created_at": "2020-01-24 15:02:15",
@@ -17770,7 +17682,8 @@
       "notificationSent": false
     },
     {
-      "date": 1583776203104,
+      "dateAddedToTracker": 1583899682460,
+      "isBillNew": true,
       "title": "Family and Medical Leave Act.",
       "summary": "",
       "created_at": "2020-01-23 17:26:13",

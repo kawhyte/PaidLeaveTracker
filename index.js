@@ -7,20 +7,19 @@ const OPENSTATES_API_KEY = process.env.OPENSTATES;
 const axios = require("axios");
 const fetch = require("node-fetch");
 
-let cron = require('node-cron');
+let cron = require("node-cron");
 
 // const { DateTime } = require("luxon");
 // import { formatDistance, subDays } from 'date-fns'
-let differenceInCalendarDays = require('date-fns/differenceInCalendarDays')
-
+let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 
 const express = require("express");
-const serverless = require('serverless-http')
+const serverless = require("serverless-http");
 const favicon = require("express-favicon");
 
-const admin = require('firebase-admin');
+const admin = require("firebase-admin");
 
-let serviceAccount = require('./serviceAccount.json');
+let serviceAccount = require("./serviceAccount.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
@@ -28,11 +27,8 @@ admin.initializeApp({
 
 let db = admin.firestore();
 
-
 var cors = require("cors");
 const app = express();
-
-
 
 app.use(cors());
 
@@ -42,67 +38,66 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-
 let arrObj = [];
 
-const limitPerPage=50;
-let pageNo = 1
+const limitPerPage = 50;
+let pageNo = 1;
 console.log("Loaded page");
 
-
-
-
-
 app.get("/track", async (req, res, next) => {
-   console.log("FROM /Tracked ",req.body);
+  console.log("app.get /tracked");
   // const url = `https://api.legiscan.com/?key=${process.env.LEGISCAN}&op=getBill&id=1327109`;
   // const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=1&per_page=20`
   //const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&search_window=session:2019`
-//  const URL =`https://openstates.org/api/v1/bills/?state=dc&q=taxi`
+  //  const URL =`https://openstates.org/api/v1/bills/?state=dc&q=taxi`
 
-    // axios.get(URL, { headers: {'X-API-KEY': process.env.OPENSTATES } }).then(response => {
-    //   // If request is good...
-    //   console.log("💁‍♂️")
-    //   res.json(response.data);
+  // axios.get(URL, { headers: {'X-API-KEY': process.env.OPENSTATES } }).then(response => {
+  //   // If request is good...
+  //   console.log("💁‍♂️")
+  //   res.json(response.data);
 
-    // })
-    // .catch((error) => {
-    //   console.log('error:' + error);
-    // });
+  // })
+  // .catch((error) => {
+  //   console.log('error:' + error);
+  // });
 
+  // const entireList=await getEntireUserList();
+  // console.log("Here!! entireList ", entireList[0]);
 
+  // res.json(entireList);
 
-    // const entireList=await getEntireUserList();
-    // console.log("Here!! entireList ", entireList[0]);
+  let billsRef = db.collection("bills"); //.orderBy('updated_at','desc');
+  let allCities = billsRef
+    .get()
+    .then(snapshot => {
+      var list = [];
+      snapshot.forEach(doc => {
+  
+        list.push(doc.data());
 
-
-    // res.json(entireList);
-
-
-    let billsRef = db.collection('bills')//.orderBy('updated_at','desc');
-    let allCities = billsRef.get()
-      .then(snapshot => {
-        var list = [];
-        snapshot.forEach(doc => {
-        console.log("I love 🍕", doc.data().title)
-
-
-
-
-       list.push(doc.data());
-          // console.log(doc.id, '=>', doc.data());
-        });
-        
-        res.json(list);
-      })
-      .catch(err => {
-        console.log('Error getting documents', err);
       });
 
+      let test = list.map(element => {
+        var result = differenceInCalendarDays(
+          new Date(Date.now()),
+          new Date(element.dateAddedToTracker)
+        );
 
+        if (result > 0) {
+          console.log("Before 🍕 ", element.isBillNew);
+          element.isBillNew = false;
+          console.log("After 🍕", element.isBillNew);
+        }
+      });
+
+      // console.log("test 🍕 ", test);
+
+      res.json(list);
+    })
+    .catch(err => {
+      console.log("Error getting documents", err);
+    });
 });
-
-
 
 // const getUsers = async function(pageNo = 1) {
 
@@ -112,16 +107,15 @@ app.get("/track", async (req, res, next) => {
 //   .then(resp=>{
 //   return resp.json();
 //   });
-  
-//   return apiResults;
-  
-//   }
 
+//   return apiResults;
+
+//   }
 
 //   const getEntireUserList = async function(pageNo = 1) {
 //       const results = await getUsers(pageNo);
 //       console.log("Retreiving data from API for page : " + pageNo);
-   
+
 //     if (results.length > 0) {
 //       // console.log("Result from  loop", results)
 //       return results.concat(await getEntireUserList(pageNo+1));
