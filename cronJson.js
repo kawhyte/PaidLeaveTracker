@@ -3,15 +3,14 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 let cron = require("node-cron");
-
 const fetch = require("node-fetch");
 let db = require("./db");
 let sendToFirebase = require("./import");
 const limitPerPage = 50;
 var _ = require("lodash");
-
-
-console.log("Loaded cronJson");
+// const { DateTime } = require("luxon");
+// import { formatDistance, subDays } from 'date-fns'
+let differenceInCalendarDays = require('date-fns/differenceInCalendarDays')
 
 function getData() {
   console.log("Waiting on Cron...");
@@ -23,7 +22,14 @@ function getData() {
   });
 }
 
+console.log("Loaded cronJson");
 
+var result = differenceInCalendarDays(
+  new Date(Date.now()),
+  new Date(1583776202805)
+)
+
+console.log("⏲️ Date Diff", result );
 
 const getUsers = async function(pageNo = 1) {
   let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=session:2019&updated_since=2019-08-01`;
@@ -80,7 +86,7 @@ function addToJsonFile(entireList) {
     if (typeof value === "undefined" || value.bill_id === "undefined") {
       db.get("bills")
         .push({
-          date: Date.now(),
+          dateAddedToTracker: Date.now(),
           title: entireList[index].title,
           summary: entireList[index].summary,
           created_at: entireList[index].created_at,
@@ -117,7 +123,7 @@ function addToJsonFile(entireList) {
         db.get("bills")
           .find({ bill_id: entireList[index].bill_id })
           .assign({
-            date: Date.now(),
+           
             title: entireList[index].title,
             summary: entireList[index].summary,
             created_at: entireList[index].created_at,
