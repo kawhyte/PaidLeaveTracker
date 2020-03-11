@@ -1,6 +1,7 @@
 // DOM elements
 const tweet = document.getElementById("tweet");
 const count = document.getElementById("count");
+let newBillCount = document.getElementById("newBillCount");
 const filter_list = document.getElementById("filter-list");
 // var state_lists = document.querySelectorAll("li");
 const searchBar = document.getElementById("searchBar");
@@ -8,12 +9,15 @@ const tracked_header = document.getElementById("tracked_head");
 const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let listArray = ["ALL"];
+let billFilterButton = ["ALL"];
 let fetchedBills = [];
 let fetchedStates = [];
 let html = "";
 let list = "";
+billCount = 0;
 let passedSenate = false;
 let passedHouse = false;
+let filteredItems = ""
 
 const state = {
   AL: { name: "Alabama", flag: "Flag_of_Alabama.svg" },
@@ -92,20 +96,28 @@ searchBar.addEventListener("keyup", e => {
 });
 
 document.getElementById("filter-list").addEventListener("click", function(e) {
+  console.log("EEEEE ", e);
   if (e.target && e.target.matches("a.item")) {
     console.log("searchItem ", e.target.dataset.parent); // new class name here
 
     const searchItem = e.target.dataset.parent.toLowerCase().trim();
+    console.log("searchItem ", searchItem); // = e.target.dataset.parent.toLowerCase().trim();
 
     if (searchItem === "all") {
       console.log("EE "); // new class name here
       displayBills(fetchedBills);
       return;
+    } else if (searchItem === "recent") {
+      filteredItems = fetchedBills.filter(bill => {
+        // return bill.state.toLowerCase().includes(searchItem);
+        // return bill.isBillNew.toLowerCase().includes(searchItem);
+        return bill.isBillNew === true;
+      });
+    } else if (searchItem === "major") {
+      filteredItems = fetchedBills.filter(bill => {
+        return bill.isBillNew === true;
+      });
     }
-
-    const filteredItems = fetchedBills.filter(bill => {
-      return bill.state.toLowerCase().includes(searchItem);
-    });
 
     console.log("📽️ Filtered ", filteredItems);
     displayBills(filteredItems);
@@ -125,19 +137,6 @@ function generateHTML(data, index) {
     });
     return found;
   });
-
-  let skyGradient = {
-    1: "url('./img/pencils.jpg') no-repeat center",
-    2: "url('./img/triangles.png') no-repeat center",
-    3: "url('./img/trianglify1.png') no-repeat center",
-    4: "url('./img/triangles.png') no-repeat center",
-    5: "url('./img/triangles.png') no-repeat center",
-    6: "url('./img/triangles.png') no-repeat center",
-    7: "url('./img/triangles.png') no-repeat center",
-    8: "url('./img/triangles.png') no-repeat center",
-    9: "url('./img/triangles.png') no-repeat center",
-    10: "url('./img/triangles.png') no-repeat center"
-  };
 
   let status = {
     "bill:introduced": {
@@ -279,7 +278,6 @@ function generateHTML(data, index) {
     }
   };
 
-
   let lastBillAction = data.actions[data.actions.length - 1];
 
   if (
@@ -291,12 +289,14 @@ function generateHTML(data, index) {
   } else {
     billStatus = status[lastBillAction.type];
   }
-  //  console.log("🧢 status", data.bill_id);
 
   stateData = state[data.state.toUpperCase()];
-  //  console.log( "DATE ",formatDate(data.created_at))
 
   listArray.push(data.state.toUpperCase());
+
+  if (data.isBillNew) {
+    newBillCount.innerHTML = billCount++;
+  }
 
   {
     /* <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;"> */
@@ -313,7 +313,7 @@ function generateHTML(data, index) {
                         ${stateData.name} - ${data.bill_id}</span>
                       ${
                         data.isBillNew
-                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">New</a>'
+                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">Recently Added</a>'
                           : ""
                       } 
                       <a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue" style="background:url('./img/triangles.png') no-repeat center;">Major Update</a>
@@ -472,7 +472,7 @@ const displayBills = bills => {
     })
     .join("");
 
-  filter_list.innerHTML = list;
+  // filter_list.innerHTML = list;
 
   gallery.innerHTML = html;
 };

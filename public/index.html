@@ -18,14 +18,11 @@
 
 <body>
     <header class="Roboto">
-        
         <div id="bg-hero" class="contain bg-center cover" style="background-image: url(./img/fam-2.svg) ">
           <div class="bg-black-0 pb5 pb6-m pb7-l">
             <nav class="dt w-100 mw8 center"> 
               <div class="dtc w2 v-mid pa3">
-                <a href="/" class="dib w2 h2 pa1   grow-large border-box">
-                    <!-- <img id="log" class="svg-size" src="./img/law.svg" alt="law logo"> -->
-                  <!-- <svg class="link white-90 hover-white" data-icon="skull" viewBox="0 0 32 32" style="fill:currentcolor"><title>skull icon</title><path d="M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12"></path></svg> -->
+                <a href="/" class="dib w2 h2 pa1 grow-large border-box">
                 </a>
               </div>
               <div class="dtc v-mid tr pa3">
@@ -52,7 +49,7 @@
     </dl>
     <dl class="dib mr5">
       <dd class="f6 f5-ns b ml0">New Bills Added</dd>
-      <dd class="f3 f3-ns ml0">--</dd>
+      <dd id="newBillCount" class="f3 f3-ns ml0">--</dd>
     </dl>
     <dl class="dib mr5">
       <dd class="f6 f5-ns b ml0">Bills with Major Updates</dd>
@@ -79,13 +76,25 @@
             </div>
    </form>
 
-   <div class ="mw5 mw9-ns center  ph5-ns">  
+   <div id ="filter-list" class="ph3 ph5-ns mt4">
+    <!-- <h1 class="f6 fw6 ttu tracked">Basic Button with Thin Border</h1> -->
+    <a data-parent= "all" class="item f6 link dim br2 ba ph3 pv2 mb2 dib black hover-bg-light-blue" href="#0">All Bills</a>
+    <a data-parent= "recent" class="item f6 link dim br2 ba ph3 pv2 mb2 dib black hover-bg-light-blue" href="#0">Recently Added Bills</a>
+    <a data-parent= "major" class="item f6 link dim br2 ba ph3 pv2 mb2 dib near-black hover-bg-light-blue" href="#0">Major Updates</a>
+    <!-- <a data-parent= "failed" class="item f6 link dim br2 ba ph3 pv2 mb2 dib dark-gray hover-bg-light-blue" href="#0">Failed Bills</a>
+    <a data-parent= "passed" class="item f6 link dim br2 ba ph3 pv2 mb2 dib mid-gray hover-bg-light-blue" href="#0">Passed Bills</a> -->
+  </div>
+
+
+   <!-- <div class ="mw5 mw9-ns center ph7-ns">   -->
     <!-- <h3>Today's Summary</h3> -->
     
-   <ul id ="filter-list" class="list ph3 ph5-ns pv1">
-    
-  </ul>
-</div>
+   <!-- <ul id ="filter-list" class="list ph3 ph5-ns pv1">
+    <li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">Test1</a></li>
+
+  </ul> -->
+ 
+<!-- </div> -->
     <div class="grid-container lg-gallery ">
 
       <div class="ph-item">
