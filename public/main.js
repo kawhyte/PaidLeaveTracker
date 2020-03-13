@@ -86,7 +86,8 @@ searchBar.addEventListener("keyup", e => {
 
   const filteredBills = fetchedBills.filter(bill => {
     return (
-      bill.state.toLowerCase().includes(searchString) ||
+      // bill.state.toLowerCase().includes(searchString) ||
+      state[list].name.toLowerCase().includes(searchString) ||
       bill.bill_id.toLowerCase().includes(searchString) ||
       bill.bill_id
         .replace(/\s+/g, "")
@@ -435,9 +436,9 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("/data-clean/firebase/test.json", {
-    // const res = fetch("http://localhost:8887/track", {
+    const res = fetch("http://localhost:8887/track", {
       // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"

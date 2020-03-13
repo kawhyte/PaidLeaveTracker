@@ -9,13 +9,11 @@ const fetch = require("node-fetch");
 
 let cron = require("node-cron");
 
-// const { DateTime } = require("luxon");
-// import { formatDistance, subDays } from 'date-fns'
 let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 let add = require("date-fns/add");
 var formatDistance = require("date-fns/formatDistance");
 const express = require("express");
-const serverless = require("serverless-http");
+
 const favicon = require("express-favicon");
 
 const admin = require("firebase-admin");
@@ -38,8 +36,6 @@ app.use(favicon(__dirname + "/public/favicon.ico"));
 app.use(express.json());
 
 app.use(express.static("public"));
-
-let arrObj = [];
 
 const limitPerPage = 50;
 let pageNo = 1;
@@ -106,16 +102,11 @@ app.get("/track", async (req, res, next) => {
           new Date(element.dateAddedToTracker)
         );
 
-        if (result < 1) {
+        if (result < 2) {
           element.isBillNew = false;
           // console.log("After 🍕", element.isBillNew);
-        } else {
-          //element.isBillNewCounter = billNewCounter++;
-        }
+        } 
 
-        
-      
-      
         if (typeof (element.databaseUpdated) !== "undefined") {
         var timeAgo = formatDistance(
           new Date(element.databaseUpdated),
@@ -164,10 +155,10 @@ app.get("/track", async (req, res, next) => {
 //     }
 //   };
 
-// app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
+app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
-const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-const server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+// const server_host = process.env.YOUR_HOST || '0.0.0.0';
+// app.listen(server_port, server_host, function() {
+//     console.log('Listening on port %d', server_port);
+// });
