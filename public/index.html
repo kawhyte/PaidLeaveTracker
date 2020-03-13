@@ -42,34 +42,11 @@
         </div>
       </div>
     </div>
-
-    
   </header>
-      <!-- <div class="pa3 mw9 mw9-ns center bg-light-blue">
-        <article class= "flex justify-center" data-name="slab-stat">
-         <h3 class="f6 fw6 ttu tracked">Quick Summary</h3> -->
-          <!-- <dl class="dib mr2 w-30">
-            <span class="f8 f6-ns b ml0 ">Bills Found</span>
-            <span id="count" class="f7 f5-ns ml1">---</span>
-          </dl>
-          <dl class="dib mr2 w-30">
-            <span class="f8 f6-ns b ml0">New Bills</span>
-            <span id="newBillCount" class="f7 f5-ns ml1">---</span>
-          </dl>
-          <dl class="dib mr2 w-34">
-            <span class="f8 f6-ns b ml0">Major Updates</span>
-            <span  id="MajorUpdatesCount" class="f7 f5-ns ml1 ">---</span>
-          </dl>
-          <dl class="dib mr2 w-50">
-            <span class="f8 f6-ns b ml0">Updated</span>
-            <span id="pageLastUpdated" class="f7 f5-ns ml1">----</span>
-          </dl>
-        </article>
-      </div>  -->
 
       <div class="pa3 mw9 mw9-ns center">
       <div class="flex justify-center">
-        <div class="outline w-10 pa3 mr2">
+        <!-- <div class="outline w-10 pa3 mr2">
           <span class="f8 f6-ns b ml0 ">Bills Found</span>
           <span id="count" class="f7 f5-ns ml1"></span>
         </div>
@@ -80,11 +57,11 @@
         <div class="outline w-10 pa3 mr2">
           <span class="f8 f6-ns b ml0">Major Updates</span>
           <span  id="MajorUpdatesCount" class="f7 f5-ns ml1 "></span>
-        </div>
-        <div class="outline w-20 pa3 mr2">
+        </div> -->
+        <!-- <div class="outline w-20 pa3 mr2">
           <span class="f8 f6-ns b ml0">Updated</span>
           <span id="pageLastUpdated" class="f7 f5-ns ml1"></span>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -93,9 +70,9 @@
     </h2> -->
   <form class="pa4 black-80 ">
     <div class="measure center">
-      <label for="name" class="f6 b db mb2">Search by Bill ID </label>
+      <label for="name" class="f6 b db mb2">Search by Bill ID or State code</label>
       <input id="searchBar" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc"
-        placeholder="Ex. HB 2644">
+        placeholder="Ex. HB 2644 or WA">
       <small id="name-desc" class="f6 black-60 db mb2"></small>
       <small id="count2" class="f6 black-60 db mb2"></small>
     </div>
@@ -103,14 +80,13 @@
 
   <div id="filter-list" class="mw5 mw7-ns center flex pa3 ph5-ns">
     <!-- <h1 class="f6 fw6 ttu tracked">Basic Button with Thin Border</h1> -->
-    <a data-parent="all" class="item center f6 link dim br2 ba ph3 pv2 mb2 dib black hover-bg-light-blue " href="#0">All
+    <a data-parent="all" id="count" class="item center f6 link dim br2 ba ph3 pv2 mb2 dib black hover-bg-light-blue " href="#0">All
       Bills</a>
-    <a data-parent="recent" class="item center f6 link dim br2 ba ph3 pv2 mb2 dib black hover-bg-light-blue" href="#0">Bills Recently
+    <a data-parent="recent"  id="newBillCount" class="item center f6 link dim br2 ba ph3 pv2 mb2 dib black hover-bg-light-blue" href="#0">Bills Recently
       Added </a>
-    <a data-parent="major" class="item center f6 link dim br2 ba ph3 pv2 mb2 dib near-black hover-bg-light-blue"
+    <a data-parent="major" id="MajorUpdatesCount" class="item center f6 link dim br2 ba ph3 pv2 mb2 dib near-black hover-bg-light-blue"
       href="#0">Major Updates</a>
-    <!-- <a data-parent= "failed" class="item f6 link dim br2 ba ph3 pv2 mb2 dib dark-gray hover-bg-light-blue" href="#0">Failed Bills</a>
-    <a data-parent= "passed" class="item f6 link dim br2 ba ph3 pv2 mb2 dib mid-gray hover-bg-light-blue" href="#0">Passed Bills</a> -->
+    <span  data-parent="major" id="pageLastUpdated" class="item center f6  br2 ba ph3 pv2 mb2 dib near-black">Update Time</span>
   </div>
 
 
@@ -245,9 +221,6 @@
         </div>
       </div>
     </div>
-
-
-
   </div>
   </article>
 

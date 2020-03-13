@@ -80,7 +80,6 @@ app.get("/track", async (req, res, next) => {
           importantValue.includes("bill:withdrawn") ||
           importantValue.includes("bill:veto_override:passed") ||
           importantValue.includes("bill:veto_override:failed") ||
-          importantValue.includes("bill:filed") ||
           importantValue.includes("governor:received") ||
           importantValue.includes("governor:signed") ||
           importantValue.includes("governor:vetoed") ||

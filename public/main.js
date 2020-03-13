@@ -1,26 +1,18 @@
 // DOM elements
-// const tweet = document.getElementById("tweet");
 const count = document.getElementById("count");
 let newBillCount = document.getElementById("newBillCount");
 let majorUpdatesCount = document.getElementById("MajorUpdatesCount");
 let pageUpdatedTime = document.getElementById("pageLastUpdated");
 const filter_list = document.getElementById("filter-list");
 const searchBar = document.getElementById("searchBar");
-// const tracked_header = document.getElementById("tracked_head");
-// const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let listArray = ["ALL"];
 let billFilterButton = ["ALL"];
 let fetchedBills = [];
-// let fetchedStates = [];
 let html = "";
-// let list = "";
-// let passedSenate = false;
-// let passedHouse = false;
 let filteredItems = "";
 let newBillsAdded = 0;
 let pageUpdatedAt =""
-// let totalPaidLeaveFoundCounter = 0;
 let billsWithMajorUpdates = 0;
 
 const state = {
@@ -86,8 +78,8 @@ searchBar.addEventListener("keyup", e => {
 
   const filteredBills = fetchedBills.filter(bill => {
     return (
-      // bill.state.toLowerCase().includes(searchString) ||
-      state[list].name.toLowerCase().includes(searchString) ||
+      bill.state.toLowerCase().includes(searchString) ||
+      // state[list].name.toLowerCase().includes(searchString) ||
       bill.bill_id.toLowerCase().includes(searchString) ||
       bill.bill_id
         .replace(/\s+/g, "")
@@ -416,7 +408,7 @@ function generateHTML(data, index) {
                     <div class="pl3 flex-auto">
                       <span class="f6 db black-70">Bill created on ${(data.created_at =
                         data.created_at !== null
-                          ? formatDate(data.created_at)
+                          ? (data.created_at)
                           : "No data available")}</span>
                       <span class="f6 db black-70">${data.sponsors.length} ${
     data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"
@@ -458,10 +450,10 @@ const loadBills = () => {
           return bill.dbUpdatedTime;
         });
 
-        count.innerHTML = Object.keys(json).length;
-        newBillCount.innerHTML = Object.keys(newBillsAdded).length;
-        majorUpdatesCount.innerHTML = Object.keys(billsWithMajorUpdates).length;
-        pageUpdatedTime.innerHTML = pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime;
+        count.innerHTML = `All Bills (${Object.keys(json).length})`;
+        newBillCount.innerHTML = `New Bills (${Object.keys(newBillsAdded).length})`;
+        majorUpdatesCount.innerHTML = `Major Updates (${Object.keys(billsWithMajorUpdates).length})`;
+        pageUpdatedTime.innerHTML = `Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
 
         fetchedBills = json;
 
