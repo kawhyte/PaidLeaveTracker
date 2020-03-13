@@ -2,8 +2,9 @@
 const tweet = document.getElementById("tweet");
 const count = document.getElementById("count");
 let newBillCount = document.getElementById("newBillCount");
+let majorUpdatesCount = document.getElementById("MajorUpdatesCount");
+let pageUpdatedTime = document.getElementById("pageLastUpdated");
 const filter_list = document.getElementById("filter-list");
-// var state_lists = document.querySelectorAll("li");
 const searchBar = document.getElementById("searchBar");
 const tracked_header = document.getElementById("tracked_head");
 const twitter_handle = document.getElementById("twitter_handle");
@@ -14,10 +15,13 @@ let fetchedBills = [];
 let fetchedStates = [];
 let html = "";
 let list = "";
-billCount = 0;
 let passedSenate = false;
 let passedHouse = false;
-let filteredItems = ""
+let filteredItems = "";
+let newBillsAdded = 0;
+let pageUpdatedAt =""
+let totalPaidLeaveFoundCounter = 0;
+let billsWithMajorUpdates = 0;
 
 const state = {
   AL: { name: "Alabama", flag: "Flag_of_Alabama.svg" },
@@ -79,7 +83,7 @@ const state = {
 
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
-  // console.log(searchString);
+
 
   const filteredBills = fetchedBills.filter(bill => {
     return (
@@ -91,31 +95,29 @@ searchBar.addEventListener("keyup", e => {
         .includes(searchString)
     );
   });
-  // console.log("✊Filtered ", filteredBills);
+
   displayBills(filteredBills);
 });
 
 document.getElementById("filter-list").addEventListener("click", function(e) {
   console.log("EEEEE ", e);
   if (e.target && e.target.matches("a.item")) {
-    console.log("searchItem ", e.target.dataset.parent); // new class name here
+    console.log("searchItem ", e.target.dataset.parent);
 
     const searchItem = e.target.dataset.parent.toLowerCase().trim();
-    console.log("searchItem ", searchItem); // = e.target.dataset.parent.toLowerCase().trim();
+    console.log("searchItem ", searchItem); 
 
     if (searchItem === "all") {
-      console.log("EE "); // new class name here
+      console.log("EE "); 
       displayBills(fetchedBills);
       return;
     } else if (searchItem === "recent") {
       filteredItems = fetchedBills.filter(bill => {
-        // return bill.state.toLowerCase().includes(searchItem);
-        // return bill.isBillNew.toLowerCase().includes(searchItem);
         return bill.isBillNew === true;
       });
     } else if (searchItem === "major") {
       filteredItems = fetchedBills.filter(bill => {
-        return bill.isBillNew === true;
+        return bill.isLastUpdateImportant === 1;
       });
     }
 
@@ -125,12 +127,10 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
 });
 
 function generateHTML(data, index) {
-  count.innerHTML = `${index + 1}`;
 
   let billPassed = data.actions.filter(house => {
     let found = false;
     house.type.forEach(element => {
-      // console.log(element);
       if (element === "bill:passed" || element === "governor:signed") {
         found = true;
       }
@@ -157,7 +157,7 @@ function generateHTML(data, index) {
     "bill:withdrawn": {
       name: "Withdrawn from consideration",
       color: "bg-red",
-      importance: 0
+      importance: 1
     },
     "bill:veto_override:passed": {
       name: "Chamber attempted a veto override and succeeded",
@@ -284,7 +284,7 @@ function generateHTML(data, index) {
     typeof status[lastBillAction.type] === "undefined" ||
     status[lastBillAction.type] === null
   ) {
-    // console.log("status[popped.type] is undefined!!!");
+
     billStatus = status["null"];
   } else {
     billStatus = status[lastBillAction.type];
@@ -294,9 +294,6 @@ function generateHTML(data, index) {
 
   listArray.push(data.state.toUpperCase());
 
-  if (data.isBillNew) {
-    newBillCount.innerHTML = billCount++;
-  }
 
   {
     /* <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;"> */
@@ -313,10 +310,14 @@ function generateHTML(data, index) {
                         ${stateData.name} - ${data.bill_id}</span>
                       ${
                         data.isBillNew
-                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">Recently Added</a>'
+                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">New</a>'
                           : ""
                       } 
-                      <a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue" style="background:url('./img/triangles.png') no-repeat center;">Major Update</a>
+                      ${
+                        data.isLastUpdateImportant
+                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">Major Update</a>'
+                          : ""
+                      }
                     </h3>
                     </div>
 
@@ -438,10 +439,10 @@ function generateHTML(data, index) {
 
 const loadBills = () => {
   try {
-    // const res = fetch("./test.json", {
-    // const res = fetch("http://localhost:8887/track", {
-    // const res = fetch("http://localhost:5001/track", {
-    const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+    // const res = fetch("/data-clean/firebase/test.json", {
+    const res = fetch("http://localhost:8887/track", {
+      // const res = fetch("http://localhost:5001/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -449,7 +450,28 @@ const loadBills = () => {
     })
       .then(r => r.json())
       .then(json => {
-        // console.log(json)
+        newBillsAdded = json.filter(bill => {
+          return bill.isBillNew === true;
+        });
+
+        billsWithMajorUpdates = json.filter(bill => {
+          return bill.isLastUpdateImportant === 1;
+        });
+
+        pageUpdatedAt = json.filter(bill => {
+          return bill.dbUpdatedTime;
+        });
+
+        count.innerHTML = Object.keys(json).length;
+        newBillCount.innerHTML = Object.keys(newBillsAdded).length;
+        majorUpdatesCount.innerHTML = Object.keys(billsWithMajorUpdates).length;
+        
+      
+
+        pageUpdatedTime.innerHTML = pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime;
+
+     
+
         fetchedBills = json;
 
         displayBills(fetchedBills);
@@ -460,17 +482,18 @@ const loadBills = () => {
 };
 
 const displayBills = bills => {
+
   html = bills
     .map((bills, index) => {
       return (html = generateHTML(bills, index));
     })
     .join("");
 
-  list = Array.from(new Set(listArray))
-    .map(item => {
-      return (list = createList(item));
-    })
-    .join("");
+  // list = Array.from(new Set(listArray))
+  //   .map(item => {
+  //     return (list = createList(item));
+  //   })
+  //   .join("");
 
   // filter_list.innerHTML = list;
 
@@ -500,7 +523,7 @@ const displayBills = bills => {
 //   });
 
 loadBills();
-createList();
+// createList();
 
 function formatDate(input) {
   var date = new Date(input);
@@ -511,12 +534,12 @@ function formatDate(input) {
   ].join("/");
 }
 
-function createList(list) {
-  if (state[list] !== undefined) {
-    console.log(" Inside List ", list, state[list]);
+// function createList(list) {
+//   if (state[list] !== undefined) {
+//     console.log(" Inside List ", list, state[list]);
 
-    //console.log("List ",list, state[list])
+//     //console.log("List ",list, state[list])
 
-    return `<li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${state[list].name}</a></li>`;
-  }
-}
+//     return `<li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${state[list].name}</a></li>`;
+//   }
+// }

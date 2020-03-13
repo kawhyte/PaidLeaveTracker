@@ -10,12 +10,12 @@ const limitPerPage = 50;
 var _ = require("lodash");
 // const { DateTime } = require("luxon");
 // import { formatDistance, subDays } from 'date-fns'
-let differenceInCalendarDays = require('date-fns/differenceInCalendarDays')
-var format = require('date-fns/format')
+let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
+var format = require("date-fns/format");
 function getData() {
   console.log("Waiting on Cron...");
   cron.schedule("*/2 * * * *", () => {
-  // cron.schedule("*/30 * * * *", () => {
+    // cron.schedule("*/30 * * * *", () => {
     console.log("running a cron every XX minute");
 
     runCron();
@@ -27,14 +27,11 @@ console.log("Loaded cronJson");
 var result = differenceInCalendarDays(
   new Date(Date.now()),
   new Date(1583776202805)
-)
+);
 
-var result2 = format(
-  new Date(Date.now()),
-  'MM/dd/yyyy:HH:mm:ss'
-)
-console.log(result2)
-console.log("⏲️ Date Diff", result );
+var result2 = format(new Date(Date.now()), "MM/dd/yyyy:HH:mm:ss");
+console.log(result2);
+console.log("⏲️ Date Diff", result);
 
 const getUsers = async function(pageNo = 1) {
   let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=session:2019&updated_since=2019-08-01`;
@@ -49,17 +46,14 @@ const getUsers = async function(pageNo = 1) {
 };
 
 const getEntireUserList = async function(pageNo = 1) {
-
   const results = await getUsers(pageNo);
   console.log("Retreiving data from API for page : " + pageNo);
 
   if (results.length > 0) {
-
     return results.concat(await getEntireUserList(pageNo + 1));
   } else {
     return results;
   }
- 
 };
 
 async function runCron() {
@@ -92,7 +86,8 @@ function addToJsonFile(entireList) {
       db.get("bills")
         .push({
           dateAddedToTracker: Date.now(),
-          isBillNew:true,
+          isBillNew: true,
+          isLastUpdateImportant: 0,
           title: entireList[index].title,
           summary: entireList[index].summary,
           created_at: entireList[index].created_at,
@@ -117,7 +112,6 @@ function addToJsonFile(entireList) {
           subjects: entireList[index].subjects,
           companions: entireList[index].companions,
           notificationSent: false
-     
         })
         .write();
       console.log("🌈 Undefined - new record added");
@@ -130,7 +124,10 @@ function addToJsonFile(entireList) {
         db.get("bills")
           .find({ bill_id: entireList[index].bill_id })
           .assign({
-            isBillNew:true,
+            databaseUpdated: Date.now(),
+            dbUpdatedTime: "",
+            isBillNew: true,
+            isLastUpdateImportantCounter: 0,
             title: entireList[index].title,
             summary: entireList[index].summary,
             created_at: entireList[index].created_at,
@@ -154,15 +151,19 @@ function addToJsonFile(entireList) {
             alternate_bill_ids: entireList[index].alternate_bill_ids,
             subjects: entireList[index].subjects,
             companions: entireList[index].companions,
-            notificationSent: false,
-            
+            notificationSent: false
           })
           .write();
+
+        // Increment count
+        //db.update("databaseUpdated", Date.now()).write();
+        // Set a user using Lodash shorthand syntax
+        
+
         console.log("Updated ");
       }
     }
   }
 }
 
-
-getData(); 
+getData();

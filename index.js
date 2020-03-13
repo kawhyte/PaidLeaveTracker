@@ -12,7 +12,8 @@ let cron = require("node-cron");
 // const { DateTime } = require("luxon");
 // import { formatDistance, subDays } from 'date-fns'
 let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
-
+let add = require("date-fns/add");
+var formatDistance = require("date-fns/formatDistance");
 const express = require("express");
 const serverless = require("serverless-http");
 const favicon = require("express-favicon");
@@ -72,25 +73,64 @@ app.get("/track", async (req, res, next) => {
     .then(snapshot => {
       var list = [];
       snapshot.forEach(doc => {
-  
         list.push(doc.data());
-
       });
 
-      let test = list.map(element => {
+      let test = list.map((element, index) => {
+        ////LOGIC TO CHECK IF BILL IS IMPORTANT //////
+        importantValue = element.actions[element.actions.length - 1].type;
+        if (
+          importantValue.includes("bill:failed") ||
+          importantValue.includes("bill:withdrawn") ||
+          importantValue.includes("bill:veto_override:passed") ||
+          importantValue.includes("bill:veto_override:failed") ||
+          importantValue.includes("bill:filed") ||
+          importantValue.includes("governor:received") ||
+          importantValue.includes("governor:signed") ||
+          importantValue.includes("governor:vetoed") ||
+          importantValue.includes("governor:vetoed:line-item")
+        ) {
+          element.isLastUpdateImportant = 1;
+        }
+
+        ////LOGIC TO CHECK IF BILL IS NEW //////
+        var futureDate = add(new Date(Date.now()), {
+          days: 5,
+          hours: 5,
+          minutes: 9,
+          seconds: 30
+        });
+
         var result = differenceInCalendarDays(
-          new Date(Date.now()),
+          futureDate,
           new Date(element.dateAddedToTracker)
         );
 
-        if (result > 0) {
-          console.log("Before 🍕 ", element.isBillNew);
+        if (result < 1) {
           element.isBillNew = false;
-          console.log("After 🍕", element.isBillNew);
+          // console.log("After 🍕", element.isBillNew);
+        } else {
+          //element.isBillNewCounter = billNewCounter++;
         }
-      });
 
-      // console.log("test 🍕 ", test);
+        
+      
+      
+        if (typeof (element.databaseUpdated) !== "undefined") {
+        var timeAgo = formatDistance(
+          new Date(element.databaseUpdated),
+          new Date(Date.now()),
+          {
+            addSuffix: true
+          }
+        )
+
+        element.dbUpdatedTime = timeAgo;
+        console.log("element.dbUpdatedTime  🍕 ", element.dbUpdatedTime );
+       
+      };
+
+      })
 
       res.json(list);
     })
