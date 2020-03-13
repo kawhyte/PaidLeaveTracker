@@ -1,26 +1,26 @@
 // DOM elements
-const tweet = document.getElementById("tweet");
+// const tweet = document.getElementById("tweet");
 const count = document.getElementById("count");
 let newBillCount = document.getElementById("newBillCount");
 let majorUpdatesCount = document.getElementById("MajorUpdatesCount");
 let pageUpdatedTime = document.getElementById("pageLastUpdated");
 const filter_list = document.getElementById("filter-list");
 const searchBar = document.getElementById("searchBar");
-const tracked_header = document.getElementById("tracked_head");
-const twitter_handle = document.getElementById("twitter_handle");
+// const tracked_header = document.getElementById("tracked_head");
+// const twitter_handle = document.getElementById("twitter_handle");
 const gallery = document.querySelector(".lg-gallery");
 let listArray = ["ALL"];
 let billFilterButton = ["ALL"];
 let fetchedBills = [];
-let fetchedStates = [];
+// let fetchedStates = [];
 let html = "";
-let list = "";
-let passedSenate = false;
-let passedHouse = false;
+// let list = "";
+// let passedSenate = false;
+// let passedHouse = false;
 let filteredItems = "";
 let newBillsAdded = 0;
 let pageUpdatedAt =""
-let totalPaidLeaveFoundCounter = 0;
+// let totalPaidLeaveFoundCounter = 0;
 let billsWithMajorUpdates = 0;
 
 const state = {
@@ -83,7 +83,6 @@ const state = {
 
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
-
 
   const filteredBills = fetchedBills.filter(bill => {
     return (
@@ -295,10 +294,6 @@ function generateHTML(data, index) {
   listArray.push(data.state.toUpperCase());
 
 
-  {
-    /* <div id ="bg" class="vh-10 dt w-100 tc bg-dark-gray white cover" style="background:url('./img/triangles.png') no-repeat center;"> */
-  }
-
   return `
   <div class="div1 container ">
             <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
@@ -465,12 +460,7 @@ const loadBills = () => {
         count.innerHTML = Object.keys(json).length;
         newBillCount.innerHTML = Object.keys(newBillsAdded).length;
         majorUpdatesCount.innerHTML = Object.keys(billsWithMajorUpdates).length;
-        
-      
-
         pageUpdatedTime.innerHTML = pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime;
-
-     
 
         fetchedBills = json;
 
@@ -499,28 +489,6 @@ const displayBills = bills => {
 
   gallery.innerHTML = html;
 };
-
-// //  fetch("https://paidleavetracker.herokuapp.com/track", {
-// fetch("http://localhost:8887/track", {
-//   // fetch("http://localhost:9000/index", {
-//   //fetch('/.netlify/functions/index', {
-//   headers: {
-//     "Content-Type": "application/json",
-//     Accept: "application/json"
-//   }
-// })
-//   .then(r => r.json())
-//   .then(json => {
-//     fetchedBills = json;
-
-//     var html = fetchedBills
-//       .map((currElement, index) => {
-//         return (html = generateHTML(currElement, index));
-//       })
-//       .join(" ");
-
-//     gallery.innerHTML = html;
-//   });
 
 loadBills();
 // createList();
