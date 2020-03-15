@@ -64,8 +64,12 @@ app.get("/track", async (req, res, next) => {
   // res.json(entireList);
 
   let billsRef = db.collection("bills"); //.orderBy('updated_at','desc');
-  let allCities = billsRef
-    .get()
+  
+  let query = billsRef.where('action_dates.first', '>=', '2019-05-22 00:00:00').orderBy('action_dates.first', 'desc').get()
+  
+  
+  //let allCities = billsRef
+    //.get()
     .then(snapshot => {
       var list = [];
       snapshot.forEach(doc => {
@@ -154,10 +158,10 @@ app.get("/track", async (req, res, next) => {
 //     }
 //   };
 
-// app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
+app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
-const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-const server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+// const server_host = process.env.YOUR_HOST || '0.0.0.0';
+// app.listen(server_port, server_host, function() {
+//     console.log('Listening on port %d', server_port);
+// });

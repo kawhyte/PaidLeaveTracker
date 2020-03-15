@@ -34,7 +34,8 @@ console.log(result2);
 console.log("⏲️ Date Diff", result);
 
 const getUsers = async function(pageNo = 1) {
-  let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=session:2019&updated_since=2019-08-01`;
+  // let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=term&updated_since=2019-08-01`;
+  let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}`;
 
   var apiResults = await fetch(actualUrl, {
     headers: { "X-API-KEY": process.env.OPENSTATES }
