@@ -383,10 +383,6 @@ function generateHTML(data, index) {
                       </dl>
                 </div>
               </article>
-
-
-                    
-                
    </div>
   `;
 }
