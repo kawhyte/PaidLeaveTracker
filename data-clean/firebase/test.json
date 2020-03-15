@@ -1787,7 +1787,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:08",
-      "updated_at": "2020-03-14 14:10:22",
+      "updated_at": "2020-03-15 14:09:49",
       "id": "",
       "all_ids": [
         ""
@@ -2161,16 +2161,16 @@
         "signed": null
       },
       "scraped_subjects": [
+        "EMPLOYMENT AND EMPLOYEES",
         "LABOR",
-        "EMPLOYMENT SECURITY DEPARTMENT",
         "DOMESTIC RELATIONS",
-        "EMPLOYMENT AND EMPLOYEES"
+        "EMPLOYMENT SECURITY DEPARTMENT"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986779,
+      "databaseUpdated": 1584305073052,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -2325,7 +2325,7 @@
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-02-15 09:20:52",
-      "updated_at": "2020-03-13 20:54:50",
+      "updated_at": "2020-03-15 08:37:34",
       "id": "",
       "all_ids": [
         ""
@@ -2590,14 +2590,14 @@
         "signed": null
       },
       "scraped_subjects": [
-        "PUBLIC OFFICERS AND EMPLOYEES",
-        "AGENCIES, STATE"
+        "AGENCIES, STATE",
+        "PUBLIC OFFICERS AND EMPLOYEES"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986797,
+      "databaseUpdated": 1584305073063,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -3430,7 +3430,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:58",
-      "updated_at": "2020-03-14 14:14:10",
+      "updated_at": "2020-03-15 14:10:26",
       "id": "",
       "all_ids": [
         ""
@@ -3601,16 +3601,16 @@
         "signed": null
       },
       "scraped_subjects": [
+        "EMPLOYMENT AND EMPLOYEES",
         "LABOR",
-        "EMPLOYMENT SECURITY DEPARTMENT",
         "DOMESTIC RELATIONS",
-        "EMPLOYMENT AND EMPLOYEES"
+        "EMPLOYMENT SECURITY DEPARTMENT"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986817,
+      "databaseUpdated": 1584305073076,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -4458,7 +4458,7 @@
       "title": "Expanding accessible, affordable child care and early childhood development programs.",
       "summary": "",
       "created_at": "2020-01-17 13:08:38",
-      "updated_at": "2020-03-14 14:13:27",
+      "updated_at": "2020-03-15 14:12:08",
       "id": "",
       "all_ids": [
         ""
@@ -4838,19 +4838,19 @@
         "signed": null
       },
       "scraped_subjects": [
-        "CHILD CARE",
-        "DOMESTIC RELATIONS",
         "MINORITIES",
+        "NAMED ACTS",
         "PUBLIC FUNDS AND ACCOUNTS",
-        "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
+        "DOMESTIC RELATIONS",
         "MENTAL HEALTH",
-        "NAMED ACTS"
+        "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
+        "CHILD CARE"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986829,
+      "databaseUpdated": 1584305073086,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -6150,7 +6150,7 @@
       "title": "Paid family leave.",
       "summary": "(1) Existing law prohibits an employer with 50 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee worked 1,250 hours in the prior 12 months. Existing law includes within \"family care and medical leave\" the birth, adoption, or foster care placement of a child and the serious health condition of the employee's child, parent, or spouse.\n\nThis bill would expand the scope of those provisions to instead prohibit an employer with 5 or more employees to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee had 180 days of service with the employer. The bill would expand the definition of \"family care and medical leave\" to include leave for reason of the birth or placement of a child if the employee has identified the child as their designated person, as defined, leave to care for a grandparent, grandchild, sibling, domestic partner, or designated person who has a serious health condition, and leave because of a qualifying exigency related to the covered active duty or call to covered active duty of an employee's spouse, domestic partner, child, or parent in the Armed Forces of the United States. The bill would delete a provision specifying that, if both parents are employed by the employer and are entitled to leave, the employer is not required to grant leave in connection with the birth, adoption, or foster care of a child that is greater than 12 weeks.\n\n(2) Existing law, the New Parent Leave Act, prohibits an employer with 20 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave to bond with a new child within one year of the birth, adoption, or foster care placement of the child if the employee worked 1,250 hours in the prior 12 months.\n\nThis bill would repeal those provisions.\n\n(3) Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States.\n\nThis bill would expand the scope of those provisions to include time off to care for a seriously ill designated person or child-in-law, as those terms are defined, or to bond with a designated person or child-in-law within one year of the birth or placement of the designated person or child-in-law.\n\n(4) Existing law makes an individual ineligible for family temporary disability insurance benefits on any day that another family member is ready, willing, able, and available to provide the required care or participate in the qualified exigency, as specified. Existing law authorizes an employer to require an employee to take up to 2 weeks of vacation leave before the employee receives the benefits.\n\nThis bill would delete those provisions.\n\n(5) Under existing law, workers are required to pay contributions to the Unemployment Compensation Disability Fund, a special fund in the State Treasury, and those funds are continuously appropriated for the purpose of providing disability benefits and making payment of administrative expenses.\n\nBy authorizing the expenditure of these funds for a new purpose, the bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:38",
-      "updated_at": "2020-03-14 12:24:55",
+      "updated_at": "2020-03-15 09:16:32",
       "id": "",
       "all_ids": [
         ""
@@ -6168,8 +6168,8 @@
           "date": "2019-01-15 00:00:00",
           "action": "Introduced. Read first time. To Com. on RLS. for assignment. To print.",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6194,11 +6194,11 @@
           "date": "2019-03-25 00:00:00",
           "action": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on RLS.",
           "type": [
-            "amendment:passed",
             "committee:referred",
-            "bill:reading:2",
+            "bill:reading:1",
+            "amendment:passed",
             "committee:passed",
-            "bill:reading:1"
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6238,8 +6238,8 @@
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 4. Noes 1. Page 800.) (April 24). Re-referred to Com. on APPR.",
           "type": [
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6269,8 +6269,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 4. Noes 2. Page 1090.) (May 16).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6279,8 +6279,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:2",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6361,7 +6361,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986842,
+      "databaseUpdated": 1584305073097,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -6372,7 +6372,7 @@
       "title": "Disability insurance: paid family leave program.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions. \n\nExisting law establishes, within the state disability insurance program, the family temporary disability insurance program, also known as the paid family leave program, for the provision of up to 6 weeks of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of the birth or placement of the child in connection with foster care or adoption. Existing law limits the temporary disability benefits paid under these provisions to not more than 6 weeks within any 12-month period. \n\nThis bill would authorize up to 12 weeks of temporary disability benefits in a 12-month period, but would limit each disability benefit period to 6 weeks of temporary disability benefits.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-22 18:07:50",
-      "updated_at": "2020-03-14 12:26:18",
+      "updated_at": "2020-03-15 09:19:16",
       "id": "",
       "all_ids": [
         ""
@@ -6415,10 +6415,10 @@
           "date": "2019-03-25 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on L. & E. Read second time and amended.",
           "type": [
+            "bill:reading:1",
             "amendment:passed",
-            "amendment:introduced",
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6437,8 +6437,8 @@
           "action": "From committee: Do pass and re-refer to Com. on INS. (Ayes 5. Noes 1.) (April 3). Re-referred to Com. on INS.",
           "type": [
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6447,10 +6447,10 @@
           "date": "2019-04-22 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
+            "bill:reading:1",
             "amendment:passed",
-            "amendment:introduced",
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6469,8 +6469,8 @@
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 14. Noes 0.) (April 24). Re-referred to Com. on APPR.",
           "type": [
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6568,7 +6568,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986857,
+      "databaseUpdated": 1584305073106,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -6579,7 +6579,7 @@
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
       "summary": "",
       "created_at": "2020-01-09 05:10:41",
-      "updated_at": "2020-03-14 05:09:16",
+      "updated_at": "2020-03-15 05:10:41",
       "id": "",
       "all_ids": [
         ""
@@ -6592,20 +6592,6 @@
       ],
       "bill_id": "PR 23-0647",
       "actions": [
-        {
-          "date": "2020-01-30T19:59:26+00:00",
-          "action": "Roundtable Hearing on PR23-0647",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-17T19:59:26+00:00",
-          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
         {
           "date": "2020-01-21T19:59:26+00:00",
           "action": "Referred to Committee on Labor and Workforce Development",
@@ -6626,7 +6612,21 @@
         },
         {
           "date": "2020-01-17T19:59:26+00:00",
+          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T19:59:26+00:00",
           "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-30T19:59:26+00:00",
+          "action": "Roundtable Hearing on PR23-0647",
           "type": [],
           "related_entities": [],
           "actor": "legislature"
@@ -6674,7 +6674,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986867,
+      "databaseUpdated": 1584305073116,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -7322,7 +7322,7 @@
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-01-16 07:46:18",
-      "updated_at": "2020-03-13 20:57:38",
+      "updated_at": "2020-03-15 08:38:03",
       "id": "",
       "all_ids": [
         ""
@@ -7406,15 +7406,15 @@
         "signed": null
       },
       "scraped_subjects": [
+        "AGENCIES, STATE",
         "CODE SECTIONS OF 1976 ADDED, REENACTED OR REDESIGNATED",
-        "PUBLIC OFFICERS AND EMPLOYEES",
-        "AGENCIES, STATE"
+        "PUBLIC OFFICERS AND EMPLOYEES"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986879,
+      "databaseUpdated": 1584305073125,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -7757,7 +7757,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:03:50",
-      "updated_at": "2020-03-14 14:10:26",
+      "updated_at": "2020-03-15 14:08:40",
       "id": "",
       "all_ids": [
         ""
@@ -7965,17 +7965,17 @@
         "signed": null
       },
       "scraped_subjects": [
-        "EMPLOYMENT SECURITY DEPARTMENT",
-        "DOMESTIC RELATIONS",
-        "EMPLOYMENT AND EMPLOYEES",
         "LABOR",
+        "DOMESTIC RELATIONS",
+        "EMPLOYMENT SECURITY DEPARTMENT",
+        "EMPLOYMENT AND EMPLOYEES",
         "RECORDS"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986900,
+      "databaseUpdated": 1584305073134,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -8568,7 +8568,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241362079,
+      "databaseUpdated": 1584305073197,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -9791,7 +9791,7 @@
       "title": "Disability compensation: paid family leave: application in non-English languages.",
       "summary": "The Dymally-Alatorre Bilingual Services Act requires a state agency that finds specific factors to exist to distribute certain written materials in the appropriate non-English language through its statewide and local offices or facilities to non-English-speaking persons, or, as an alternative, to furnish translation aids, translation guides, or provide assistance, through use of a qualified bilingual person, at its statewide and local offices or facilities in completing English forms or questionnaires and in understanding English forms, letters, or notices.\n\nExisting law establishes, within the state disability insurance program administered by the Employment Development Department, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified.\n\nThis bill, beginning January 1, 2025, would require the department to distribute the application for family temporary disability insurance benefits, in addition to the application in English, in all non-English languages spoken by a substantial number of non-English-speaking applicants, as defined.",
       "created_at": "2019-02-16 06:06:42",
-      "updated_at": "2020-03-14 12:26:55",
+      "updated_at": "2020-03-15 09:16:38",
       "id": "",
       "all_ids": [
         ""
@@ -9833,10 +9833,10 @@
           "date": "2019-03-26 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
+            "bill:reading:1",
             "amendment:passed",
-            "amendment:introduced",
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9854,10 +9854,10 @@
           "date": "2019-04-22 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
+            "bill:reading:1",
             "amendment:passed",
-            "amendment:introduced",
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9876,8 +9876,8 @@
           "action": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 14. Noes 0.) (April 24). Re-referred to Com. on APPR.",
           "type": [
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9895,8 +9895,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 18. Noes 0.) (May 16).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9905,8 +9905,8 @@
           "date": "2019-05-20 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:2",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9944,9 +9944,9 @@
           "date": "2019-06-19 00:00:00",
           "action": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 5. Noes 0.) (June 19).",
           "type": [
-            "amendment:introduced",
             "amendment:passed",
-            "committee:passed"
+            "committee:passed",
+            "amendment:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -9955,10 +9955,10 @@
           "date": "2019-06-20 00:00:00",
           "action": "Read second time and amended. Re-referred to Com. on APPR.",
           "type": [
-            "amendment:passed",
             "committee:referred",
-            "bill:reading:2",
-            "bill:reading:1"
+            "bill:reading:1",
+            "amendment:passed",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -9976,8 +9976,8 @@
           "date": "2019-08-30 00:00:00",
           "action": "From committee: Do pass. (Ayes 7. Noes 0.) (August 30).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -9986,8 +9986,8 @@
           "date": "2019-08-30 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:2",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -10143,7 +10143,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986911,
+      "databaseUpdated": 1584305073151,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -11457,7 +11457,7 @@
       "title": "Paid family leave.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions.\n\nExisting law establishes, within the state disability insurance program, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits for up to 6 weeks to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified. Existing law defines \"weekly benefit amount\" for purposes of both employee contributions and benefits under this program to mean the amount of weekly benefits available to qualifying disabled individuals pursuant to unemployment compensation disability law, calculated pursuant to specified formulas partly based on the applicable percentage of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, but not to exceed the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nThis bill would revise the formula for determining benefits available pursuant to the family temporary disability insurance program, for periods of disability commencing after January 1, 2020, by redefining the weekly benefit amount to be equal to 100% of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, divided by 13, but not exceeding the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:44",
-      "updated_at": "2020-03-14 12:25:51",
+      "updated_at": "2020-03-15 09:18:16",
       "id": "",
       "all_ids": [
         ""
@@ -11500,10 +11500,10 @@
           "date": "2019-03-26 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
+            "bill:reading:1",
             "amendment:passed",
-            "amendment:introduced",
             "bill:reading:2",
-            "bill:reading:1"
+            "amendment:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11522,8 +11522,8 @@
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 12. Noes 1.) (April 24). Re-referred to Com. on APPR.",
           "type": [
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11541,8 +11541,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 14. Noes 1.) (May 16).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11551,8 +11551,8 @@
           "date": "2019-05-20 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:2",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11636,7 +11636,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986922,
+      "databaseUpdated": 1584305073160,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -13282,7 +13282,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:04:05",
-      "updated_at": "2020-03-14 14:13:33",
+      "updated_at": "2020-03-15 14:13:51",
       "id": "",
       "all_ids": [
         ""
@@ -13773,17 +13773,17 @@
         "signed": null
       },
       "scraped_subjects": [
-        "EMPLOYMENT SECURITY DEPARTMENT",
-        "DOMESTIC RELATIONS",
-        "EMPLOYMENT AND EMPLOYEES",
         "LABOR",
+        "DOMESTIC RELATIONS",
+        "EMPLOYMENT SECURITY DEPARTMENT",
+        "EMPLOYMENT AND EMPLOYEES",
         "RECORDS"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986937,
+      "databaseUpdated": 1584305073172,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -14196,7 +14196,7 @@
       "title": "Rulemaking for Paid Family Leave Collections Approval Resolution of 2019",
       "summary": "",
       "created_at": "2019-03-06 11:04:15",
-      "updated_at": "2020-03-14 05:09:33",
+      "updated_at": "2020-03-15 05:08:11",
       "id": "",
       "all_ids": [
         ""
@@ -14210,10 +14210,10 @@
       "bill_id": "PR 23-0151",
       "actions": [
         {
-          "date": "2019-03-05T08:23:46+00:00",
-          "action": "Referred to Committee on Labor and Workforce Development",
+          "date": "2019-02-28T08:23:46+00:00",
+          "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
           "type": [
-            "committee:referred"
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "legislature"
@@ -14226,10 +14226,10 @@
           "actor": "legislature"
         },
         {
-          "date": "2019-02-28T08:23:46+00:00",
-          "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
+          "date": "2019-03-05T08:23:46+00:00",
+          "action": "Referred to Committee on Labor and Workforce Development",
           "type": [
-            "bill:introduced"
+            "committee:referred"
           ],
           "related_entities": [],
           "actor": "legislature"
@@ -14283,7 +14283,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986978,
+      "databaseUpdated": 1584305073180,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -14498,7 +14498,7 @@
       "title": "A concurrent resolution requesting the Legislative Management to consider studying the feasibility and desirability of implementing a paid family leave program structured to be beneficial to both families and businesses, including an analysis of how to make the program financially sound while being affordable for families and businesses; and a review of the data on usage rates from other states that have programs, which state agency would be best suited to administer the program, and policies required to ensure program success.",
       "summary": "",
       "created_at": "2019-02-20 13:50:22",
-      "updated_at": "2020-03-14 07:50:19",
+      "updated_at": "2020-03-15 07:47:34",
       "id": "",
       "all_ids": [
         ""
@@ -14531,8 +14531,8 @@
           "date": "2019-02-28 00:00:00",
           "action": "Reported back, do pass, place on calendar 5 2 0",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -14611,7 +14611,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986990,
+      "databaseUpdated": 1584305073189,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -15326,7 +15326,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241362098,
+      "databaseUpdated": 1584305073215,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -15413,7 +15413,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241362152,
+      "databaseUpdated": 1584305073238,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -28194,7 +28194,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241363962,
+      "databaseUpdated": 1584305073383,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -28334,7 +28334,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241363940,
+      "databaseUpdated": 1584305073375,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -28532,7 +28532,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241363701,
+      "databaseUpdated": 1584305073331,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -29254,7 +29254,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241363750,
+      "databaseUpdated": 1584305073355,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -29367,7 +29367,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241363717,
+      "databaseUpdated": 1584305073344,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -29465,7 +29465,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584241363917,
+      "databaseUpdated": 1584305073364,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },

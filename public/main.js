@@ -293,7 +293,7 @@ function generateHTML(data, index) {
                 <div id ="bg" class="vh-10 dt w-100 tc bg-black white">
 
                     <div class="pt3 f3-m flex  justify-around fw5 black">    
-                    <span><img class="white h2 w3-ns h2-ns br-50" src="./img/state_flags/${stateData.flag}" /> </span>                    
+                    <span><img class="white h2 w3-ns h2-ns br3" src="./img/state_flags/${stateData.flag}" /> </span>                    
                     <h3 class="f5 f4-m measure-narrow lh-title mv0">
                         <span class=" lh-copy bg-near-black white pa1 tracked-tight">${stateData.name} - ${data.bill_id}</span>
                     </h3>
@@ -415,7 +415,7 @@ const loadBills = () => {
         count.innerHTML = `All Bills (${Object.keys(json).length})`;
         newBillCount.innerHTML = `New Bills (${Object.keys(newBillsAdded).length})`;
         majorUpdatesCount.innerHTML = `Major Updates (${Object.keys(billsWithMajorUpdates).length})`;
-        pageUpdatedTime.innerHTML = `Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
+        pageUpdatedTime.innerHTML = `Information updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
 
         fetchedBills = json;
 
