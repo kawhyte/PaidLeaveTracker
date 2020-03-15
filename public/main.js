@@ -285,28 +285,21 @@ function generateHTML(data, index) {
   stateData = state[data.state.toUpperCase()];
 
   listArray.push(data.state.toUpperCase());
-
+  lowercaseTitle = data.title.toLowerCase()
 
   return `
   <div class="div1 container ">
             <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
                 <div id ="bg" class="vh-10 dt w-100 tc bg-black white">
 
-                    <div class="pt3 f3-m fw5 black">                       
+                    <div class="pt3 f3-m flex  justify-around fw5 black">    
+                    <span><img class="white h2 w3-ns h2-ns br-50" src="./img/state_flags/${stateData.flag}" /> </span>                    
                     <h3 class="f5 f4-m measure-narrow lh-title mv0">
-                        <span class=" lh-copy bg-near-black white pa1 tracked-tight">
-                        ${stateData.name} - ${data.bill_id}</span>
-                      ${
-                        data.isBillNew
-                          ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib black bg-pink">New</a>'
-                          : ""
-                      } 
-                      ${
-                        data.isLastUpdateImportant
-                          ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib white bg-blue">Major</a>'
-                          : ""
-                      }
+                        <span class=" lh-copy bg-near-black white pa1 tracked-tight">${stateData.name} - ${data.bill_id}</span>
                     </h3>
+                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib black bg-pink">New Bill</a>': ""} 
+                          ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib white bg-blue">Major Update</a>': ""}
+                    </span>
                     </div>
 
                 </div>
@@ -317,13 +310,6 @@ function generateHTML(data, index) {
                         <div class=" bg-white black w-100 mt1 ph3 pv3">
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
-                                <div class="">
-                                    <div class="f5 fw2 black-90 measure-narrow  mv0">Last update:<span class= "lh-copy black-70  pa1 tracked-tight">${
-                                      lastBillAction.action
-                                    } <span  class="black-70"> - ${formatDate(
-    lastBillAction.date
-  )} </span>  </span></div>
-                                    <div>
                                     <div class="pt3  f3-m fw5 white">
                                             
                                     <h3 class="f4 f4-m measure-narrow lh-title mv0">
@@ -333,7 +319,7 @@ function generateHTML(data, index) {
                                          ${billStatus.name} 
                                         </span>
                                       </h3>
-                                </div>
+                               
                                         <div class="pt2 w-100 dt dt--fixed">
                                    
                                             <div class="dtc h1 white ${
@@ -377,51 +363,31 @@ function generateHTML(data, index) {
                                                 <small>Gov</small></div>
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
-                                 
-                                       
-                                    </div>
 
                                 </div>
                             </div>
 
                         </div>
-
-                    </article>
-
-                    <div class=" bb b--light-gray bg-white gray w-100 ph3 pv0">
-                        <div class="w-100 pb0 flex items-center justify-between">
-                        
-                        <p class= " mw4 f6 lh-copy measure-narrow  truncate tl"> ${
-                          data.title
-                        }</p>
-                         
-                        </div>
-
-                    </div>
-
-                    <div class="flex items-center lh-copy pa3 s ph0-l bb b--black-10">
-
-                   
-                    <img class="pl3 w2 h2 w3-ns h3-ns br-100" src="./img/state_flags/${
-                      stateData.flag
-                    }" />
-                    <div class="pl3 flex-auto">
-                      <span class="f6 db black-70">Bill created on ${(data.created_at =
-                        data.created_at !== null
-                          ? (data.created_at)
-                          : "No data available")}</span>
-                      <span class="f6 db black-70">${data.sponsors.length} ${
-    data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"
-  }</span>
-                    </div>
-                    <div>
-                    <a href="${
-                      data.sources[0].url
-                    }" target="_blank" class="pa3 f6 link blue hover-dark-gray">State website</a>
-                    </div>
-                    </div>
+                       
+                        <dl class="lh-title pt0 pl3 pr3 mt0">
+                        <dt class="f6 b mt2">LATEST ACTION</dt>
+                        <dd class="f6 ml0">${lastBillAction.action} (${formatDate(lastBillAction.date)})</dd>
+                        <dt class="f6 b">BILL TITLE</dt>
+                        <dd class="f6 ml0 truncate">${ lowercaseTitle[0].toUpperCase() + lowercaseTitle.substring(1)}</dd>
+                        <dt class="f6 b mt2">BILL CREATED</dt>
+                        <dd class="f6 ml0">${(data.created_at = data.created_at !== null ? (data.created_at): "No data available")}</dd>
+                        <dt class="f6 b mt2">BILL SPONSORS</dt>
+                        <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
+                        <dt class="f6 b mt2">STATE WEBSITE</dt>
+                        <dd class="ml0">   <a href="${data.sources[0].url}" target="_blank" class="f6 link blue hover-dark-gray">${stateData.name } State Legislature</a></dd>
+                      </dl>
                 </div>
-        </div>
+              </article>
+
+
+                    
+                
+   </div>
   `;
 }
 
