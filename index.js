@@ -12,6 +12,7 @@ let cron = require("node-cron");
 let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 let add = require("date-fns/add");
 var formatDistance = require("date-fns/formatDistance");
+var parseJSON = require('date-fns/parseJSON')
 const express = require("express");
 
 const favicon = require("express-favicon");
@@ -65,7 +66,7 @@ app.get("/track", async (req, res, next) => {
 
   let billsRef = db.collection("bills"); //.orderBy('updated_at','desc');
   
-  let query = billsRef.where('action_dates.first', '>=', '2019-05-22 00:00:00').orderBy('action_dates.first', 'desc').get()
+  let query = billsRef.where('action_dates.first', '>=', '2019-01-22 00:00:00').orderBy('action_dates.first', 'desc').get()
   
   
   //let allCities = billsRef
@@ -94,7 +95,7 @@ app.get("/track", async (req, res, next) => {
 
         ////LOGIC TO CHECK IF BILL IS NEW //////
         var futureDate = add(new Date(Date.now()), {
-          days: 5,
+          days: 1,
           hours: 5,
           minutes: 9,
           seconds: 30
@@ -102,10 +103,15 @@ app.get("/track", async (req, res, next) => {
 
         var result = differenceInCalendarDays(
           futureDate,
-          new Date(element.dateAddedToTracker)
+          new Date(parseJSON(element.action_dates.first))
         );
 
-        if (result < 2) {
+        
+
+        console.log("Date Diff ",result);
+        // console.log("Date2 ",parseJSON(element.action_dates.first));
+
+        if (result > 30) {
           element.isBillNew = false;
           // console.log("After 🍕", element.isBillNew);
         } 
