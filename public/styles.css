@@ -305,15 +305,6 @@ body,
 
 
 
-
-
-
-
-
-
-
-
-
 .grid-container * {
     /* border: 1px solid red;  */
 
@@ -365,15 +356,11 @@ body,
 .head-label {
     text-align: center;
     /* background-color: #ffa3d7; */
-
-
 }
 
 .svg-size {
     max-width: 230%;
     max-height: 230%;
-
-
 }
 
 @media only screen and (max-width: 1000px) {

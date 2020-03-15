@@ -79,10 +79,7 @@ function addToJsonFile(entireList) {
       .find({ bill_id: entireList[index].bill_id })
       .value();
 
-    // console.log("🌈 typeof value", typeof (value) );
-    // console.log("🌈 value bill id", typeof (value.bill_id) );
-    // console.log("🌈  JSON.stringify(entireList[index].bill_id.trim())",  JSON.stringify(entireList[index].bill_id.trim()));
-
+    
     if (typeof value === "undefined" || value.bill_id === "undefined") {
       db.get("bills")
         .push({
@@ -155,10 +152,6 @@ function addToJsonFile(entireList) {
             notificationSent: false
           })
           .write();
-
-        // Increment count
-        //db.update("databaseUpdated", Date.now()).write();
-        // Set a user using Lodash shorthand syntax
         
 
         console.log("Updated ");

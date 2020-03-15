@@ -1,14 +1,12 @@
 {
   "name": "legistator-tracker",
   "version": "1.0.0",
-  "description": "A legilator tracker",
+  "description": "Paid Leave Tracker",
   "main": "index.js",
   "scripts": {
     "dev": "node index.js --ignore db.json",
     "start": "node index.js",
-    "cron": "node cronJson.js",
-    "lambda-serve": "netlify-lambda serve functions",
-    "lambda-build": "netlify-lambda build functions"
+    "cron": "node cronJson.js"
   },
   "author": "Kenny Whyte",
   "license": "ISC",
@@ -22,11 +20,8 @@
     "firestore-export-import": "^0.3.2",
     "lodash": "^4.17.15",
     "lowdb": "^1.0.0",
-    "luxon": "^1.22.0",
-    "netlify-lambda": "^1.6.3",
     "node-cron": "^2.0.3",
     "node-fetch": "^2.6.0",
-    "nodemon": "^2.0.2",
-    "serverless-http": "^2.3.1"
+    "nodemon": "^2.0.2"
   }
 }

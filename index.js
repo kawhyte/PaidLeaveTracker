@@ -78,6 +78,7 @@ app.get("/track", async (req, res, next) => {
       });
 
       let test = list.map((element, index) => {
+
         ////LOGIC TO CHECK IF BILL IS IMPORTANT //////
         importantValue = element.actions[element.actions.length - 1].type;
         if (
@@ -96,7 +97,7 @@ app.get("/track", async (req, res, next) => {
         ////LOGIC TO CHECK IF BILL IS NEW //////
         var futureDate = add(new Date(Date.now()), {
           days: 1,
-          hours: 5,
+          hours: 2,
           minutes: 9,
           seconds: 30
         });
@@ -106,14 +107,9 @@ app.get("/track", async (req, res, next) => {
           new Date(parseJSON(element.action_dates.first))
         );
 
-        
 
-        console.log("Date Diff ",result);
-        // console.log("Date2 ",parseJSON(element.action_dates.first));
-
-        if (result > 30) {
+        if (result > 20) {
           element.isBillNew = false;
-          // console.log("After 🍕", element.isBillNew);
         } 
 
         if (typeof (element.databaseUpdated) !== "undefined") {

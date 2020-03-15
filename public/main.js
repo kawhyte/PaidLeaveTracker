@@ -293,17 +293,17 @@ function generateHTML(data, index) {
                 <div id ="bg" class="vh-10 dt w-100 tc bg-black white">
 
                     <div class="pt3 f3-m fw5 black">                       
-                    <h3 class="f3 f3-m measure-narrow lh-title mv0">
+                    <h3 class="f5 f4-m measure-narrow lh-title mv0">
                         <span class=" lh-copy bg-near-black white pa1 tracked-tight">
                         ${stateData.name} - ${data.bill_id}</span>
                       ${
                         data.isBillNew
-                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-yellow">New</a>'
+                          ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib black bg-pink">New</a>'
                           : ""
                       } 
                       ${
                         data.isLastUpdateImportant
-                          ? '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue">Major Update</a>'
+                          ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib white bg-blue">Major</a>'
                           : ""
                       }
                     </h3>
@@ -326,7 +326,7 @@ function generateHTML(data, index) {
                                     <div>
                                     <div class="pt3  f3-m fw5 white">
                                             
-                                    <h3 class="f3 f3-m measure-narrow lh-title mv0">
+                                    <h3 class="f4 f4-m measure-narrow lh-title mv0">
                                         <span class="${
                                           billStatus.color
                                         } lh-copy black pa1 tracked-tight">
