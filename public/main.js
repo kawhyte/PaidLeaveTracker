@@ -277,7 +277,8 @@ function generateHTML(data, index) {
     status[lastBillAction.type] === null
   ) {
 
-    billStatus = status["null"];
+    //billStatus = status["null"];
+    billStatus.name  = null;
   } else {
     billStatus = status[lastBillAction.type];
   }
@@ -316,7 +317,7 @@ function generateHTML(data, index) {
                                         <span class="${
                                           billStatus.color
                                         } lh-copy black pa1 tracked-tight">
-                                         ${billStatus.name} 
+                                         ${billStatus.name !== null ? billStatus.name: lastBillAction.action } 
                                         </span>
                                       </h3>
                                
