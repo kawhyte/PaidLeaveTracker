@@ -25,7 +25,7 @@ const state = {
   CT: { name: "Connecticut", flag: "Flag_of_Connecticut.svg" },
   DE: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
   DC: {
-    name: "Washington, D.C.",
+    name: "D.C.",
     flag: "Flag_of_the_District_of_Columbia.svg"
   },
   FL: { name: "Florida", flag: "Flag_of_Florida.svg" },
@@ -277,7 +277,8 @@ function generateHTML(data, index) {
     status[lastBillAction.type] === null
   ) {
 
-    billStatus = status["null"];
+    //billStatus = status["null"];
+    billStatus.name  = null;
   } else {
     billStatus = status[lastBillAction.type];
   }
@@ -297,7 +298,7 @@ function generateHTML(data, index) {
                     <h3 class="f5 f4-m measure-narrow lh-title mv0">
                         <span class=" lh-copy bg-near-black white pa1 tracked-tight">${stateData.name} - ${data.bill_id}</span>
                     </h3>
-                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib black bg-pink">New Bill</a>': ""} 
+                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib black bg-light-gray">Recently Added</a>': ""} 
                           ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib white bg-blue">Major Update</a>': ""}
                     </span>
                     </div>
@@ -316,7 +317,7 @@ function generateHTML(data, index) {
                                         <span class="${
                                           billStatus.color
                                         } lh-copy black pa1 tracked-tight">
-                                         ${billStatus.name} 
+                                         ${billStatus.name !== null ? billStatus.name: lastBillAction.action } 
                                         </span>
                                       </h3>
                                
