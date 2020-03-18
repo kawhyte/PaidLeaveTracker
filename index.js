@@ -13,6 +13,7 @@ let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 let add = require("date-fns/add");
 var formatDistance = require("date-fns/formatDistance");
 var parseJSON = require('date-fns/parseJSON')
+let billStatus =""
 const express = require("express");
 
 const favicon = require("express-favicon");
@@ -127,7 +128,26 @@ app.get("/track", async (req, res, next) => {
 
          element.stateName = state[element.state.toUpperCase()].name;
          element.stateFlagURL = state[element.state.toUpperCase()].flag;
-         console.log("element.dbUpdatedTime  🍕 ", element.state, element.stateName,element.stateFlagURL );
+
+         billStatus = element.actions[element.actions.length - 1]
+
+        //  element.statusName = element.actions[element.actions.length - 1].action;
+
+         if (
+          typeof (status[billStatus.type]) === "undefined" ||
+          status[billStatus] === null
+        ) {
+          
+          element.statusName  = billStatus.action;
+          element.statusColor ="bg-light-yellow";
+        } else {
+          element.statusName  = billStatus.action;
+          element.statusColor  = status[billStatus.type].color;
+        }
+
+
+
+         console.log(" 🍕 ", element.statusName ,element.statusColor );
        
       };
 
@@ -180,7 +200,7 @@ const state = {
   NM: { name: "New Mexico", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_Mexico.svg" },
   NY: { name: "New York", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_York.svg" },
   NC: { name: "North Carolina", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North_Carolina.svg" },
-  ND: { name: "North Dakota", flag: "Fhttps://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North_Dakota.svg" },
+  ND: { name: "North Dakota", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North_Dakota.svg" },
   OH: { name: "Ohio", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505257/flags/Flag_of_Ohio.svg" },
   OK: { name: "Oklahoma", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Oklahoma.svg" },
   OR: { name: "Oregon", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Oregon.svg" },
@@ -202,30 +222,149 @@ const state = {
 
 
 
-// const getUsers = async function(pageNo = 1) {
 
-//    let actualUrl =  `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=session:2019&updated_since=2019-01-01`;
 
-//   var apiResults = await fetch(actualUrl, { headers: { "X-API-KEY": process.env.OPENSTATES } })
-//   .then(resp=>{
-//   return resp.json();
-//   });
+let status = {
+  "bill:introduced": {
+    name: "Introduced or prefiled",
+    color: "bg-blue",
+    importance: 0
+  },
+  "bill:passed": {
+    name: "Bill has passed a chamber",
+    color: "bg-yellow",
+    importance: 1
+  },
+  "bill:failed": {
+    name: "Failed to pass a chamber",
+    color: "bg-red",
+    importance: 1
+  },
+  "bill:withdrawn": {
+    name: "Withdrawn from consideration",
+    color: "bg-red",
+    importance: 1
+  },
+  "bill:veto_override:passed": {
+    name: "Chamber attempted a veto override and succeeded",
+    color: "bg-green",
+    importance: 1
+  },
+  "bill:veto_override:failed": {
+    name: "Chamber attempted a veto override and failed",
+    color: "bg-red",
+    importance: 1
+  },
+  "bill:reading:1": {
+    name: "Bill has undergone its first reading",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "bill:reading:2": {
+    name: "Bill has undergone its second reading",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "bill:reading:3": {
+    name: "Bill has undergone its third (or final) reading",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "bill:filed": {
+    name: "Bill has been filed",
+    color: "bg-yellow",
+    importance: 1
+  },
+  "bill:substituted": {
+    name: "Bill has been replaced with a substituted wholesale",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "governor:received": {
+    name: "Bill has been transmitted to the governor for consideration",
+    color: "bg-yellow",
+    importance: 1
+  },
+  "governor:signed": {
+    name: "Bill was signed into law by the governor",
+    color: "bg-green",
+    importance: 1
+  },
+  "governor:vetoed": {
+    name: "Bill has been vetoed by the governor",
+    color: "bg-red",
+    importance: 1
+  },
+  "governor:vetoed:line-item": {
+    name: "Governor has issued a partial veto",
+    color: "bg-light-yellow",
+    importance: 1
+  },
+  "amendment:introduced": {
+    name: "An amendment has been offered on the bill",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "amendment:passed": {
+    name: "The bill has been amended",
+    color: "bg-light-yellow",
+    importance: 0
+  },
+  "amendment:failed": {
+    name: "An offered amendment has failed",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "amendment:amended": {
+    name: "An offered amendment has been amended",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "amendment:withdrawn": {
+    name: "An offered amendment has been withdrawn",
+    color: "bg-pink",
+    importance: 0
+  },
+  "amendment:tabled": {
+    name: "An amendment has been ‘laid on the table’",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "committee:referred": {
+    name: "Bill referred to a committee",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "committee:passed": {
+    name: "Bill has been passed out of a committee",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "committee:passed:favorable": {
+    name: "Bill has been passed out of a committee with a favorable report",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "committee:passed:unfavorable": {
+    name:
+      "Bill has been passed out of a committee with an unfavorable report",
+    color: "bg-yellow",
+    importance: 0
+  },
+  "committee:failed": {
+    name: "Bill has failed to make it out of committee",
+    color: "bg-red",
+    importance: 0
+  },
 
-//   return apiResults;
+  null: {
+    name: "(Pending) View state website",
+    color: "bg-light-yellow",
+    importance: 0
+  }
+};
 
-//   }
 
-//   const getEntireUserList = async function(pageNo = 1) {
-//       const results = await getUsers(pageNo);
-//       console.log("Retreiving data from API for page : " + pageNo);
-
-//     if (results.length > 0) {
-//       // console.log("Result from  loop", results)
-//       return results.concat(await getEntireUserList(pageNo+1));
-//     } else {
-//       return results;
-//     }
-//   };
 
 app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 

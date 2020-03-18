@@ -2922,7 +2922,7 @@
       "title": "Interest Arbitration Award and Collective Bargaining Agreement between the District of Columbia Public Schools and the Office of the State Superintendent of Education and the American Federation of State, County and Municipal Employees, District Council 20, Local 2921, AFL-CIO Emergency Approval of 2020",
       "summary": "",
       "created_at": "2020-02-04 05:15:18",
-      "updated_at": "2020-03-16 05:09:09",
+      "updated_at": "2020-03-18 05:10:31",
       "id": "",
       "all_ids": [
         ""
@@ -2936,7 +2936,14 @@
       "bill_id": "PR 23-0677",
       "actions": [
         {
-          "date": "2020-03-03T15:40:43+00:00",
+          "date": "2020-03-13T14:05:39+00:00",
+          "action": "Resolution R23-0374 Effective from Mar 3, 2020 Published in DC Register Vol 67 and Page 2735",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-03-03T15:05:39+00:00",
           "action": "Final Reading ",
           "type": [
             "bill:reading:3"
@@ -2945,14 +2952,21 @@
           "actor": "legislature"
         },
         {
-          "date": "2020-02-04T15:40:43+00:00",
+          "date": "2020-03-03T15:05:39+00:00",
+          "action": "Approved with Resolution Number R23-0374",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-02-04T15:05:39+00:00",
           "action": "Retained by the Council",
           "type": [],
           "related_entities": [],
           "actor": "legislature"
         },
         {
-          "date": "2020-01-30T15:40:43+00:00",
+          "date": "2020-01-30T15:05:39+00:00",
           "action": "PR23-0677 Introduced by Chairman Mendelson at Office of the Secretary",
           "type": [
             "bill:introduced"
@@ -3006,8 +3020,8 @@
       ],
       "votes": null,
       "action_dates": {
-        "first": "2020-01-30T15:40:43+00:00",
-        "last": "2020-03-03T15:40:43+00:00",
+        "first": "2020-01-30T15:05:39+00:00",
+        "last": "2020-03-13T14:05:39+00:00",
         "passed_upper": null,
         "passed_lower": null,
         "signed": null
@@ -3017,11 +3031,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501532955,
+      "databaseUpdated": 1584509357318,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584075481704,
@@ -6620,7 +6636,7 @@
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
       "summary": "",
       "created_at": "2020-01-09 05:10:41",
-      "updated_at": "2020-03-17 05:08:20",
+      "updated_at": "2020-03-18 05:10:40",
       "id": "",
       "all_ids": [
         ""
@@ -6633,27 +6649,6 @@
       ],
       "bill_id": "PR 23-0647",
       "actions": [
-        {
-          "date": "2020-01-30T19:59:26+00:00",
-          "action": "Roundtable Hearing on PR23-0647",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-17T19:59:26+00:00",
-          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-17T19:59:26+00:00",
-          "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
         {
           "date": "2020-01-21T19:59:26+00:00",
           "action": "Referred to Committee on Labor and Workforce Development",
@@ -6669,6 +6664,27 @@
           "type": [
             "bill:introduced"
           ],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T19:59:26+00:00",
+          "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-30T19:59:26+00:00",
+          "action": "Roundtable Hearing on PR23-0647",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T19:59:26+00:00",
+          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
+          "type": [],
           "related_entities": [],
           "actor": "legislature"
         }
@@ -6715,11 +6731,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501533078,
+      "databaseUpdated": 1584509357347,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584075481730,
@@ -8625,11 +8643,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725470,
+      "databaseUpdated": 1584509402548,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584075481773,
@@ -14265,7 +14285,7 @@
       "title": "Rulemaking for Paid Family Leave Collections Approval Resolution of 2019",
       "summary": "",
       "created_at": "2019-03-06 11:04:15",
-      "updated_at": "2020-03-17 05:07:50",
+      "updated_at": "2020-03-18 05:10:24",
       "id": "",
       "all_ids": [
         ""
@@ -14279,18 +14299,18 @@
       "bill_id": "PR 23-0151",
       "actions": [
         {
-          "date": "2019-03-08T08:23:46+00:00",
-          "action": "Notice of Intent to Act on PR23-0151 Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
           "date": "2019-02-28T08:23:46+00:00",
           "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
           "type": [
             "bill:introduced"
           ],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2019-03-08T08:23:46+00:00",
+          "action": "Notice of Intent to Act on PR23-0151 Published in the District of Columbia Register",
+          "type": [],
           "related_entities": [],
           "actor": "legislature"
         },
@@ -14352,11 +14372,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501533268,
+      "databaseUpdated": 1584509357391,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584075481894,
@@ -15406,11 +15428,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725513,
+      "databaseUpdated": 1584509402579,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584075481925,
@@ -15495,11 +15519,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725547,
+      "databaseUpdated": 1584509402616,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584075481934,
@@ -28298,11 +28324,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725769,
+      "databaseUpdated": 1584509402821,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584241363080,
@@ -28440,11 +28468,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725753,
+      "databaseUpdated": 1584509402807,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584241363094,
@@ -28640,11 +28670,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725674,
+      "databaseUpdated": 1584509402728,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584241363144,
@@ -29364,11 +29396,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725707,
+      "databaseUpdated": 1584509402762,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584241363332,
@@ -29479,11 +29513,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725689,
+      "databaseUpdated": 1584509402747,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584241363352,
@@ -29579,11 +29615,13 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584501725726,
+      "databaseUpdated": 1584509402790,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0,
       "stateName": "",
-      "stateFlagURL": ""
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": ""
     },
     {
       "dateAddedToTracker": 1584241363385,
