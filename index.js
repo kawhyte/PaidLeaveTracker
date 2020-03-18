@@ -126,7 +126,8 @@ app.get("/track", async (req, res, next) => {
 
 
          element.stateName = state[element.state.toUpperCase()].name;
-         console.log("element.dbUpdatedTime  🍕 ", element.state, element.stateName );
+         element.stateFlagURL = state[element.state.toUpperCase()].flag;
+         console.log("element.dbUpdatedTime  🍕 ", element.state, element.stateName,element.stateFlagURL );
        
       };
 

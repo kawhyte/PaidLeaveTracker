@@ -15,63 +15,7 @@ let newBillsAdded = 0;
 let pageUpdatedAt =""
 let billsWithMajorUpdates = 0;
 
-const state = {
-  AL: { name: "Alabama", flag: "Flag_of_Alabama.svg" },
-  AK: { name: "Alaska", flag: "Flag_of_Alaska.svg" },
-  AZ: { name: "Arizona", flag: "Flag_of_Arizona.svg" },
-  AR: { name: "Arkansas", flag: "Flag_of_Arkansas.svg" },
-  CA: { name: "California", flag: "Flag_of_California.svg" },
-  CO: { name: "Colorado", flag: "Flag_of_Colorado.svg" },
-  CT: { name: "Connecticut", flag: "Flag_of_Connecticut.svg" },
-  DE: { name: "Delaware", flag: "Flag_of_Delaware.svg" },
-  DC: {
-    name: "D.C.",
-    flag: "Flag_of_the_District_of_Columbia.svg"
-  },
-  FL: { name: "Florida", flag: "Flag_of_Florida.svg" },
-  GA: { name: "Georgia", flag: "Flag_of_Georgia.svg" },
-  HI: { name: "Hawaii", flag: "Flag_of_Hawaii.svg" },
-  ID: { name: "Idaho", flag: "Flag_of_Idaho.svg" },
-  IL: { name: "Illinois", flag: "Flag_of_Illinois.svg" },
-  IN: { name: "Indiana", flag: "Flag_of_Illinois.svg" },
-  IA: { name: "Iowa", flag: "Flag_of_Iowa.svg" },
-  KS: { name: "Kansas", flag: "Flag_of_Kansas.svg" },
-  KY: { name: "Kentucky", flag: "Flag_of_Kentucky.svg" },
-  LA: { name: "Louisiana", flag: "Flag_of_Louisiana.svg" },
-  ME: { name: "Maine", flag: "Flag_of_Maine.svg" },
-  MD: { name: "Maryland", flag: "Flag_of_Maryland.svg" },
-  MA: { name: "Massachusetts", flag: "Flag_of_Massachusetts.svg" },
-  MI: { name: "Michigan", flag: "Flag_of_Michigan.svg" },
-  MN: { name: "Minnesota", flag: "Flag_of_Minnesota.svg" },
-  MS: { name: "Mississippi", flag: "Flag_of_Mississippi.svg" },
-  MO: { name: "Missouri", flag: "Flag_of_Missouri.svg" },
-  MT: { name: "Montana", flag: "Flag_of_Montana.svg" },
-  NE: { name: "Nebraska", flag: "Flag_of_Nebraska.svg" },
-  NV: { name: "Nevada", flag: "Flag_of_Nevada.svg" },
-  NH: { name: "New Hampshire", flag: "Flag_of_New_Hampshire.svg" },
-  NJ: { name: "New Jersey", flag: "Flag_of_New_Jersey.svg" },
-  NM: { name: "New Mexico", flag: "Flag_of_New_Mexico.svg" },
-  NY: { name: "New York", flag: "Flag_of_New_York.svg" },
-  NC: { name: "North Carolina", flag: "Flag_of_North_Carolina.svg" },
-  ND: { name: "North Dakota", flag: "Flag_of_North_Dakota.svg" },
-  OH: { name: "Ohio", flag: "Flag_of_Ohio.svg" },
-  OK: { name: "Oklahoma", flag: "Flag_of_Oklahoma.svg" },
-  OR: { name: "Oregon", flag: "Flag_of_Oregon.svg" },
-  PA: { name: "Pennsylvania", flag: "Flag_of_Pennsylvania.svg" },
-  RI: { name: "Rhode Island", flag: "Rhode_Island.svg" },
-  SC: { name: "South Carolina", flag: "Flag_of_South_Carolina.svg" },
-  SD: { name: "South Dakota", flag: "Flag_of_South_Dakota.svg" },
-  TN: { name: "Tennessee", flag: "Flag_of_Tennessee.svg" },
-  TX: { name: "Texas", flag: "Flag_of_Texas.svg" },
-  UT: { name: "Utah", flag: "Flag_of_Utah.svg" },
-  VT: { name: "Vermont", flag: "Flag_of_Vermont.svg" },
-  VA: { name: "Virginia", flag: "Flag_of_Virginia.svg" },
-  WA: { name: "Washington", flag: "Flag_of_Washington.svg" },
-  WV: { name: "West Virginia", flag: "Flag_of_West_Virginia.svg" },
-  WI: { name: "Wisconsin", flag: "Flag_of_Wisconsin.svg" },
-  WY: { name: "Wyoming", flag: "Flag_of_Wyoming.svg" },
-  ALL: { name: "View All States", flag: "Flag_of_Wyoming.svg" }
-};
+
 
 searchBar.addEventListener("keyup", e => {
   const searchString = e.target.value.toLowerCase().trim();
@@ -283,7 +227,7 @@ function generateHTML(data, index) {
     billStatus = status[lastBillAction.type];
   }
 
-  stateData = state[data.state.toUpperCase()];
+// stateData   = state[data.state.toUpperCase()];
 
   listArray.push(data.state.toUpperCase());
   lowercaseTitle = data.title.toLowerCase()
@@ -294,9 +238,9 @@ function generateHTML(data, index) {
                 <div id ="bg" class="vh-10 dt w-100 tc bg-black white">
 
                     <div class="pt3 f3-m flex  justify-around fw5 black">    
-                    <span><img class="white h2 w3-ns h2-ns br3" src="./img/state_flags/${stateData.flag}" /> </span>                    
+                    <span><img class="white h2 w3-ns h2-ns br3" src="${data.stateFlagURL}" /> </span>                    
                     <h3 class="f5 f4-m measure-narrow lh-title mv0">
-                        <span class=" lh-copy bg-near-black white pa1 tracked-tight">${stateData.name} - ${data.bill_id}</span>
+                        <span class=" lh-copy bg-near-black white pa1 tracked-tight">${data.stateName} - ${data.bill_id}</span>
                     </h3>
                     <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib black bg-light-gray">Recently Added</a>': ""} 
                           ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib white bg-blue">Major Update</a>': ""}
@@ -458,12 +402,3 @@ function formatDate(input) {
   ].join("/");
 }
 
-// function createList(list) {
-//   if (state[list] !== undefined) {
-//     console.log(" Inside List ", list, state[list]);
-
-//     //console.log("List ",list, state[list])
-
-//     return `<li  class=" item dib mr1 mb2"><a href="#" data-parent=${list} class="item  bg-animate f6 f5-ns b db pa2 link dim dark-gray ba b--black-20 hover-bg-light-blue">${state[list].name}</a></li>`;
-//   }
-// }
