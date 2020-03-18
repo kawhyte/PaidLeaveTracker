@@ -122,7 +122,11 @@ app.get("/track", async (req, res, next) => {
         )
 
         element.dbUpdatedTime = timeAgo;
-        console.log("element.dbUpdatedTime  🍕 ", element.dbUpdatedTime );
+        // console.log("element.dbUpdatedTime  🍕 ", element.dbUpdatedTime );
+
+
+         element.stateName = state[element.state.toUpperCase()].name;
+         console.log("element.dbUpdatedTime  🍕 ", element.state, element.stateName );
        
       };
 
@@ -134,6 +138,68 @@ app.get("/track", async (req, res, next) => {
       console.log("Error getting documents", err);
     });
 });
+
+
+
+const state = {
+  AL: { name: "Alabama", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505244/flags/Flag_of_Alabama.svg" },
+  AK: { name: "Alaska", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505244/flags/Flag_of_Alaska.svg" },
+  AZ: { name: "Arizona", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505244/flags/Flag_of_Arizona.svg" },
+  AR: { name: "Arkansas", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505244/flags/Flag_of_Arkansas.svg" },
+  CA: { name: "California", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505245/flags/Flag_of_California.svg" },
+  CO: { name: "Colorado", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505244/flags/Flag_of_Colorado.svg" },
+  CT: { name: "Connecticut", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Connecticut.svg" },
+  DE: { name: "Delaware", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505247/flags/Flag_of_Delaware.svg" },
+  DC: {
+    name: "D.C.",
+    flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_the_District_of_Columbia.svg"
+  },
+  FL: { name: "Florida", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505247/flags/Flag_of_Florida.svg" },
+  GA: { name: "Georgia", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Georgia__U.S._state.svg" },
+  HI: { name: "Hawaii", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Hawaii.svg" },
+  ID: { name: "Idaho", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505247/flags/Flag_of_Idaho.svg" },
+  IL: { name: "Illinois", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Illinois.svg" },
+  IN: { name: "Indiana", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Indiana.svg" },
+  IA: { name: "Iowa", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Iowa.svg" },
+  KS: { name: "Kansas", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Kansas.svg" },
+  KY: { name: "Kentucky", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Kentucky.svg" },
+  LA: { name: "Louisiana", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505249/flags/Flag_of_Louisiana.svg" },
+  ME: { name: "Maine", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Maine.svg" },
+  MD: { name: "Maryland", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Maryland.svg" },
+  MA: { name: "Massachusetts", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Massachusetts.svg" },
+  MI: { name: "Michigan", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Michigan.svg" },
+  MN: { name: "Minnesota", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505251/flags/Flag_of_Minnesota.svg" },
+  MS: { name: "Mississippi", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505253/flags/Flag_of_Mississippi.svg" },
+  MO: { name: "Missouri", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505253/flags/Flag_of_Missouri.svg" },
+  MT: { name: "Montana", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505253/flags/Flag_of_Montana.svg" },
+  NE: { name: "Nebraska", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505254/flags/Flag_of_Nebraska.svg" },
+  NV: { name: "Nevada", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505254/flags/Flag_of_Nevada.svg" },
+  NH: { name: "New Hampshire", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505255/flags/Flag_of_New_Hampshire.svg" },
+  NJ: { name: "New Jersey", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_Jersey.svg" },
+  NM: { name: "New Mexico", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_Mexico.svg" },
+  NY: { name: "New York", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_York.svg" },
+  NC: { name: "North Carolina", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North_Carolina.svg" },
+  ND: { name: "North Dakota", flag: "Fhttps://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North_Dakota.svg" },
+  OH: { name: "Ohio", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505257/flags/Flag_of_Ohio.svg" },
+  OK: { name: "Oklahoma", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Oklahoma.svg" },
+  OR: { name: "Oregon", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Oregon.svg" },
+  PA: { name: "Pennsylvania", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Pennsylvania.svg" },
+  RI: { name: "Rhode Island", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Rhode_Island.svg" },
+  SC: { name: "South Carolina", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_South_Carolina.svg" },
+  SD: { name: "South Dakota", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_South_Dakota.svg" },
+  TN: { name: "Tennessee", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_Tennessee.svg" },
+  TX: { name: "Texas", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_Texas.svg" },
+  UT: { name: "Utah", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_Utah.svg" },
+  VT: { name: "Vermont", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_Vermont.svg" },
+  VA: { name: "Virginia", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505262/flags/Flag_of_Virginia.svg" },
+  WA: { name: "Washington", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505263/flags/Flag_of_Washington.svg" },
+  WV: { name: "West Virginia", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505263/flags/Flag_of_West_Virginia.svg" },
+  WI: { name: "Wisconsin", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505263/flags/Flag_of_Wisconsin.svg" },
+  WY: { name: "Wyoming", flag: "https://res.cloudinary.com/babyhulk/image/upload/v1584505263/flags/Flag_of_Wyoming.svg" },
+  ALL: { name: "View All States", flag: "Flag_of_Wyoming.svg" }
+};
+
+
 
 // const getUsers = async function(pageNo = 1) {
 
@@ -160,10 +226,10 @@ app.get("/track", async (req, res, next) => {
 //     }
 //   };
 
-// app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
+app.listen(8887, () => console.log("Pay Leave app listening on port 8887!"));
 
-const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-const server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+// const server_host = process.env.YOUR_HOST || '0.0.0.0';
+// app.listen(server_port, server_host, function() {
+//     console.log('Listening on port %d', server_port);
+// });

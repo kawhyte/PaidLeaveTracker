@@ -7,7 +7,7 @@
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-01-23 06:35:19",
-      "updated_at": "2020-03-14 07:29:39",
+      "updated_at": "2020-03-17 07:26:51",
       "id": "",
       "all_ids": [
         ""
@@ -149,9 +149,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986741,
+      "databaseUpdated": 1584501532872,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481690,
@@ -747,7 +749,7 @@
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-02-03 05:52:43",
-      "updated_at": "2020-03-14 07:38:57",
+      "updated_at": "2020-03-17 07:34:11",
       "id": "",
       "all_ids": [
         ""
@@ -889,9 +891,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986719,
+      "databaseUpdated": 1584501532858,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481697,
@@ -1208,7 +1212,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-24 06:40:26",
-      "updated_at": "2020-03-14 07:36:37",
+      "updated_at": "2020-03-17 07:28:38",
       "id": "",
       "all_ids": [
         ""
@@ -1349,9 +1353,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986767,
+      "databaseUpdated": 1584501532900,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481698,
@@ -1360,7 +1366,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-25 06:39:30",
-      "updated_at": "2020-03-14 07:31:59",
+      "updated_at": "2020-03-17 07:30:29",
       "id": "",
       "all_ids": [
         ""
@@ -1501,9 +1507,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986756,
+      "databaseUpdated": 1584501532885,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481699,
@@ -1787,7 +1795,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:08",
-      "updated_at": "2020-03-15 14:09:49",
+      "updated_at": "2020-03-17 14:13:36",
       "id": "",
       "all_ids": [
         ""
@@ -2161,18 +2169,20 @@
         "signed": null
       },
       "scraped_subjects": [
-        "EMPLOYMENT AND EMPLOYEES",
         "LABOR",
-        "DOMESTIC RELATIONS",
-        "EMPLOYMENT SECURITY DEPARTMENT"
+        "EMPLOYMENT AND EMPLOYEES",
+        "EMPLOYMENT SECURITY DEPARTMENT",
+        "DOMESTIC RELATIONS"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073052,
+      "databaseUpdated": 1584501532919,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481700,
@@ -2325,7 +2335,7 @@
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-02-15 09:20:52",
-      "updated_at": "2020-03-15 08:37:34",
+      "updated_at": "2020-03-16 09:44:42",
       "id": "",
       "all_ids": [
         ""
@@ -2590,16 +2600,18 @@
         "signed": null
       },
       "scraped_subjects": [
-        "AGENCIES, STATE",
-        "PUBLIC OFFICERS AND EMPLOYEES"
+        "PUBLIC OFFICERS AND EMPLOYEES",
+        "AGENCIES, STATE"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073063,
+      "databaseUpdated": 1584501532936,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481701,
@@ -2910,7 +2922,7 @@
       "title": "Interest Arbitration Award and Collective Bargaining Agreement between the District of Columbia Public Schools and the Office of the State Superintendent of Education and the American Federation of State, County and Municipal Employees, District Council 20, Local 2921, AFL-CIO Emergency Approval of 2020",
       "summary": "",
       "created_at": "2020-02-04 05:15:18",
-      "updated_at": "2020-03-14 05:08:10",
+      "updated_at": "2020-03-16 05:09:09",
       "id": "",
       "all_ids": [
         ""
@@ -2924,15 +2936,6 @@
       "bill_id": "PR 23-0677",
       "actions": [
         {
-          "date": "2020-01-30T15:40:43+00:00",
-          "action": "PR23-0677 Introduced by Chairman Mendelson at Office of the Secretary",
-          "type": [
-            "bill:introduced"
-          ],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
           "date": "2020-03-03T15:40:43+00:00",
           "action": "Final Reading ",
           "type": [
@@ -2945,6 +2948,15 @@
           "date": "2020-02-04T15:40:43+00:00",
           "action": "Retained by the Council",
           "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-30T15:40:43+00:00",
+          "action": "PR23-0677 Introduced by Chairman Mendelson at Office of the Secretary",
+          "type": [
+            "bill:introduced"
+          ],
           "related_entities": [],
           "actor": "legislature"
         }
@@ -3005,9 +3017,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986807,
+      "databaseUpdated": 1584501532955,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481704,
@@ -3430,7 +3444,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:58",
-      "updated_at": "2020-03-15 14:10:26",
+      "updated_at": "2020-03-17 14:11:59",
       "id": "",
       "all_ids": [
         ""
@@ -3601,18 +3615,20 @@
         "signed": null
       },
       "scraped_subjects": [
-        "EMPLOYMENT AND EMPLOYEES",
         "LABOR",
-        "DOMESTIC RELATIONS",
-        "EMPLOYMENT SECURITY DEPARTMENT"
+        "EMPLOYMENT AND EMPLOYEES",
+        "EMPLOYMENT SECURITY DEPARTMENT",
+        "DOMESTIC RELATIONS"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073076,
+      "databaseUpdated": 1584501532972,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481709,
@@ -4458,7 +4474,7 @@
       "title": "Expanding accessible, affordable child care and early childhood development programs.",
       "summary": "",
       "created_at": "2020-01-17 13:08:38",
-      "updated_at": "2020-03-15 14:12:08",
+      "updated_at": "2020-03-17 14:12:21",
       "id": "",
       "all_ids": [
         ""
@@ -4838,21 +4854,23 @@
         "signed": null
       },
       "scraped_subjects": [
-        "MINORITIES",
-        "NAMED ACTS",
-        "PUBLIC FUNDS AND ACCOUNTS",
-        "DOMESTIC RELATIONS",
         "MENTAL HEALTH",
+        "CHILD CARE",
+        "NAMED ACTS",
+        "MINORITIES",
+        "DOMESTIC RELATIONS",
         "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
-        "CHILD CARE"
+        "PUBLIC FUNDS AND ACCOUNTS"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073086,
+      "databaseUpdated": 1584501532989,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481716,
@@ -4974,7 +4992,7 @@
       "title": "An act relating to paid family and medical leave",
       "summary": "",
       "created_at": "2019-01-29 11:32:10",
-      "updated_at": "2020-03-04 09:19:03",
+      "updated_at": "2020-03-17 09:21:55",
       "id": "",
       "all_ids": [
         ""
@@ -5951,43 +5969,43 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Introduced.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         },
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20passed%20by%20the%20House%20Official.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20passed%20by%20the%20House%20Official.pdf",
           "doc_id": "~not available~",
           "name": "Official"
         },
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20proposal%20of%20amendment%20Official.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20proposal%20of%20amendment%20Official.pdf",
           "doc_id": "~not available~",
           "name": "Official"
         },
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Official.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Official.pdf",
           "doc_id": "~not available~",
           "name": "Official"
         },
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
           "doc_id": "~not available~",
           "name": "Unofficial"
         },
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20Proposal%20of%20Amendment%20Unofficial.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20Proposal%20of%20Amendment%20Unofficial.pdf",
           "doc_id": "~not available~",
           "name": "Unofficial"
         },
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf",
           "doc_id": "~not available~",
           "name": "Unofficial"
         }
@@ -6006,7 +6024,12 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584501533025,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481720,
@@ -6015,7 +6038,7 @@
       "title": "employers; paid family leave",
       "summary": "",
       "created_at": "2020-02-04 08:47:09",
-      "updated_at": "2020-03-04 09:14:02",
+      "updated_at": "2020-03-17 08:16:44",
       "id": "",
       "all_ids": [
         ""
@@ -6137,11 +6160,25 @@
         "passed_lower": null,
         "signed": null
       },
-      "scraped_subjects": [],
+      "scraped_subjects": [
+        "EFFECTIVE DATE",
+        "EMPLOYERS",
+        "EMPLOYMENT PRACTICES",
+        "ENFORCEMENT",
+        "LABOR - TITLE 23",
+        "PAID FAMILY LEAVE",
+        "REQUIREMENTS",
+        "RULES"
+      ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584501533004,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481723,
@@ -6150,7 +6187,7 @@
       "title": "Paid family leave.",
       "summary": "(1) Existing law prohibits an employer with 50 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee worked 1,250 hours in the prior 12 months. Existing law includes within \"family care and medical leave\" the birth, adoption, or foster care placement of a child and the serious health condition of the employee's child, parent, or spouse.\n\nThis bill would expand the scope of those provisions to instead prohibit an employer with 5 or more employees to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee had 180 days of service with the employer. The bill would expand the definition of \"family care and medical leave\" to include leave for reason of the birth or placement of a child if the employee has identified the child as their designated person, as defined, leave to care for a grandparent, grandchild, sibling, domestic partner, or designated person who has a serious health condition, and leave because of a qualifying exigency related to the covered active duty or call to covered active duty of an employee's spouse, domestic partner, child, or parent in the Armed Forces of the United States. The bill would delete a provision specifying that, if both parents are employed by the employer and are entitled to leave, the employer is not required to grant leave in connection with the birth, adoption, or foster care of a child that is greater than 12 weeks.\n\n(2) Existing law, the New Parent Leave Act, prohibits an employer with 20 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave to bond with a new child within one year of the birth, adoption, or foster care placement of the child if the employee worked 1,250 hours in the prior 12 months.\n\nThis bill would repeal those provisions.\n\n(3) Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States.\n\nThis bill would expand the scope of those provisions to include time off to care for a seriously ill designated person or child-in-law, as those terms are defined, or to bond with a designated person or child-in-law within one year of the birth or placement of the designated person or child-in-law.\n\n(4) Existing law makes an individual ineligible for family temporary disability insurance benefits on any day that another family member is ready, willing, able, and available to provide the required care or participate in the qualified exigency, as specified. Existing law authorizes an employer to require an employee to take up to 2 weeks of vacation leave before the employee receives the benefits.\n\nThis bill would delete those provisions.\n\n(5) Under existing law, workers are required to pay contributions to the Unemployment Compensation Disability Fund, a special fund in the State Treasury, and those funds are continuously appropriated for the purpose of providing disability benefits and making payment of administrative expenses.\n\nBy authorizing the expenditure of these funds for a new purpose, the bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:38",
-      "updated_at": "2020-03-15 09:16:32",
+      "updated_at": "2020-03-18 00:20:01",
       "id": "",
       "all_ids": [
         ""
@@ -6168,8 +6205,8 @@
           "date": "2019-01-15 00:00:00",
           "action": "Introduced. Read first time. To Com. on RLS. for assignment. To print.",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6194,11 +6231,11 @@
           "date": "2019-03-25 00:00:00",
           "action": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on RLS.",
           "type": [
-            "committee:referred",
             "bill:reading:1",
+            "committee:referred",
             "amendment:passed",
-            "committee:passed",
-            "bill:reading:2"
+            "bill:reading:2",
+            "committee:passed"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6237,9 +6274,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 4. Noes 1. Page 800.) (April 24). Re-referred to Com. on APPR.",
           "type": [
-            "committee:referred",
             "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:referred"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6269,8 +6306,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 4. Noes 2. Page 1090.) (May 16).",
           "type": [
-            "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:passed"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6279,8 +6316,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1",
-            "bill:reading:2"
+            "bill:reading:2",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -6361,9 +6398,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073097,
+      "databaseUpdated": 1584501533046,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481725,
@@ -6372,7 +6411,7 @@
       "title": "Disability insurance: paid family leave program.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions. \n\nExisting law establishes, within the state disability insurance program, the family temporary disability insurance program, also known as the paid family leave program, for the provision of up to 6 weeks of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of the birth or placement of the child in connection with foster care or adoption. Existing law limits the temporary disability benefits paid under these provisions to not more than 6 weeks within any 12-month period. \n\nThis bill would authorize up to 12 weeks of temporary disability benefits in a 12-month period, but would limit each disability benefit period to 6 weeks of temporary disability benefits.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-22 18:07:50",
-      "updated_at": "2020-03-15 09:19:16",
+      "updated_at": "2020-03-18 00:18:39",
       "id": "",
       "all_ids": [
         ""
@@ -6416,9 +6455,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on L. & E. Read second time and amended.",
           "type": [
             "bill:reading:1",
+            "amendment:introduced",
             "amendment:passed",
-            "bill:reading:2",
-            "amendment:introduced"
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6436,9 +6475,9 @@
           "date": "2019-04-04 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on INS. (Ayes 5. Noes 1.) (April 3). Re-referred to Com. on INS.",
           "type": [
-            "committee:referred",
             "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:referred"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6448,9 +6487,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:1",
+            "amendment:introduced",
             "amendment:passed",
-            "bill:reading:2",
-            "amendment:introduced"
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6468,9 +6507,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 14. Noes 0.) (April 24). Re-referred to Com. on APPR.",
           "type": [
-            "committee:referred",
             "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:referred"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -6568,9 +6607,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073106,
+      "databaseUpdated": 1584501533062,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481728,
@@ -6579,7 +6620,7 @@
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
       "summary": "",
       "created_at": "2020-01-09 05:10:41",
-      "updated_at": "2020-03-15 05:10:41",
+      "updated_at": "2020-03-17 05:08:20",
       "id": "",
       "all_ids": [
         ""
@@ -6593,20 +6634,9 @@
       "bill_id": "PR 23-0647",
       "actions": [
         {
-          "date": "2020-01-21T19:59:26+00:00",
-          "action": "Referred to Committee on Labor and Workforce Development",
-          "type": [
-            "committee:referred"
-          ],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-06T19:59:26+00:00",
-          "action": "PR23-0647 Introduced by Chairman Mendelson at Office of the Secretary",
-          "type": [
-            "bill:introduced"
-          ],
+          "date": "2020-01-30T19:59:26+00:00",
+          "action": "Roundtable Hearing on PR23-0647",
+          "type": [],
           "related_entities": [],
           "actor": "legislature"
         },
@@ -6625,9 +6655,20 @@
           "actor": "legislature"
         },
         {
-          "date": "2020-01-30T19:59:26+00:00",
-          "action": "Roundtable Hearing on PR23-0647",
-          "type": [],
+          "date": "2020-01-21T19:59:26+00:00",
+          "action": "Referred to Committee on Labor and Workforce Development",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-06T19:59:26+00:00",
+          "action": "PR23-0647 Introduced by Chairman Mendelson at Office of the Secretary",
+          "type": [
+            "bill:introduced"
+          ],
           "related_entities": [],
           "actor": "legislature"
         }
@@ -6674,9 +6715,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073116,
+      "databaseUpdated": 1584501533078,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481730,
@@ -7322,7 +7365,7 @@
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
       "summary": "",
       "created_at": "2020-01-16 07:46:18",
-      "updated_at": "2020-03-15 08:38:03",
+      "updated_at": "2020-03-16 09:46:59",
       "id": "",
       "all_ids": [
         ""
@@ -7406,17 +7449,18 @@
         "signed": null
       },
       "scraped_subjects": [
-        "AGENCIES, STATE",
-        "CODE SECTIONS OF 1976 ADDED, REENACTED OR REDESIGNATED",
-        "PUBLIC OFFICERS AND EMPLOYEES"
+        "PUBLIC OFFICERS AND EMPLOYEES",
+        "AGENCIES, STATE"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073125,
+      "databaseUpdated": 1584501533099,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481747,
@@ -7425,7 +7469,7 @@
       "title": "Employment Practices",
       "summary": "Employment Practices; Creating the \"Florida Family Leave Act\"; requiring an employer to allow certain employees to take paid family leave to bond with a new child upon the child’s birth, adoption, or foster care placement; requiring that family leave be taken concurrently with any leave taken pursuant to federal family and medical leave provisions; requiring the Department of Economic Opportunity to create a poster and a model notice that specify family leave rights, etc.",
       "created_at": "2019-12-11 07:29:11",
-      "updated_at": "2020-03-14 14:42:42",
+      "updated_at": "2020-03-16 09:16:24",
       "id": "",
       "all_ids": [
         ""
@@ -7504,16 +7548,18 @@
         "signed": null
       },
       "scraped_subjects": [
-        "labor",
-        "civil rights"
+        "civil rights",
+        "labor"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986672,
+      "databaseUpdated": 1584501532834,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481749,
@@ -7522,7 +7568,7 @@
       "title": "Employment Practices",
       "summary": "Employment Practices; Creates \"Florida Family Leave Act\"; requires employer to allow certain employees to take paid family leave to bond with minor child upon child's birth, adoption, or foster care placement; provides requirements, limitations, & duties; provides for civil action & penalties & criminal penalty; prohibits specified employment practices on basis of pregnancy, childbirth, or medical condition related to pregnancy or childbirth; provides for leave, maintenance of health coverage, reasonable accommodation & transfer, & return rights for employee who is disabled from pregnancy, childbirth, or medical condition related to pregnancy or childbirth.",
       "created_at": "2019-12-11 07:28:37",
-      "updated_at": "2020-03-14 14:41:19",
+      "updated_at": "2020-03-17 09:16:32",
       "id": "",
       "all_ids": [
         ""
@@ -7561,6 +7607,13 @@
           ],
           "related_entities": [],
           "actor": "lower"
+        },
+        {
+          "date": "2020-03-14 00:00:00",
+          "action": "Indefinitely postponed and withdrawn from consideration",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
         }
       ],
       "sources": [
@@ -7593,22 +7646,24 @@
       "votes": null,
       "action_dates": {
         "first": "2019-12-10 00:00:00",
-        "last": "2020-01-14 00:00:00",
+        "last": "2020-03-14 00:00:00",
         "passed_upper": null,
         "passed_lower": null,
         "signed": null
       },
       "scraped_subjects": [
-        "labor",
-        "civil rights"
+        "civil rights",
+        "labor"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986890,
+      "databaseUpdated": 1584501532816,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481752,
@@ -7757,7 +7812,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:03:50",
-      "updated_at": "2020-03-15 14:08:40",
+      "updated_at": "2020-03-17 14:10:22",
       "id": "",
       "all_ids": [
         ""
@@ -7966,18 +8021,20 @@
       },
       "scraped_subjects": [
         "LABOR",
-        "DOMESTIC RELATIONS",
-        "EMPLOYMENT SECURITY DEPARTMENT",
         "EMPLOYMENT AND EMPLOYEES",
+        "EMPLOYMENT SECURITY DEPARTMENT",
+        "DOMESTIC RELATIONS",
         "RECORDS"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073134,
+      "databaseUpdated": 1584501533119,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481756,
@@ -8568,9 +8625,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073197,
+      "databaseUpdated": 1584501725470,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481773,
@@ -9791,7 +9850,7 @@
       "title": "Disability compensation: paid family leave: application in non-English languages.",
       "summary": "The Dymally-Alatorre Bilingual Services Act requires a state agency that finds specific factors to exist to distribute certain written materials in the appropriate non-English language through its statewide and local offices or facilities to non-English-speaking persons, or, as an alternative, to furnish translation aids, translation guides, or provide assistance, through use of a qualified bilingual person, at its statewide and local offices or facilities in completing English forms or questionnaires and in understanding English forms, letters, or notices.\n\nExisting law establishes, within the state disability insurance program administered by the Employment Development Department, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified.\n\nThis bill, beginning January 1, 2025, would require the department to distribute the application for family temporary disability insurance benefits, in addition to the application in English, in all non-English languages spoken by a substantial number of non-English-speaking applicants, as defined.",
       "created_at": "2019-02-16 06:06:42",
-      "updated_at": "2020-03-15 09:16:38",
+      "updated_at": "2020-03-18 00:20:05",
       "id": "",
       "all_ids": [
         ""
@@ -9834,9 +9893,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:1",
+            "amendment:introduced",
             "amendment:passed",
-            "bill:reading:2",
-            "amendment:introduced"
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9855,9 +9914,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:1",
+            "amendment:introduced",
             "amendment:passed",
-            "bill:reading:2",
-            "amendment:introduced"
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9875,9 +9934,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 14. Noes 0.) (April 24). Re-referred to Com. on APPR.",
           "type": [
-            "committee:referred",
             "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:referred"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9895,8 +9954,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 18. Noes 0.) (May 16).",
           "type": [
-            "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9905,8 +9964,8 @@
           "date": "2019-05-20 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1",
-            "bill:reading:2"
+            "bill:reading:2",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -9915,8 +9974,8 @@
           "date": "2019-05-23 00:00:00",
           "action": "Read third time. Passed. Ordered to the Senate. (Ayes 77. Noes 0. Page 1866.)",
           "type": [
-            "bill:reading:3",
             "bill:passed",
+            "bill:reading:3",
             "bill:reading:1"
           ],
           "related_entities": [],
@@ -9944,9 +10003,9 @@
           "date": "2019-06-19 00:00:00",
           "action": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 5. Noes 0.) (June 19).",
           "type": [
+            "amendment:introduced",
             "amendment:passed",
-            "committee:passed",
-            "amendment:introduced"
+            "committee:passed"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -9955,8 +10014,8 @@
           "date": "2019-06-20 00:00:00",
           "action": "Read second time and amended. Re-referred to Com. on APPR.",
           "type": [
-            "committee:referred",
             "bill:reading:1",
+            "committee:referred",
             "amendment:passed",
             "bill:reading:2"
           ],
@@ -9976,8 +10035,8 @@
           "date": "2019-08-30 00:00:00",
           "action": "From committee: Do pass. (Ayes 7. Noes 0.) (August 30).",
           "type": [
-            "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:passed"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -9986,8 +10045,8 @@
           "date": "2019-08-30 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1",
-            "bill:reading:2"
+            "bill:reading:2",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -10003,8 +10062,8 @@
           "date": "2019-09-09 00:00:00",
           "action": "Read third time. Passed. Ordered to the Assembly. (Ayes 40. Noes 0. Page 2711.).",
           "type": [
-            "bill:reading:3",
             "bill:passed",
+            "bill:reading:3",
             "bill:reading:1"
           ],
           "related_entities": [],
@@ -10143,9 +10202,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073151,
+      "databaseUpdated": 1584501533156,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481811,
@@ -11457,7 +11518,7 @@
       "title": "Paid family leave.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions.\n\nExisting law establishes, within the state disability insurance program, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits for up to 6 weeks to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified. Existing law defines \"weekly benefit amount\" for purposes of both employee contributions and benefits under this program to mean the amount of weekly benefits available to qualifying disabled individuals pursuant to unemployment compensation disability law, calculated pursuant to specified formulas partly based on the applicable percentage of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, but not to exceed the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nThis bill would revise the formula for determining benefits available pursuant to the family temporary disability insurance program, for periods of disability commencing after January 1, 2020, by redefining the weekly benefit amount to be equal to 100% of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, divided by 13, but not exceeding the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:44",
-      "updated_at": "2020-03-15 09:18:16",
+      "updated_at": "2020-03-18 00:19:34",
       "id": "",
       "all_ids": [
         ""
@@ -11501,9 +11562,9 @@
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
             "bill:reading:1",
+            "amendment:introduced",
             "amendment:passed",
-            "bill:reading:2",
-            "amendment:introduced"
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11521,9 +11582,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 12. Noes 1.) (April 24). Re-referred to Com. on APPR.",
           "type": [
-            "committee:referred",
             "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:referred"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11541,8 +11602,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 14. Noes 1.) (May 16).",
           "type": [
-            "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11551,8 +11612,8 @@
           "date": "2019-05-20 00:00:00",
           "action": "Read second time. Ordered to third reading.",
           "type": [
-            "bill:reading:1",
-            "bill:reading:2"
+            "bill:reading:2",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -11561,8 +11622,8 @@
           "date": "2019-05-23 00:00:00",
           "action": "Read third time. Passed. Ordered to the Senate. (Ayes 66. Noes 7. Page 1858.)",
           "type": [
-            "bill:reading:3",
             "bill:passed",
+            "bill:reading:3",
             "bill:reading:1"
           ],
           "related_entities": [],
@@ -11636,9 +11697,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073160,
+      "databaseUpdated": 1584501533172,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481841,
@@ -13282,7 +13345,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:04:05",
-      "updated_at": "2020-03-15 14:13:51",
+      "updated_at": "2020-03-16 14:12:56",
       "id": "",
       "all_ids": [
         ""
@@ -13774,18 +13837,20 @@
       },
       "scraped_subjects": [
         "LABOR",
-        "DOMESTIC RELATIONS",
-        "EMPLOYMENT SECURITY DEPARTMENT",
         "EMPLOYMENT AND EMPLOYEES",
+        "EMPLOYMENT SECURITY DEPARTMENT",
+        "DOMESTIC RELATIONS",
         "RECORDS"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073172,
+      "databaseUpdated": 1584501533199,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481876,
@@ -13794,7 +13859,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-05 11:27:48",
-      "updated_at": "2020-03-14 07:38:55",
+      "updated_at": "2020-03-17 07:29:20",
       "id": "",
       "all_ids": [
         ""
@@ -13937,9 +14002,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986961,
+      "databaseUpdated": 1584501533238,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481881,
@@ -13948,7 +14015,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-06 11:37:12",
-      "updated_at": "2020-03-14 07:29:18",
+      "updated_at": "2020-03-17 07:28:42",
       "id": "",
       "all_ids": [
         ""
@@ -14091,9 +14158,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222986947,
+      "databaseUpdated": 1584501533223,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481885,
@@ -14196,7 +14265,7 @@
       "title": "Rulemaking for Paid Family Leave Collections Approval Resolution of 2019",
       "summary": "",
       "created_at": "2019-03-06 11:04:15",
-      "updated_at": "2020-03-15 05:08:11",
+      "updated_at": "2020-03-17 05:07:50",
       "id": "",
       "all_ids": [
         ""
@@ -14210,18 +14279,18 @@
       "bill_id": "PR 23-0151",
       "actions": [
         {
+          "date": "2019-03-08T08:23:46+00:00",
+          "action": "Notice of Intent to Act on PR23-0151 Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
           "date": "2019-02-28T08:23:46+00:00",
           "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
           "type": [
             "bill:introduced"
           ],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2019-03-08T08:23:46+00:00",
-          "action": "Notice of Intent to Act on PR23-0151 Published in the District of Columbia Register",
-          "type": [],
           "related_entities": [],
           "actor": "legislature"
         },
@@ -14283,9 +14352,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073180,
+      "databaseUpdated": 1584501533268,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481894,
@@ -14498,7 +14569,7 @@
       "title": "A concurrent resolution requesting the Legislative Management to consider studying the feasibility and desirability of implementing a paid family leave program structured to be beneficial to both families and businesses, including an analysis of how to make the program financially sound while being affordable for families and businesses; and a review of the data on usage rates from other states that have programs, which state agency would be best suited to administer the program, and policies required to ensure program success.",
       "summary": "",
       "created_at": "2019-02-20 13:50:22",
-      "updated_at": "2020-03-15 07:47:34",
+      "updated_at": "2020-03-17 07:47:33",
       "id": "",
       "all_ids": [
         ""
@@ -14611,9 +14682,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073189,
+      "databaseUpdated": 1584501533287,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481902,
@@ -14622,7 +14695,7 @@
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
       "summary": "",
       "created_at": "2019-02-27 12:50:01",
-      "updated_at": "2020-03-14 17:37:50",
+      "updated_at": "2020-03-17 17:35:56",
       "id": "",
       "all_ids": [
         ""
@@ -14876,6 +14949,11 @@
           "leg_id": null,
           "type": "cosponsor",
           "name": "Hanbidge"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Shusterman"
         }
       ],
       "versions": [
@@ -14913,9 +14991,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584222987002,
+      "databaseUpdated": 1584501533306,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481909,
@@ -15326,9 +15406,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073215,
+      "databaseUpdated": 1584501725513,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481925,
@@ -15413,9 +15495,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073238,
+      "databaseUpdated": 1584501725547,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584075481934,
@@ -20403,7 +20487,7 @@
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
       "summary": "",
       "created_at": "2019-03-13 11:58:30",
-      "updated_at": "2019-03-13 11:58:30",
+      "updated_at": "2020-03-17 09:21:45",
       "id": "",
       "all_ids": [
         ""
@@ -20485,7 +20569,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0151/S-0151%20As%20Introduced.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0151/S-0151%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -20504,7 +20588,12 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584501533253,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241362035,
@@ -20737,7 +20826,7 @@
       "title": "An act relating to voluntary family and medical leave insurance",
       "summary": "",
       "created_at": "2019-02-22 12:28:38",
-      "updated_at": "2019-02-23 12:38:05",
+      "updated_at": "2020-03-17 09:22:08",
       "id": "",
       "all_ids": [
         ""
@@ -20802,7 +20891,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0395/H-0395%20As%20Introduced.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0395/H-0395%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -20821,7 +20910,12 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584501533322,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241362059,
@@ -20830,7 +20924,7 @@
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
       "summary": "",
       "created_at": "2019-02-22 12:28:38",
-      "updated_at": "2019-04-10 12:22:00",
+      "updated_at": "2020-03-17 09:22:18",
       "id": "",
       "all_ids": [
         ""
@@ -21010,7 +21104,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0396/H-0396%20As%20Introduced.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0396/H-0396%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -21029,7 +21123,12 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584501533338,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241362068,
@@ -21130,7 +21229,7 @@
       "title": "An act relating to paid family leave",
       "summary": "",
       "created_at": "2019-02-09 11:55:30",
-      "updated_at": "2019-02-09 11:55:30",
+      "updated_at": "2020-03-17 09:22:10",
       "id": "",
       "all_ids": [
         ""
@@ -21257,7 +21356,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0088/S-0088%20As%20Introduced.pdf",
+          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0088/S-0088%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -21276,7 +21375,12 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584501533374,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241362107,
@@ -28194,9 +28298,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073383,
+      "databaseUpdated": 1584501725769,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241363080,
@@ -28334,9 +28440,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073375,
+      "databaseUpdated": 1584501725753,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241363094,
@@ -28532,9 +28640,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073331,
+      "databaseUpdated": 1584501725674,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241363144,
@@ -29254,9 +29364,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073355,
+      "databaseUpdated": 1584501725707,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241363332,
@@ -29367,9 +29479,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073344,
+      "databaseUpdated": 1584501725689,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241363352,
@@ -29465,9 +29579,11 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584305073364,
+      "databaseUpdated": 1584501725726,
       "dbUpdatedTime": "",
-      "isLastUpdateImportantCounter": 0
+      "isLastUpdateImportantCounter": 0,
+      "stateName": "",
+      "stateFlagURL": ""
     },
     {
       "dateAddedToTracker": 1584241363385,
