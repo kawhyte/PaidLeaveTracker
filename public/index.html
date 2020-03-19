@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html class="no-js" lang="en">
 <!--<![endif]-->
 
 <head>
   <meta charset="utf-8">
+  <meta name="Legislation Tracker" content="A paid time Bill Legislation Tracker.">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" type="image/ico" href="/public/favicon.ico" />
   <title>Legislation Tracker</title>
-  <meta name="description" content="">
   <meta http-equiv="Content-Security-Policy"
     content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,10 +43,10 @@
 
   <form class="pa4 black-80 ">
     <div class="measure center">
-      <label for="name" class="f6 b db mb2">Search by Bill ID or State code</label>
-      <input id="searchBar" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc"
+      <label for="searchBar" class="f6 b db mb2">Search by Bill ID or State code</label>
+      <input id="searchBar" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="searchbox" aria-describedby="name-desc"
         placeholder="Ex. HB 2644 or WA">
-      <small id="name-desc" class="f6 black-60 db mb2"></small>
+      <small id="searchBar-desc" class="f6 black-60 db mb2"></small>
       <br>
       <small id="pageLastUpdated" class="f6 black-60 db mb2"></small>
     </div>

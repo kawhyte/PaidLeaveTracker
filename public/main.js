@@ -83,10 +83,10 @@ function generateHTML(data, index) {
   return `
   <div class="div1 container ">
             <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
-                <div id ="bg" class="vh-10 dt w-100 tc bg-black white">
+                <div class="vh-10 dt w-100 tc bg-black white">
 
                     <div class="pt3 f3-m flex  justify-around fw5 black">    
-                    <span><img class="white h2 w3-ns h2-ns br3" src="${data.stateFlagURL}" /> </span>                    
+                    <span><img class="white h2 w3-ns h2-ns br3"  alt= "Flag_of_${data.stateName}" src="${data.stateFlagURL}" /> </span>                    
                     <h3 class="f5 f4-m measure-narrow lh-title mv0">
                         <span class=" lh-copy bg-near-black white pa1 tracked-tight">${data.stateName} - ${data.bill_id}</span>
                     </h3>
@@ -115,29 +115,29 @@ function generateHTML(data, index) {
                                
                                         <div class="pt2 w-100 dt dt--fixed">
                                    
-                                            <div class="dtc h1 white ${
+                                            <div class="dtc h1 black ${
                                               data.action_dates.first.length > 0
-                                                ? "bg-blue"
+                                                ? "bg-green"
                                                 : "bg-light-gray"
                                             } br1 br--left tc" style="width: 50%">
                                                 <small>Introduced</small></div>
-                                            <div class="dtc h1 white ${
+                                            <div class="dtc h1 black ${
                                               billPassed.some(
                                                 item => item.actor === "lower"
                                               )
-                                                ? "bg-blue"
+                                                ? "bg-green"
                                                 : "bg-light-gray"
                                             } br1 br--left tc" style="width: 50%">
                                                 <small>House</small></div>
-                                            <div class="dtc h1 white ${
+                                            <div class="dtc h1 black ${
                                               billPassed.some(
                                                 item => item.actor === "upper"
                                               )
-                                                ? "bg-blue"
+                                                ? "bg-green"
                                                 : "bg-light-gray"
                                             } br1 br--left tc" style="width: 50%">
                                                 <small>Senate</small></div>
-                                            <div class="dtc h1 white ${
+                                            <div class="dtc h1 black ${
                                               billPassed.some(
                                                 item =>
                                                   item.actor === "executive" ||
@@ -150,7 +150,7 @@ function generateHTML(data, index) {
                                                   lastBillAction.type ===
                                                     "governor:vetoed:line-item"
                                               )
-                                                ? "bg-blue"
+                                                ? "bg-green"
                                                 : "bg-light-gray"
                                             } br1 br--left tc" style="width: 50%">
                                                 <small>Gov</small></div>
@@ -173,11 +173,11 @@ function generateHTML(data, index) {
                         <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
                         <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
                         <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
-                        <dt class="f6 b mt2">STATE WEBSITE</dt>
+                        <dt class="f6 b mt2 bg-white">STATE WEBSITE</dt>
                       
                         ${data.sources.map((url, i) =>{
 
-                          return(`<dd class="ml0"> <a href="${url}" target="_blank" class="f6 link blue hover-dark-gray">${data.stateName } State Legislature source (${i+1})</a></dd>`)
+                          return(`<dd class="ml0"> <a href="${url}" target="_blank" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (source ${i+1})</a></dd>`)
 
                         }).join("")}
                         
