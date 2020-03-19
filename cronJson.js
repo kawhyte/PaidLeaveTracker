@@ -14,7 +14,7 @@ let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 var format = require("date-fns/format");
 function getData() {
   console.log("Waiting on Cron...");
-  cron.schedule("*/2 * * * *", () => {
+  cron.schedule("*/3 * * * *", () => {
     // cron.schedule("*/30 * * * *", () => {
     console.log("running a cron every XX minute");
 

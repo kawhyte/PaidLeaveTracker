@@ -63,7 +63,7 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
 });
 
 function generateHTML(data, index) {
-
+  console.log("🍧 ", index, data)
   let billPassed = data.actions.filter(house => {
     let found = false;
     house.type.forEach(element => {
@@ -74,160 +74,8 @@ function generateHTML(data, index) {
     return found;
   });
 
-  // let status = {
-  //   "bill:introduced": {
-  //     name: "Introduced or prefiled",
-  //     color: "bg-blue",
-  //     importance: 0
-  //   },
-  //   "bill:passed": {
-  //     name: "Bill has passed a chamber",
-  //     color: "bg-yellow",
-  //     importance: 1
-  //   },
-  //   "bill:failed": {
-  //     name: "Failed to pass a chamber",
-  //     color: "bg-red",
-  //     importance: 1
-  //   },
-  //   "bill:withdrawn": {
-  //     name: "Withdrawn from consideration",
-  //     color: "bg-red",
-  //     importance: 1
-  //   },
-  //   "bill:veto_override:passed": {
-  //     name: "Chamber attempted a veto override and succeeded",
-  //     color: "bg-green",
-  //     importance: 1
-  //   },
-  //   "bill:veto_override:failed": {
-  //     name: "Chamber attempted a veto override and failed",
-  //     color: "bg-red",
-  //     importance: 1
-  //   },
-  //   "bill:reading:1": {
-  //     name: "Bill has undergone its first reading",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "bill:reading:2": {
-  //     name: "Bill has undergone its second reading",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "bill:reading:3": {
-  //     name: "Bill has undergone its third (or final) reading",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "bill:filed": {
-  //     name: "Bill has been filed",
-  //     color: "bg-yellow",
-  //     importance: 1
-  //   },
-  //   "bill:substituted": {
-  //     name: "Bill has been replaced with a substituted wholesale",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "governor:received": {
-  //     name: "Bill has been transmitted to the governor for consideration",
-  //     color: "bg-yellow",
-  //     importance: 1
-  //   },
-  //   "governor:signed": {
-  //     name: "Bill was signed into law by the governor",
-  //     color: "bg-green",
-  //     importance: 1
-  //   },
-  //   "governor:vetoed": {
-  //     name: "Bill has been vetoed by the governor",
-  //     color: "bg-red",
-  //     importance: 1
-  //   },
-  //   "governor:vetoed:line-item": {
-  //     name: "Governor has issued a partial veto",
-  //     color: "bg-light-yellow",
-  //     importance: 1
-  //   },
-  //   "amendment:introduced": {
-  //     name: "An amendment has been offered on the bill",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "amendment:passed": {
-  //     name: "The bill has been amended",
-  //     color: "bg-light-yellow",
-  //     importance: 0
-  //   },
-  //   "amendment:failed": {
-  //     name: "An offered amendment has failed",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "amendment:amended": {
-  //     name: "An offered amendment has been amended",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "amendment:withdrawn": {
-  //     name: "An offered amendment has been withdrawn",
-  //     color: "bg-pink",
-  //     importance: 0
-  //   },
-  //   "amendment:tabled": {
-  //     name: "An amendment has been ‘laid on the table’",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "committee:referred": {
-  //     name: "Bill referred to a committee",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "committee:passed": {
-  //     name: "Bill has been passed out of a committee",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "committee:passed:favorable": {
-  //     name: "Bill has been passed out of a committee with a favorable report",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "committee:passed:unfavorable": {
-  //     name:
-  //       "Bill has been passed out of a committee with an unfavorable report",
-  //     color: "bg-yellow",
-  //     importance: 0
-  //   },
-  //   "committee:failed": {
-  //     name: "Bill has failed to make it out of committee",
-  //     color: "bg-red",
-  //     importance: 0
-  //   },
-
-  //   null: {
-  //     name: "(Pending) View state website",
-  //     color: "bg-light-yellow",
-  //     importance: 0
-  //   }
-  // };
-
-   let lastBillAction = data.actions[data.actions.length - 1];
-
-  // if (
-  //   typeof status[lastBillAction.type] === "undefined" ||
-  //   status[lastBillAction.type] === null
-  // ) {
-
-  //   //billStatus = status["null"];
-  //   billStatus.name  = null;
-  // } else {
-  //   billStatus = status[lastBillAction.type];
-  // }
-
-  // stateData   = state[data.state.toUpperCase()];
+  
+  let lastBillAction = data.actions[data.actions.length - 1];
 
   listArray.push(data.state.toUpperCase());
   lowercaseTitle = data.title.toLowerCase()
@@ -323,8 +171,16 @@ function generateHTML(data, index) {
                         <dd class="f6 ml0">${(data.created_at = data.created_at !== null ? (data.created_at): "No data available")}</dd>
                         <dt class="f6 b mt2">BILL SPONSORS</dt>
                         <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
+                        <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
+                        <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
                         <dt class="f6 b mt2">STATE WEBSITE</dt>
-                        <dd class="ml0">   <a href="${data.sources[0].url}" target="_blank" class="f6 link blue hover-dark-gray">${data.stateName } State Legislature</a></dd>
+                      
+                        ${data.sources.map((url, i) =>{
+
+                          return(`<dd class="ml0"> <a href="${url}" target="_blank" class="f6 link blue hover-dark-gray">${data.stateName } State Legislature source (${i+1})</a></dd>`)
+
+                        }).join("")}
+                        
                       </dl>
                 </div>
               </article>
@@ -345,6 +201,9 @@ const loadBills = () => {
     })
       .then(r => r.json())
       .then(json => {
+
+
+         console.log(json)
         newBillsAdded = json.filter(bill => {
           return bill.isBillNew === true;
         });
@@ -361,7 +220,6 @@ const loadBills = () => {
         newBillCount.innerHTML = `New Bills (${Object.keys(newBillsAdded).length})`;
         majorUpdatesCount.innerHTML = `Major Updates (${Object.keys(billsWithMajorUpdates).length})`;
         pageUpdatedTime.innerHTML = `Information updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
-
         fetchedBills = json;
 
         displayBills(fetchedBills);
@@ -379,19 +237,10 @@ const displayBills = bills => {
     })
     .join("");
 
-  // list = Array.from(new Set(listArray))
-  //   .map(item => {
-  //     return (list = createList(item));
-  //   })
-  //   .join("");
-
-  // filter_list.innerHTML = list;
-
   gallery.innerHTML = html;
 };
 
 loadBills();
-// createList();
 
 function formatDate(input) {
   var date = new Date(input);

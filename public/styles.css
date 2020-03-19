@@ -331,14 +331,14 @@ body,
 
 
 
-#logo {
+/* #logo {
     min-width: 4%;
     min-height: 20%;
 
     max-width: 4%;
     max-height: 20%;
 
-}
+} */
 
 .emoticon-size {
     overflow-wrap: break-word;

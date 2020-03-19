@@ -76,6 +76,7 @@ app.get("/track", async (req, res, next) => {
       var list = [];
       snapshot.forEach(doc => {
         list.push(doc.data());
+      //  console.log(list)
       });
 
       let test = list.map((element, index) => {
@@ -123,12 +124,16 @@ app.get("/track", async (req, res, next) => {
         )
 
         element.dbUpdatedTime = timeAgo;
-        // console.log("element.dbUpdatedTime  🍕 ", element.dbUpdatedTime );
-
+        
+      };
 
          element.stateName = state[element.state.toUpperCase()].name;
          element.stateFlagURL = state[element.state.toUpperCase()].flag;
 
+
+          // console.log(" 🍕 ", element.stateName, element.stateFlagURL);
+         
+         
          billStatus = element.actions[element.actions.length - 1]
 
         //  element.statusName = element.actions[element.actions.length - 1].action;
@@ -137,22 +142,28 @@ app.get("/track", async (req, res, next) => {
           typeof (status[billStatus.type]) === "undefined" ||
           status[billStatus] === null
         ) {
-          
+          //billStatus = status["null"]
           element.statusName  = billStatus.action;
           element.statusColor ="bg-light-yellow";
+         
         } else {
+          //   billStatus = status[lastBillAction.type];
           element.statusName  = billStatus.action;
-          element.statusColor  = status[billStatus.type].color;
-        }
+          element.statusColor = status[billStatus.type].color
+         }
+
+          // element.statusName  = billStatus.action;
+          // element.statusColor  = status[billStatus.type].color;
+        
 
 
 
-         console.log(" 🍕 ", element.statusName ,element.statusColor );
+          console.log(" 🍕 ", element.statusName ,element.statusColor );
        
-      };
+      
 
       })
-
+// console.log(list)
       res.json(list);
     })
     .catch(err => {
