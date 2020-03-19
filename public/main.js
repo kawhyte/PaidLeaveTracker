@@ -90,8 +90,8 @@ function generateHTML(data, index) {
                     <h3 class="f5 f4-m measure-narrow lh-title mv0">
                         <span class=" lh-copy bg-near-black white pa1 tracked-tight">${data.stateName} - ${data.bill_id}</span>
                     </h3>
-                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib black bg-light-gray">Recently Added</a>': ""} 
-                          ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib white bg-blue">Major Update</a>': ""}
+                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-washed-red">Recently Added</a>': ""} 
+                          ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-washed-green">Major Update</a>': ""}
                     </span>
                     </div>
 
@@ -175,7 +175,7 @@ function generateHTML(data, index) {
                       
                         ${data.sources.map((url, i) =>{
 
-                          return(`<dd class="ml0"> <a href="${data.sources[i].url}" target="_blank" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></dd>`)
+                          return(`<dd class="ml0"> <a href="${data.sources[i].url}" target="_blank" rel="noopener" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></dd>`)
 
                         }).join("")}
                         
