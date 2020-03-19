@@ -171,13 +171,11 @@ function generateHTML(data, index) {
                         <dd class="f6 ml0">${(data.created_at = data.created_at !== null ? (data.created_at): "No data available")}</dd>
                         <dt class="f6 b mt2">BILL SPONSORS</dt>
                         <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
-                        <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
-                        <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
                         <dt class="f6 b mt2 bg-white">STATE WEBSITE</dt>
                       
                         ${data.sources.map((url, i) =>{
 
-                          return(`<dd class="ml0"> <a href="${url}" target="_blank" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (source ${i+1})</a></dd>`)
+                          return(`<dd class="ml0"> <a href="${url}" target="_blank" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></dd>`)
 
                         }).join("")}
                         
