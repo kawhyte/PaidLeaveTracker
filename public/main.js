@@ -175,7 +175,7 @@ function generateHTML(data, index) {
                       
                         ${data.sources.map((url, i) =>{
 
-                          return(`<dd class="ml0"> <a href="${url}" target="_blank" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></dd>`)
+                          return(`<dd class="ml0"> <a href="${data.sources[i].url}" target="_blank" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></dd>`)
 
                         }).join("")}
                         
