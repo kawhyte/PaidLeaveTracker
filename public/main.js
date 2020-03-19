@@ -191,9 +191,9 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("/data-clean/firebase/test.json", {
-    const res = fetch("http://localhost:8887/track", {
+    // const res = fetch("http://localhost:8887/track", {
       // const res = fetch("http://localhost:5001/track", {
-      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
