@@ -90,7 +90,7 @@ function generateHTML(data, index) {
                     <h3 class="f5 f4-m measure-narrow lh-title mv0">
                         <span class=" lh-copy bg-near-black white pa1 tracked-tight">${data.stateName} - ${data.bill_id}</span>
                     </h3>
-                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-washed-red">Recently Added</a>': ""} 
+                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-light-yellow">Recently Added</a>': ""} 
                           ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-washed-green">Major Update</a>': ""}
                     </span>
                     </div>
