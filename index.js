@@ -62,19 +62,6 @@ app.get("/track", async (req, res, next) => {
 
         let sorted = element.actions.sort((a, b) => parseJSON(a.date) - parseJSON(b.date));
 
-        // let test = element.actions.some(value => 
-          
-        //   Object.values(value.action).includes("governor")
-
-         
-          
-        //   ) 
-          
-        //   if (test==true) {
-        //     console.log(element.bill_id, test)
-        //     element.isLastUpdateImportant = 1;
-        //   }
-          
         ////LOGIC TO CHECK IF BILL IS IMPORTANT //////
         importantValue  = element.actions.some(value => 
           
@@ -368,8 +355,8 @@ let status = {
 
 app.listen(3000, () => console.log("Pay Leave app listening on port 3000!"));
 
-// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-// const server_host = process.env.YOUR_HOST || '0.0.0.0';
-// app.listen(server_port, server_host, function() {
-//     console.log('Listening on port %d', server_port);
-// });
+const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+const server_host = process.env.YOUR_HOST || '0.0.0.0';
+app.listen(server_port, server_host, function() {
+    console.log('Listening on port %d', server_port);
+});

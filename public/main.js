@@ -63,7 +63,7 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
 });
 
 function generateHTML(data, index) {
-  
+
   console.log("🍧 ", index, data)
   let billPassed = data.actions.filter(house => {
     let found = false;
@@ -190,9 +190,9 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("/data-clean/firebase/test.json", {
-    const res = fetch("http://localhost:3000/track", {
+    // const res = fetch("http://localhost:3000/track", {
       // const res = fetch("http://localhost:5001/track", {
-      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
