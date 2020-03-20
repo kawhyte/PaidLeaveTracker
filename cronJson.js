@@ -13,11 +13,11 @@ var _ = require("lodash");
 let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 var format = require("date-fns/format");
 
-const Sentry = require("@sentry/node");
+// const Sentry = require("@sentry/node");
 
-Sentry.init({
-  dsn: "https://5b670f8b00f04986a00ff27652429335@sentry.io/5167736"
-});
+// Sentry.init({
+//   dsn: "https://5b670f8b00f04986a00ff27652429335@sentry.io/5167736"
+// });
 
 function getData() {
   try {
@@ -29,7 +29,7 @@ function getData() {
       runCron();
     });
   } catch (error) {
-    Sentry.captureException("Failed to run Cron Job ", error);
+    // Sentry.captureException("Failed to run Cron Job ", error);
     return error;
   }
 }

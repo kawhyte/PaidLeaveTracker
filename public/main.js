@@ -41,7 +41,7 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
     console.log("searchItem ", e.target.dataset.parent);
 
     const searchItem = e.target.dataset.parent.toLowerCase().trim();
-    console.log("searchItem ", searchItem); 
+    // console.log("searchItem ", searchItem); 
 
     if (searchItem === "all") {
       console.log("EE "); 
@@ -57,14 +57,14 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
       });
     }
 
-    console.log("📽️ Filtered ", filteredItems);
+    // console.log("📽️ Filtered ", filteredItems);
     displayBills(filteredItems);
   }
 });
 
 function generateHTML(data, index) {
 
-  console.log("🍧 ", index, data)
+  // console.log("🍧 ", index, data)
   let billPassed = data.actions.filter(house => {
     let found = false;
     house.type.forEach(element => {
@@ -75,6 +75,41 @@ function generateHTML(data, index) {
     return found;
   });
 
+
+   let houseDate = billPassed.filter(h =>{
+    let found = false;
+    h.type.forEach(element => {
+      if (element === "bill:passed") {
+        found = true;
+      }
+    });
+    return found;
+
+  })
+
+   let senateDate = billPassed.filter(s =>{
+    let found = false;
+    s.type.forEach(element => {
+      if (element === "bill:passed") {
+        found = true;
+      }
+    });
+    return found;
+
+  })
+
+   let govDate = billPassed.filter(s =>{
+    let found = false;
+    s.type.forEach(element => {
+      if (element === "governor:signed") {
+        found = true;
+      }
+    });
+    return found;
+
+  })
+
+
   
   let lastBillAction = data.actions[data.actions.length - 1];
 
@@ -83,30 +118,31 @@ function generateHTML(data, index) {
 
   return `
   <div class="div1 container ">
-            <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
-                <div class="vh-10 dt w-100 tc bg-black white">
 
-                    <div class="pt3 f3-m flex  justify-around fw5 black">    
-                    <span><img class="white h2 w3-ns h2-ns br3"  alt= "Flag_of_${data.stateName}" src="${data.stateFlagURL}" /> </span>                    
-                    <h3 class="f5 f4-m measure-narrow lh-title mv0">
-                        <span class=" lh-copy bg-near-black white pa1 tracked-tight">${data.stateName} - ${data.bill_id}</span>
-                    </h3>
-                    <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-light-yellow">Recently Added</a>': ""} 
-                          ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-washed-green">Major Update</a>': ""}
-                    </span>
-                    </div>
+            <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
+                <div class="vh-10 dt w-100 tc b--black-20">
+
+                <div class="tc mt3">
+                <img src="${data.stateFlagURL}" alt= "Flag_of_${data.stateName}" class="br-100 h3 w3 dib" title="Photo of a kitty staring at you">
+                <h1 class="f4">${data.stateName} - ${data.bill_id}</h1>
+                <span>${data.isBillNew ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-light-yellow">New</a>': ""} 
+                ${data.isLastUpdateImportant ? '<a class="f6 grow no-underline br-pill ph2 pv1 mb2 dib navy bg-washed-green">Major Update</a>': ""}
+                </span>
+
+                <hr class="mw3 bb bw1 b--black-10">
+              </div>
 
                 </div>
 
                 <div>
                     <article class="w-100 pa0">
 
-                        <div class=" bg-white black w-100 mt1 ph3 pv3">
+                        <div class=" bg-white black w-100 mt1 ph0 pv0">
                             <div class="w-100 pb3 bb b--light-gray flex items-center justify-between">
 
-                                    <div class="pt3  f3-m fw5 white">
+                                    <div class="pt2 f3-m fw5 white">
                                             
-                                    <h3 class="f4 f4-m measure-narrow lh-title mv0">
+                                    <h3 class="tc f4 f4-m measure-narrow lh-title mv0">
                                         <span class="${
                                           data.statusColor
                                         } lh-copy black pa1 tracked-tight">
@@ -114,7 +150,7 @@ function generateHTML(data, index) {
                                         </span>
                                       </h3>
                                
-                                        <div class="pt2 w-100 dt dt--fixed">
+                                        <div class="pt3 pl3 pr3 w-100 dt dt--fixed">
                                    
                                             <div class="dtc h1 black ${
                                               data.action_dates.first.length > 0
@@ -141,15 +177,11 @@ function generateHTML(data, index) {
                                             <div class="dtc h1 black ${
                                               billPassed.some(
                                                 item =>
-                                                  item.actor === "executive" ||
-                                                  lastBillAction.type ===
-                                                    "governor:received" ||
-                                                  lastBillAction.type ===
-                                                    "governor:signed" ||
-                                                  lastBillAction.type ===
-                                                    "governor:vetoed" ||
-                                                  lastBillAction.type ===
-                                                    "governor:vetoed:line-item"
+                                                  item.actor === "executive" 
+                                              ) || 
+                                              billPassed.some(
+                                                item =>
+                                                  item.type.includes("governor:signed")  
                                               )
                                                 ? "bg-green"
                                                 : "bg-light-gray"
@@ -158,30 +190,60 @@ function generateHTML(data, index) {
                                             <div class="dtc h1 bg-white o-30 br1 br--right"></div>
                                         </div>
 
+
+
+                                        <div class="pt1 pl3 pr3 w-100 dt dt--fixed">
+                                   
+                                            <div class="dtc h1 black  br1 br--left tc" style="width: 50%">
+                                                <small class= "f7">${( data.actions[0].date = data.actions.length > 0  ? (data.actions[0].date).substring(0,10) : "No data available")}</small></div>
+                                            <div class="dtc h1 black br1 br--left tc" style="width: 50%">
+                                                <small>${ houseDate.length > 0 && houseDate.some(d => d.actor === "lower")
+                                                    ? (houseDate[0].date).substring(0,10)
+                                                    : " "
+                                                }</small></div>
+                                            <div class="dtc h1 black br1 br--left tc" style="width: 50%">
+                                                <small>${ senateDate.length > 0 && senateDate.some(d => d.actor === "upper")
+                                                ? (senateDate[0].date).substring(0,10)
+                                                : " "
+                                            }</small></div>
+                                            <div class="dtc h1 black  br1 br--left tc" style="width: 50%">
+                                                <small>${ govDate.length > 0 && govDate.some(d => d.actor === "upper")
+                                                ? (govDate[0].date).substring(0,10)
+                                                : " "
+                                            }</small></div>
+                                            <div class="dtc h1 bg-white o-30 br1 br--right"></div>
+                                        </div>
+
                                 </div>
                             </div>
 
                         </div>
+
+                        <div class="pt3 pl3 pb0">
+                        <small class="gray lh-title">Bill Title</small>
+                        <span class="f6 db pv1 pr3 truncate">${ lowercaseTitle[0].toUpperCase() + lowercaseTitle.substring(1)}</span>
+                        </div>
+
+                        <div class="pt3 pl3 pb0">
+                        <small class="gray lh-title">Latest Action Date</small>
+                        <span class="f6 db pv1"><time>${(lastBillAction.date).substring(0,10)}</time></span>
+                        </div>
+
                        
-                        <dl class="lh-title pt0 pl3 pr3 mt0">
-                        <dt class="f6 b mt2">LATEST ACTION</dt>
-                        <dd class="f6 ml0">${lastBillAction.action} (${formatDate(lastBillAction.date)})</dd>
-                        <dt class="f6 b">BILL TITLE</dt>
-                        <dd class="f6 ml0 truncate">${ lowercaseTitle[0].toUpperCase() + lowercaseTitle.substring(1)}</dd>
-                        <dt class="f6 b mt2">BILL CREATED</dt>
-                        <dd class="f6 ml0">${( data.actions[0].date = data.actions.length > 0  ? (data.actions[0].date) : "No data available")}</dd>
-                        <dt class="f6 b mt2">BILL SPONSORS</dt>
-                        <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
-                        <dt class="f6 b mt2 bg-white">STATE WEBSITE</dt>
-                      
+
+                        <div class="pt3 pl3 pb0">
+                        <small class="gray lh-title">State Website</small>
+
                         ${data.sources.map((url, i) =>{
 
-                          return(`<dd class="ml0"> <a href="${data.sources[i].url}" target="_blank" rel="noopener" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></dd>`)
+                          return(`<span class="f6 db pv1"> <a href="${data.sources[i].url}" target="_blank" rel="noopener" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></span>`)
 
                         }).join("")}
-                        
-                      </dl>
+
+                        </div>
+
                 </div>
+                <div class=" pb3" > </div>
               </article>
    </div>
   `;
@@ -190,9 +252,9 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("/data-clean/firebase/test.json", {
-    // const res = fetch("http://localhost:3000/track", {
+    const res = fetch("http://localhost:3000/track", {
       // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -201,8 +263,6 @@ const loadBills = () => {
       .then(r => r.json())
       .then(json => {
 
-
-         console.log(json)
         newBillsAdded = json.filter(bill => {
           return bill.isBillNew === true;
         });
@@ -242,7 +302,9 @@ const displayBills = bills => {
 loadBills();
 
 function formatDate(input) {
+  console.log("DATE ", input)
   var date = new Date(input);
+  console.log("DATE ", date)
   return [
     ("0" + date.getDate()).slice(-2),
     ("0" + (date.getMonth() + 1)).slice(-2),
@@ -250,3 +312,15 @@ function formatDate(input) {
   ].join("/");
 }
 
+
+{/* <div class="pt3 pl3 pb0">
+<small class="gray dim lh-title"># of Bill Sponsor(s)</small>
+<span class="f6 db pv1">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</span>
+</div> */}
+
+{/* <div class="pt3 pl3 pb0">
+<small class="gray lh-title">Bill Created</small>
+<span class="f6 db pv1">${( data.actions[0].date = data.actions.length > 0  ? formatDate(data.actions[0].date) : "No data available")}</span>
+</div> */}
+
+// ${( data.actions[0].date = data.actions.length > 0  ? formatDate(data.actions[0].date) : "No data available")}

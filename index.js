@@ -8,7 +8,7 @@ const axios = require("axios");
 const fetch = require("node-fetch");
 
 let cron = require("node-cron");
-
+var _ = require("lodash");
 let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 let add = require("date-fns/add");
 var formatDistance = require("date-fns/formatDistance");
@@ -58,9 +58,20 @@ app.get("/track", async (req, res, next) => {
       });
 
       let test = list.map((element, index) => {
-
-
+        
         let sorted = element.actions.sort((a, b) => parseJSON(a.date) - parseJSON(b.date));
+        
+        if (typeof (element.actions[0].date) !== "undefined") {
+          var textTimeCreated = formatDistance(
+            new Date(element.actions[0].date),
+            new Date(Date.now()),
+            {
+              addSuffix: true
+            }
+          )
+          element.da
+          _.assign(element, {'timeCreatedText': textTimeCreated});
+        };
 
         ////LOGIC TO CHECK IF BILL IS IMPORTANT //////
         importantValue  = element.actions.some(value => 
@@ -96,7 +107,7 @@ app.get("/track", async (req, res, next) => {
         );
 
 
-        if (result > 20) {
+        if (result > 10) {
           element.isBillNew = false;
         } 
 
@@ -110,7 +121,6 @@ app.get("/track", async (req, res, next) => {
         )
 
         element.dbUpdatedTime = timeAgo;
-        
       };
 
          element.stateName = state[element.state.toUpperCase()].name;
@@ -353,7 +363,7 @@ let status = {
 
 
 
-app.listen(3000, () => console.log("Pay Leave app listening on port 3000!"));
+// app.listen(3000, () => console.log("Pay Leave app listening on port 3000!"));
 
 const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
 const server_host = process.env.YOUR_HOST || '0.0.0.0';
