@@ -63,6 +63,7 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
 });
 
 function generateHTML(data, index) {
+  
   console.log("🍧 ", index, data)
   let billPassed = data.actions.filter(house => {
     let found = false;
@@ -168,7 +169,7 @@ function generateHTML(data, index) {
                         <dt class="f6 b">BILL TITLE</dt>
                         <dd class="f6 ml0 truncate">${ lowercaseTitle[0].toUpperCase() + lowercaseTitle.substring(1)}</dd>
                         <dt class="f6 b mt2">BILL CREATED</dt>
-                        <dd class="f6 ml0">${(data.created_at = data.created_at !== null ? (data.created_at): "No data available")}</dd>
+                        <dd class="f6 ml0">${( data.actions[0].date = data.actions.length > 0  ? (data.actions[0].date) : "No data available")}</dd>
                         <dt class="f6 b mt2">BILL SPONSORS</dt>
                         <dd class="ml0">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</dd>
                         <dt class="f6 b mt2 bg-white">STATE WEBSITE</dt>
@@ -189,9 +190,9 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("/data-clean/firebase/test.json", {
-    // const res = fetch("http://localhost:8887/track", {
+    const res = fetch("http://localhost:3000/track", {
       // const res = fetch("http://localhost:5001/track", {
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"

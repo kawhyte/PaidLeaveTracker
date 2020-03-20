@@ -7,7 +7,7 @@
       "title": "Relates to requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
       "summary": "Provides requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation due to COVID-19; provides for sick leave.",
       "created_at": "2020-03-18 11:25:46",
-      "updated_at": "2020-03-18 11:25:46",
+      "updated_at": "2020-03-19 11:15:03",
       "id": "",
       "all_ids": [
         ""
@@ -50,6 +50,26 @@
           "leg_id": null,
           "type": "primary",
           "name": "RAMOS"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BIAGGI"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "KENNEDY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "KRUEGER"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "STAVISKY"
         }
       ],
       "versions": [
@@ -80,7 +100,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028463,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042836,
@@ -89,7 +112,7 @@
       "title": "Relates to requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
       "summary": "Provides requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation due to COVID-19; provides for sick leave.",
       "created_at": "2020-03-18 11:22:18",
-      "updated_at": "2020-03-18 11:22:18",
+      "updated_at": "2020-03-19 11:09:44",
       "id": "",
       "all_ids": [
         ""
@@ -502,6 +525,21 @@
           "leg_id": null,
           "type": "cosponsor",
           "name": "ZEBROWSKI"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "D'URSO"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "FALL"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BRONSON"
         }
       ],
       "versions": [
@@ -532,7 +570,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028451,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042842,
@@ -541,7 +582,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-25 06:39:30",
-      "updated_at": "2020-03-18 07:30:33",
+      "updated_at": "2020-03-19 07:38:54",
       "id": "",
       "all_ids": [
         ""
@@ -562,8 +603,8 @@
           "date": "2020-01-23 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -572,8 +613,8 @@
           "date": "2020-01-24 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -692,7 +733,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028473,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042842,
@@ -701,7 +745,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-24 06:40:26",
-      "updated_at": "2020-03-18 07:32:07",
+      "updated_at": "2020-03-19 07:30:26",
       "id": "",
       "all_ids": [
         ""
@@ -722,8 +766,8 @@
           "date": "2020-01-23 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -732,8 +776,8 @@
           "date": "2020-01-24 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -852,7 +896,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028484,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042842,
@@ -965,7 +1012,7 @@
       "title": "Employment Practices",
       "summary": "Employment Practices; Creates \"Florida Family Leave Act\"; requires employer to allow certain employees to take paid family leave to bond with minor child upon child's birth, adoption, or foster care placement; provides requirements, limitations, & duties; provides for civil action & penalties & criminal penalty; prohibits specified employment practices on basis of pregnancy, childbirth, or medical condition related to pregnancy or childbirth; provides for leave, maintenance of health coverage, reasonable accommodation & transfer, & return rights for employee who is disabled from pregnancy, childbirth, or medical condition related to pregnancy or childbirth.",
       "created_at": "2019-12-11 07:28:37",
-      "updated_at": "2020-03-17 09:16:32",
+      "updated_at": "2020-03-19 09:15:44",
       "id": "",
       "all_ids": [
         ""
@@ -1053,13 +1100,16 @@
         "signed": null
       },
       "scraped_subjects": [
-        "civil rights",
-        "labor"
+        "labor",
+        "civil rights"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028494,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042843,
@@ -1068,7 +1118,7 @@
       "title": "Employment Practices",
       "summary": "Employment Practices; Creating the \"Florida Family Leave Act\"; requiring an employer to allow certain employees to take paid family leave to bond with a new child upon the child’s birth, adoption, or foster care placement; requiring that family leave be taken concurrently with any leave taken pursuant to federal family and medical leave provisions; requiring the Department of Economic Opportunity to create a poster and a model notice that specify family leave rights, etc.",
       "created_at": "2019-12-11 07:29:11",
-      "updated_at": "2020-03-18 09:17:32",
+      "updated_at": "2020-03-19 09:17:25",
       "id": "",
       "all_ids": [
         ""
@@ -1160,13 +1210,16 @@
         "signed": null
       },
       "scraped_subjects": [
-        "civil rights",
-        "labor"
+        "labor",
+        "civil rights"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028505,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042843,
@@ -1175,7 +1228,7 @@
       "title": "Interest Arbitration Award and Collective Bargaining Agreement between the District of Columbia Public Schools and the Office of the State Superintendent of Education and the American Federation of State, County and Municipal Employees, District Council 20, Local 2921, AFL-CIO Emergency Approval of 2020",
       "summary": "",
       "created_at": "2020-02-04 05:15:18",
-      "updated_at": "2020-03-18 05:10:31",
+      "updated_at": "2020-03-19 05:11:33",
       "id": "",
       "all_ids": [
         ""
@@ -1201,17 +1254,17 @@
         },
         {
           "date": "2020-03-03T15:05:39+00:00",
-          "action": "Final Reading ",
-          "type": [
-            "bill:reading:3"
-          ],
+          "action": "Approved with Resolution Number R23-0374",
+          "type": [],
           "related_entities": [],
           "actor": "legislature"
         },
         {
           "date": "2020-03-03T15:05:39+00:00",
-          "action": "Approved with Resolution Number R23-0374",
-          "type": [],
+          "action": "Final Reading ",
+          "type": [
+            "bill:reading:3"
+          ],
           "related_entities": [],
           "actor": "legislature"
         },
@@ -1287,7 +1340,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028514,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042844,
@@ -1868,7 +1924,7 @@
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-02-03 05:52:43",
-      "updated_at": "2020-03-17 07:34:11",
+      "updated_at": "2020-03-19 07:37:39",
       "id": "",
       "all_ids": [
         ""
@@ -1889,8 +1945,8 @@
           "date": "2020-01-22 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1915,8 +1971,8 @@
           "date": "2020-01-29 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -2013,7 +2069,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028525,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042849,
@@ -2141,7 +2200,7 @@
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-01-23 06:35:19",
-      "updated_at": "2020-03-17 07:26:51",
+      "updated_at": "2020-03-19 07:35:12",
       "id": "",
       "all_ids": [
         ""
@@ -2162,8 +2221,8 @@
           "date": "2020-01-22 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -2188,8 +2247,8 @@
           "date": "2020-01-29 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -2286,7 +2345,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028535,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042851,
@@ -2898,7 +2960,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:08",
-      "updated_at": "2020-03-17 14:13:36",
+      "updated_at": "2020-03-19 14:09:52",
       "id": "",
       "all_ids": [
         ""
@@ -3276,15 +3338,18 @@
         "signed": null
       },
       "scraped_subjects": [
-        "LABOR",
-        "EMPLOYMENT AND EMPLOYEES",
         "EMPLOYMENT SECURITY DEPARTMENT",
-        "DOMESTIC RELATIONS"
+        "DOMESTIC RELATIONS",
+        "LABOR",
+        "EMPLOYMENT AND EMPLOYEES"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028545,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042856,
@@ -4469,7 +4534,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:58",
-      "updated_at": "2020-03-18 14:08:00",
+      "updated_at": "2020-03-19 14:12:04",
       "id": "",
       "all_ids": [
         ""
@@ -4644,15 +4709,18 @@
         "signed": null
       },
       "scraped_subjects": [
-        "LABOR",
-        "EMPLOYMENT AND EMPLOYEES",
         "EMPLOYMENT SECURITY DEPARTMENT",
-        "DOMESTIC RELATIONS"
+        "DOMESTIC RELATIONS",
+        "LABOR",
+        "EMPLOYMENT AND EMPLOYEES"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028554,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042870,
@@ -5429,7 +5497,7 @@
       "title": "Expanding accessible, affordable child care and early childhood development programs.",
       "summary": "",
       "created_at": "2020-01-17 13:08:38",
-      "updated_at": "2020-03-18 14:12:00",
+      "updated_at": "2020-03-19 14:09:31",
       "id": "",
       "all_ids": [
         ""
@@ -5813,18 +5881,21 @@
         "signed": null
       },
       "scraped_subjects": [
-        "MENTAL HEALTH",
-        "DOMESTIC RELATIONS",
-        "NAMED ACTS",
-        "CHILD CARE",
         "PUBLIC FUNDS AND ACCOUNTS",
-        "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
-        "MINORITIES"
+        "MINORITIES",
+        "MENTAL HEALTH",
+        "CHILD CARE",
+        "NAMED ACTS",
+        "DOMESTIC RELATIONS",
+        "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028564,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042880,
@@ -5833,7 +5904,7 @@
       "title": "An act relating to paid family and medical leave",
       "summary": "",
       "created_at": "2019-01-29 11:32:10",
-      "updated_at": "2020-03-17 09:21:55",
+      "updated_at": "2020-03-19 09:25:51",
       "id": "",
       "all_ids": [
         ""
@@ -6814,43 +6885,43 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Introduced.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20passed%20by%20the%20House%20Official.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20passed%20by%20the%20House%20Official.pdf",
           "doc_id": "~not available~",
           "name": "Official"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20proposal%20of%20amendment%20Official.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20proposal%20of%20amendment%20Official.pdf",
           "doc_id": "~not available~",
           "name": "Official"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Official.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Official.pdf",
           "doc_id": "~not available~",
           "name": "Official"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
           "doc_id": "~not available~",
           "name": "Unofficial"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20Proposal%20of%20Amendment%20Unofficial.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20Senate%20Proposal%20of%20Amendment%20Unofficial.pdf",
           "doc_id": "~not available~",
           "name": "Unofficial"
         },
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0107/H-0107%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf",
           "doc_id": "~not available~",
           "name": "Unofficial"
         }
@@ -6869,7 +6940,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028573,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042882,
@@ -7574,7 +7648,7 @@
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
       "summary": "",
       "created_at": "2020-01-09 05:10:41",
-      "updated_at": "2020-03-18 05:10:40",
+      "updated_at": "2020-03-19 05:09:23",
       "id": "",
       "all_ids": [
         ""
@@ -7591,6 +7665,20 @@
       ],
       "bill_id": "PR 23-0647",
       "actions": [
+        {
+          "date": "2020-01-30T19:59:26+00:00",
+          "action": "Roundtable Hearing on PR23-0647",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T19:59:26+00:00",
+          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
         {
           "date": "2020-01-21T19:59:26+00:00",
           "action": "Referred to Committee on Labor and Workforce Development",
@@ -7612,20 +7700,6 @@
         {
           "date": "2020-01-17T19:59:26+00:00",
           "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-30T19:59:26+00:00",
-          "action": "Roundtable Hearing on PR23-0647",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-17T19:59:26+00:00",
-          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
           "type": [],
           "related_entities": [],
           "actor": "legislature"
@@ -7672,7 +7746,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028582,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042892,
@@ -8590,7 +8667,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:03:50",
-      "updated_at": "2020-03-18 14:07:58",
+      "updated_at": "2020-03-19 14:11:35",
       "id": "",
       "all_ids": [
         ""
@@ -8802,16 +8879,19 @@
         "signed": null
       },
       "scraped_subjects": [
-        "DOMESTIC RELATIONS",
-        "LABOR",
-        "EMPLOYMENT AND EMPLOYEES",
         "RECORDS",
+        "LABOR",
+        "DOMESTIC RELATIONS",
+        "EMPLOYMENT AND EMPLOYEES",
         "EMPLOYMENT SECURITY DEPARTMENT"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028591,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563042911,
@@ -9129,7 +9209,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563043156,
+      "databaseUpdated": 1584639722617,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -14895,7 +14975,7 @@
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:04:05",
-      "updated_at": "2020-03-18 14:13:52",
+      "updated_at": "2020-03-19 14:10:38",
       "id": "",
       "all_ids": [
         ""
@@ -15390,16 +15470,19 @@
         "signed": null
       },
       "scraped_subjects": [
-        "DOMESTIC RELATIONS",
-        "LABOR",
-        "EMPLOYMENT AND EMPLOYEES",
         "RECORDS",
+        "LABOR",
+        "DOMESTIC RELATIONS",
+        "EMPLOYMENT AND EMPLOYEES",
         "EMPLOYMENT SECURITY DEPARTMENT"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028614,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043069,
@@ -15408,7 +15491,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-06 11:37:12",
-      "updated_at": "2020-03-17 07:28:42",
+      "updated_at": "2020-03-19 07:29:31",
       "id": "",
       "all_ids": [
         ""
@@ -15429,8 +15512,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -15439,8 +15522,8 @@
           "date": "2019-02-05 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -15554,7 +15637,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028623,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043073,
@@ -15563,7 +15649,7 @@
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-05 11:27:48",
-      "updated_at": "2020-03-17 07:29:20",
+      "updated_at": "2020-03-19 07:39:13",
       "id": "",
       "all_ids": [
         ""
@@ -15584,8 +15670,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -15594,8 +15680,8 @@
           "date": "2019-02-05 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -15709,7 +15795,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028634,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043078,
@@ -15929,7 +16018,7 @@
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
       "summary": "",
       "created_at": "2019-03-13 11:58:30",
-      "updated_at": "2020-03-17 09:21:45",
+      "updated_at": "2020-03-19 09:25:31",
       "id": "",
       "all_ids": [
         ""
@@ -16015,7 +16104,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0151/S-0151%20As%20Introduced.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0151/S-0151%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -16034,7 +16123,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028642,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043093,
@@ -16578,7 +16670,7 @@
       "title": "A concurrent resolution requesting the Legislative Management to consider studying the feasibility and desirability of implementing a paid family leave program structured to be beneficial to both families and businesses, including an analysis of how to make the program financially sound while being affordable for families and businesses; and a review of the data on usage rates from other states that have programs, which state agency would be best suited to administer the program, and policies required to ensure program success.",
       "summary": "",
       "created_at": "2019-02-20 13:50:22",
-      "updated_at": "2020-03-17 07:47:33",
+      "updated_at": "2020-03-19 07:48:52",
       "id": "",
       "all_ids": [
         ""
@@ -16615,8 +16707,8 @@
           "date": "2019-02-28 00:00:00",
           "action": "Reported back, do pass, place on calendar 5 2 0",
           "type": [
-            "committee:passed",
-            "committee:passed:favorable"
+            "committee:passed:favorable",
+            "committee:passed"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -16694,7 +16786,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028651,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043123,
@@ -17011,7 +17106,7 @@
       "title": "An act relating to voluntary family and medical leave insurance",
       "summary": "",
       "created_at": "2019-02-22 12:28:38",
-      "updated_at": "2020-03-17 09:22:08",
+      "updated_at": "2020-03-19 09:27:19",
       "id": "",
       "all_ids": [
         ""
@@ -17080,7 +17175,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0395/H-0395%20As%20Introduced.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0395/H-0395%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -17099,7 +17194,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028669,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043140,
@@ -17108,7 +17206,7 @@
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
       "summary": "",
       "created_at": "2019-02-22 12:28:38",
-      "updated_at": "2020-03-17 09:22:18",
+      "updated_at": "2020-03-19 09:26:32",
       "id": "",
       "all_ids": [
         ""
@@ -17292,7 +17390,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0396/H-0396%20As%20Introduced.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0396/H-0396%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -17311,7 +17409,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028660,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043145,
@@ -17746,7 +17847,7 @@
       "title": "An act relating to paid family leave",
       "summary": "",
       "created_at": "2019-02-09 11:55:30",
-      "updated_at": "2020-03-17 09:22:10",
+      "updated_at": "2020-03-19 09:27:12",
       "id": "",
       "all_ids": [
         ""
@@ -17877,7 +17978,7 @@
       "versions": [
         {
           "mimetype": "application/pdf",
-          "url": "http://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0088/S-0088%20As%20Introduced.pdf",
+          "url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0088/S-0088%20As%20Introduced.pdf",
           "doc_id": "~not available~",
           "name": "As Introduced"
         }
@@ -17896,7 +17997,10 @@
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],
-      "notificationSent": false
+      "notificationSent": false,
+      "databaseUpdated": 1584634028686,
+      "dbUpdatedTime": "",
+      "isLastUpdateImportantCounter": 0
     },
     {
       "dateAddedToTracker": 1584563043166,
@@ -17904,8 +18008,8 @@
       "isLastUpdateImportant": 0,
       "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
       "summary": "",
-      "created_at": "2019-11-22 07:24:46",
-      "updated_at": "2020-03-16 08:22:19",
+      "created_at": "2019-01-18 12:52:54",
+      "updated_at": "2019-11-17 07:25:29",
       "id": "",
       "all_ids": [
         ""
@@ -17916,7 +18020,7 @@
       "stateFlagURL": "",
       "statusName": "",
       "statusColor": "",
-      "session": "2020",
+      "session": "2019-2020",
       "type": [
         "bill"
       ],
@@ -17926,8 +18030,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "First Reading",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -17943,8 +18047,8 @@
           "date": "2019-02-06 00:00:00",
           "action": "Second Reading referred to Rules",
           "type": [
-            "bill:reading:2",
-            "committee:referred"
+            "committee:referred",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -17952,7 +18056,7 @@
       ],
       "sources": [
         {
-          "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HB2464&session=2000"
+          "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HB2464&session=1900"
         }
       ],
       "sponsors": [
@@ -17985,7 +18089,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563043172,
+      "databaseUpdated": 1584639722637,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -18361,8 +18465,8 @@
       "isLastUpdateImportant": 0,
       "title": "Labor; creating the Paid Family Leave Act; providing for family temporary disability insurance program. Effective date.",
       "summary": "",
-      "created_at": "2019-11-22 07:25:33",
-      "updated_at": "2020-03-16 08:21:42",
+      "created_at": "2019-01-17 12:28:58",
+      "updated_at": "2019-11-17 07:26:53",
       "id": "",
       "all_ids": [
         ""
@@ -18373,7 +18477,7 @@
       "stateFlagURL": "",
       "statusName": "",
       "statusColor": "",
-      "session": "2020",
+      "session": "2019-2020",
       "type": [
         "bill"
       ],
@@ -18383,8 +18487,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "First Reading",
           "type": [
-            "bill:reading:1",
-            "bill:introduced"
+            "bill:introduced",
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -18400,8 +18504,8 @@
           "date": "2019-02-05 00:00:00",
           "action": "Second Reading referred to Business, Commerce and Tourism Committee then to Appropriations Committee",
           "type": [
-            "bill:reading:2",
-            "committee:referred"
+            "committee:referred",
+            "bill:reading:2"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -18409,7 +18513,7 @@
       ],
       "sources": [
         {
-          "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB478&session=2000"
+          "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB478&session=1900"
         }
       ],
       "sponsors": [
@@ -18442,7 +18546,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563043210,
+      "databaseUpdated": 1584639722659,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -27500,7 +27604,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563044143,
+      "databaseUpdated": 1584639722775,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -27623,7 +27727,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563044153,
+      "databaseUpdated": 1584639722766,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -27829,7 +27933,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563044051,
+      "databaseUpdated": 1584639722730,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -28665,7 +28769,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563044062,
+      "databaseUpdated": 1584639722738,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -28767,7 +28871,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563044133,
+      "databaseUpdated": 1584639722757,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -28884,7 +28988,7 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false,
-      "databaseUpdated": 1584563044096,
+      "databaseUpdated": 1584639722749,
       "dbUpdatedTime": "",
       "isLastUpdateImportantCounter": 0
     },
@@ -33209,6 +33313,719 @@
         "SALARIES/BENEFITS",
         "SMALL BUSINESSES"
       ],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1584634028422,
+      "isBillNew": true,
+      "isLastUpdateImportant": 0,
+      "title": "Relates to the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
+      "summary": "Provides provisions for certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation due to COVID-19.",
+      "created_at": "2020-03-19 11:21:25",
+      "updated_at": "2020-03-19 11:21:25",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "lower",
+      "state": "ny",
+      "stateName": "",
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": "",
+      "session": "2019-2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "A 10153",
+      "actions": [
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "REPORTED REFERRED TO RULES",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "REPORTED",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "RULES REPORT CAL.14",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "SUBSTITUTED BY S8091",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/A10153?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2019/A10153"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A10153&term=2019"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "NOLAN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "CRESPO"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "HEASTIE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "PEOPLES-STOKE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "WEINSTEIN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ABBATE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "AUBRY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BARRETT"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BLAKE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BUCHWALD"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BURKE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BUTTENSCHON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "CAHILL"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "CARROLL"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "COLTON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "COOK"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "CRUZ"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "DARLING"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "DAVILA"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "DE LA ROSA"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "DENDEKKER"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "DINOWITZ"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ENGLEBRIGHT"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "EPSTEIN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "FAHY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "FERNANDEZ"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "GANTT"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "GLICK"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "GOTTFRIED R"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "GRIFFIN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "GUNTHER"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "HEVESI"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "JACOBSON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "JAFFEE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "JEAN-PIERRE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "JOYNER"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "KIM"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "LAVINE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "LENTOL"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "LIFTON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "MAGNARELLI"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "MCMAHON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "MILLER MG"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "MOSLEY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "NIOU"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "O'DONNELL"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ORTIZ"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "OTIS"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "PAULIN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "PICHARDO"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "PRETLOW"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "QUART"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "RAMOS"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "RICHARDSON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "RIVERA"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "RODRIGUEZ"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ROSENTHAL D"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ROSENTHAL L"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ROZIC"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "RYAN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "SAYEGH"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "SEAWRIGHT"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "SIMON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "SIMOTAS"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "SOLAGES"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "STECK"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "STERN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "STIRPE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "TAYLOR"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "THIELE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "VANEL"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "WALLACE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "WEPRIN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "WILLIAMS"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "ZEBROWSKI"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "D'URSO"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "FALL"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BRONSON"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BICHOTTE"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "BRAUNSTEIN"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "PERRY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "DESTEFANO"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "text/html",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A10153&term=2019&Text=Y",
+          "doc_id": "~not available~",
+          "name": "A10153"
+        },
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/A10153",
+          "doc_id": "~not available~",
+          "name": "A10153"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2020-03-18 00:00:00",
+        "last": "2020-03-18 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [],
+      "alternate_bill_ids": [],
+      "subjects": [],
+      "companions": [],
+      "notificationSent": false
+    },
+    {
+      "dateAddedToTracker": 1584634028437,
+      "isBillNew": true,
+      "isLastUpdateImportant": 0,
+      "title": "Relates to the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
+      "summary": "Provides provisions for certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation due to COVID-19.",
+      "created_at": "2020-03-19 11:20:40",
+      "updated_at": "2020-03-19 11:20:40",
+      "id": "",
+      "all_ids": [
+        ""
+      ],
+      "chamber": "upper",
+      "state": "ny",
+      "stateName": "",
+      "stateFlagURL": "",
+      "statusName": "",
+      "statusColor": "",
+      "session": "2019-2020",
+      "type": [
+        "bill"
+      ],
+      "bill_id": "S 8091",
+      "actions": [
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "REFERRED TO RULES",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "ORDERED TO THIRD READING CAL.619",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "MESSAGE OF NECESSITY - APPROPRIATION",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "MESSAGE OF NECESSITY - 3 DAY MESSAGE",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "PASSED SENATE",
+          "type": [
+            "bill:passed"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "DELIVERED TO ASSEMBLY",
+          "type": [],
+          "related_entities": [],
+          "actor": "upper"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "REFERRED TO LABOR",
+          "type": [
+            "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "SUBSTITUTED FOR A10153",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "ORDERED TO THIRD READING RULES CAL.14",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "MESSAGE OF NECESSITY - APPROPRIATION",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "MESSAGE OF NECESSITY - 3 DAY MESSAGE",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "PASSED ASSEMBLY",
+          "type": [
+            "bill:passed"
+          ],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "RETURNED TO SENATE",
+          "type": [],
+          "related_entities": [],
+          "actor": "lower"
+        },
+        {
+          "date": "2020-03-18 00:00:00",
+          "action": "DELIVERED TO GOVERNOR",
+          "type": [
+            "governor:received"
+          ],
+          "related_entities": [],
+          "actor": "upper"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2019-2020/S8091?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2019/S8091"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08091&term=2019"
+        }
+      ],
+      "sponsors": [
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "RAMOS"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "CARLUCCI"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "KENNEDY"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "KRUEGER"
+        }
+      ],
+      "versions": [
+        {
+          "mimetype": "application/pdf",
+          "url": "http://legislation.nysenate.gov/pdf/bills/2019/S8091",
+          "doc_id": "~not available~",
+          "name": "S8091"
+        },
+        {
+          "mimetype": "text/html",
+          "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S8091&term=2019&Text=Y",
+          "doc_id": "~not available~",
+          "name": "S8091"
+        }
+      ],
+      "documents": [],
+      "alternate_titles": [],
+      "votes": null,
+      "action_dates": {
+        "first": "2020-03-18 00:00:00",
+        "last": "2020-03-18 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      },
+      "scraped_subjects": [],
       "alternate_bill_ids": [],
       "subjects": [],
       "companions": [],

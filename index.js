@@ -45,33 +45,11 @@ console.log("Loaded page");
 
 app.get("/track", async (req, res, next) => {
   console.log("app.get /tracked");
-  // const url = `https://api.legiscan.com/?key=${process.env.LEGISCAN}&op=getBill&id=1327109`;
-  // const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=1&per_page=20`
-  //const URL =`https://openstates.org/api/v1/bills/?q="paid+family+leave"&search_window=session:2019`
-  //  const URL =`https://openstates.org/api/v1/bills/?state=dc&q=taxi`
-
-  // axios.get(URL, { headers: {'X-API-KEY': process.env.OPENSTATES } }).then(response => {
-  //   // If request is good...
-  //   console.log("💁‍♂️")
-  //   res.json(response.data);
-
-  // })
-  // .catch((error) => {
-  //   console.log('error:' + error);
-  // });
-
-  // const entireList=await getEntireUserList();
-  // console.log("Here!! entireList ", entireList[0]);
-
-  // res.json(entireList);
 
   let billsRef = db.collection("bills"); //.orderBy('updated_at','desc');
   
   let query = billsRef.where('action_dates.first', '>=', '2019-01-22 00:00:00').orderBy('action_dates.first', 'desc').get()
   
-  
-  //let allCities = billsRef
-    //.get()
     .then(snapshot => {
       var list = [];
       snapshot.forEach(doc => {
@@ -81,18 +59,25 @@ app.get("/track", async (req, res, next) => {
 
       let test = list.map((element, index) => {
 
+
+        let sorted = element.actions.sort((a, b) => parseJSON(a.date) - parseJSON(b.date));
+
         ////LOGIC TO CHECK IF BILL IS IMPORTANT //////
-        importantValue = element.actions[element.actions.length - 1].type;
-        if (
-          importantValue.includes("bill:failed") ||
-          importantValue.includes("bill:withdrawn") ||
-          importantValue.includes("bill:veto_override:passed") ||
-          importantValue.includes("bill:veto_override:failed") ||
-          importantValue.includes("governor:received") ||
-          importantValue.includes("governor:signed") ||
-          importantValue.includes("governor:vetoed") ||
-          importantValue.includes("governor:vetoed:line-item")
-        ) {
+        importantValue  = element.actions.some(value => 
+          
+          value.type.includes("governor:received" )||
+          value.type.includes("bill:failed") ||
+          value.type.includes("bill:withdrawn") ||
+          value.type.includes("bill:veto_override:passed") ||
+          value.type.includes("bill:veto_override:failed") ||
+          value.type.includes("governor:received") ||
+          value.type.includes("governor:signed") ||
+          value.type.includes("governor:vetoed") ||
+          value.type.includes("governor:vetoed:line-item")
+          ) 
+        
+        if ( importantValue === true) {
+          console.log("🏈 Yaaas");
           element.isLastUpdateImportant = 1;
         }
 
@@ -127,7 +112,7 @@ app.get("/track", async (req, res, next) => {
         
       };
 
-         element.stateName = state[element.state.toUpperCase()].name;
+        //  element.stateName = state[element.state.toUpperCase()].name;
          element.stateFlagURL = state[element.state.toUpperCase()].flag;
 
 
@@ -152,18 +137,8 @@ app.get("/track", async (req, res, next) => {
           element.statusColor = status[billStatus.type].color
          }
 
-          // element.statusName  = billStatus.action;
-          // element.statusColor  = status[billStatus.type].color;
-        
-
-
-
-          console.log(" 🍕 ", element.statusName ,element.statusColor );
-       
-      
 
       })
-// console.log(list)
       res.json(list);
     })
     .catch(err => {
@@ -377,10 +352,10 @@ let status = {
 
 
 
-// app.listen(3000, () => console.log("Pay Leave app listening on port 3000!"));
+app.listen(3000, () => console.log("Pay Leave app listening on port 3000!"));
 
-const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-const server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+// const server_host = process.env.YOUR_HOST || '0.0.0.0';
+// app.listen(server_port, server_host, function() {
+//     console.log('Listening on port %d', server_port);
+// });

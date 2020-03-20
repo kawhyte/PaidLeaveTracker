@@ -5,6 +5,11 @@ const firestoreService = require('firestore-export-import');
 const firebaseConfig = require('./config.js');
 const serviceAccount = require('./serviceAccount.json');
 
+const Sentry = require("@sentry/node");
+Sentry.init({
+  dsn: "https://5b670f8b00f04986a00ff27652429335@sentry.io/5167736"
+});
+
 console.log('jsonToFirestore()');
 // JSON To Firestore
 const jsonToFirestore = async () => {
@@ -23,6 +28,7 @@ if (firestoreService.admin.apps.length  === 0 ) {
     console.log('Upload Success at: ', time );
   }
   catch (error) {
+    Sentry.captureException("Failed to Push JSON To Firestore ", error);
     console.log(error);
   }
 };

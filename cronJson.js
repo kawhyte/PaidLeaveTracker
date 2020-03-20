@@ -12,14 +12,26 @@ var _ = require("lodash");
 // import { formatDistance, subDays } from 'date-fns'
 let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 var format = require("date-fns/format");
-function getData() {
-  console.log("Waiting on Cron...");
-  cron.schedule("*/3 * * * *", () => {
-    // cron.schedule("*/30 * * * *", () => {
-    console.log("running a cron every XX minute");
 
-    runCron();
-  });
+const Sentry = require("@sentry/node");
+
+Sentry.init({
+  dsn: "https://5b670f8b00f04986a00ff27652429335@sentry.io/5167736"
+});
+
+function getData() {
+  try {
+    console.log("Waiting on Cron...");
+    cron.schedule("*/3 * * * *", () => {
+      // cron.schedule("*/30 * * * *", () => {
+      console.log("running a cron every XX minute");
+
+      runCron();
+    });
+  } catch (error) {
+    Sentry.captureException("Failed to run Cron Job ", error);
+    return error;
+  }
 }
 
 console.log("Loaded cronJson");
@@ -79,7 +91,6 @@ function addToJsonFile(entireList) {
       .find({ bill_id: entireList[index].bill_id })
       .value();
 
-    
     if (typeof value === "undefined" || value.bill_id === "undefined") {
       db.get("bills")
         .push({
@@ -94,10 +105,10 @@ function addToJsonFile(entireList) {
           all_ids: entireList[index].all_ids,
           chamber: entireList[index].chamber,
           state: entireList[index].state,
-          stateName:"",
-          stateFlagURL:"",
-          statusName:"",
-          statusColor:"",
+          stateName: "",
+          stateFlagURL: "",
+          statusName: "",
+          statusColor: "",
           session: entireList[index].session,
           type: entireList[index].type,
           bill_id: entireList[index].bill_id,
@@ -138,10 +149,10 @@ function addToJsonFile(entireList) {
             all_ids: entireList[index].all_ids,
             chamber: entireList[index].chamber,
             state: entireList[index].state,
-            stateName:"",
-            stateFlagURL:"",
-            statusName:"",
-            statusColor:"",
+            stateName: "",
+            stateFlagURL: "",
+            statusName: "",
+            statusColor: "",
             session: entireList[index].session,
             type: entireList[index].type,
             bill_id: entireList[index].bill_id,
@@ -160,7 +171,6 @@ function addToJsonFile(entireList) {
             notificationSent: false
           })
           .write();
-        
 
         console.log("Updated ");
       }
