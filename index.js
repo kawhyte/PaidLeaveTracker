@@ -49,7 +49,7 @@ app.get("/track", async (req, res, next) => {
 
   let billsRef = db.collection("bills"); //.orderBy('updated_at','desc');
   
-  let query = billsRef.where('action_dates.first', '>=', '2019-01-22 00:00:00').orderBy('action_dates.first', 'desc').get()
+  let query = billsRef.where('action_dates.first', '>=', '2019-01-01 00:00:00').orderBy('action_dates.first', 'desc').get()
   
     .then(snapshot => {
       var list = [];

@@ -195,19 +195,19 @@ function generateHTML(data, index) {
                                         <div class="pt1 pl3 pr3 w-100 dt dt--fixed">
                                    
                                             <div class="dtc h1 black  br1 br--left tc" style="width: 50%">
-                                                <small class= "f7">${( data.actions[0].date = data.actions.length > 0  ? (data.actions[0].date).substring(0,10) : "No data available")}</small></div>
+                                                <small class= "f7 gray">${( data.actions[0].date = data.actions.length > 0  ? (data.actions[0].date).substring(0,10) : "No data available")}</small></div>
                                             <div class="dtc h1 black br1 br--left tc" style="width: 50%">
-                                                <small>${ houseDate.length > 0 && houseDate.some(d => d.actor === "lower")
+                                                <small class= "f7 gray">${ houseDate.length > 0 && houseDate.some(d => d.actor === "lower")
                                                     ? (houseDate[0].date).substring(0,10)
                                                     : " "
                                                 }</small></div>
                                             <div class="dtc h1 black br1 br--left tc" style="width: 50%">
-                                                <small>${ senateDate.length > 0 && senateDate.some(d => d.actor === "upper")
+                                                <small class= "f7 gray" >${ senateDate.length > 0 && senateDate.some(d => d.actor === "upper")
                                                 ? (senateDate[0].date).substring(0,10)
                                                 : " "
                                             }</small></div>
                                             <div class="dtc h1 black  br1 br--left tc" style="width: 50%">
-                                                <small>${ govDate.length > 0 && govDate.some(d => d.actor === "upper")
+                                                <small class= "f7 gray" >${ govDate.length > 0 && govDate.some(d => d.actor === "upper")
                                                 ? (govDate[0].date).substring(0,10)
                                                 : " "
                                             }</small></div>
