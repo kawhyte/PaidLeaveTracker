@@ -73,7 +73,8 @@ app.get("/track", async (req, res, next) => {
           value.type.includes("governor:received") ||
           value.type.includes("governor:signed") ||
           value.type.includes("governor:vetoed") ||
-          value.type.includes("governor:vetoed:line-item")
+          value.type.includes("governor:vetoed:line-item") || 
+          value.action.toLowerCase().includes("governor")
           ) 
         
         if ( importantValue === true) {
@@ -112,7 +113,7 @@ app.get("/track", async (req, res, next) => {
         
       };
 
-        //  element.stateName = state[element.state.toUpperCase()].name;
+         element.stateName = state[element.state.toUpperCase()].name;
          element.stateFlagURL = state[element.state.toUpperCase()].flag;
 
 
