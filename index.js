@@ -62,6 +62,19 @@ app.get("/track", async (req, res, next) => {
 
         let sorted = element.actions.sort((a, b) => parseJSON(a.date) - parseJSON(b.date));
 
+        // let test = element.actions.some(value => 
+          
+        //   Object.values(value.action).includes("governor")
+
+         
+          
+        //   ) 
+          
+        //   if (test==true) {
+        //     console.log(element.bill_id, test)
+        //     element.isLastUpdateImportant = 1;
+        //   }
+          
         ////LOGIC TO CHECK IF BILL IS IMPORTANT //////
         importantValue  = element.actions.some(value => 
           
@@ -74,7 +87,7 @@ app.get("/track", async (req, res, next) => {
           value.type.includes("governor:signed") ||
           value.type.includes("governor:vetoed") ||
           value.type.includes("governor:vetoed:line-item") || 
-          value.action.toLowerCase().includes("governor")
+          Object.values(value.action).includes("governor")
           ) 
         
         if ( importantValue === true) {
