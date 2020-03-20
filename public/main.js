@@ -254,6 +254,7 @@ const loadBills = () => {
     // const res = fetch("/data-clean/firebase/test.json", {
     // const res = fetch("http://localhost:3000/track", {
       // const res = fetch("http://localhost:5001/track", {
+
       const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
@@ -312,15 +313,3 @@ function formatDate(input) {
   ].join("/");
 }
 
-
-{/* <div class="pt3 pl3 pb0">
-<small class="gray dim lh-title"># of Bill Sponsor(s)</small>
-<span class="f6 db pv1">${data.sponsors.length} ${data.sponsors.length > 1 ? "bill sponsors" : "bill sponsor"}</span>
-</div> */}
-
-{/* <div class="pt3 pl3 pb0">
-<small class="gray lh-title">Bill Created</small>
-<span class="f6 db pv1">${( data.actions[0].date = data.actions.length > 0  ? formatDate(data.actions[0].date) : "No data available")}</span>
-</div> */}
-
-// ${( data.actions[0].date = data.actions.length > 0  ? formatDate(data.actions[0].date) : "No data available")}
