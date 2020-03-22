@@ -207,7 +207,7 @@ function generateHTML(data, index) {
                                                 : " "
                                             }</small></div>
                                             <div class="dtc h1 black  br1 br--left tc" style="width: 50%">
-                                                <small class= "f7 gray" >${ govDate.length > 0 && govDate.some(d => d.actor === "upper")
+                                                <small class= "f7 gray" >${ govDate.length > 0 && (govDate.some(d => d.actor === "upper") || govDate.some(d => d.actor === "legislature") || govDate.some(d => d.actor === "executive") || govDate.some(d => d.type.includes() === "governor:signed"))
                                                 ? (govDate[0].date).substring(0,10)
                                                 : " "
                                             }</small></div>
@@ -236,7 +236,7 @@ function generateHTML(data, index) {
 
                         ${data.sources.map((url, i) =>{
 
-                          return(`<span class="f6 db pv1"> <a href="${data.sources[i].url}" target="_blank" rel="noopener" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></span>`)
+                          return(`<span class="f6 db pv2"> <a href="${data.sources[i].url}" target="_blank" rel="noopener" class="f6 link dark-blue hover-dark-gray">${data.stateName } State Legislature (Link ${i+1})</a></span>`)
 
                         }).join("")}
 
