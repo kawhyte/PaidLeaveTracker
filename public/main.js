@@ -119,7 +119,7 @@ function generateHTML(data, index) {
   return `
   <div class="div1 container ">
 
-            <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20">
+            <article class="mw6 center bg-white br3 pa3 pa0-ns mv3 ba b--black-20 shadow-5">
                 <div class="vh-10 dt w-100 tc b--black-20">
 
                 <div class="tc mt3">
@@ -252,10 +252,10 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("/data-clean/firebase/test.json", {
-    // const res = fetch("http://localhost:3000/track", {
+    const res = fetch("http://localhost:3000/track", {
       // const res = fetch("http://localhost:5001/track", {
 
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
