@@ -6,7 +6,7 @@ let cron = require("node-cron");
 const fetch = require("node-fetch");
 let db = require("./db");
 let sendToFirebase = require("./import");
-const limitPerPage = 50;
+const limitPerPage = 25;
 var _ = require("lodash");
 // const { DateTime } = require("luxon");
 // import { formatDistance, subDays } from 'date-fns'
@@ -23,7 +23,7 @@ function getData() {
   try {
     console.log("Waiting on Cron...");
     cron.schedule("*/3 * * * *", () => {
-      // cron.schedule("*/30 * * * *", () => {
+      // cron.schedule("05 0,10,12,13,15 * * SUN-SAT", () => {
       console.log("running a cron every XX minute");
 
       runCron();
@@ -95,6 +95,7 @@ function addToJsonFile(entireList) {
       db.get("bills")
         .push({
           dateAddedToTracker: Date.now(),
+          databaseUpdated: Date.now(),
           isBillNew: true,
           isLastUpdateImportant: 0,
           title: entireList[index].title,
