@@ -279,7 +279,7 @@ const loadBills = () => {
         count.innerHTML = `All Bills (${Object.keys(json).length})`;
         newBillCount.innerHTML = `New Bills (${Object.keys(newBillsAdded).length})`;
         majorUpdatesCount.innerHTML = `Major Updates (${Object.keys(billsWithMajorUpdates).length})`;
-        pageUpdatedTime.innerHTML = `Information updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
+        pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
         fetchedBills = json;
 
         displayBills(fetchedBills);
