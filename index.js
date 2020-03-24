@@ -59,6 +59,8 @@ app.get("/track", async (req, res, next) => {
       });
 
       let test = list.map((element, index) => {
+
+      //  console.log("DB_Time ", element.DB_Time) 
         
         let sorted = element.actions.sort((a, b) => parseJSON(a.date) - parseJSON(b.date));
         
@@ -70,7 +72,7 @@ app.get("/track", async (req, res, next) => {
               addSuffix: true
             }
           )
-          element.da
+          //element.da
           _.assign(element, {'timeCreatedText': textTimeCreated});
         };
 
@@ -90,7 +92,7 @@ app.get("/track", async (req, res, next) => {
           ) 
         
         if ( importantValue === true) {
-          console.log("🏈 Yaaas");
+          // console.log("🏈 Yaaas");
           element.isLastUpdateImportant = 1;
         }
 
@@ -112,17 +114,20 @@ app.get("/track", async (req, res, next) => {
           element.isBillNew = false;
         } 
 
-        if (typeof (element.databaseUpdated) !== "undefined") {
+        if (typeof (element.DB_Time) !== "undefined") {
         var timeAgo = formatDistance(
-          new Date(element.databaseUpdated),
+          new Date(element.DB_Time),
           new Date(Date.now()),
           {
             addSuffix: true
           }
         )
-
-        element.dbUpdatedTime = timeAgo;
+        _.assign(element, {'dbUpdatedTime2': timeAgo});
+        //element.dbUpdatedTime = timeAgo;
+        console.log(" 🍕 ", timeAgo);
       };
+ 
+      //element.dbUpdatedTime = timeAgo;
 
          element.stateName = state[element.state.toUpperCase()].name;
          element.stateFlagURL = state[element.state.toUpperCase()].flag;

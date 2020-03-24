@@ -263,6 +263,7 @@ const loadBills = () => {
     })
       .then(r => r.json())
       .then(json => {
+        console.log("This is my JSON",json)
 
         newBillsAdded = json.filter(bill => {
           return bill.isBillNew === true;
@@ -273,13 +274,14 @@ const loadBills = () => {
         });
 
         pageUpdatedAt = json.filter(bill => {
-          return bill.dbUpdatedTime;
+          return bill.dbUpdatedTime2;
         });
 
         count.innerHTML = `All Bills (${Object.keys(json).length})`;
         newBillCount.innerHTML = `New Bills (${Object.keys(newBillsAdded).length})`;
         majorUpdatesCount.innerHTML = `Major Updates (${Object.keys(billsWithMajorUpdates).length})`;
-        pageUpdatedTime.innerHTML = `Information updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
+        // pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
+        pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime2}`;
         fetchedBills = json;
 
         displayBills(fetchedBills);
