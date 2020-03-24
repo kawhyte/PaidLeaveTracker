@@ -252,10 +252,10 @@ function generateHTML(data, index) {
 const loadBills = () => {
   try {
     // const res = fetch("/data-clean/firebase/test.json", {
-    // const res = fetch("http://localhost:3000/track", {
+    const res = fetch("http://localhost:3000/track", {
       // const res = fetch("http://localhost:5001/track", {
 
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -274,14 +274,14 @@ const loadBills = () => {
         });
 
         pageUpdatedAt = json.filter(bill => {
-          return bill.dbUpdatedTime2;
+          return bill.dbUpdatedTime;
         });
 
         count.innerHTML = `All Bills (${Object.keys(json).length})`;
         newBillCount.innerHTML = `New Bills (${Object.keys(newBillsAdded).length})`;
         majorUpdatesCount.innerHTML = `Major Updates (${Object.keys(billsWithMajorUpdates).length})`;
         // pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
-        pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime2}`;
+        pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
         fetchedBills = json;
 
         displayBills(fetchedBills);

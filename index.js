@@ -122,8 +122,8 @@ app.get("/track", async (req, res, next) => {
             addSuffix: true
           }
         )
-        _.assign(element, {'dbUpdatedTime2': timeAgo});
-        //element.dbUpdatedTime = timeAgo;
+       // _.assign(element, {'dbUpdatedTime2': timeAgo});
+        element.dbUpdatedTime = timeAgo;
         console.log(" 🍕 ", timeAgo);
       };
  
@@ -369,10 +369,10 @@ let status = {
 
 
 
-// app.listen(3000, () => console.log("Pay Leave app listening on port 3000!"));
+app.listen(3000, () => console.log("Pay Leave app listening on port 3000!"));
 
-const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
-const server_host = process.env.YOUR_HOST || '0.0.0.0';
-app.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+// const server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+// const server_host = process.env.YOUR_HOST || '0.0.0.0';
+// app.listen(server_port, server_host, function() {
+//     console.log('Listening on port %d', server_port);
+// });
