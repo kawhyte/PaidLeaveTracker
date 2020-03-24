@@ -95,7 +95,7 @@ function addToJsonFile(entireList) {
       db.get("bills")
         .push({
           dateAddedToTracker: Date.now(),
-          databaseUpdated: Date.now(),
+          DB_Time: Date.now(),
           isBillNew: true,
           isLastUpdateImportant: 0,
           title: entireList[index].title,
@@ -138,8 +138,8 @@ function addToJsonFile(entireList) {
         db.get("bills")
           .find({ bill_id: entireList[index].bill_id })
           .assign({
-            databaseUpdated: Date.now(),
             dbUpdatedTime: "",
+            DB_Time: Date.now(),
             isBillNew: true,
             isLastUpdateImportantCounter: 0,
             title: entireList[index].title,
@@ -177,6 +177,17 @@ function addToJsonFile(entireList) {
       }
     }
   }
+  
+  // db.get('bills')
+  // .push({ DB_Time: Date.now(), action_dates: {first : Date.now()} })
+  // .write()
+
+
+  // db.get('bills')
+  // .find({ date_id: 1})
+  // .assign({ DB_Time: Date.now(), action_dates: {first : Date.now()} })
+  // .write()
+
 }
 
 getData();
