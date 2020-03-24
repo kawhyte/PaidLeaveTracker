@@ -23,7 +23,7 @@ function getData() {
   try {
     console.log("Waiting on Cron...");
     cron.schedule("*/3 * * * *", () => {
-      // cron.schedule("05 0,10,12,13,15 * * SUN-SAT", () => {
+      // cron.schedule("05 0,12,15 * * SUN-SAT", () => {
       console.log("running a cron every XX minute");
 
       runCron();
