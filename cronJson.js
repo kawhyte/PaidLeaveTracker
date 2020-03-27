@@ -13,16 +13,18 @@ var _ = require("lodash");
 let differenceInCalendarDays = require("date-fns/differenceInCalendarDays");
 var format = require("date-fns/format");
 
-// const Sentry = require("@sentry/node");
-
-// Sentry.init({
-//   dsn: "https://5b670f8b00f04986a00ff27652429335@sentry.io/5167736"
-// });
+let state = [
+  'AL','AK','AS','AZ','AR','CA','CO','CT','DE','DC','FM','FL','GA',
+  'GU','HI','ID','IL','IN','IA','KS','KY','LA','ME','MH','MD','MA',
+  'MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND',
+  'MP','OH','OK','OR','PW','PA','PR','RI','SC','SD','TN','TX','UT',
+  'VT','VI','VA','WA','WV','WI','WY'
+ ];
 
 function getData() {
   try {
     console.log("Waiting on Cron...");
-    cron.schedule("*/3 * * * *", () => {
+    cron.schedule("*/6 * * * *", () => {
       // cron.schedule("05 0,12,15 * * SUN-SAT", () => {
       console.log("running a cron every XX minute");
 
@@ -45,25 +47,40 @@ var result2 = format(new Date(Date.now()), "MM/dd/yyyy:HH:mm:ss");
 console.log(result2);
 console.log("⏲️ Date Diff", result);
 
-const getUsers = async function(pageNo = 1) {
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const getUsers = async function(pageNo = 0) {
+
+  //console.log("STATE ",state[pageNo])
   // let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}&search_window=term&updated_since=2019-08-01`;
-  let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=${pageNo}&per_page=${limitPerPage}`;
+  let actualUrl = `https://openstates.org/api/v1/bills/?q="paid+family+leave"&page=1&per_page=${limitPerPage}&state=${state[pageNo].toLowerCase()}`;
 
   var apiResults = await fetch(actualUrl, {
     headers: { "X-API-KEY": process.env.OPENSTATES }
   }).then(resp => {
+  
     return resp.json();
   });
-
+  console.log("zzzzzzz...sleeping for 4 seconds" );
+    await sleep(4000);
   return apiResults;
 };
 
-const getEntireUserList = async function(pageNo = 1) {
+const getEntireUserList = async function(pageNo = 0) {
   const results = await getUsers(pageNo);
-  console.log("Retreiving data from API for page : " + pageNo);
+  console.log("Retreiving data from API for : " + state[pageNo]);
+  var removed = state.splice(pageNo,1);
 
-  if (results.length > 0) {
-    return results.concat(await getEntireUserList(pageNo + 1));
+  console.log("Just removed ", removed)
+  console.log("New Arrary  ", state)
+  console.log("Retreiving data from API for AFTER : " + state[pageNo]);
+  
+  if (results.length > 0 || state.length > 0 ) {
+    
+    return results.concat(await getEntireUserList(pageNo));
   } else {
     return results;
   }
