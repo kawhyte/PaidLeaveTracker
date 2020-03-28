@@ -1,8 +1,8 @@
 {
   "bills": [
     {
-      "dateAddedToTracker": 1585320761132,
-      "DB_Time": 1585320761132,
+      "dateAddedToTracker": 1585368991954,
+      "DB_Time": 1585368991954,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "paid family leave",
@@ -191,8 +191,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761133,
-      "DB_Time": 1585320761133,
+      "dateAddedToTracker": 1585368991958,
+      "DB_Time": 1585368991958,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "employers; paid family leave",
@@ -340,8 +340,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761138,
-      "DB_Time": 1585320761138,
+      "dateAddedToTracker": 1585368991962,
+      "DB_Time": 1585368991962,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "state employees; paid family leave",
@@ -485,8 +485,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761138,
-      "DB_Time": 1585320761138,
+      "dateAddedToTracker": 1585368991963,
+      "DB_Time": 1585368991963,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "state employees; paid family leave",
@@ -715,8 +715,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761139,
-      "DB_Time": 1585320761139,
+      "dateAddedToTracker": 1585368991964,
+      "DB_Time": 1585368991964,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave: school closures: COVID-19.",
@@ -832,8 +832,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761139,
-      "DB_Time": 1585320761139,
+      "dateAddedToTracker": 1585368991965,
+      "DB_Time": 1585368991965,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave: qualifying exigency.",
@@ -927,8 +927,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761139,
-      "DB_Time": 1585320761139,
+      "dateAddedToTracker": 1585368991966,
+      "DB_Time": 1585368991966,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave.",
@@ -1151,8 +1151,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761140,
-      "DB_Time": 1585320761140,
+      "dateAddedToTracker": 1585368991967,
+      "DB_Time": 1585368991967,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability insurance: paid family leave program.",
@@ -1360,8 +1360,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761140,
-      "DB_Time": 1585320761140,
+      "dateAddedToTracker": 1585368991968,
+      "DB_Time": 1585368991968,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave: application in non-English languages.",
@@ -1725,8 +1725,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761141,
-      "DB_Time": 1585320761141,
+      "dateAddedToTracker": 1585368991969,
+      "DB_Time": 1585368991969,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave.",
@@ -1917,8 +1917,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761142,
-      "DB_Time": 1585320761142,
+      "dateAddedToTracker": 1585368991969,
+      "DB_Time": 1585368991969,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave.",
@@ -2214,13 +2214,13 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "author",
-          "name": "Jackson"
+          "type": "coauthor",
+          "name": "Gonzalez Fletcher"
         },
         {
           "leg_id": null,
-          "type": "coauthor",
-          "name": "Gonzalez Fletcher"
+          "type": "author",
+          "name": "Hannah-Beth Jackson"
         }
       ],
       "versions": [
@@ -2286,8 +2286,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761142,
-      "DB_Time": 1585320761142,
+      "dateAddedToTracker": 1585368991971,
+      "DB_Time": 1585368991971,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave.",
@@ -2478,7 +2478,7 @@
         {
           "leg_id": null,
           "type": "author",
-          "name": "Levine"
+          "name": "Marc Levine"
         }
       ],
       "versions": [
@@ -2532,8 +2532,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761143,
-      "DB_Time": 1585320761143,
+      "dateAddedToTracker": 1585368991972,
+      "DB_Time": 1585368991972,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave.",
@@ -2678,7 +2678,7 @@
         {
           "leg_id": null,
           "type": "author",
-          "name": "Gomez"
+          "name": "Jimmy Gomez"
         }
       ],
       "versions": [
@@ -2729,8 +2729,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761143,
-      "DB_Time": 1585320761143,
+      "dateAddedToTracker": 1585368991978,
+      "DB_Time": 1585368991978,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Unemployment compensation: disability benefits: paid family leave.",
@@ -2989,58 +2989,13 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "author",
-          "name": "Jackson"
-        },
-        {
-          "leg_id": null,
-          "type": "author",
-          "name": "DeSaulnier"
+          "type": "coauthor",
+          "name": "Tom Ammiano"
         },
         {
           "leg_id": null,
           "type": "coauthor",
-          "name": "Block"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Cannella"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Evans"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Hancock"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Leno"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Lieu"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Liu"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Pavley"
-        },
-        {
-          "leg_id": null,
-          "type": "coauthor",
-          "name": "Ammiano"
+          "name": "Marty Block"
         },
         {
           "leg_id": null,
@@ -3050,12 +3005,57 @@
         {
           "leg_id": null,
           "type": "coauthor",
-          "name": "Williams"
+          "name": "Anthony Cannella"
+        },
+        {
+          "leg_id": null,
+          "type": "author",
+          "name": "Mark DeSaulnier"
         },
         {
           "leg_id": null,
           "type": "coauthor",
-          "name": "Yamada"
+          "name": "Noreen Evans"
+        },
+        {
+          "leg_id": null,
+          "type": "coauthor",
+          "name": "Loni Hancock"
+        },
+        {
+          "leg_id": null,
+          "type": "author",
+          "name": "Hannah-Beth Jackson"
+        },
+        {
+          "leg_id": null,
+          "type": "coauthor",
+          "name": "Mark Leno"
+        },
+        {
+          "leg_id": null,
+          "type": "coauthor",
+          "name": "Ted Lieu"
+        },
+        {
+          "leg_id": null,
+          "type": "coauthor",
+          "name": "Carol Liu"
+        },
+        {
+          "leg_id": null,
+          "type": "coauthor",
+          "name": "Fran Pavley"
+        },
+        {
+          "leg_id": null,
+          "type": "coauthor",
+          "name": "Das Williams"
+        },
+        {
+          "leg_id": null,
+          "type": "coauthor",
+          "name": "Mariko Yamada"
         }
       ],
       "versions": [
@@ -3109,8 +3109,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761144,
-      "DB_Time": 1585320761144,
+      "dateAddedToTracker": 1585368991980,
+      "DB_Time": 1585368991980,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Unemployment compensation: disability benefits: paid family leave.",
@@ -3234,13 +3234,8 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "author",
-          "name": "Yamada"
-        },
-        {
-          "leg_id": null,
           "type": "coauthor",
-          "name": "Ammiano"
+          "name": "Tom Ammiano"
         },
         {
           "leg_id": null,
@@ -3250,7 +3245,12 @@
         {
           "leg_id": null,
           "type": "coauthor",
-          "name": "Ma"
+          "name": "Fiona Ma"
+        },
+        {
+          "leg_id": null,
+          "type": "author",
+          "name": "Mariko Yamada"
         }
       ],
       "versions": [
@@ -3292,8 +3292,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761145,
-      "DB_Time": 1585320761145,
+      "dateAddedToTracker": 1585368991982,
+      "DB_Time": 1585368991982,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMLI Family Medical Leave Insurance Program",
@@ -3677,8 +3677,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761146,
-      "DB_Time": 1585320761146,
+      "dateAddedToTracker": 1585368991983,
+      "DB_Time": 1585368991983,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Interest Arbitration Award and Collective Bargaining Agreement between the District of Columbia Public Schools and the Office of the State Superintendent of Education and the American Federation of State, County and Municipal Employees, District Council 20, Local 2921, AFL-CIO Emergency Approval of 2020",
@@ -3799,8 +3799,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761146,
-      "DB_Time": 1585320761146,
+      "dateAddedToTracker": 1585368991985,
+      "DB_Time": 1585368991985,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
@@ -3907,8 +3907,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761147,
-      "DB_Time": 1585320761147,
+      "dateAddedToTracker": 1585368991986,
+      "DB_Time": 1585368991986,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Proposed contract with Geographic Solutions, Inc. ",
@@ -3991,8 +3991,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761148,
-      "DB_Time": 1585320761148,
+      "dateAddedToTracker": 1585368991988,
+      "DB_Time": 1585368991988,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DC Paid Family Leave Quarter 1 Fiscal Year 2020 Report",
@@ -4069,8 +4069,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761149,
-      "DB_Time": 1585320761149,
+      "dateAddedToTracker": 1585368991990,
+      "DB_Time": 1585368991990,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $3,520,600.49 of Special Revenue funds within the Department of Employment Services (DOES), the Labor Standards Bureau to the Office of Paid Family Leave Program (OPFL)",
@@ -4153,8 +4153,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761150,
-      "DB_Time": 1585320761150,
+      "dateAddedToTracker": 1585368991996,
+      "DB_Time": 1585368991996,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $1,565,000 of Local Funds Budget Authority within the Department of Employment Services ",
@@ -4237,8 +4237,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761151,
-      "DB_Time": 1585320761151,
+      "dateAddedToTracker": 1585368991999,
+      "DB_Time": 1585368991999,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - Q4 Fiscal Year 2019 Report DC Paid Family Leave",
@@ -4315,8 +4315,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761152,
-      "DB_Time": 1585320761152,
+      "dateAddedToTracker": 1585368992000,
+      "DB_Time": 1585368992000,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2020 Audit and Inspection Plan",
@@ -4393,8 +4393,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761153,
-      "DB_Time": 1585320761153,
+      "dateAddedToTracker": 1585368992002,
+      "DB_Time": 1585368992002,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Q3 Fiscal Year 2019 Report: DC Paid Family Leave ",
@@ -4471,8 +4471,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761154,
-      "DB_Time": 1585320761154,
+      "dateAddedToTracker": 1585368992004,
+      "DB_Time": 1585368992004,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - FPC Food System Assessment: The District's efforts to support a more equitable, healthy, and sustainable food system",
@@ -4549,8 +4549,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761155,
-      "DB_Time": 1585320761155,
+      "dateAddedToTracker": 1585368992006,
+      "DB_Time": 1585368992006,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Q2 Fiscal Year 2019 Report DC Paid Family Leave",
@@ -4627,8 +4627,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761157,
-      "DB_Time": 1585320761157,
+      "dateAddedToTracker": 1585368992012,
+      "DB_Time": 1585368992012,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Rulemaking for Paid Family Leave Collections Approval Resolution of 2019",
@@ -4727,8 +4727,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761157,
-      "DB_Time": 1585320761157,
+      "dateAddedToTracker": 1585368992014,
+      "DB_Time": 1585368992014,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES DC Paid Leave Family Leave Q1 Fiscal Year 2019 Report",
@@ -4805,8 +4805,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761158,
-      "DB_Time": 1585320761158,
+      "dateAddedToTracker": 1585368992016,
+      "DB_Time": 1585368992016,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $900,000 of Local Funds Budget Authority from the Commission on Arts and Humanities, the Deputy Mayor for Planning and Economic Development, and the Department of Small and Local Business Development to the D.C. Fire and Emergency Medical Services Department",
@@ -4883,8 +4883,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761159,
-      "DB_Time": 1585320761159,
+      "dateAddedToTracker": 1585368992018,
+      "DB_Time": 1585368992018,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $1,000,000 of Local Funds Budget Authority from the Department of Behavioral Health and the Department of Human Services to the D.C. Fire and Emergency Medical Services Department",
@@ -4961,8 +4961,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761160,
-      "DB_Time": 1585320761160,
+      "dateAddedToTracker": 1585368992020,
+      "DB_Time": 1585368992020,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Amended Compensation Agreement between the District of Columbia and the Office of the Attorney General and the American Federation of Government Employees, Local 1403, AFL-CIO (Compensation Unit 33) Approval Resolution of 2018",
@@ -5048,8 +5048,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761161,
-      "DB_Time": 1585320761161,
+      "dateAddedToTracker": 1585368992021,
+      "DB_Time": 1585368992021,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2018 Revised Local Budget Congressional Review Emergency Adjustment Act of 2018",
@@ -5167,8 +5167,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761162,
-      "DB_Time": 1585320761162,
+      "dateAddedToTracker": 1585368992024,
+      "DB_Time": 1585368992024,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Universal Paid Family Leave Quarter 4 Report for Fiscal Year 2018",
@@ -5245,8 +5245,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761163,
-      "DB_Time": 1585320761163,
+      "dateAddedToTracker": 1585368992027,
+      "DB_Time": 1585368992027,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2018 Revised Local Budget Temporary Adjustment Act of 2018",
@@ -5409,8 +5409,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761164,
-      "DB_Time": 1585320761164,
+      "dateAddedToTracker": 1585368992029,
+      "DB_Time": 1585368992029,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FY 2018 Reprogramming Requests (Operating and Capital) - 3rd Quarter (April 1, 2018 through June 30, 2018)",
@@ -5487,8 +5487,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761165,
-      "DB_Time": 1585320761165,
+      "dateAddedToTracker": 1585368992031,
+      "DB_Time": 1585368992031,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Universal Paid Family Leave Quarter 3 Report",
@@ -5565,8 +5565,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761166,
-      "DB_Time": 1585320761166,
+      "dateAddedToTracker": 1585368992033,
+      "DB_Time": 1585368992033,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2018 Revised Local Budget Emergency Adjustment Act of 2018",
@@ -5733,8 +5733,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761167,
-      "DB_Time": 1585320761167,
+      "dateAddedToTracker": 1585368992035,
+      "DB_Time": 1585368992035,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "District Overtime Tops $108 Million; Better Management and Additional Staff Could Reduce Costs",
@@ -5811,8 +5811,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761168,
-      "DB_Time": 1585320761168,
+      "dateAddedToTracker": 1585368992037,
+      "DB_Time": 1585368992037,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - Universal Paid Family Leave Quarter 2 Report",
@@ -5889,8 +5889,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761170,
-      "DB_Time": 1585320761170,
+      "dateAddedToTracker": 1585368992039,
+      "DB_Time": 1585368992039,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Universal Paid Family Leave Report",
@@ -5967,8 +5967,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761171,
-      "DB_Time": 1585320761171,
+      "dateAddedToTracker": 1585368992047,
+      "DB_Time": 1585368992047,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employment Practices",
@@ -6080,8 +6080,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761172,
-      "DB_Time": 1585320761172,
+      "dateAddedToTracker": 1585368992049,
+      "DB_Time": 1585368992049,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employment Practices",
@@ -6188,8 +6188,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761173,
-      "DB_Time": 1585320761173,
+      "dateAddedToTracker": 1585368992052,
+      "DB_Time": 1585368992052,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6308,8 +6308,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761175,
-      "DB_Time": 1585320761175,
+      "dateAddedToTracker": 1585368992054,
+      "DB_Time": 1585368992054,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6428,8 +6428,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761177,
-      "DB_Time": 1585320761177,
+      "dateAddedToTracker": 1585368992062,
+      "DB_Time": 1585368992062,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6573,8 +6573,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761178,
-      "DB_Time": 1585320761178,
+      "dateAddedToTracker": 1585368992066,
+      "DB_Time": 1585368992066,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -6662,8 +6662,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761180,
-      "DB_Time": 1585320761180,
+      "dateAddedToTracker": 1585368992068,
+      "DB_Time": 1585368992068,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -6751,8 +6751,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761182,
-      "DB_Time": 1585320761182,
+      "dateAddedToTracker": 1585368992072,
+      "DB_Time": 1585368992072,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6896,8 +6896,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761184,
-      "DB_Time": 1585320761184,
+      "dateAddedToTracker": 1585368992079,
+      "DB_Time": 1585368992079,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -6973,8 +6973,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761186,
-      "DB_Time": 1585320761186,
+      "dateAddedToTracker": 1585368992082,
+      "DB_Time": 1585368992082,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -7050,8 +7050,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761188,
-      "DB_Time": 1585320761188,
+      "dateAddedToTracker": 1585368992085,
+      "DB_Time": 1585368992085,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -7514,8 +7514,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761190,
-      "DB_Time": 1585320761190,
+      "dateAddedToTracker": 1585368992090,
+      "DB_Time": 1585368992090,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -7939,8 +7939,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761192,
-      "DB_Time": 1585320761192,
+      "dateAddedToTracker": 1585368992096,
+      "DB_Time": 1585368992096,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8148,8 +8148,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761194,
-      "DB_Time": 1585320761194,
+      "dateAddedToTracker": 1585368992100,
+      "DB_Time": 1585368992100,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8248,8 +8248,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761196,
-      "DB_Time": 1585320761196,
+      "dateAddedToTracker": 1585368992104,
+      "DB_Time": 1585368992104,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8349,8 +8349,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761199,
-      "DB_Time": 1585320761199,
+      "dateAddedToTracker": 1585368992112,
+      "DB_Time": 1585368992112,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8937,8 +8937,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761201,
-      "DB_Time": 1585320761201,
+      "dateAddedToTracker": 1585368992116,
+      "DB_Time": 1585368992116,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -9473,8 +9473,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761204,
-      "DB_Time": 1585320761204,
+      "dateAddedToTracker": 1585368992121,
+      "DB_Time": 1585368992121,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY AND MEDICAL LEAVE.",
@@ -9586,8 +9586,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761207,
-      "DB_Time": 1585320761207,
+      "dateAddedToTracker": 1585368992125,
+      "DB_Time": 1585368992125,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -9789,8 +9789,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761209,
-      "DB_Time": 1585320761209,
+      "dateAddedToTracker": 1585368992130,
+      "DB_Time": 1585368992130,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -9953,8 +9953,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761212,
-      "DB_Time": 1585320761212,
+      "dateAddedToTracker": 1585368992135,
+      "DB_Time": 1585368992135,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY AND MEDICAL LEAVE.",
@@ -10072,8 +10072,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761214,
-      "DB_Time": 1585320761214,
+      "dateAddedToTracker": 1585368992140,
+      "DB_Time": 1585368992140,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -10199,8 +10199,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761218,
-      "DB_Time": 1585320761218,
+      "dateAddedToTracker": 1585368992148,
+      "DB_Time": 1585368992148,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO PUBLIC EMPLOYMENT.",
@@ -10334,8 +10334,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761221,
-      "DB_Time": 1585320761221,
+      "dateAddedToTracker": 1585368992153,
+      "DB_Time": 1585368992153,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -10490,8 +10490,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761223,
-      "DB_Time": 1585320761223,
+      "dateAddedToTracker": 1585368992168,
+      "DB_Time": 1585368992168,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO PUBLIC EMPLOYMENT.",
@@ -10650,8 +10650,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761226,
-      "DB_Time": 1585320761226,
+      "dateAddedToTracker": 1585368992176,
+      "DB_Time": 1585368992176,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO PAID FAMILY LEAVE.",
@@ -10772,8 +10772,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761230,
-      "DB_Time": 1585320761230,
+      "dateAddedToTracker": 1585368992183,
+      "DB_Time": 1585368992183,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -10879,8 +10879,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761234,
-      "DB_Time": 1585320761234,
+      "dateAddedToTracker": 1585368992188,
+      "DB_Time": 1585368992188,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PAID FAMILY LEAVE ACT",
@@ -10968,8 +10968,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761238,
-      "DB_Time": 1585320761238,
+      "dateAddedToTracker": 1585368992199,
+      "DB_Time": 1585368992199,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PAID FAMILY LEAVE ACT",
@@ -11139,8 +11139,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761241,
-      "DB_Time": 1585320761241,
+      "dateAddedToTracker": 1585368992204,
+      "DB_Time": 1585368992204,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY AND MEDICAL LEAVE ACT",
@@ -11253,8 +11253,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761244,
-      "DB_Time": 1585320761244,
+      "dateAddedToTracker": 1585368992210,
+      "DB_Time": 1585368992210,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY LEAVE INSURANCE ACT",
@@ -11425,8 +11425,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761247,
-      "DB_Time": 1585320761247,
+      "dateAddedToTracker": 1585368992215,
+      "DB_Time": 1585368992215,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
@@ -11993,8 +11993,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761250,
-      "DB_Time": 1585320761250,
+      "dateAddedToTracker": 1585368992239,
+      "DB_Time": 1585368992239,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
@@ -12600,8 +12600,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761254,
-      "DB_Time": 1585320761254,
+      "dateAddedToTracker": 1585368992248,
+      "DB_Time": 1585368992248,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Urging the legislative council to assign the topic of establishing a voluntary paid family and medical leave program to the appropriate study committee.",
@@ -12740,8 +12740,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761257,
-      "DB_Time": 1585320761257,
+      "dateAddedToTracker": 1585368992254,
+      "DB_Time": 1585368992254,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act providing for paid sick leave and scheduling procedures for employees, establishing a family leave and medical leave insurance program, providing penalties and remedies, and including applicability provisions.",
@@ -12858,8 +12858,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761262,
-      "DB_Time": 1585320761262,
+      "dateAddedToTracker": 1585368992264,
+      "DB_Time": 1585368992264,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act providing for paid family leave for state employees.",
@@ -12949,8 +12949,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761265,
-      "DB_Time": 1585320761265,
+      "dateAddedToTracker": 1585368992271,
+      "DB_Time": 1585368992271,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.",
@@ -13110,8 +13110,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761269,
-      "DB_Time": 1585320761269,
+      "dateAddedToTracker": 1585368992287,
+      "DB_Time": 1585368992287,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act relating to specified professional benefits, accommodations, and representations, and including effective date provisions.",
@@ -13207,8 +13207,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761273,
-      "DB_Time": 1585320761273,
+      "dateAddedToTracker": 1585368992299,
+      "DB_Time": 1585368992299,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Bill History for Senate File 2133Journal Actions Only    \r\n                Lobbyist Declarations\r\n            \r\n        \r\n        By  Boulton\r\n        A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.",
@@ -13279,8 +13279,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761276,
-      "DB_Time": 1585320761276,
+      "dateAddedToTracker": 1585368992305,
+      "DB_Time": 1585368992305,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Enacting the Kansas Paid Family Leave Act, establishing the Family and Medical Leave Insurance Fund. ",
@@ -13371,8 +13371,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761280,
-      "DB_Time": 1585320761280,
+      "dateAddedToTracker": 1585368992314,
+      "DB_Time": 1585368992314,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Create Paid Family And Medical Leave Benefits",
@@ -13558,8 +13558,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761284,
-      "DB_Time": 1585320761284,
+      "dateAddedToTracker": 1585368992320,
+      "DB_Time": 1585368992320,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Establish The Opt-In Maine Paid Family Leave Insurance Program",
@@ -13729,8 +13729,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761288,
-      "DB_Time": 1585320761288,
+      "dateAddedToTracker": 1585368992338,
+      "DB_Time": 1585368992338,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Provide Paid Family Leave To Public School Employees",
@@ -13890,8 +13890,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761291,
-      "DB_Time": 1585320761291,
+      "dateAddedToTracker": 1585368992348,
+      "DB_Time": 1585368992348,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Joint Resolution To Support Family Caregivers In Maine",
@@ -14285,8 +14285,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761295,
-      "DB_Time": 1585320761295,
+      "dateAddedToTracker": 1585368992355,
+      "DB_Time": 1585368992355,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Establish The Maine Paid Family Leave Insurance Program",
@@ -14451,8 +14451,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761299,
-      "DB_Time": 1585320761299,
+      "dateAddedToTracker": 1585368992372,
+      "DB_Time": 1585368992372,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act to establish paid family leave",
@@ -14677,8 +14677,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761304,
-      "DB_Time": 1585320761304,
+      "dateAddedToTracker": 1585368992384,
+      "DB_Time": 1585368992384,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave income replacement benefits by insurers authorization",
@@ -14782,8 +14782,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761308,
-      "DB_Time": 1585320761308,
+      "dateAddedToTracker": 1585368992392,
+      "DB_Time": 1585368992392,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Small employer paid family leave insurance program created, tax credit established, and money appropriated.",
@@ -14881,8 +14881,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761312,
-      "DB_Time": 1585320761312,
+      "dateAddedToTracker": 1585368992399,
+      "DB_Time": 1585368992399,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Omnibus jobs and economic development, energy and climate, and telecommunications policy and finance bill.",
@@ -15302,8 +15302,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761316,
-      "DB_Time": 1585320761316,
+      "dateAddedToTracker": 1585368992405,
+      "DB_Time": 1585368992405,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Omnibus jobs and economic development appropriations",
@@ -15450,8 +15450,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761322,
-      "DB_Time": 1585320761322,
+      "dateAddedToTracker": 1585368992412,
+      "DB_Time": 1585368992412,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Working Parents Act; wage theft protection, paid family leave, and earned sick and safe time provided; fair scheduling required; penalties imposed; reports required; rulemaking authorized; and money appropriated.",
@@ -15616,8 +15616,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761326,
-      "DB_Time": 1585320761326,
+      "dateAddedToTracker": 1585368992419,
+      "DB_Time": 1585368992419,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2020; create.",
@@ -15703,8 +15703,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761331,
-      "DB_Time": 1585320761331,
+      "dateAddedToTracker": 1585368992429,
+      "DB_Time": 1585368992429,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Mississippi Paid Family Leave Act; establish.",
@@ -15790,8 +15790,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761335,
-      "DB_Time": 1585320761335,
+      "dateAddedToTracker": 1585368992438,
+      "DB_Time": 1585368992438,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2020; enact.",
@@ -15885,8 +15885,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761339,
-      "DB_Time": 1585320761339,
+      "dateAddedToTracker": 1585368992451,
+      "DB_Time": 1585368992451,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "2020 Women's Economic Security Act; create.",
@@ -15972,8 +15972,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761344,
-      "DB_Time": 1585320761344,
+      "dateAddedToTracker": 1585368992458,
+      "DB_Time": 1585368992458,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2019; create.",
@@ -16067,8 +16067,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761349,
-      "DB_Time": 1585320761349,
+      "dateAddedToTracker": 1585368992464,
+      "DB_Time": 1585368992464,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2019; create.",
@@ -16154,8 +16154,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761354,
-      "DB_Time": 1585320761354,
+      "dateAddedToTracker": 1585368992472,
+      "DB_Time": 1585368992472,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "2019 Women's Economic Security Act; create.",
@@ -16240,8 +16240,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761358,
-      "DB_Time": 1585320761358,
+      "dateAddedToTracker": 1585368992480,
+      "DB_Time": 1585368992480,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Mississippi Paid Family Leave Act; establish.",
@@ -16342,8 +16342,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761362,
-      "DB_Time": 1585320761362,
+      "dateAddedToTracker": 1585368992487,
+      "DB_Time": 1585368992487,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Mississippi Paid Family Leave Act; establish.",
@@ -16428,8 +16428,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761366,
-      "DB_Time": 1585320761366,
+      "dateAddedToTracker": 1585368992494,
+      "DB_Time": 1585368992494,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2018; create.",
@@ -16515,8 +16515,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761371,
-      "DB_Time": 1585320761371,
+      "dateAddedToTracker": 1585368992501,
+      "DB_Time": 1585368992501,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2018; create.",
@@ -16618,8 +16618,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761375,
-      "DB_Time": 1585320761375,
+      "dateAddedToTracker": 1585368992508,
+      "DB_Time": 1585368992508,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "establishing the granite state paid family leave plan.",
@@ -16738,8 +16738,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761379,
-      "DB_Time": 1585320761379,
+      "dateAddedToTracker": 1585368992517,
+      "DB_Time": 1585368992517,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerns family leave and disability benefits during epidemic-related emergencies.",
@@ -16860,8 +16860,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761384,
-      "DB_Time": 1585320761384,
+      "dateAddedToTracker": 1585368992526,
+      "DB_Time": 1585368992526,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerns family leave and disability benefits during epidemic-related emergencies.",
@@ -17043,8 +17043,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761389,
-      "DB_Time": 1585320761389,
+      "dateAddedToTracker": 1585368992535,
+      "DB_Time": 1585368992535,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides for school and medical family leave.",
@@ -17118,8 +17118,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761393,
-      "DB_Time": 1585320761393,
+      "dateAddedToTracker": 1585368992543,
+      "DB_Time": 1585368992543,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Supports 32BJ Service Employees International Union members seeking new contract.",
@@ -17192,8 +17192,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761397,
-      "DB_Time": 1585320761397,
+      "dateAddedToTracker": 1585368992554,
+      "DB_Time": 1585368992554,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave. ",
@@ -17523,8 +17523,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761404,
-      "DB_Time": 1585320761404,
+      "dateAddedToTracker": 1585368992563,
+      "DB_Time": 1585368992563,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave. ",
@@ -17730,8 +17730,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761411,
-      "DB_Time": 1585320761411,
+      "dateAddedToTracker": 1585368992571,
+      "DB_Time": 1585368992571,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18036,8 +18036,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761415,
-      "DB_Time": 1585320761415,
+      "dateAddedToTracker": 1585368992579,
+      "DB_Time": 1585368992579,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18190,8 +18190,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761421,
-      "DB_Time": 1585320761421,
+      "dateAddedToTracker": 1585368992587,
+      "DB_Time": 1585368992587,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -18271,8 +18271,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761426,
-      "DB_Time": 1585320761426,
+      "dateAddedToTracker": 1585368992595,
+      "DB_Time": 1585368992595,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides for school and medical family leave.",
@@ -18351,8 +18351,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761431,
-      "DB_Time": 1585320761431,
+      "dateAddedToTracker": 1585368992603,
+      "DB_Time": 1585368992603,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave.",
@@ -18436,8 +18436,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761437,
-      "DB_Time": 1585320761437,
+      "dateAddedToTracker": 1585368992614,
+      "DB_Time": 1585368992614,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -18527,8 +18527,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761442,
-      "DB_Time": 1585320761442,
+      "dateAddedToTracker": 1585368992622,
+      "DB_Time": 1585368992622,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave.*",
@@ -18755,8 +18755,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761447,
-      "DB_Time": 1585320761447,
+      "dateAddedToTracker": 1585368992648,
+      "DB_Time": 1585368992648,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18829,8 +18829,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761453,
-      "DB_Time": 1585320761453,
+      "dateAddedToTracker": 1585368992658,
+      "DB_Time": 1585368992658,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18903,8 +18903,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761458,
-      "DB_Time": 1585320761458,
+      "dateAddedToTracker": 1585368992667,
+      "DB_Time": 1585368992667,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -18984,8 +18984,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761462,
-      "DB_Time": 1585320761462,
+      "dateAddedToTracker": 1585368992678,
+      "DB_Time": 1585368992678,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -19060,8 +19060,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761467,
-      "DB_Time": 1585320761467,
+      "dateAddedToTracker": 1585368992686,
+      "DB_Time": 1585368992686,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides for school and medical family leave.",
@@ -19140,8 +19140,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761473,
-      "DB_Time": 1585320761473,
+      "dateAddedToTracker": 1585368992704,
+      "DB_Time": 1585368992704,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PAID FAMILY AND MEDICAL LEAVE ACT",
@@ -19246,8 +19246,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761477,
-      "DB_Time": 1585320761477,
+      "dateAddedToTracker": 1585368992865,
+      "DB_Time": 1585368992865,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PARENTAL PAID-LEAVE PROGRAM",
@@ -19389,8 +19389,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761482,
-      "DB_Time": 1585320761482,
+      "dateAddedToTracker": 1585368992935,
+      "DB_Time": 1585368992935,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -19595,8 +19595,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761487,
-      "DB_Time": 1585320761487,
+      "dateAddedToTracker": 1585368992954,
+      "DB_Time": 1585368992954,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -20113,8 +20113,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761492,
-      "DB_Time": 1585320761492,
+      "dateAddedToTracker": 1585368992970,
+      "DB_Time": 1585368992970,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -20216,8 +20216,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761497,
-      "DB_Time": 1585320761497,
+      "dateAddedToTracker": 1585368992981,
+      "DB_Time": 1585368992981,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -20684,8 +20684,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761503,
-      "DB_Time": 1585320761503,
+      "dateAddedToTracker": 1585368992989,
+      "DB_Time": 1585368992989,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave and siblings",
@@ -20767,8 +20767,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761508,
-      "DB_Time": 1585320761508,
+      "dateAddedToTracker": 1585368992997,
+      "DB_Time": 1585368992997,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to authorizing paid family leave for bereavement",
@@ -20866,8 +20866,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761513,
-      "DB_Time": 1585320761513,
+      "dateAddedToTracker": 1585368993005,
+      "DB_Time": 1585368993005,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
@@ -21044,8 +21044,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761521,
-      "DB_Time": 1585320761521,
+      "dateAddedToTracker": 1585368993014,
+      "DB_Time": 1585368993014,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to family medical leave and military families",
@@ -21127,8 +21127,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761527,
-      "DB_Time": 1585320761527,
+      "dateAddedToTracker": 1585368993024,
+      "DB_Time": 1585368993024,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave benefits",
@@ -21234,8 +21234,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761532,
-      "DB_Time": 1585320761532,
+      "dateAddedToTracker": 1585368993038,
+      "DB_Time": 1585368993038,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to dependent workers",
@@ -21326,8 +21326,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761537,
-      "DB_Time": 1585320761537,
+      "dateAddedToTracker": 1585368993047,
+      "DB_Time": 1585368993047,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
@@ -21443,8 +21443,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761543,
-      "DB_Time": 1585320761543,
+      "dateAddedToTracker": 1585368993056,
+      "DB_Time": 1585368993056,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to providing four weeks of leave for victims of abuse",
@@ -21615,8 +21615,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761548,
-      "DB_Time": 1585320761548,
+      "dateAddedToTracker": 1585368993064,
+      "DB_Time": 1585368993064,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave and siblings",
@@ -21822,8 +21822,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761556,
-      "DB_Time": 1585320761556,
+      "dateAddedToTracker": 1585368993074,
+      "DB_Time": 1585368993074,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to authorizing paid family leave for bereavement",
@@ -21914,8 +21914,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761561,
-      "DB_Time": 1585320761561,
+      "dateAddedToTracker": 1585368993087,
+      "DB_Time": 1585368993087,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
@@ -22011,8 +22011,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761566,
-      "DB_Time": 1585320761566,
+      "dateAddedToTracker": 1585368993098,
+      "DB_Time": 1585368993098,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to dependent workers",
@@ -22132,8 +22132,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761572,
-      "DB_Time": 1585320761572,
+      "dateAddedToTracker": 1585368993108,
+      "DB_Time": 1585368993108,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to providing four weeks of leave for victims of abuse",
@@ -22229,8 +22229,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761577,
-      "DB_Time": 1585320761577,
+      "dateAddedToTracker": 1585368993117,
+      "DB_Time": 1585368993117,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
@@ -22321,8 +22321,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761582,
-      "DB_Time": 1585320761582,
+      "dateAddedToTracker": 1585368993127,
+      "DB_Time": 1585368993127,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Commending Mario Cilento upon the occasion of being selected as an honoree for this year's Italian American Day on June 3, 2019",
@@ -22404,8 +22404,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761588,
-      "DB_Time": 1585320761588,
+      "dateAddedToTracker": 1585368993138,
+      "DB_Time": 1585368993138,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Calling for the ratification of the Equal Rights Amendment",
@@ -22503,8 +22503,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761594,
-      "DB_Time": 1585320761594,
+      "dateAddedToTracker": 1585368993148,
+      "DB_Time": 1585368993148,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave benefits",
@@ -22600,8 +22600,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761600,
-      "DB_Time": 1585320761600,
+      "dateAddedToTracker": 1585368993159,
+      "DB_Time": 1585368993159,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Authorizes paid family leave for bereavement",
@@ -22765,8 +22765,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761606,
-      "DB_Time": 1585320761606,
+      "dateAddedToTracker": 1585368993168,
+      "DB_Time": 1585368993168,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Memorializing Governor Andrew M. Cuomo to proclaim May 30, 2018, as Mother's Equal Pay Day in the State of New York",
@@ -22857,8 +22857,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761611,
-      "DB_Time": 1585320761611,
+      "dateAddedToTracker": 1585368993178,
+      "DB_Time": 1585368993178,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave benefits",
@@ -22940,8 +22940,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761617,
-      "DB_Time": 1585320761617,
+      "dateAddedToTracker": 1585368993187,
+      "DB_Time": 1585368993187,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
@@ -23028,8 +23028,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761623,
-      "DB_Time": 1585320761623,
+      "dateAddedToTracker": 1585368993196,
+      "DB_Time": 1585368993196,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Family and Medical Leave Act.",
@@ -23129,8 +23129,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761629,
-      "DB_Time": 1585320761629,
+      "dateAddedToTracker": 1585368993205,
+      "DB_Time": 1585368993205,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A concurrent resolution requesting the Legislative Management to consider studying the feasibility and desirability of implementing a paid family leave program structured to be beneficial to both families and businesses, including an analysis of how to make the program financially sound while being affordable for families and businesses; and a review of the data on usage rates from other states that have programs, which state agency would be best suited to administer the program, and policies required to ensure program success.",
@@ -23255,8 +23255,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761635,
-      "DB_Time": 1585320761642,
+      "dateAddedToTracker": 1585368993216,
+      "DB_Time": 1585368993232,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
@@ -23316,7 +23316,7 @@
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Dunnington"
+          "name": "Jason Dunnington"
         }
       ],
       "versions": [
@@ -23346,8 +23346,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585320761652,
-      "DB_Time": 1585320761659,
+      "dateAddedToTracker": 1585368993248,
+      "DB_Time": 1585368993261,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Labor; creating the Paid Family Leave Act; providing for family temporary disability insurance program. Effective date.",
@@ -23407,7 +23407,7 @@
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Dossett"
+          "name": "J.J. Dossett"
         }
       ],
       "versions": [
@@ -23437,8 +23437,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585320761666,
-      "DB_Time": 1585320761666,
+      "dateAddedToTracker": 1585368993273,
+      "DB_Time": 1585368993273,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; Disability Insurance Program; creating the Paid Family Leave Act of 2018; providing for certain eligibility for short-term disability plan; effective date.",
@@ -23507,7 +23507,7 @@
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Griffith"
+          "name": "Claudia Griffith"
         }
       ],
       "versions": [
@@ -23535,8 +23535,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761674,
-      "DB_Time": 1585320761674,
+      "dateAddedToTracker": 1585368993287,
+      "DB_Time": 1585368993287,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
@@ -23612,7 +23612,7 @@
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Dunnington"
+          "name": "Jason Dunnington"
         }
       ],
       "versions": [
@@ -23640,8 +23640,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761682,
-      "DB_Time": 1585320761970,
+      "dateAddedToTracker": 1585368993329,
+      "DB_Time": 1585368993776,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave program; establishment of program.",
@@ -23724,8 +23724,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585320761691,
-      "DB_Time": 1585320761691,
+      "dateAddedToTracker": 1585368993352,
+      "DB_Time": 1585368993352,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; State Employees Disability Program; providing for certain eligibility for short-term disability plan; effective date.",
@@ -23785,7 +23785,7 @@
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Inman"
+          "name": "Scott Inman"
         }
       ],
       "versions": [
@@ -23813,8 +23813,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761698,
-      "DB_Time": 1585320761698,
+      "dateAddedToTracker": 1585368993370,
+      "DB_Time": 1585368993370,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Labor; creating Paid Family Leave Act; making temporary disability insurance program. Effective date.",
@@ -23874,7 +23874,7 @@
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Dossett"
+          "name": "J.J. Dossett"
         }
       ],
       "versions": [
@@ -23902,8 +23902,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761705,
-      "DB_Time": 1585320761705,
+      "dateAddedToTracker": 1585368993384,
+      "DB_Time": 1585368993384,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to state financial administration; declaring an emergency.",
@@ -24042,8 +24042,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761711,
-      "DB_Time": 1585320761711,
+      "dateAddedToTracker": 1585368993395,
+      "DB_Time": 1585368993395,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Recognizing 2019 Oregon Women of Achievement.",
@@ -24349,8 +24349,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761718,
-      "DB_Time": 1585320761718,
+      "dateAddedToTracker": 1585368993407,
+      "DB_Time": 1585368993407,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to the long term care wage board; prescribing an effective date.",
@@ -24416,6 +24416,11 @@
       "sponsors": [
         {
           "leg_id": null,
+          "type": "cosponsor",
+          "name": "Shemia Fagan"
+        },
+        {
+          "leg_id": null,
           "type": "primary",
           "name": "Paul Holvey"
         },
@@ -24433,11 +24438,6 @@
           "leg_id": null,
           "type": "cosponsor",
           "name": "Alissa Keny-Guyer"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Shemia Fagan"
         },
         {
           "leg_id": null,
@@ -24470,8 +24470,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761726,
-      "DB_Time": 1585320761726,
+      "dateAddedToTracker": 1585368993443,
+      "DB_Time": 1585368993443,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to a paid family leave tax credit for employers; prescribing an effective date.",
@@ -24559,8 +24559,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761732,
-      "DB_Time": 1585320761732,
+      "dateAddedToTracker": 1585368993455,
+      "DB_Time": 1585368993455,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to family leave benefits insurance; providing for revenue raising that requires approval by a three-fifths majority.",
@@ -24642,8 +24642,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761739,
-      "DB_Time": 1585320761739,
+      "dateAddedToTracker": 1585368993464,
+      "DB_Time": 1585368993464,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A Resolution designating the week of October 21 through 27, 2019, as \"Business Women's Week\" in Pennsylvania.",
@@ -24812,8 +24812,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761745,
-      "DB_Time": 1585320761745,
+      "dateAddedToTracker": 1585368993473,
+      "DB_Time": 1585368993473,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -24921,8 +24921,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761751,
-      "DB_Time": 1585320761751,
+      "dateAddedToTracker": 1585368993484,
+      "DB_Time": 1585368993484,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
@@ -25230,8 +25230,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761757,
-      "DB_Time": 1585320761757,
+      "dateAddedToTracker": 1585368993493,
+      "DB_Time": 1585368993493,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
@@ -25414,8 +25414,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761764,
-      "DB_Time": 1585320761764,
+      "dateAddedToTracker": 1585368993503,
+      "DB_Time": 1585368993503,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -25723,8 +25723,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761771,
-      "DB_Time": 1585320761771,
+      "dateAddedToTracker": 1585368993513,
+      "DB_Time": 1585368993513,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -25771,18 +25771,18 @@
       "sponsors": [
         {
           "leg_id": null,
+          "type": "cosponsor",
+          "name": "Judith L. Schwank"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Wayne D. Fontana"
+        },
+        {
+          "leg_id": null,
           "type": "primary",
-          "name": "Leach"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Fontana"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Schwank"
+          "name": "Daylin Leach"
         }
       ],
       "versions": [
@@ -25822,8 +25822,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761777,
-      "DB_Time": 1585320761777,
+      "dateAddedToTracker": 1585368993523,
+      "DB_Time": 1585368993523,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -25870,58 +25870,8 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Briggs"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Dean"
-        },
-        {
-          "leg_id": null,
           "type": "cosponsor",
           "name": "O'Brien"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Rabb"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Thomas"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Driscoll"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Schlossberg"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Youngblood"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Frankel"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Kinsey"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Solomon"
         },
         {
           "leg_id": null,
@@ -25932,11 +25882,6 @@
           "leg_id": null,
           "type": "cosponsor",
           "name": "Donatucci"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Madden"
         },
         {
           "leg_id": null,
@@ -25960,18 +25905,73 @@
         },
         {
           "leg_id": null,
-          "type": "cosponsor",
-          "name": "Wheatley"
+          "type": "primary",
+          "name": "Tim Briggs"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Kim"
+          "name": "Madeleine Dean"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Rozzi"
+          "name": "Michael J. Driscoll"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Dan Frankel"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Patty Kim"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Stephen Kinsey"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Maureen E. Madden"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Christopher M. Rabb"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Mark Rozzi"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Michael H. Schlossberg"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Jared G. Solomon"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "W. Curtis Thomas"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Jake Wheatley"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Rosita C. Youngblood"
         }
       ],
       "versions": [
@@ -26011,8 +26011,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761783,
-      "DB_Time": 1585320761783,
+      "dateAddedToTracker": 1585368993541,
+      "DB_Time": 1585368993541,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
@@ -26296,8 +26296,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761790,
-      "DB_Time": 1585320761790,
+      "dateAddedToTracker": 1585368993552,
+      "DB_Time": 1585368993552,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
@@ -26401,8 +26401,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761796,
-      "DB_Time": 1585320761796,
+      "dateAddedToTracker": 1585368993565,
+      "DB_Time": 1585368993565,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "revise certain leave policies for state employees.",
@@ -26651,8 +26651,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761803,
-      "DB_Time": 1585320761803,
+      "dateAddedToTracker": 1585368993575,
+      "DB_Time": 1585368993575,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
@@ -26812,8 +26812,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761811,
-      "DB_Time": 1585320761811,
+      "dateAddedToTracker": 1585368993590,
+      "DB_Time": 1585368993590,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
@@ -26973,8 +26973,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761825,
-      "DB_Time": 1585320761825,
+      "dateAddedToTracker": 1585368993605,
+      "DB_Time": 1585368993605,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
@@ -27128,8 +27128,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761839,
-      "DB_Time": 1585320761839,
+      "dateAddedToTracker": 1585368993614,
+      "DB_Time": 1585368993614,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
@@ -27283,8 +27283,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761851,
-      "DB_Time": 1585320761851,
+      "dateAddedToTracker": 1585368993624,
+      "DB_Time": 1585368993624,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
@@ -27439,8 +27439,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761861,
-      "DB_Time": 1585320761861,
+      "dateAddedToTracker": 1585368993645,
+      "DB_Time": 1585368993645,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
@@ -27595,8 +27595,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761871,
-      "DB_Time": 1585320761871,
+      "dateAddedToTracker": 1585368993654,
+      "DB_Time": 1585368993654,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to employee rights and protections; providing a civil penalty.",
@@ -27638,17 +27638,7 @@
         {
           "leg_id": null,
           "type": "primary",
-          "name": "Arévalo"
-        },
-        {
-          "leg_id": null,
-          "type": "primary",
           "name": "Turner"
-        },
-        {
-          "leg_id": null,
-          "type": "primary",
-          "name": "Alonzo"
         },
         {
           "leg_id": null,
@@ -27658,12 +27648,22 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Reynolds"
+          "name": "Rose"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Rose"
+          "name": "Ron Reynolds"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Diana Arévalo"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Roberto R. Alonzo"
         }
       ],
       "versions": [
@@ -27700,8 +27700,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761878,
-      "DB_Time": 1585320761878,
+      "dateAddedToTracker": 1585368993665,
+      "DB_Time": 1585368993665,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "House Resolution Encouraging Expanded Family Leave Benefits and Quality, Affordable Child Care",
@@ -27844,8 +27844,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761886,
-      "DB_Time": 1585320761887,
+      "dateAddedToTracker": 1585368993676,
+      "DB_Time": 1585368993676,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family and medical leave",
@@ -28890,8 +28890,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761903,
-      "DB_Time": 1585320761903,
+      "dateAddedToTracker": 1585368993688,
+      "DB_Time": 1585368993688,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
@@ -29005,8 +29005,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761915,
-      "DB_Time": 1585320761915,
+      "dateAddedToTracker": 1585368993701,
+      "DB_Time": 1585368993701,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to voluntary family and medical leave insurance",
@@ -29103,8 +29103,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761927,
-      "DB_Time": 1585320761927,
+      "dateAddedToTracker": 1585368993713,
+      "DB_Time": 1585368993713,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
@@ -29316,8 +29316,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761937,
-      "DB_Time": 1585320761937,
+      "dateAddedToTracker": 1585368993724,
+      "DB_Time": 1585368993724,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family leave",
@@ -29476,8 +29476,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761947,
-      "DB_Time": 1585320761947,
+      "dateAddedToTracker": 1585368993735,
+      "DB_Time": 1585368993735,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family leave",
@@ -29950,13 +29950,43 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Matthew Trieber"
+          "type": "cosponsor",
+          "name": "Ann Pugh"
         },
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Samuel Young"
+          "type": "cosponsor",
+          "name": "Barbara Rachelson"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Brian Cina"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Cynthia Weed"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Daniel Connor"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "David Sharpe"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Diana Gonzalez"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Johannah Donovan"
         },
         {
           "leg_id": null,
@@ -29971,26 +30001,6 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Scott Beck"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Paul Belaski"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Timothy Briglin"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Susan Buckholz"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
           "name": "Mollie Burke"
         },
         {
@@ -30001,17 +30011,17 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Brian Cina"
+          "name": "Alice Miller"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Selene Colburn"
+          "name": "Emily Long"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Daniel Connor"
+          "name": "Francis McFaun"
         },
         {
           "leg_id": null,
@@ -30021,32 +30031,7 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Johannah Donovan"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
           "name": "Elizabeth Dunn"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Rachael Fields"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Diana Gonzalez"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Michael Hebert"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Matthew Hill"
         },
         {
           "leg_id": null,
@@ -30061,22 +30046,7 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Jill Krowinski"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
           "name": "William Lippert"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Emily Long"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Terence Macaig"
         },
         {
           "leg_id": null,
@@ -30091,36 +30061,6 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "James McCullough"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Francis McFaun"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Alice Miller"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Ruqaiyah \"Kiah\" Morris"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Michael Mrowicki"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Jean O'Sullivan"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
           "name": "Carolyn Partridge"
         },
         {
@@ -30131,27 +30071,82 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Ann Pugh"
+          "name": "James McCullough"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Barbara Rachelson"
+          "name": "Jean O'Sullivan"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "David Sharpe"
+          "name": "Jill Krowinski"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Trevor Squirrell"
+          "name": "Matthew Hill"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Matthew Trieber"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Thomas Stevens"
+          "name": "Michael Hebert"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Michael Mrowicki"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Paul Belaski"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Rachael Fields"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Ruqaiyah \"Kiah\" Morris"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Samuel Young"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Scott Beck"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Selene Colburn"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Susan Buckholz"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Terence Macaig"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Timothy Briglin"
         },
         {
           "leg_id": null,
@@ -30161,7 +30156,7 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Mary Sullivan"
+          "name": "Janssen Willhoit"
         },
         {
           "leg_id": null,
@@ -30171,7 +30166,7 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Tristan Toleno"
+          "name": "Less…"
         },
         {
           "leg_id": null,
@@ -30181,27 +30176,12 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Tommy Walz"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
           "name": "Kathryn Webb"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Cynthia Weed"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Janssen Willhoit"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Theresa Wood"
+          "name": "Mary Sullivan"
         },
         {
           "leg_id": null,
@@ -30211,7 +30191,27 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Less…"
+          "name": "Theresa Wood"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Thomas Stevens"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Tommy Walz"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Trevor Squirrell"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Tristan Toleno"
         }
       ],
       "versions": [
@@ -30275,8 +30275,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761960,
-      "DB_Time": 1585320761960,
+      "dateAddedToTracker": 1585368993755,
+      "DB_Time": 1585368993755,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family leave",
@@ -30326,8 +30326,8 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Michael Sirotkin"
+          "type": "cosponsor",
+          "name": "Alison Clarkson"
         },
         {
           "leg_id": null,
@@ -30347,11 +30347,6 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Alison Clarkson"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
           "name": "Deborah Ingram"
         },
         {
@@ -30363,6 +30358,11 @@
           "leg_id": null,
           "type": "cosponsor",
           "name": "Less…"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Michael Sirotkin"
         }
       ],
       "versions": [
@@ -30390,8 +30390,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320761978,
-      "DB_Time": 1585320761978,
+      "dateAddedToTracker": 1585368993794,
+      "DB_Time": 1585368993794,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave; Commissioner of Labor and Industry to develop an implementation plan for program.",
@@ -30441,13 +30441,13 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Barbara A. Favola"
+          "type": "cosponsor",
+          "name": "Kaye Kory"
         },
         {
           "leg_id": null,
-          "type": "cosponsor",
-          "name": "Kaye Kory"
+          "type": "primary",
+          "name": "Barbara A. Favola"
         }
       ],
       "versions": [
@@ -30478,8 +30478,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762038,
-      "DB_Time": 1585320762038,
+      "dateAddedToTracker": 1585368993830,
+      "DB_Time": 1585368993830,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
@@ -30874,8 +30874,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762066,
-      "DB_Time": 1585320762066,
+      "dateAddedToTracker": 1585368993853,
+      "DB_Time": 1585368993853,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
@@ -31067,8 +31067,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762078,
-      "DB_Time": 1585320762078,
+      "dateAddedToTracker": 1585368993869,
+      "DB_Time": 1585368993869,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Expanding accessible, affordable child care and early childhood development programs.",
@@ -31472,8 +31472,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762091,
-      "DB_Time": 1585320762091,
+      "dateAddedToTracker": 1585368993882,
+      "DB_Time": 1585368993882,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
@@ -31703,8 +31703,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762106,
-      "DB_Time": 1585320762106,
+      "dateAddedToTracker": 1585368993902,
+      "DB_Time": 1585368993902,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
@@ -32217,8 +32217,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762116,
-      "DB_Time": 1585320762116,
+      "dateAddedToTracker": 1585368993914,
+      "DB_Time": 1585368993914,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Addressing paid family leave.",
@@ -32294,53 +32294,53 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Fain"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Hobbs"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Braun"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Palumbo"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Baumgartner"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Warnick"
-        },
-        {
-          "leg_id": null,
           "type": "cosponsor",
           "name": "Walsh"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Miloscia"
+          "name": "John Braun"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Zeiger"
+          "name": "Steve Hobbs"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Rivers"
+          "name": "Ann Rivers"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Michael Baumgartner"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Joe Fain"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Mark Miloscia"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Guy Palumbo"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Judy Warnick"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Hans Zeiger"
         }
       ],
       "versions": [
@@ -32388,8 +32388,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762125,
-      "DB_Time": 1585320762125,
+      "dateAddedToTracker": 1585368993926,
+      "DB_Time": 1585368993926,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Addressing paid family leave.",
@@ -32488,23 +32488,23 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Fain"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Keiser"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Conway"
-        },
-        {
-          "leg_id": null,
           "type": "cosponsor",
           "name": "Hunt"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Joe Fain"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Karen Keiser"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Steve Conway"
         }
       ],
       "versions": [
@@ -32555,8 +32555,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762137,
-      "DB_Time": 1585320762137,
+      "dateAddedToTracker": 1585368993968,
+      "DB_Time": 1585368993968,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to paid family and medical leave.",
@@ -32768,83 +32768,83 @@
       "sponsors": [
         {
           "leg_id": null,
+          "type": "cosponsor",
+          "name": "Marko Liias"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Steve Hobbs"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "John McCoy"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Mark Miloscia"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Sharon Nelson"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Guy Palumbo"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Jamie Pedersen"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Maralyn Chase"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Annette Cleveland"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Steve Conway"
+        },
+        {
+          "leg_id": null,
           "type": "primary",
-          "name": "Fain"
+          "name": "Joe Fain"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Liias"
+          "name": "Karen Keiser"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Keiser"
+          "name": "Mark Mullet"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Saldaña"
+          "name": "Kevin Ranker"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Miloscia"
+          "name": "Rebecca Saldaña"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Cleveland"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "McCoy"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Nelson"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Ranker"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Conway"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Mullet"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Hobbs"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Takko"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Palumbo"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Pedersen"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Chase"
+          "name": "Dean Takko"
         }
       ],
       "versions": [
@@ -32917,8 +32917,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762148,
-      "DB_Time": 1585320762148,
+      "dateAddedToTracker": 1585368993996,
+      "DB_Time": 1585368993996,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating generally to the payment of salary or wages under the Parental Leave Act",
@@ -33050,8 +33050,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585320762158,
-      "DB_Time": 1585320762175,
+      "dateAddedToTracker": 1585368994009,
+      "DB_Time": 1585368994036,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating generally to paid family and medical leave",
@@ -33119,28 +33119,28 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Estep-Burton"
-        },
-        {
-          "leg_id": null,
           "type": "cosponsor",
           "name": "Thompson, C."
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Lavender-Bowe"
+          "name": "Cindy Lavender-Bowe"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Amanda Estep-Burton"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Doyle"
+          "name": "Rodney A. Pyles"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Pyles"
+          "name": "John Doyle"
         }
       ],
       "versions": [
@@ -33172,8 +33172,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585320762166,
-      "DB_Time": 1585320762166,
+      "dateAddedToTracker": 1585368994023,
+      "DB_Time": 1585368994023,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Requesting study creating paid family and medical leave insurance program",
@@ -33292,18 +33292,8 @@
       "sponsors": [
         {
           "leg_id": null,
-          "type": "primary",
-          "name": "Lindsay"
-        },
-        {
-          "leg_id": null,
           "type": "cosponsor",
           "name": "Azinger"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
-          "name": "Facemire"
         },
         {
           "leg_id": null,
@@ -33313,67 +33303,77 @@
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Ihlenfeld"
-        },
-        {
-          "leg_id": null,
-          "type": "cosponsor",
           "name": "Jeffries"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Palumbo"
+          "name": "Roman Prezioso"
+        },
+        {
+          "leg_id": null,
+          "type": "primary",
+          "name": "Richard Lindsay"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Plymale"
+          "name": "Mike Romano"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Prezioso"
+          "name": "Corey Palumbo"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Romano"
+          "name": "Mike Woelfel"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Stollings"
+          "name": "Bill Hamilton"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Takubo"
+          "name": "John R. Unger II"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Unger"
+          "name": "Robert H. Plymale"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Woelfel"
+          "name": "Douglas E. Facemire"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Baldwin"
+          "name": "Tom Takubo"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Hamilton"
+          "name": "William Ihlenfeld"
         },
         {
           "leg_id": null,
           "type": "cosponsor",
-          "name": "Maroney"
+          "name": "Mike Maroney"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Stephen Baldwin"
+        },
+        {
+          "leg_id": null,
+          "type": "cosponsor",
+          "name": "Ron Stollings"
         }
       ],
       "versions": [
