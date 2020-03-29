@@ -61,7 +61,7 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
 });
 
 function generateHTML(data, index) {
-  console.log("🍧 ", index, data)
+  // console.log("🍧 ", index, data)
 
   let billPassed = data.actions.filter(house => {
     let found = false;
@@ -315,7 +315,7 @@ const loadBills = () => {
     })
       .then(r => r.json())
       .then(json => {
-        console.log("This is my JSON",json)
+        // console.log("This is my JSON",json)
 
         newBillsAdded = json.filter(bill => {
           return bill.isBillNew === true;
@@ -342,8 +342,7 @@ const loadBills = () => {
         majorUpdatesCount.innerHTML = `Major Updates (${
           Object.keys(billsWithMajorUpdates).length
         })`;
-        // pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
-        // pageUpdatedTime.innerHTML = `Information Updated ${pageUpdatedAt[pageUpdatedAt.length - 1].dbUpdatedTime}`;
+        
          pageUpdatedTime.innerHTML = `Information Updated ${json[0].dbUpdatedTime}`;
 
         var removed = json.splice(0,1);
