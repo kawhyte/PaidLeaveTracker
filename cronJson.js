@@ -23,7 +23,7 @@ let state = [
 
 function getData() {
   try {
-    console.log("Waiting on Cron...");
+    console.log("Waiting on for Cron...");
     cron.schedule("*/6 * * * *", () => {
       // cron.schedule("05 0,12,15 * * SUN-SAT", () => {
       console.log("running a cron every XX minute");
@@ -36,17 +36,7 @@ function getData() {
   }
 }
 
-console.log("Loaded cronJson");
-
-var result = differenceInCalendarDays(
-  new Date(Date.now()),
-  new Date(1583776202805)
-);
-
-var result2 = format(new Date(Date.now()), "MM/dd/yyyy:HH:mm:ss");
-console.log(result2);
-console.log("⏲️ Date Diff", result);
-
+console.log("Loading cron job");
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -64,7 +54,7 @@ const getUsers = async function(pageNo = 0) {
   
     return resp.json();
   });
-  console.log("zzzzzzz...sleeping for 4 seconds" );
+  console.log("💤 🛌...I am sleeping for 4 seconds" );
     await sleep(4000);
   return apiResults;
 };
@@ -157,7 +147,7 @@ function addToJsonFile(entireList) {
           notificationSent: false
         })
         .write();
-      console.log("🌈 Undefined - new record added");
+      console.log("🌈 New record added");
     } else if (_.isEqual(value.bill_id, entireList[index].bill_id)) {
       if (
         !_.isEqual(value.actions, entireList[index].actions) ||
@@ -202,11 +192,29 @@ function addToJsonFile(entireList) {
           })
           .write();
 
-        console.log("Updated ");
+     console.log(`Updated at ${Date.now()}  👍🏾`, );
       }
     }
-  }
+
   
+        
+
+
+  }
+   db.get("bills").push({
+     
+    New_DB_Time: Date.now(),
+    action_dates: {
+      "first": "2099-02-19 00:00:00",
+      "last": "2099-03-09 00:00:00",
+      "passed_upper": null,
+      "passed_lower": null,
+      "signed": null
+    }
+  
+  
+  }).write(); 
+   console.log(`Time Updated ⏲️`, );  
   // db.get('bills')
   // .push({ DB_Time: Date.now(), action_dates: {first : Date.now()} })
   // .write()

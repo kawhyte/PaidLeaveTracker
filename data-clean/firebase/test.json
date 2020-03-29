@@ -1,8 +1,8 @@
 {
   "bills": [
     {
-      "dateAddedToTracker": 1585368991954,
-      "DB_Time": 1585368991954,
+      "dateAddedToTracker": 1585513006390,
+      "DB_Time": 1585513006390,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "paid family leave",
@@ -191,8 +191,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991958,
-      "DB_Time": 1585368991958,
+      "dateAddedToTracker": 1585513006390,
+      "DB_Time": 1585513006390,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "employers; paid family leave",
@@ -340,8 +340,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991962,
-      "DB_Time": 1585368991962,
+      "dateAddedToTracker": 1585513006396,
+      "DB_Time": 1585513006396,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "state employees; paid family leave",
@@ -485,8 +485,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991963,
-      "DB_Time": 1585368991963,
+      "dateAddedToTracker": 1585513006396,
+      "DB_Time": 1585513006396,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "state employees; paid family leave",
@@ -715,14 +715,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991964,
-      "DB_Time": 1585368991964,
+      "dateAddedToTracker": 1585513006396,
+      "DB_Time": 1585513006396,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave: school closures: COVID-19.",
       "summary": " Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified.\n\nThis bill would, until January 1, 2021, also authorize wage replacement benefits to workers who take time off work to care for a minor child whose school has been closed due to the COVID-19 virus outbreak.\n\nThe bill would require that any additional costs associated with the extension of wage replacement benefits in these provisions be paid from the General Fund, upon appropriation by the Legislature.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
       "created_at": "2020-02-11 06:17:33",
-      "updated_at": "2020-03-27 09:17:58",
+      "updated_at": "2020-03-29 12:16:32",
       "id": "",
       "all_ids": [
         ""
@@ -769,11 +769,11 @@
           "date": "2020-03-26 00:00:00",
           "action": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on RLS.",
           "type": [
-            "bill:reading:1",
-            "committee:referred",
+            "amendment:passed",
             "committee:passed",
+            "committee:referred",
             "bill:reading:2",
-            "amendment:passed"
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -832,8 +832,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991965,
-      "DB_Time": 1585368991965,
+      "dateAddedToTracker": 1585513006397,
+      "DB_Time": 1585513006397,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave: qualifying exigency.",
@@ -927,14 +927,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991966,
-      "DB_Time": 1585368991966,
+      "dateAddedToTracker": 1585513006397,
+      "DB_Time": 1585513006397,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave.",
       "summary": "(1) Existing law prohibits an employer with 50 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee worked 1,250 hours in the prior 12 months. Existing law includes within \"family care and medical leave\" the birth, adoption, or foster care placement of a child and the serious health condition of the employee's child, parent, or spouse.\n\nThis bill would expand the scope of those provisions to instead prohibit an employer with 5 or more employees to refuse to grant an employee a request to take up to 12 weeks of unpaid leave for family care and medical leave if the employee had 180 days of service with the employer. The bill would expand the definition of \"family care and medical leave\" to include leave for reason of the birth or placement of a child if the employee has identified the child as their designated person, as defined, leave to care for a grandparent, grandchild, sibling, domestic partner, or designated person who has a serious health condition, and leave because of a qualifying exigency related to the covered active duty or call to covered active duty of an employee's spouse, domestic partner, child, or parent in the Armed Forces of the United States. The bill would delete a provision specifying that, if both parents are employed by the employer and are entitled to leave, the employer is not required to grant leave in connection with the birth, adoption, or foster care of a child that is greater than 12 weeks.\n\n(2) Existing law, the New Parent Leave Act, prohibits an employer with 20 or more employees in a 75-mile radius to refuse to grant an employee a request to take up to 12 weeks of unpaid leave to bond with a new child within one year of the birth, adoption, or foster care placement of the child if the employee worked 1,250 hours in the prior 12 months.\n\nThis bill would repeal those provisions.\n\n(3) Existing law establishes within the state disability insurance program a family temporary disability insurance program, also known as the Paid Family Leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified, and, on and after January 1, 2021, to take time off to participate in a qualifying exigency related to the covered active duty or call to covered active duty of the individuals' spouse, domestic partner, child, or parent in the Armed Forces of the United States.\n\nThis bill would expand the scope of those provisions to include time off to care for a seriously ill designated person or child-in-law, as those terms are defined, or to bond with a designated person or child-in-law within one year of the birth or placement of the designated person or child-in-law.\n\n(4) Existing law makes an individual ineligible for family temporary disability insurance benefits on any day that another family member is ready, willing, able, and available to provide the required care or participate in the qualified exigency, as specified. Existing law authorizes an employer to require an employee to take up to 2 weeks of vacation leave before the employee receives the benefits.\n\nThis bill would delete those provisions.\n\n(5) Under existing law, workers are required to pay contributions to the Unemployment Compensation Disability Fund, a special fund in the State Treasury, and those funds are continuously appropriated for the purpose of providing disability benefits and making payment of administrative expenses.\n\nBy authorizing the expenditure of these funds for a new purpose, the bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:38",
-      "updated_at": "2020-03-27 09:16:17",
+      "updated_at": "2020-03-29 12:17:52",
       "id": "",
       "all_ids": [
         ""
@@ -982,11 +982,11 @@
           "date": "2019-03-25 00:00:00",
           "action": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on RLS.",
           "type": [
-            "bill:reading:1",
-            "committee:referred",
+            "amendment:passed",
             "committee:passed",
+            "committee:referred",
             "bill:reading:2",
-            "amendment:passed"
+            "bill:reading:1"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1025,9 +1025,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 4. Noes 1. Page 800.) (April 24). Re-referred to Com. on APPR.",
           "type": [
+            "committee:passed",
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1057,8 +1057,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 4. Noes 2. Page 1090.) (May 16).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1151,14 +1151,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991967,
-      "DB_Time": 1585368991967,
+      "dateAddedToTracker": 1585513006398,
+      "DB_Time": 1585513006398,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability insurance: paid family leave program.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions. \n\nExisting law establishes, within the state disability insurance program, the family temporary disability insurance program, also known as the paid family leave program, for the provision of up to 6 weeks of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of the birth or placement of the child in connection with foster care or adoption. Existing law limits the temporary disability benefits paid under these provisions to not more than 6 weeks within any 12-month period. \n\nThis bill would authorize up to 12 weeks of temporary disability benefits in a 12-month period, but would limit each disability benefit period to 6 weeks of temporary disability benefits.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-22 18:07:50",
-      "updated_at": "2020-03-27 09:19:53",
+      "updated_at": "2020-03-29 12:17:17",
       "id": "",
       "all_ids": [
         ""
@@ -1205,9 +1205,9 @@
           "date": "2019-03-25 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on L. & E. Read second time and amended.",
           "type": [
-            "bill:reading:1",
             "bill:reading:2",
             "amendment:introduced",
+            "bill:reading:1",
             "amendment:passed"
           ],
           "related_entities": [],
@@ -1226,9 +1226,9 @@
           "date": "2019-04-04 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on INS. (Ayes 5. Noes 1.) (April 3). Re-referred to Com. on INS.",
           "type": [
+            "committee:passed",
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1237,9 +1237,9 @@
           "date": "2019-04-22 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
-            "bill:reading:1",
             "bill:reading:2",
             "amendment:introduced",
+            "bill:reading:1",
             "amendment:passed"
           ],
           "related_entities": [],
@@ -1258,9 +1258,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 14. Noes 0.) (April 24). Re-referred to Com. on APPR.",
           "type": [
+            "committee:passed",
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1294,8 +1294,8 @@
           "date": "2020-02-03 00:00:00",
           "action": "From committee: Filed with the Chief Clerk pursuant to Joint Rule 56.",
           "type": [
-            "bill:failed",
-            "committee:passed"
+            "committee:passed",
+            "bill:failed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1360,14 +1360,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991968,
-      "DB_Time": 1585368991968,
+      "dateAddedToTracker": 1585513006398,
+      "DB_Time": 1585513006398,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave: application in non-English languages.",
       "summary": "The Dymally-Alatorre Bilingual Services Act requires a state agency that finds specific factors to exist to distribute certain written materials in the appropriate non-English language through its statewide and local offices or facilities to non-English-speaking persons, or, as an alternative, to furnish translation aids, translation guides, or provide assistance, through use of a qualified bilingual person, at its statewide and local offices or facilities in completing English forms or questionnaires and in understanding English forms, letters, or notices.\n\nExisting law establishes, within the state disability insurance program administered by the Employment Development Department, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified.\n\nThis bill, beginning January 1, 2025, would require the department to distribute the application for family temporary disability insurance benefits, in addition to the application in English, in all non-English languages spoken by a substantial number of non-English-speaking applicants, as defined.",
       "created_at": "2019-02-16 06:06:42",
-      "updated_at": "2020-03-27 09:18:46",
+      "updated_at": "2020-03-29 12:19:11",
       "id": "",
       "all_ids": [
         ""
@@ -1413,9 +1413,9 @@
           "date": "2019-03-26 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
-            "bill:reading:1",
             "bill:reading:2",
             "amendment:introduced",
+            "bill:reading:1",
             "amendment:passed"
           ],
           "related_entities": [],
@@ -1434,9 +1434,9 @@
           "date": "2019-04-22 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
-            "bill:reading:1",
             "bill:reading:2",
             "amendment:introduced",
+            "bill:reading:1",
             "amendment:passed"
           ],
           "related_entities": [],
@@ -1455,9 +1455,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 14. Noes 0.) (April 24). Re-referred to Com. on APPR.",
           "type": [
+            "committee:passed",
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1475,8 +1475,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 18. Noes 0.) (May 16).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1495,9 +1495,9 @@
           "date": "2019-05-23 00:00:00",
           "action": "Read third time. Passed. Ordered to the Senate. (Ayes 77. Noes 0. Page 1866.)",
           "type": [
-            "bill:passed",
             "bill:reading:1",
-            "bill:reading:3"
+            "bill:reading:3",
+            "bill:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1524,9 +1524,9 @@
           "date": "2019-06-19 00:00:00",
           "action": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 5. Noes 0.) (June 19).",
           "type": [
-            "amendment:introduced",
             "committee:passed",
-            "amendment:passed"
+            "amendment:passed",
+            "amendment:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1535,9 +1535,9 @@
           "date": "2019-06-20 00:00:00",
           "action": "Read second time and amended. Re-referred to Com. on APPR.",
           "type": [
+            "bill:reading:2",
             "bill:reading:1",
             "committee:referred",
-            "bill:reading:2",
             "amendment:passed"
           ],
           "related_entities": [],
@@ -1556,8 +1556,8 @@
           "date": "2019-08-30 00:00:00",
           "action": "From committee: Do pass. (Ayes 7. Noes 0.) (August 30).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1583,9 +1583,9 @@
           "date": "2019-09-09 00:00:00",
           "action": "Read third time. Passed. Ordered to the Assembly. (Ayes 40. Noes 0. Page 2711.).",
           "type": [
-            "bill:passed",
             "bill:reading:1",
-            "bill:reading:3"
+            "bill:reading:3",
+            "bill:passed"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -1608,8 +1608,8 @@
           "date": "2019-09-10 00:00:00",
           "action": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 79. Noes 0. Page 3295.).",
           "type": [
-            "committee:passed:favorable",
-            "amendment:passed"
+            "amendment:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1725,14 +1725,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991969,
-      "DB_Time": 1585368991969,
+      "dateAddedToTracker": 1585513006399,
+      "DB_Time": 1585513006399,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave.",
       "summary": "Existing unemployment compensation disability law requires workers to pay contribution rates based on, among other things, wages received in employment and benefit disbursement, for payment into the Unemployment Compensation Disability Fund, a special fund in the State Treasury. That fund is continuously appropriated for the purpose of providing disability benefits and making payment of expenses in administering those provisions.\n\nExisting law establishes, within the state disability insurance program, a family temporary disability insurance program, also known as the paid family leave program, for the provision of wage replacement benefits for up to 6 weeks to workers who take time off work to care for a seriously ill family member or to bond with a minor child within one year of birth or placement, as specified. Existing law defines \"weekly benefit amount\" for purposes of both employee contributions and benefits under this program to mean the amount of weekly benefits available to qualifying disabled individuals pursuant to unemployment compensation disability law, calculated pursuant to specified formulas partly based on the applicable percentage of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, but not to exceed the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nThis bill would revise the formula for determining benefits available pursuant to the family temporary disability insurance program, for periods of disability commencing after January 1, 2020, by redefining the weekly benefit amount to be equal to 100% of the wages paid to an individual for employment by employers during the quarter of the individual's disability base period in which these wages were highest, divided by 13, but not exceeding the maximum workers' compensation temporary disability indemnity weekly benefit amount established by the Department of Industrial Relations.\n\nBy providing for the deposit of additional contributions in, and by authorizing an increase in disbursements from, the Unemployment Compensation Disability Fund, this bill would make an appropriation.",
       "created_at": "2019-02-16 06:06:44",
-      "updated_at": "2020-03-27 09:18:38",
+      "updated_at": "2020-03-29 12:17:40",
       "id": "",
       "all_ids": [
         ""
@@ -1779,9 +1779,9 @@
           "date": "2019-03-26 00:00:00",
           "action": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
           "type": [
-            "bill:reading:1",
             "bill:reading:2",
             "amendment:introduced",
+            "bill:reading:1",
             "amendment:passed"
           ],
           "related_entities": [],
@@ -1800,9 +1800,9 @@
           "date": "2019-04-24 00:00:00",
           "action": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 12. Noes 1.) (April 24). Re-referred to Com. on APPR.",
           "type": [
+            "committee:passed",
             "committee:referred",
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1820,8 +1820,8 @@
           "date": "2019-05-16 00:00:00",
           "action": "From committee: Do pass. (Ayes 14. Noes 1.) (May 16).",
           "type": [
-            "committee:passed:favorable",
-            "committee:passed"
+            "committee:passed",
+            "committee:passed:favorable"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1840,9 +1840,9 @@
           "date": "2019-05-23 00:00:00",
           "action": "Read third time. Passed. Ordered to the Senate. (Ayes 66. Noes 7. Page 1858.)",
           "type": [
-            "bill:passed",
             "bill:reading:1",
-            "bill:reading:3"
+            "bill:reading:3",
+            "bill:passed"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -1917,8 +1917,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991969,
-      "DB_Time": 1585368991969,
+      "dateAddedToTracker": 1585513006399,
+      "DB_Time": 1585513006399,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave.",
@@ -2286,8 +2286,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991971,
-      "DB_Time": 1585368991971,
+      "dateAddedToTracker": 1585513006400,
+      "DB_Time": 1585513006400,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave.",
@@ -2532,8 +2532,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991972,
-      "DB_Time": 1585368991972,
+      "dateAddedToTracker": 1585513006400,
+      "DB_Time": 1585513006400,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Disability compensation: paid family leave.",
@@ -2729,8 +2729,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991978,
-      "DB_Time": 1585368991978,
+      "dateAddedToTracker": 1585513006401,
+      "DB_Time": 1585513006401,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Unemployment compensation: disability benefits: paid family leave.",
@@ -3109,8 +3109,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991980,
-      "DB_Time": 1585368991980,
+      "dateAddedToTracker": 1585513006402,
+      "DB_Time": 1585513006402,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Unemployment compensation: disability benefits: paid family leave.",
@@ -3292,8 +3292,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991982,
-      "DB_Time": 1585368991982,
+      "dateAddedToTracker": 1585513006403,
+      "DB_Time": 1585513006403,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMLI Family Medical Leave Insurance Program",
@@ -3677,14 +3677,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991983,
-      "DB_Time": 1585368991983,
+      "dateAddedToTracker": 1585513006403,
+      "DB_Time": 1585513006403,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Interest Arbitration Award and Collective Bargaining Agreement between the District of Columbia Public Schools and the Office of the State Superintendent of Education and the American Federation of State, County and Municipal Employees, District Council 20, Local 2921, AFL-CIO Emergency Approval of 2020",
       "summary": "",
       "created_at": "2020-02-04 05:15:18",
-      "updated_at": "2020-03-27 05:10:24",
+      "updated_at": "2020-03-29 05:07:47",
       "id": "",
       "all_ids": [
         ""
@@ -3701,6 +3701,20 @@
       ],
       "bill_id": "PR 23-0677",
       "actions": [
+        {
+          "date": "2020-03-13T14:05:39+00:00",
+          "action": "Resolution R23-0374 Effective from Mar 3, 2020 Published in DC Register Vol 67 and Page 2735",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-03-03T15:05:39+00:00",
+          "action": "Approved with Resolution Number R23-0374",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
         {
           "date": "2020-02-04T15:05:39+00:00",
           "action": "Retained by the Council",
@@ -3723,20 +3737,6 @@
           "type": [
             "bill:reading:3"
           ],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-03-03T15:05:39+00:00",
-          "action": "Approved with Resolution Number R23-0374",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-03-13T14:05:39+00:00",
-          "action": "Resolution R23-0374 Effective from Mar 3, 2020 Published in DC Register Vol 67 and Page 2735",
-          "type": [],
           "related_entities": [],
           "actor": "legislature"
         }
@@ -3799,14 +3799,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991985,
-      "DB_Time": 1585368991985,
+      "dateAddedToTracker": 1585513006404,
+      "DB_Time": 1585513006404,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Rulemaking for Paid Family Leave Benefits Approval Resolution of 2020",
       "summary": "",
       "created_at": "2020-01-09 05:10:41",
-      "updated_at": "2020-03-27 05:07:55",
+      "updated_at": "2020-03-29 05:08:29",
       "id": "",
       "all_ids": [
         ""
@@ -3824,6 +3824,27 @@
       "bill_id": "PR 23-0647",
       "actions": [
         {
+          "date": "2020-01-30T05:00:11+00:00",
+          "action": "Roundtable Hearing on PR23-0647",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T05:00:11+00:00",
+          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2020-01-17T05:00:11+00:00",
+          "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
+          "type": [],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
           "date": "2020-01-21T05:00:11+00:00",
           "action": "Referred to Committee on Labor and Workforce Development",
           "type": [
@@ -3838,27 +3859,6 @@
           "type": [
             "bill:introduced"
           ],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-17T05:00:11+00:00",
-          "action": "Notice of Intent to Act on PR23-0647 Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-17T05:00:11+00:00",
-          "action": "Notice of Roundtable Hearing Published in the District of Columbia Register",
-          "type": [],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
-          "date": "2020-01-30T05:00:11+00:00",
-          "action": "Roundtable Hearing on PR23-0647",
-          "type": [],
           "related_entities": [],
           "actor": "legislature"
         }
@@ -3907,8 +3907,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991986,
-      "DB_Time": 1585368991986,
+      "dateAddedToTracker": 1585513006405,
+      "DB_Time": 1585513006405,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Proposed contract with Geographic Solutions, Inc. ",
@@ -3991,8 +3991,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991988,
-      "DB_Time": 1585368991988,
+      "dateAddedToTracker": 1585513006406,
+      "DB_Time": 1585513006406,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DC Paid Family Leave Quarter 1 Fiscal Year 2020 Report",
@@ -4069,8 +4069,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991990,
-      "DB_Time": 1585368991990,
+      "dateAddedToTracker": 1585513006407,
+      "DB_Time": 1585513006407,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $3,520,600.49 of Special Revenue funds within the Department of Employment Services (DOES), the Labor Standards Bureau to the Office of Paid Family Leave Program (OPFL)",
@@ -4153,8 +4153,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991996,
-      "DB_Time": 1585368991996,
+      "dateAddedToTracker": 1585513006408,
+      "DB_Time": 1585513006408,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $1,565,000 of Local Funds Budget Authority within the Department of Employment Services ",
@@ -4237,8 +4237,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368991999,
-      "DB_Time": 1585368991999,
+      "dateAddedToTracker": 1585513006409,
+      "DB_Time": 1585513006409,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - Q4 Fiscal Year 2019 Report DC Paid Family Leave",
@@ -4315,8 +4315,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992000,
-      "DB_Time": 1585368992000,
+      "dateAddedToTracker": 1585513006411,
+      "DB_Time": 1585513006411,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2020 Audit and Inspection Plan",
@@ -4393,8 +4393,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992002,
-      "DB_Time": 1585368992002,
+      "dateAddedToTracker": 1585513006412,
+      "DB_Time": 1585513006412,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Q3 Fiscal Year 2019 Report: DC Paid Family Leave ",
@@ -4471,8 +4471,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992004,
-      "DB_Time": 1585368992004,
+      "dateAddedToTracker": 1585513006413,
+      "DB_Time": 1585513006413,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - FPC Food System Assessment: The District's efforts to support a more equitable, healthy, and sustainable food system",
@@ -4549,8 +4549,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992006,
-      "DB_Time": 1585368992006,
+      "dateAddedToTracker": 1585513006414,
+      "DB_Time": 1585513006414,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Q2 Fiscal Year 2019 Report DC Paid Family Leave",
@@ -4627,14 +4627,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992012,
-      "DB_Time": 1585368992012,
+      "dateAddedToTracker": 1585513006415,
+      "DB_Time": 1585513006415,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Rulemaking for Paid Family Leave Collections Approval Resolution of 2019",
       "summary": "",
       "created_at": "2019-03-06 11:04:15",
-      "updated_at": "2020-03-25 05:09:18",
+      "updated_at": "2020-03-29 05:08:18",
       "id": "",
       "all_ids": [
         ""
@@ -4652,15 +4652,6 @@
       "bill_id": "PR 23-0151",
       "actions": [
         {
-          "date": "2019-02-28T08:23:46+00:00",
-          "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
-          "type": [
-            "bill:introduced"
-          ],
-          "related_entities": [],
-          "actor": "legislature"
-        },
-        {
           "date": "2019-03-08T08:23:46+00:00",
           "action": "Notice of Intent to Act on PR23-0151 Published in the District of Columbia Register",
           "type": [],
@@ -4672,6 +4663,15 @@
           "action": "Referred to Committee on Labor and Workforce Development",
           "type": [
             "committee:referred"
+          ],
+          "related_entities": [],
+          "actor": "legislature"
+        },
+        {
+          "date": "2019-02-28T08:23:46+00:00",
+          "action": "PR23-0151 Introduced by Chairman Mendelson at Office of the Secretary",
+          "type": [
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "legislature"
@@ -4727,8 +4727,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992014,
-      "DB_Time": 1585368992014,
+      "dateAddedToTracker": 1585513006416,
+      "DB_Time": 1585513006416,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES DC Paid Leave Family Leave Q1 Fiscal Year 2019 Report",
@@ -4805,8 +4805,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992016,
-      "DB_Time": 1585368992016,
+      "dateAddedToTracker": 1585513006417,
+      "DB_Time": 1585513006417,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $900,000 of Local Funds Budget Authority from the Commission on Arts and Humanities, the Deputy Mayor for Planning and Economic Development, and the Department of Small and Local Business Development to the D.C. Fire and Emergency Medical Services Department",
@@ -4883,8 +4883,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992018,
-      "DB_Time": 1585368992018,
+      "dateAddedToTracker": 1585513006418,
+      "DB_Time": 1585513006418,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Request to reprogram $1,000,000 of Local Funds Budget Authority from the Department of Behavioral Health and the Department of Human Services to the D.C. Fire and Emergency Medical Services Department",
@@ -4961,8 +4961,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992020,
-      "DB_Time": 1585368992020,
+      "dateAddedToTracker": 1585513006419,
+      "DB_Time": 1585513006419,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Amended Compensation Agreement between the District of Columbia and the Office of the Attorney General and the American Federation of Government Employees, Local 1403, AFL-CIO (Compensation Unit 33) Approval Resolution of 2018",
@@ -5048,8 +5048,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992021,
-      "DB_Time": 1585368992021,
+      "dateAddedToTracker": 1585513006419,
+      "DB_Time": 1585513006419,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2018 Revised Local Budget Congressional Review Emergency Adjustment Act of 2018",
@@ -5167,8 +5167,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992024,
-      "DB_Time": 1585368992024,
+      "dateAddedToTracker": 1585513006420,
+      "DB_Time": 1585513006420,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Universal Paid Family Leave Quarter 4 Report for Fiscal Year 2018",
@@ -5245,8 +5245,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992027,
-      "DB_Time": 1585368992027,
+      "dateAddedToTracker": 1585513006421,
+      "DB_Time": 1585513006421,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2018 Revised Local Budget Temporary Adjustment Act of 2018",
@@ -5409,8 +5409,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992029,
-      "DB_Time": 1585368992029,
+      "dateAddedToTracker": 1585513006422,
+      "DB_Time": 1585513006422,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FY 2018 Reprogramming Requests (Operating and Capital) - 3rd Quarter (April 1, 2018 through June 30, 2018)",
@@ -5487,8 +5487,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992031,
-      "DB_Time": 1585368992031,
+      "dateAddedToTracker": 1585513006424,
+      "DB_Time": 1585513006424,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Universal Paid Family Leave Quarter 3 Report",
@@ -5565,8 +5565,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992033,
-      "DB_Time": 1585368992033,
+      "dateAddedToTracker": 1585513006425,
+      "DB_Time": 1585513006425,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Fiscal Year 2018 Revised Local Budget Emergency Adjustment Act of 2018",
@@ -5733,8 +5733,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992035,
-      "DB_Time": 1585368992035,
+      "dateAddedToTracker": 1585513006427,
+      "DB_Time": 1585513006427,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "District Overtime Tops $108 Million; Better Management and Additional Staff Could Reduce Costs",
@@ -5811,8 +5811,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992037,
-      "DB_Time": 1585368992037,
+      "dateAddedToTracker": 1585513006428,
+      "DB_Time": 1585513006428,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - Universal Paid Family Leave Quarter 2 Report",
@@ -5889,8 +5889,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992039,
-      "DB_Time": 1585368992039,
+      "dateAddedToTracker": 1585513006429,
+      "DB_Time": 1585513006429,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Correspondence from the Mayor - DOES Universal Paid Family Leave Report",
@@ -5967,14 +5967,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992047,
-      "DB_Time": 1585368992047,
+      "dateAddedToTracker": 1585513006430,
+      "DB_Time": 1585513006430,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employment Practices",
       "summary": "Employment Practices; Creates \"Florida Family Leave Act\"; requires employer to allow certain employees to take paid family leave to bond with minor child upon child's birth, adoption, or foster care placement; provides requirements, limitations, & duties; provides for civil action & penalties & criminal penalty; prohibits specified employment practices on basis of pregnancy, childbirth, or medical condition related to pregnancy or childbirth; provides for leave, maintenance of health coverage, reasonable accommodation & transfer, & return rights for employee who is disabled from pregnancy, childbirth, or medical condition related to pregnancy or childbirth.",
       "created_at": "2019-12-11 07:28:37",
-      "updated_at": "2020-03-25 09:12:47",
+      "updated_at": "2020-03-28 09:15:46",
       "id": "",
       "all_ids": [
         ""
@@ -6071,8 +6071,8 @@
         "signed": null
       },
       "scraped_subjects": [
-        "civil rights",
-        "labor"
+        "labor",
+        "civil rights"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
@@ -6080,14 +6080,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992049,
-      "DB_Time": 1585368992049,
+      "dateAddedToTracker": 1585513006431,
+      "DB_Time": 1585513006431,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employment Practices",
       "summary": "Employment Practices; Creating the \"Florida Family Leave Act\"; requiring an employer to allow certain employees to take paid family leave to bond with a new child upon the child’s birth, adoption, or foster care placement; requiring that family leave be taken concurrently with any leave taken pursuant to federal family and medical leave provisions; requiring the Department of Economic Opportunity to create a poster and a model notice that specify family leave rights, etc.",
       "created_at": "2019-12-11 07:29:11",
-      "updated_at": "2020-03-25 09:12:03",
+      "updated_at": "2020-03-28 09:14:40",
       "id": "",
       "all_ids": [
         ""
@@ -6179,8 +6179,8 @@
         "signed": null
       },
       "scraped_subjects": [
-        "civil rights",
-        "labor"
+        "labor",
+        "civil rights"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
@@ -6188,8 +6188,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992052,
-      "DB_Time": 1585368992052,
+      "dateAddedToTracker": 1585513006433,
+      "DB_Time": 1585513006433,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6308,8 +6308,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992054,
-      "DB_Time": 1585368992054,
+      "dateAddedToTracker": 1585513006435,
+      "DB_Time": 1585513006435,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6428,8 +6428,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992062,
-      "DB_Time": 1585368992062,
+      "dateAddedToTracker": 1585513006436,
+      "DB_Time": 1585513006436,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6573,8 +6573,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992066,
-      "DB_Time": 1585368992066,
+      "dateAddedToTracker": 1585513006438,
+      "DB_Time": 1585513006438,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -6662,8 +6662,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992068,
-      "DB_Time": 1585368992068,
+      "dateAddedToTracker": 1585513006440,
+      "DB_Time": 1585513006440,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -6751,8 +6751,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992072,
-      "DB_Time": 1585368992072,
+      "dateAddedToTracker": 1585513006442,
+      "DB_Time": 1585513006442,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THAT THE STATE ADOPT AND IMPLEMENT A PAID FAMILY LEAVE PROGRAM FOR ALL WORKERS BY 2025.",
@@ -6896,8 +6896,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992079,
-      "DB_Time": 1585368992079,
+      "dateAddedToTracker": 1585513006444,
+      "DB_Time": 1585513006444,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -6973,8 +6973,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992082,
-      "DB_Time": 1585368992082,
+      "dateAddedToTracker": 1585513006446,
+      "DB_Time": 1585513006446,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "REQUESTING THE DIRECTOR OF LABOR AND INDUSTRIAL RELATIONS TO CONVENE A WORKING GROUP TO EXPLORE THE PROVISION OF PAID FAMILY LEAVE FOR EXECUTIVE DEPARTMENTS THAT REPORT DIRECTLY TO THE GOVERNOR.",
@@ -7050,8 +7050,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992085,
-      "DB_Time": 1585368992085,
+      "dateAddedToTracker": 1585513006448,
+      "DB_Time": 1585513006448,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -7514,8 +7514,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992090,
-      "DB_Time": 1585368992090,
+      "dateAddedToTracker": 1585513006450,
+      "DB_Time": 1585513006450,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -7939,8 +7939,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992096,
-      "DB_Time": 1585368992096,
+      "dateAddedToTracker": 1585513006452,
+      "DB_Time": 1585513006452,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8148,8 +8148,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992100,
-      "DB_Time": 1585368992100,
+      "dateAddedToTracker": 1585513006454,
+      "DB_Time": 1585513006454,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8248,8 +8248,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992104,
-      "DB_Time": 1585368992104,
+      "dateAddedToTracker": 1585513006456,
+      "DB_Time": 1585513006456,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8349,8 +8349,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992112,
-      "DB_Time": 1585368992112,
+      "dateAddedToTracker": 1585513006459,
+      "DB_Time": 1585513006459,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -8937,8 +8937,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992116,
-      "DB_Time": 1585368992116,
+      "dateAddedToTracker": 1585513006462,
+      "DB_Time": 1585513006462,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -9473,8 +9473,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992121,
-      "DB_Time": 1585368992121,
+      "dateAddedToTracker": 1585513006464,
+      "DB_Time": 1585513006464,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY AND MEDICAL LEAVE.",
@@ -9586,8 +9586,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992125,
-      "DB_Time": 1585368992125,
+      "dateAddedToTracker": 1585513006467,
+      "DB_Time": 1585513006467,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -9789,8 +9789,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992130,
-      "DB_Time": 1585368992130,
+      "dateAddedToTracker": 1585513006470,
+      "DB_Time": 1585513006470,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -9953,8 +9953,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992135,
-      "DB_Time": 1585368992135,
+      "dateAddedToTracker": 1585513006472,
+      "DB_Time": 1585513006472,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY AND MEDICAL LEAVE.",
@@ -10072,8 +10072,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992140,
-      "DB_Time": 1585368992140,
+      "dateAddedToTracker": 1585513006475,
+      "DB_Time": 1585513006475,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -10199,8 +10199,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992148,
-      "DB_Time": 1585368992148,
+      "dateAddedToTracker": 1585513006478,
+      "DB_Time": 1585513006478,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO PUBLIC EMPLOYMENT.",
@@ -10334,8 +10334,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992153,
-      "DB_Time": 1585368992153,
+      "dateAddedToTracker": 1585513006481,
+      "DB_Time": 1585513006481,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -10490,8 +10490,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992168,
-      "DB_Time": 1585368992168,
+      "dateAddedToTracker": 1585513006484,
+      "DB_Time": 1585513006484,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO PUBLIC EMPLOYMENT.",
@@ -10650,8 +10650,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992176,
-      "DB_Time": 1585368992176,
+      "dateAddedToTracker": 1585513006487,
+      "DB_Time": 1585513006487,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO PAID FAMILY LEAVE.",
@@ -10772,8 +10772,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992183,
-      "DB_Time": 1585368992183,
+      "dateAddedToTracker": 1585513006490,
+      "DB_Time": 1585513006490,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "RELATING TO FAMILY LEAVE.",
@@ -10879,8 +10879,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992188,
-      "DB_Time": 1585368992188,
+      "dateAddedToTracker": 1585513006494,
+      "DB_Time": 1585513006494,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PAID FAMILY LEAVE ACT",
@@ -10968,8 +10968,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992199,
-      "DB_Time": 1585368992199,
+      "dateAddedToTracker": 1585513006498,
+      "DB_Time": 1585513006498,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PAID FAMILY LEAVE ACT",
@@ -11139,8 +11139,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992204,
-      "DB_Time": 1585368992204,
+      "dateAddedToTracker": 1585513006501,
+      "DB_Time": 1585513006501,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY AND MEDICAL LEAVE ACT",
@@ -11253,8 +11253,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992210,
-      "DB_Time": 1585368992210,
+      "dateAddedToTracker": 1585513006504,
+      "DB_Time": 1585513006504,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY LEAVE INSURANCE ACT",
@@ -11425,8 +11425,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992215,
-      "DB_Time": 1585368992215,
+      "dateAddedToTracker": 1585513006507,
+      "DB_Time": 1585513006507,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
@@ -11993,8 +11993,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992239,
-      "DB_Time": 1585368992239,
+      "dateAddedToTracker": 1585513006510,
+      "DB_Time": 1585513006510,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "FAMILY LEAVE INSURANCE PROGRAM",
@@ -12600,8 +12600,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992248,
-      "DB_Time": 1585368992248,
+      "dateAddedToTracker": 1585513006514,
+      "DB_Time": 1585513006514,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Urging the legislative council to assign the topic of establishing a voluntary paid family and medical leave program to the appropriate study committee.",
@@ -12740,8 +12740,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992254,
-      "DB_Time": 1585368992254,
+      "dateAddedToTracker": 1585513006519,
+      "DB_Time": 1585513006519,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act providing for paid sick leave and scheduling procedures for employees, establishing a family leave and medical leave insurance program, providing penalties and remedies, and including applicability provisions.",
@@ -12858,8 +12858,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992264,
-      "DB_Time": 1585368992264,
+      "dateAddedToTracker": 1585513006523,
+      "DB_Time": 1585513006523,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act providing for paid family leave for state employees.",
@@ -12949,8 +12949,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992271,
-      "DB_Time": 1585368992271,
+      "dateAddedToTracker": 1585513006527,
+      "DB_Time": 1585513006527,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.",
@@ -13110,8 +13110,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992287,
-      "DB_Time": 1585368992287,
+      "dateAddedToTracker": 1585513006531,
+      "DB_Time": 1585513006531,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A bill for an act relating to specified professional benefits, accommodations, and representations, and including effective date provisions.",
@@ -13207,8 +13207,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992299,
-      "DB_Time": 1585368992299,
+      "dateAddedToTracker": 1585513006535,
+      "DB_Time": 1585513006535,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Bill History for Senate File 2133Journal Actions Only    \r\n                Lobbyist Declarations\r\n            \r\n        \r\n        By  Boulton\r\n        A bill for an act relating to a family leave and medical leave insurance program that provides for paid, job-protected leave for certain family leave and medical leave reasons for eligible employees of specified employers.",
@@ -13279,8 +13279,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992305,
-      "DB_Time": 1585368992305,
+      "dateAddedToTracker": 1585513006539,
+      "DB_Time": 1585513006539,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Enacting the Kansas Paid Family Leave Act, establishing the Family and Medical Leave Insurance Fund. ",
@@ -13371,8 +13371,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992314,
-      "DB_Time": 1585368992314,
+      "dateAddedToTracker": 1585513006542,
+      "DB_Time": 1585513006542,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Create Paid Family And Medical Leave Benefits",
@@ -13558,8 +13558,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992320,
-      "DB_Time": 1585368992320,
+      "dateAddedToTracker": 1585513006546,
+      "DB_Time": 1585513006546,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Establish The Opt-In Maine Paid Family Leave Insurance Program",
@@ -13729,8 +13729,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992338,
-      "DB_Time": 1585368992338,
+      "dateAddedToTracker": 1585513006550,
+      "DB_Time": 1585513006550,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Provide Paid Family Leave To Public School Employees",
@@ -13890,8 +13890,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992348,
-      "DB_Time": 1585368992348,
+      "dateAddedToTracker": 1585513006554,
+      "DB_Time": 1585513006554,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Joint Resolution To Support Family Caregivers In Maine",
@@ -14285,8 +14285,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992355,
-      "DB_Time": 1585368992355,
+      "dateAddedToTracker": 1585513006558,
+      "DB_Time": 1585513006558,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act To Establish The Maine Paid Family Leave Insurance Program",
@@ -14451,8 +14451,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992372,
-      "DB_Time": 1585368992372,
+      "dateAddedToTracker": 1585513006562,
+      "DB_Time": 1585513006562,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act to establish paid family leave",
@@ -14677,8 +14677,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992384,
-      "DB_Time": 1585368992384,
+      "dateAddedToTracker": 1585513006566,
+      "DB_Time": 1585513006566,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave income replacement benefits by insurers authorization",
@@ -14782,8 +14782,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992392,
-      "DB_Time": 1585368992392,
+      "dateAddedToTracker": 1585513006570,
+      "DB_Time": 1585513006570,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Small employer paid family leave insurance program created, tax credit established, and money appropriated.",
@@ -14881,8 +14881,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992399,
-      "DB_Time": 1585368992399,
+      "dateAddedToTracker": 1585513006574,
+      "DB_Time": 1585513006574,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Omnibus jobs and economic development, energy and climate, and telecommunications policy and finance bill.",
@@ -15302,8 +15302,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992405,
-      "DB_Time": 1585368992405,
+      "dateAddedToTracker": 1585513006580,
+      "DB_Time": 1585513006580,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Omnibus jobs and economic development appropriations",
@@ -15450,8 +15450,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992412,
-      "DB_Time": 1585368992412,
+      "dateAddedToTracker": 1585513006584,
+      "DB_Time": 1585513006584,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Working Parents Act; wage theft protection, paid family leave, and earned sick and safe time provided; fair scheduling required; penalties imposed; reports required; rulemaking authorized; and money appropriated.",
@@ -15616,8 +15616,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992419,
-      "DB_Time": 1585368992419,
+      "dateAddedToTracker": 1585513006588,
+      "DB_Time": 1585513006588,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2020; create.",
@@ -15703,8 +15703,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992429,
-      "DB_Time": 1585368992429,
+      "dateAddedToTracker": 1585513006592,
+      "DB_Time": 1585513006592,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Mississippi Paid Family Leave Act; establish.",
@@ -15790,8 +15790,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992438,
-      "DB_Time": 1585368992438,
+      "dateAddedToTracker": 1585513006597,
+      "DB_Time": 1585513006597,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2020; enact.",
@@ -15885,8 +15885,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992451,
-      "DB_Time": 1585368992451,
+      "dateAddedToTracker": 1585513006601,
+      "DB_Time": 1585513006601,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "2020 Women's Economic Security Act; create.",
@@ -15972,8 +15972,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992458,
-      "DB_Time": 1585368992458,
+      "dateAddedToTracker": 1585513006605,
+      "DB_Time": 1585513006605,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2019; create.",
@@ -16067,8 +16067,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992464,
-      "DB_Time": 1585368992464,
+      "dateAddedToTracker": 1585513006609,
+      "DB_Time": 1585513006609,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2019; create.",
@@ -16154,8 +16154,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992472,
-      "DB_Time": 1585368992472,
+      "dateAddedToTracker": 1585513006614,
+      "DB_Time": 1585513006614,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "2019 Women's Economic Security Act; create.",
@@ -16240,8 +16240,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992480,
-      "DB_Time": 1585368992480,
+      "dateAddedToTracker": 1585513006618,
+      "DB_Time": 1585513006618,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Mississippi Paid Family Leave Act; establish.",
@@ -16342,8 +16342,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992487,
-      "DB_Time": 1585368992487,
+      "dateAddedToTracker": 1585513006623,
+      "DB_Time": 1585513006623,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Mississippi Paid Family Leave Act; establish.",
@@ -16428,8 +16428,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992494,
-      "DB_Time": 1585368992494,
+      "dateAddedToTracker": 1585513006628,
+      "DB_Time": 1585513006628,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2018; create.",
@@ -16515,8 +16515,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992501,
-      "DB_Time": 1585368992501,
+      "dateAddedToTracker": 1585513006632,
+      "DB_Time": 1585513006632,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Women's Economic Security Act of 2018; create.",
@@ -16618,8 +16618,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992508,
-      "DB_Time": 1585368992508,
+      "dateAddedToTracker": 1585513006636,
+      "DB_Time": 1585513006636,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "establishing the granite state paid family leave plan.",
@@ -16738,8 +16738,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992517,
-      "DB_Time": 1585368992517,
+      "dateAddedToTracker": 1585513006640,
+      "DB_Time": 1585513006640,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerns family leave and disability benefits during epidemic-related emergencies.",
@@ -16860,8 +16860,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992526,
-      "DB_Time": 1585368992526,
+      "dateAddedToTracker": 1585513006645,
+      "DB_Time": 1585513006645,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerns family leave and disability benefits during epidemic-related emergencies.",
@@ -17043,8 +17043,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992535,
-      "DB_Time": 1585368992535,
+      "dateAddedToTracker": 1585513006649,
+      "DB_Time": 1585513006649,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides for school and medical family leave.",
@@ -17118,8 +17118,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992543,
-      "DB_Time": 1585368992543,
+      "dateAddedToTracker": 1585513006654,
+      "DB_Time": 1585513006654,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Supports 32BJ Service Employees International Union members seeking new contract.",
@@ -17192,8 +17192,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992554,
-      "DB_Time": 1585368992554,
+      "dateAddedToTracker": 1585513006658,
+      "DB_Time": 1585513006658,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave. ",
@@ -17523,8 +17523,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992563,
-      "DB_Time": 1585368992563,
+      "dateAddedToTracker": 1585513006663,
+      "DB_Time": 1585513006663,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave. ",
@@ -17730,8 +17730,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992571,
-      "DB_Time": 1585368992571,
+      "dateAddedToTracker": 1585513006668,
+      "DB_Time": 1585513006668,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18036,8 +18036,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992579,
-      "DB_Time": 1585368992579,
+      "dateAddedToTracker": 1585513006672,
+      "DB_Time": 1585513006672,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18190,8 +18190,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992587,
-      "DB_Time": 1585368992587,
+      "dateAddedToTracker": 1585513006679,
+      "DB_Time": 1585513006679,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -18271,8 +18271,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992595,
-      "DB_Time": 1585368992595,
+      "dateAddedToTracker": 1585513006685,
+      "DB_Time": 1585513006685,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides for school and medical family leave.",
@@ -18351,8 +18351,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992603,
-      "DB_Time": 1585368992603,
+      "dateAddedToTracker": 1585513006689,
+      "DB_Time": 1585513006689,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave.",
@@ -18436,8 +18436,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992614,
-      "DB_Time": 1585368992614,
+      "dateAddedToTracker": 1585513006695,
+      "DB_Time": 1585513006695,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -18527,8 +18527,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992622,
-      "DB_Time": 1585368992622,
+      "dateAddedToTracker": 1585513006700,
+      "DB_Time": 1585513006700,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning family leave, temporary disability and family temporary disability leave, and domestic or sexual violence safety leave.*",
@@ -18755,8 +18755,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992648,
-      "DB_Time": 1585368992648,
+      "dateAddedToTracker": 1585513006705,
+      "DB_Time": 1585513006705,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18829,8 +18829,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992658,
-      "DB_Time": 1585368992658,
+      "dateAddedToTracker": 1585513006710,
+      "DB_Time": 1585513006710,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Revises law concerning temporary disability leave. ",
@@ -18903,8 +18903,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992667,
-      "DB_Time": 1585368992667,
+      "dateAddedToTracker": 1585513006716,
+      "DB_Time": 1585513006716,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -18984,8 +18984,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992678,
-      "DB_Time": 1585368992678,
+      "dateAddedToTracker": 1585513006721,
+      "DB_Time": 1585513006721,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides family leave insurance for certain first responders.",
@@ -19060,8 +19060,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992686,
-      "DB_Time": 1585368992686,
+      "dateAddedToTracker": 1585513006728,
+      "DB_Time": 1585513006728,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Provides for school and medical family leave.",
@@ -19140,8 +19140,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992704,
-      "DB_Time": 1585368992704,
+      "dateAddedToTracker": 1585513006733,
+      "DB_Time": 1585513006733,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PAID FAMILY AND MEDICAL LEAVE ACT",
@@ -19246,8 +19246,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992865,
-      "DB_Time": 1585368992865,
+      "dateAddedToTracker": 1585513006737,
+      "DB_Time": 1585513006737,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "PARENTAL PAID-LEAVE PROGRAM",
@@ -19389,8 +19389,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992935,
-      "DB_Time": 1585368992935,
+      "dateAddedToTracker": 1585513006742,
+      "DB_Time": 1585513006742,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -19595,8 +19595,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992954,
-      "DB_Time": 1585368992954,
+      "dateAddedToTracker": 1585513006747,
+      "DB_Time": 1585513006747,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -20113,8 +20113,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992970,
-      "DB_Time": 1585368992970,
+      "dateAddedToTracker": 1585513006752,
+      "DB_Time": 1585513006752,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -20216,8 +20216,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992981,
-      "DB_Time": 1585368992981,
+      "dateAddedToTracker": 1585513006757,
+      "DB_Time": 1585513006757,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to requirements for sick leave and the provision of certain employee benefits when such employee is subject to a mandatory or precautionary order of quarantine or isolation",
@@ -20684,8 +20684,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992989,
-      "DB_Time": 1585368992989,
+      "dateAddedToTracker": 1585513006763,
+      "DB_Time": 1585513006763,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave and siblings",
@@ -20767,8 +20767,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368992997,
-      "DB_Time": 1585368992997,
+      "dateAddedToTracker": 1585513006768,
+      "DB_Time": 1585513006768,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to authorizing paid family leave for bereavement",
@@ -20866,8 +20866,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993005,
-      "DB_Time": 1585368993005,
+      "dateAddedToTracker": 1585513006773,
+      "DB_Time": 1585513006773,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
@@ -21044,8 +21044,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993014,
-      "DB_Time": 1585368993014,
+      "dateAddedToTracker": 1585513006779,
+      "DB_Time": 1585513006779,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to family medical leave and military families",
@@ -21127,8 +21127,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993024,
-      "DB_Time": 1585368993024,
+      "dateAddedToTracker": 1585513006784,
+      "DB_Time": 1585513006784,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave benefits",
@@ -21234,8 +21234,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993038,
-      "DB_Time": 1585368993038,
+      "dateAddedToTracker": 1585513006790,
+      "DB_Time": 1585513006790,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to dependent workers",
@@ -21326,8 +21326,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993047,
-      "DB_Time": 1585368993047,
+      "dateAddedToTracker": 1585513006796,
+      "DB_Time": 1585513006796,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
@@ -21443,8 +21443,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993056,
-      "DB_Time": 1585368993056,
+      "dateAddedToTracker": 1585513006801,
+      "DB_Time": 1585513006801,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to providing four weeks of leave for victims of abuse",
@@ -21615,8 +21615,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993064,
-      "DB_Time": 1585368993064,
+      "dateAddedToTracker": 1585513006806,
+      "DB_Time": 1585513006806,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave and siblings",
@@ -21822,8 +21822,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993074,
-      "DB_Time": 1585368993074,
+      "dateAddedToTracker": 1585513006812,
+      "DB_Time": 1585513006812,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to authorizing paid family leave for bereavement",
@@ -21914,8 +21914,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993087,
-      "DB_Time": 1585368993087,
+      "dateAddedToTracker": 1585513006818,
+      "DB_Time": 1585513006818,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
@@ -22011,8 +22011,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993098,
-      "DB_Time": 1585368993098,
+      "dateAddedToTracker": 1585513006825,
+      "DB_Time": 1585513006825,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to dependent workers",
@@ -22132,8 +22132,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993108,
-      "DB_Time": 1585368993108,
+      "dateAddedToTracker": 1585513006831,
+      "DB_Time": 1585513006831,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to providing four weeks of leave for victims of abuse",
@@ -22229,8 +22229,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993117,
-      "DB_Time": 1585368993117,
+      "dateAddedToTracker": 1585513006837,
+      "DB_Time": 1585513006837,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Prohibits any funding of the administrative costs of the state's paid family leave program by employers",
@@ -22321,8 +22321,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993127,
-      "DB_Time": 1585368993127,
+      "dateAddedToTracker": 1585513006843,
+      "DB_Time": 1585513006843,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Commending Mario Cilento upon the occasion of being selected as an honoree for this year's Italian American Day on June 3, 2019",
@@ -22404,8 +22404,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993138,
-      "DB_Time": 1585368993138,
+      "dateAddedToTracker": 1585513006850,
+      "DB_Time": 1585513006850,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Calling for the ratification of the Equal Rights Amendment",
@@ -22503,8 +22503,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993148,
-      "DB_Time": 1585368993148,
+      "dateAddedToTracker": 1585513006855,
+      "DB_Time": 1585513006855,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave benefits",
@@ -22600,8 +22600,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993159,
-      "DB_Time": 1585368993159,
+      "dateAddedToTracker": 1585513006861,
+      "DB_Time": 1585513006861,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Authorizes paid family leave for bereavement",
@@ -22765,8 +22765,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993168,
-      "DB_Time": 1585368993168,
+      "dateAddedToTracker": 1585513006867,
+      "DB_Time": 1585513006867,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Memorializing Governor Andrew M. Cuomo to proclaim May 30, 2018, as Mother's Equal Pay Day in the State of New York",
@@ -22857,8 +22857,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993178,
-      "DB_Time": 1585368993178,
+      "dateAddedToTracker": 1585513006872,
+      "DB_Time": 1585513006872,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to paid family leave benefits",
@@ -22940,8 +22940,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993187,
-      "DB_Time": 1585368993187,
+      "dateAddedToTracker": 1585513006879,
+      "DB_Time": 1585513006879,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relates to the eligibility for New York state paid family leave benefits by persons engaged in a teaching capacity in a religious institution",
@@ -23028,8 +23028,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993196,
-      "DB_Time": 1585368993196,
+      "dateAddedToTracker": 1585513006885,
+      "DB_Time": 1585513006885,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Family and Medical Leave Act.",
@@ -23129,8 +23129,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993205,
-      "DB_Time": 1585368993205,
+      "dateAddedToTracker": 1585513006890,
+      "DB_Time": 1585513006890,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A concurrent resolution requesting the Legislative Management to consider studying the feasibility and desirability of implementing a paid family leave program structured to be beneficial to both families and businesses, including an analysis of how to make the program financially sound while being affordable for families and businesses; and a review of the data on usage rates from other states that have programs, which state agency would be best suited to administer the program, and policies required to ensure program success.",
@@ -23255,8 +23255,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993216,
-      "DB_Time": 1585368993232,
+      "dateAddedToTracker": 1585513006896,
+      "DB_Time": 1585513006903,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
@@ -23346,8 +23346,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585368993248,
-      "DB_Time": 1585368993261,
+      "dateAddedToTracker": 1585513006909,
+      "DB_Time": 1585513006915,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Labor; creating the Paid Family Leave Act; providing for family temporary disability insurance program. Effective date.",
@@ -23437,8 +23437,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585368993273,
-      "DB_Time": 1585368993273,
+      "dateAddedToTracker": 1585513006921,
+      "DB_Time": 1585513006921,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; Disability Insurance Program; creating the Paid Family Leave Act of 2018; providing for certain eligibility for short-term disability plan; effective date.",
@@ -23535,8 +23535,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993287,
-      "DB_Time": 1585368993287,
+      "dateAddedToTracker": 1585513006928,
+      "DB_Time": 1585513006928,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; creating the Paid Family Leave Act; establishing family temporary disability insurance program; effective date.",
@@ -23640,8 +23640,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993329,
-      "DB_Time": 1585368993776,
+      "dateAddedToTracker": 1585513006935,
+      "DB_Time": 1585513007163,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave program; establishment of program.",
@@ -23724,8 +23724,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585368993352,
-      "DB_Time": 1585368993352,
+      "dateAddedToTracker": 1585513006941,
+      "DB_Time": 1585513006941,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "State government; State Employees Disability Program; providing for certain eligibility for short-term disability plan; effective date.",
@@ -23813,8 +23813,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993370,
-      "DB_Time": 1585368993370,
+      "dateAddedToTracker": 1585513006948,
+      "DB_Time": 1585513006948,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Labor; creating Paid Family Leave Act; making temporary disability insurance program. Effective date.",
@@ -23902,8 +23902,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993384,
-      "DB_Time": 1585368993384,
+      "dateAddedToTracker": 1585513006956,
+      "DB_Time": 1585513006956,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to state financial administration; declaring an emergency.",
@@ -24042,8 +24042,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993395,
-      "DB_Time": 1585368993395,
+      "dateAddedToTracker": 1585513006962,
+      "DB_Time": 1585513006962,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Recognizing 2019 Oregon Women of Achievement.",
@@ -24349,8 +24349,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993407,
-      "DB_Time": 1585368993407,
+      "dateAddedToTracker": 1585513006967,
+      "DB_Time": 1585513006967,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to the long term care wage board; prescribing an effective date.",
@@ -24470,8 +24470,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993443,
-      "DB_Time": 1585368993443,
+      "dateAddedToTracker": 1585513006974,
+      "DB_Time": 1585513006974,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to a paid family leave tax credit for employers; prescribing an effective date.",
@@ -24559,8 +24559,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993455,
-      "DB_Time": 1585368993455,
+      "dateAddedToTracker": 1585513006982,
+      "DB_Time": 1585513006982,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to family leave benefits insurance; providing for revenue raising that requires approval by a three-fifths majority.",
@@ -24642,8 +24642,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993464,
-      "DB_Time": 1585368993464,
+      "dateAddedToTracker": 1585513006987,
+      "DB_Time": 1585513006987,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A Resolution designating the week of October 21 through 27, 2019, as \"Business Women's Week\" in Pennsylvania.",
@@ -24812,8 +24812,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993473,
-      "DB_Time": 1585368993473,
+      "dateAddedToTracker": 1585513006994,
+      "DB_Time": 1585513006994,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -24921,8 +24921,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993484,
-      "DB_Time": 1585368993484,
+      "dateAddedToTracker": 1585513007001,
+      "DB_Time": 1585513007001,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
@@ -25230,8 +25230,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993493,
-      "DB_Time": 1585368993493,
+      "dateAddedToTracker": 1585513007007,
+      "DB_Time": 1585513007007,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act establishing the Pennsylvania Family and Medical Leave Insurance Program and the Family and Medical Leave Insurance Fund; conferring powers and imposing duties on the Department of Labor and Industry; and imposing penalties.",
@@ -25414,8 +25414,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993503,
-      "DB_Time": 1585368993503,
+      "dateAddedToTracker": 1585513007013,
+      "DB_Time": 1585513007013,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -25723,8 +25723,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993513,
-      "DB_Time": 1585368993513,
+      "dateAddedToTracker": 1585513007019,
+      "DB_Time": 1585513007019,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -25822,8 +25822,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993523,
-      "DB_Time": 1585368993523,
+      "dateAddedToTracker": 1585513007026,
+      "DB_Time": 1585513007026,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An Act providing for paid family and medical leave for eligible employees under certain circumstances and for regulations by the Department of Labor and Industry.",
@@ -26011,8 +26011,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993541,
-      "DB_Time": 1585368993541,
+      "dateAddedToTracker": 1585513007032,
+      "DB_Time": 1585513007032,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
@@ -26296,8 +26296,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993552,
-      "DB_Time": 1585368993552,
+      "dateAddedToTracker": 1585513007038,
+      "DB_Time": 1585513007038,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "A BILL TO AMEND THE CODE OF LAWS OF SOUTH CAROLINA, 1976, BY ADDING SECTION 8-11-150 SO AS TO PROVIDE TWELVE WEEKS OF PAID FAMILY LEAVE FOR STATE EMPLOYEES DUE TO THE BIRTH, ADOPTION, OR FOSTER CARE OF A SON OR DAUGHTER.",
@@ -26401,8 +26401,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993565,
-      "DB_Time": 1585368993565,
+      "dateAddedToTracker": 1585513007045,
+      "DB_Time": 1585513007045,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "revise certain leave policies for state employees.",
@@ -26651,14 +26651,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993575,
-      "DB_Time": 1585368993575,
+      "dateAddedToTracker": 1585513007053,
+      "DB_Time": 1585513007053,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-24 06:40:26",
-      "updated_at": "2020-03-25 07:32:42",
+      "updated_at": "2020-03-28 07:36:27",
       "id": "",
       "all_ids": [
         ""
@@ -26679,8 +26679,8 @@
           "date": "2020-01-23 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -26689,8 +26689,8 @@
           "date": "2020-01-24 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -26812,14 +26812,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993590,
-      "DB_Time": 1585368993590,
+      "dateAddedToTracker": 1585513007061,
+      "DB_Time": 1585513007061,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee Family Insurance Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2020-01-25 06:39:30",
-      "updated_at": "2020-03-25 07:30:30",
+      "updated_at": "2020-03-28 07:32:46",
       "id": "",
       "all_ids": [
         ""
@@ -26840,8 +26840,8 @@
           "date": "2020-01-23 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -26850,8 +26850,8 @@
           "date": "2020-01-24 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -26973,14 +26973,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993605,
-      "DB_Time": 1585368993605,
+      "dateAddedToTracker": 1585513007068,
+      "DB_Time": 1585513007068,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-01-23 06:35:19",
-      "updated_at": "2020-03-25 07:40:06",
+      "updated_at": "2020-03-28 07:27:35",
       "id": "",
       "all_ids": [
         ""
@@ -27001,8 +27001,8 @@
           "date": "2020-01-22 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -27027,8 +27027,8 @@
           "date": "2020-01-29 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -27128,14 +27128,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993614,
-      "DB_Time": 1585368993614,
+      "dateAddedToTracker": 1585513007074,
+      "DB_Time": 1585513007074,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Public Employees - As introduced, provides paid family and medical leave for state employees and teachers. - Amends TCA Title 8, Chapter 50, Part 8 and Title 49, Chapter 5, Part 7.",
       "summary": "",
       "created_at": "2020-02-03 05:52:43",
-      "updated_at": "2020-03-25 07:39:40",
+      "updated_at": "2020-03-28 07:37:20",
       "id": "",
       "all_ids": [
         ""
@@ -27156,8 +27156,8 @@
           "date": "2020-01-22 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -27182,8 +27182,8 @@
           "date": "2020-01-29 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -27283,14 +27283,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993624,
-      "DB_Time": 1585368993624,
+      "dateAddedToTracker": 1585513007081,
+      "DB_Time": 1585513007081,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-05 11:27:48",
-      "updated_at": "2020-03-25 07:35:47",
+      "updated_at": "2020-03-28 07:32:18",
       "id": "",
       "all_ids": [
         ""
@@ -27311,8 +27311,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -27321,8 +27321,8 @@
           "date": "2019-02-05 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -27439,14 +27439,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993645,
-      "DB_Time": 1585368993645,
+      "dateAddedToTracker": 1585513007088,
+      "DB_Time": 1585513007088,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Employees, Employers - As introduced, enacts the \"Tennessee State Family Leave Act.\" - Amends TCA Title 4, Chapter 21; Title 10, Chapter 7, Part 5 and Title 50.",
       "summary": "",
       "created_at": "2019-02-06 11:37:12",
-      "updated_at": "2020-03-25 07:34:09",
+      "updated_at": "2020-03-28 07:32:25",
       "id": "",
       "all_ids": [
         ""
@@ -27467,8 +27467,8 @@
           "date": "2019-02-04 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "lower"
@@ -27477,8 +27477,8 @@
           "date": "2019-02-05 00:00:00",
           "action": "Filed for introduction",
           "type": [
-            "bill:introduced",
-            "bill:reading:1"
+            "bill:reading:1",
+            "bill:introduced"
           ],
           "related_entities": [],
           "actor": "upper"
@@ -27595,8 +27595,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993654,
-      "DB_Time": 1585368993654,
+      "dateAddedToTracker": 1585513007095,
+      "DB_Time": 1585513007095,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to employee rights and protections; providing a civil penalty.",
@@ -27700,8 +27700,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993665,
-      "DB_Time": 1585368993665,
+      "dateAddedToTracker": 1585513007102,
+      "DB_Time": 1585513007102,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "House Resolution Encouraging Expanded Family Leave Benefits and Quality, Affordable Child Care",
@@ -27844,8 +27844,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993676,
-      "DB_Time": 1585368993676,
+      "dateAddedToTracker": 1585513007110,
+      "DB_Time": 1585513007110,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family and medical leave",
@@ -28890,8 +28890,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993688,
-      "DB_Time": 1585368993688,
+      "dateAddedToTracker": 1585513007118,
+      "DB_Time": 1585513007118,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
@@ -29005,8 +29005,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993701,
-      "DB_Time": 1585368993701,
+      "dateAddedToTracker": 1585513007125,
+      "DB_Time": 1585513007125,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to voluntary family and medical leave insurance",
@@ -29103,8 +29103,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993713,
-      "DB_Time": 1585368993713,
+      "dateAddedToTracker": 1585513007134,
+      "DB_Time": 1585513007134,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to the Twin State Voluntary Family and Medical Leave Insurance Plan",
@@ -29316,8 +29316,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993724,
-      "DB_Time": 1585368993724,
+      "dateAddedToTracker": 1585513007140,
+      "DB_Time": 1585513007140,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family leave",
@@ -29476,8 +29476,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993735,
-      "DB_Time": 1585368993735,
+      "dateAddedToTracker": 1585513007148,
+      "DB_Time": 1585513007148,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family leave",
@@ -30275,8 +30275,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993755,
-      "DB_Time": 1585368993755,
+      "dateAddedToTracker": 1585513007155,
+      "DB_Time": 1585513007155,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "An act relating to paid family leave",
@@ -30390,8 +30390,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993794,
-      "DB_Time": 1585368993794,
+      "dateAddedToTracker": 1585513007172,
+      "DB_Time": 1585513007172,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Paid family leave; Commissioner of Labor and Industry to develop an implementation plan for program.",
@@ -30478,14 +30478,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993830,
-      "DB_Time": 1585368993830,
+      "dateAddedToTracker": 1585513007180,
+      "DB_Time": 1585513007180,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:08",
-      "updated_at": "2020-03-27 14:10:45",
+      "updated_at": "2020-03-29 14:12:39",
       "id": "",
       "all_ids": [
         ""
@@ -30864,9 +30864,9 @@
       },
       "scraped_subjects": [
         "EMPLOYMENT SECURITY DEPARTMENT",
+        "EMPLOYMENT AND EMPLOYEES",
         "DOMESTIC RELATIONS",
-        "LABOR",
-        "EMPLOYMENT AND EMPLOYEES"
+        "LABOR"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
@@ -30874,14 +30874,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993853,
-      "DB_Time": 1585368993853,
+      "dateAddedToTracker": 1585513007188,
+      "DB_Time": 1585513007188,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2020-01-17 13:07:58",
-      "updated_at": "2020-03-27 14:07:34",
+      "updated_at": "2020-03-29 14:12:33",
       "id": "",
       "all_ids": [
         ""
@@ -31057,9 +31057,9 @@
       },
       "scraped_subjects": [
         "EMPLOYMENT SECURITY DEPARTMENT",
+        "EMPLOYMENT AND EMPLOYEES",
         "DOMESTIC RELATIONS",
-        "LABOR",
-        "EMPLOYMENT AND EMPLOYEES"
+        "LABOR"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
@@ -31067,14 +31067,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993869,
-      "DB_Time": 1585368993869,
+      "dateAddedToTracker": 1585513007200,
+      "DB_Time": 1585513007200,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Expanding accessible, affordable child care and early childhood development programs.",
       "summary": "",
       "created_at": "2020-01-17 13:08:38",
-      "updated_at": "2020-03-27 14:10:22",
+      "updated_at": "2020-03-29 14:13:38",
       "id": "",
       "all_ids": [
         ""
@@ -31458,13 +31458,13 @@
         "signed": null
       },
       "scraped_subjects": [
-        "PUBLIC FUNDS AND ACCOUNTS",
-        "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
         "MINORITIES",
         "DOMESTIC RELATIONS",
-        "CHILD CARE",
+        "PUBLIC FUNDS AND ACCOUNTS",
+        "NAMED ACTS",
         "MENTAL HEALTH",
-        "NAMED ACTS"
+        "CHILDREN, YOUTH, AND FAMILIES, DEPARTMENT",
+        "CHILD CARE"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
@@ -31472,14 +31472,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993882,
-      "DB_Time": 1585368993882,
+      "dateAddedToTracker": 1585513007209,
+      "DB_Time": 1585513007209,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:03:50",
-      "updated_at": "2020-03-27 14:10:18",
+      "updated_at": "2020-03-29 14:14:00",
       "id": "",
       "all_ids": [
         ""
@@ -31691,11 +31691,11 @@
         "signed": null
       },
       "scraped_subjects": [
-        "EMPLOYMENT AND EMPLOYEES",
         "RECORDS",
-        "EMPLOYMENT SECURITY DEPARTMENT",
+        "EMPLOYMENT AND EMPLOYEES",
         "DOMESTIC RELATIONS",
-        "LABOR"
+        "LABOR",
+        "EMPLOYMENT SECURITY DEPARTMENT"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
@@ -31703,14 +31703,14 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993902,
-      "DB_Time": 1585368993902,
+      "dateAddedToTracker": 1585513007223,
+      "DB_Time": 1585513007223,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Concerning paid family and medical leave.",
       "summary": "",
       "created_at": "2019-01-22 15:04:05",
-      "updated_at": "2020-03-27 14:12:18",
+      "updated_at": "2020-03-29 14:13:50",
       "id": "",
       "all_ids": [
         ""
@@ -32205,11 +32205,11 @@
         "signed": null
       },
       "scraped_subjects": [
-        "EMPLOYMENT AND EMPLOYEES",
         "RECORDS",
-        "EMPLOYMENT SECURITY DEPARTMENT",
+        "EMPLOYMENT AND EMPLOYEES",
         "DOMESTIC RELATIONS",
-        "LABOR"
+        "LABOR",
+        "EMPLOYMENT SECURITY DEPARTMENT"
       ],
       "alternate_bill_ids": [],
       "subjects": [],
@@ -32217,8 +32217,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993914,
-      "DB_Time": 1585368993914,
+      "dateAddedToTracker": 1585513007232,
+      "DB_Time": 1585513007232,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Addressing paid family leave.",
@@ -32388,8 +32388,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993926,
-      "DB_Time": 1585368993926,
+      "dateAddedToTracker": 1585513007239,
+      "DB_Time": 1585513007239,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Addressing paid family leave.",
@@ -32555,8 +32555,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993968,
-      "DB_Time": 1585368993968,
+      "dateAddedToTracker": 1585513007249,
+      "DB_Time": 1585513007249,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating to paid family and medical leave.",
@@ -32917,8 +32917,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368993996,
-      "DB_Time": 1585368993996,
+      "dateAddedToTracker": 1585513007258,
+      "DB_Time": 1585513007258,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating generally to the payment of salary or wages under the Parental Leave Act",
@@ -33050,8 +33050,8 @@
       "notificationSent": false
     },
     {
-      "dateAddedToTracker": 1585368994009,
-      "DB_Time": 1585368994036,
+      "dateAddedToTracker": 1585513007267,
+      "DB_Time": 1585513007284,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Relating generally to paid family and medical leave",
@@ -33172,8 +33172,8 @@
       "isLastUpdateImportantCounter": 0
     },
     {
-      "dateAddedToTracker": 1585368994023,
-      "DB_Time": 1585368994023,
+      "dateAddedToTracker": 1585513007275,
+      "DB_Time": 1585513007275,
       "isBillNew": true,
       "isLastUpdateImportant": 0,
       "title": "Requesting study creating paid family and medical leave insurance program",
@@ -33399,6 +33399,17 @@
       "subjects": [],
       "companions": [],
       "notificationSent": false
+    },
+    {
+      "New_DB_Time": 1585513007293,
+      "action_dates": {
+        "first": "2099-02-19 00:00:00",
+        "last": "2099-03-09 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      }
     }
-  ]
+  ],
+  "date": []
 }
