@@ -21,7 +21,6 @@ searchBar.addEventListener("keyup", e => {
   const filteredBills = fetchedBills.filter(bill => {
     return (
       bill.state.toLowerCase().includes(searchString) ||
-      // state[list].name.toLowerCase().includes(searchString) ||
       bill.bill_id.toLowerCase().includes(searchString) ||
       bill.bill_id
         .replace(/\s+/g, "")
@@ -39,7 +38,6 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
     console.log("searchItem ", e.target.dataset.parent);
 
     const searchItem = e.target.dataset.parent.toLowerCase().trim();
-    // console.log("searchItem ", searchItem);
 
     if (searchItem === "all") {
       console.log("EE ");
@@ -55,7 +53,6 @@ document.getElementById("filter-list").addEventListener("click", function(e) {
       });
     }
 
-    // console.log("📽️ Filtered ", filteredItems);
     displayBills(filteredItems);
   }
 });
@@ -303,11 +300,8 @@ function generateHTML(data, index) {
 
 const loadBills = () => {
   try {
-    // const res = fetch("/data-clean/firebase/test.json", {
-    // const res = fetch("http://localhost:3000/track", {
-      // const res = fetch("http://localhost:5001/track", {
-
-      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+    const res = fetch("http://localhost:3000/track", {
+      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"
@@ -315,7 +309,6 @@ const loadBills = () => {
     })
       .then(r => r.json())
       .then(json => {
-        // console.log("This is my JSON",json)
 
         newBillsAdded = json.filter(bill => {
           return bill.isBillNew === true;
