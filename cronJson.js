@@ -196,35 +196,46 @@ function addToJsonFile(entireList) {
       }
     }
 
-  
-        
-
-
   }
-   db.get("bills").push({
-     
-    New_DB_Time: Date.now(),
-    action_dates: {
-      "first": "2099-02-19 00:00:00",
-      "last": "2099-03-09 00:00:00",
-      "passed_upper": null,
-      "passed_lower": null,
-      "signed": null
-    }
+
+  let timeValue = db
+  .get("bills")
+  .find({ New_DB_Time_id: 1})
+  .value();
+ 
   
-  
+if (typeof timeValue === "undefined" || timeValue.New_DB_Time_id === "undefined") {
+
+    db.get("bills")
+    .push({
+      New_DB_Time_id:1, 
+      New_DB_Time: Date.now(),
+      action_dates: {
+        "first": "2099-02-19 00:00:00",
+        "last": "2099-03-09 00:00:00",
+        "passed_upper": null,
+        "passed_lower": null,
+        "signed": null
+      }
+
   }).write(); 
-   console.log(`Time Updated ⏲️`, );  
-  // db.get('bills')
-  // .push({ DB_Time: Date.now(), action_dates: {first : Date.now()} })
-  // .write()
+  console.log(`Time Updated ⏲️`, );  
+} else if (_.isEqual(timeValue.New_DB_Time_id, 1)) {
+  
+   db.get("bills")
+    .find({ New_DB_Time_id: 1})
+    .assign({
+     New_DB_Time: Date.now(),
+     action_dates: {
+       "first": "2099-02-19 00:00:00",
+       "last": "2099-03-09 00:00:00",
+       "passed_upper": null,
+       "passed_lower": null,
+       "signed": null
+     }
+    }).write()
 
-
-  // db.get('bills')
-  // .find({ date_id: 1})
-  // .assign({ DB_Time: Date.now(), action_dates: {first : Date.now()} })
-  // .write()
-
+}
 }
 
 

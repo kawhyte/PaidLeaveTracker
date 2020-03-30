@@ -346,6 +346,7 @@ const loadBills = () => {
          pageUpdatedTime.innerHTML = `Information Updated ${json[0].dbUpdatedTime}`;
 
         var removed = json.splice(0,1);
+        console.log("This is my JSON",json)
 
         fetchedBills = json;
 
