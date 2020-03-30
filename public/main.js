@@ -300,8 +300,8 @@ function generateHTML(data, index) {
 
 const loadBills = () => {
   try {
-    const res = fetch("http://localhost:3000/track", {
-      // const res = fetch("https://paidleavetracker.herokuapp.com/track", {
+    // const res = fetch("http://localhost:3000/track", {
+      const res = fetch("https://paidleavetracker.herokuapp.com/track", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json"

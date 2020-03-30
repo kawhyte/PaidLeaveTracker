@@ -99,7 +99,7 @@ app.get("/track", async (req, res, next) => {
             new Date(parseJSON(element.action_dates.first))
           );
 
-          if (result > 10) {
+          if (result > 14) {
             element.isBillNew = false;
           }
 
