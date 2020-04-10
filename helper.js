@@ -52,7 +52,7 @@ const state = {
         GA: {
           name: "Georgia",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Georgia__U.S._state.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505246/flags/Flag_of_Georgia.svg"
         },
         HI: {
           name: "Hawaii",
@@ -147,32 +147,32 @@ const state = {
         NH: {
           name: "New Hampshire",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505255/flags/Flag_of_New_Hampshire.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505255/flags/Flag_of_New Hampshire.svg"
         },
         NJ: {
           name: "New Jersey",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_Jersey.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New Jersey.svg"
         },
         NM: {
           name: "New Mexico",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_Mexico.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New Mexico.svg"
         },
         NY: {
           name: "New York",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New_York.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_New York.svg"
         },
         NC: {
           name: "North Carolina",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North_Carolina.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North Carolina.svg"
         },
         ND: {
           name: "North Dakota",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North_Dakota.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505256/flags/Flag_of_North Dakota.svg"
         },
         OH: {
           name: "Ohio",
@@ -197,17 +197,17 @@ const state = {
         RI: {
           name: "Rhode Island",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Rhode_Island.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_Rhode Island.svg"
         },
         SC: {
           name: "South Carolina",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_South_Carolina.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_South Carolina.svg"
         },
         SD: {
           name: "South Dakota",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_South_Dakota.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505259/flags/Flag_of_South Dakota.svg"
         },
         TN: {
           name: "Tennessee",
@@ -242,7 +242,7 @@ const state = {
         WV: {
           name: "West Virginia",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505263/flags/Flag_of_West_Virginia.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505263/flags/Flag_of_West Virginia.svg"
         },
         WI: {
           name: "Wisconsin",
