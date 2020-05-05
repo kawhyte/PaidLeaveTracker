@@ -132,7 +132,7 @@ app.get("/track", async (req, res, next) => {
               }
             );
             element.dbUpdatedTime = timeAgo;
-            console.log(" 🍕 ", timeAgo);
+            // console.log(" 🍕 ", timeAgo);
         }
       });
       res.json(list);

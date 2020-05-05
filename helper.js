@@ -42,7 +42,7 @@ const state = {
         DC: {
           name: "D.C.",
           flag:
-            "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_the_District_of_Columbia.svg"
+            "https://res.cloudinary.com/babyhulk/image/upload/v1584505261/flags/Flag_of_District%20of%20Columbia.svg"
         },
         FL: {
           name: "Florida",
