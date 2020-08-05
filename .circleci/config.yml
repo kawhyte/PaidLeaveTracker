@@ -24,10 +24,9 @@ jobs:
           paths:
             - ./node_modules
 
-
 workflows:
   version: 2
-  schedule-build:
+  schedule-workflow:
     triggers:
       - schedule:
           cron: "0 * * * *"
@@ -36,30 +35,7 @@ workflows:
               only:
                 - master
     jobs:
-      build:
-        docker: # run the steps with Docker
-          - image: circleci/node:8
-        steps:
-          - checkout
-          - run:
-              name: update npm
-              command: 'sudo npm install -g npm@latest'
-          - restore_cache:
-              key: dependency-cache-{{ checksum "package.json" }}
-          - run:
-              name: Install node modules
-              command: npm install
-          - run:
-              name: Build
-              command: npm run build
-          - run:
-              name: Deploy
-              command: git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git
-          - save_cache:
-              key: dependency-cache-{{ checksum "package.json" }}
-              paths:
-                - ./node_modules
-    
+      - build
 
 
 
