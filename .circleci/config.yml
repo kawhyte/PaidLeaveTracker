@@ -33,8 +33,7 @@ workflows:
         cron: "0 * * * *"
         filters:
           branches:
-            only: 
-              /.*/
+            only: /.*/
 
     jobs: &build_master
       - build
