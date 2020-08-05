@@ -1,3 +1,4 @@
+workflows:
 version: 2
 jobs:
   build:
@@ -24,21 +25,20 @@ jobs:
           paths:
             - ./node_modules
 
-workflows:
-  version: 2
-  schedule-workflow:
-    triggers:
+
+schedule-workflow:
+  triggers:
       - schedule:
           cron: "0 * * * *"
           filters:
             branches:
               only:
                 - master
-    jobs:
-       build:
-        - run:
-          name: Build
-          command: npm run build
+  jobs:
+      build:
+      - run:
+        name: Build
+        command: npm run build
 
 
 
