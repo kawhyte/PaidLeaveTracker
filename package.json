@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "node index.js --ignore db.json",
     "start": "node index.js",
-    "cron": "node cronjson.js",
-    "build":"cd ../ && node cronjson.js"
+    "cron": "node cronJson.js",
+    "build":"cd ../ && node cronJson.js"
   },
   "author": "Kenny Whyte",
   "license": "ISC",
