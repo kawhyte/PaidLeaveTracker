@@ -2,7 +2,7 @@ let cron = require("node-cron");
 var format = require('date-fns/format')
 // Imports
 const firestoreService = require('firestore-export-import');
-const firebaseConfig = require('config.js')
+const firebaseConfig = require('./config.js')
 const serviceAccount = require('./serviceAccount.json');
 
 // const Sentry = require("@sentry/node");
