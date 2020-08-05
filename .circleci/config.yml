@@ -30,11 +30,14 @@ workflows:
   schedule-build:
     triggers:
       - schedule:
-          cron: "05,0,12,15 * * SUN-SAT"
+          cron: "0 * * * *"
           filters:
             branches:
               only:
                 - master
     jobs:
       - build
+
+
+
 
