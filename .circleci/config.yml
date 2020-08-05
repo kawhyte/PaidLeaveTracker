@@ -23,15 +23,13 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-
-
-
   buildcron:
-   command: npm run build
+    name: Building Cron
+    command: npm run build
   
 workflows:
   version: 2
- 
+
   build_master:
     triggers:
       - schedule:
