@@ -2,13 +2,8 @@ let cron = require("node-cron");
 var format = require('date-fns/format')
 // Imports
 const firestoreService = require('firestore-export-import');
-const firebaseConfig = require('./config.js')
-const serviceAccount = require('./serviceAccount.json');
-
-// const Sentry = require("@sentry/node");
-// Sentry.init({
-//   dsn: "https://5b670f8b00f04986a00ff27652429335@sentry.io/5167736"
-// });
+const firebaseConfig = require('config.js')
+const serviceAccount = require('serviceAccount.json');
 
 console.log('jsonToFirestore()');
 // JSON To Firestore
