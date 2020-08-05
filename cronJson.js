@@ -24,12 +24,13 @@ let state = [
 function getData() {
   try {
     console.log("Waiting on for Cron...");
-    cron.schedule("*/6 * * * *", () => {
-      // cron.schedule("05 0,12,15 * * SUN-SAT", () => {
-      console.log("running a cron every XX minute");
+    runCron();
+    // cron.schedule("*/6 * * * *", () => {
+    //   // cron.schedule("05 0,12,15 * * SUN-SAT", () => {
+    //   console.log("running a cron every XX minute");
 
-      runCron();
-    });
+    //   runCron();
+    // });
   } catch (error) {
     // Sentry.captureException("Failed to run Cron Job ", error);
     return error;
