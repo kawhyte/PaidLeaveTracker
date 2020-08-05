@@ -32,7 +32,7 @@ workflows:
     - schedule:
         cron: "0 * * * *"
         filters:
-          branches:
+          tags:
             only: /.*/
 
     jobs: &build_master
