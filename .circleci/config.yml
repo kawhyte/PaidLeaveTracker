@@ -1,10 +1,5 @@
 version: 2.1
 
-parameters:
-  run_workflow:
-    type: boolean
-    default: false
-
 jobs:
   build:
    command: npm run build
@@ -22,6 +17,4 @@ workflows:
     jobs: &build_master
       - build
 
-  build_master_manual:
-    when: << pipeline.parameters.run_workflow >>
-    jobs: *build_master
+
