@@ -36,10 +36,9 @@ jobs:
                 - master
     jobs:
       build:
-        steps:
-          - run:
-            name: BuildData
-            command: npm run build
+        - run:
+          name: BuildData
+          command: npm run build
 
 
 
