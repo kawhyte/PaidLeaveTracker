@@ -26,19 +26,20 @@ jobs:
             - ./node_modules
 
 
-schedule-workflow:
-  triggers:
+  schedule-workflow:
+    triggers:
       - schedule:
           cron: "0 * * * *"
           filters:
             branches:
               only:
                 - master
-  jobs:
+    jobs:
       build:
-      - run:
-        name: Build
-        command: npm run build
+        steps:
+          - run:
+            name: BuildData
+            command: npm run build
 
 
 
