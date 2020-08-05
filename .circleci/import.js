@@ -15,7 +15,6 @@ if (firestoreService.admin.apps.length  === 0 ) {
   console.log('Firebase Initialized');
 }
     await firestoreService.restore('./data-clean/firebase/test.json');
-
     var time = format(
       new Date(Date.now()),
       'MM/dd/yyyy:HH:mm:ss'
