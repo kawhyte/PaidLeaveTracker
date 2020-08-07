@@ -66,10 +66,8 @@ const getEntireUserList = async function(pageNo = 0) {
   var removed = state.splice(pageNo,1);
 
   console.log("Just removed ", removed)
-  console.log("New Arrary  ", state)
-  console.log("Retreiving data from API for AFTER : " + state[pageNo]);
   
-  if ( state.length > 0 ) {
+  if (state && state.length) {
     
     return results.concat(await getEntireUserList(pageNo));
   } else {
