@@ -7,8 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Trigger our build webhook on Netlify
-    - run: |
-        npm ci
-        npm run build
+    - run: npm run build
       env:
         TOKEN: ${{ secrets.NETLIFY_CRON_BUILD_HOOK }}
