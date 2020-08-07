@@ -69,7 +69,7 @@ const getEntireUserList = async function(pageNo = 0) {
   console.log("New Arrary  ", state)
   console.log("Retreiving data from API for AFTER : " + state[pageNo]);
   
-  if (results.length > 0 || state.length > 0 ) {
+  if ( state.length > 0 ) {
     
     return results.concat(await getEntireUserList(pageNo));
   } else {
