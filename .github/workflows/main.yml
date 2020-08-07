@@ -6,8 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Trigger our NPM install
+      run: npm install
     - name: Trigger our NPM build
-    - run: npm install
-    - run: npm run build --if-present
+      run: npm run build --if-present
       env:
         CI: true
