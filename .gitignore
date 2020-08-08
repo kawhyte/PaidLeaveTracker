@@ -2,6 +2,8 @@ functions
 lambda
 
 .env
+*.yml
+
 
 # Logs
 logs
@@ -131,3 +133,8 @@ thumb
 sketch
 
 # End of https://www.gitignore.io/api/react
+.circleci/config.yml
+.github/workflows/node.js.yml
+.github
+.circleci
+circleci
