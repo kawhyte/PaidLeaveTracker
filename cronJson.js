@@ -62,7 +62,10 @@ const getUsers = async function(pageNo = 0) {
 
 const getEntireUserList = async function(pageNo = 0) {
   const results = await getUsers(pageNo);
+  
   console.log("Retreiving data from API for : " + state[pageNo]);
+  console.log("New Array : ", state);
+
   var removed = state.splice(pageNo,1);
 
   console.log("Just removed ", removed)
