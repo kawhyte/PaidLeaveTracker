@@ -19,7 +19,7 @@
       "stateFlagURL": "",
       "statusName": "",
       "statusColor": "",
-      "session": "54th-2nd-regular",
+      "session": "",
       "type": [
         "bill"
       ],
@@ -33364,7 +33364,7 @@
     },
     {
       "New_DB_Time_id": 1,
-      "New_DB_Time": 1596854212082,
+      "New_DB_Time": 1597026171613,
       "action_dates": {
         "first": "2099-02-19 00:00:00",
         "last": "2099-03-09 00:00:00",
