@@ -19,7 +19,7 @@
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "firestore-export-import": "^0.3.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "logrocket": "^1.0.7",
     "lowdb": "^1.0.0",
     "node-cron": "^2.0.3",
